@@ -1,1 +1,74 @@
-<h1>안녕하세요</h1>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RunningFit - 러너의 홈</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a href="index.html" class="logo">RunningFit</a>
+    <nav>
+      <a href="index.html" class="active">홈</a>
+      <a href="shoes.html">러닝화 추천</a>
+      <a href="weather.html">날씨</a>
+      <a href="races.html">대회 정보</a>
+      <a href="courses.html">러닝 코스</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Runner Daily Dashboard</p>
+        <h1>오늘 달릴지, 어떤 신발을 신을지, 어디서 뛸지.</h1>
+        <p>러닝 시작 전 매일 확인하는 러너용 홈 화면.</p>
+      </div>
+    </section>
+
+    <section class="dashboard-grid">
+      <a href="weather.html" class="feature-card weather-card">
+        <span>오늘 날씨</span>
+        <h2>거제 23℃</h2>
+        <p>비 없음 · 러닝 적합</p>
+      </a>
+
+      <a href="races.html" class="feature-card">
+        <span>가까운 러닝대회</span>
+        <h2>이번 달 5개</h2>
+        <p>날짜 / 신청상태 확인</p>
+      </a>
+
+      <a href="courses.html" class="feature-card">
+        <span>추천 코스</span>
+        <h2>해안 러닝 코스</h2>
+        <p>지도형 코스 보기</p>
+      </a>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>가까운 러닝대회 5개</h2>
+        <a href="races.html">전체 보기 →</a>
+      </div>
+      <div id="homeRaceList" class="card-grid"></div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>입문자 추천 러닝화</h2>
+        <a href="shoes.html">추천 받기 →</a>
+      </div>
+      <div id="homeShoeList" class="card-grid"></div>
+    </section>
+  </main>
+
+  <aside id="compareBox" class="compare-box">
+    <h3>비교함</h3>
+    <div id="compareItems"></div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>

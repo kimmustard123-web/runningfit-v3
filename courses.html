@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>러닝 코스 - RunningFit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="courses">
+  <header class="site-header">
+    <a href="index.html" class="logo">RunningFit</a>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="shoes.html">러닝화 추천</a>
+      <a href="weather.html">날씨</a>
+      <a href="races.html">대회 정보</a>
+      <a href="courses.html" class="active">러닝 코스</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <h1>러닝 코스</h1>
+      <p>나이키런 / 가민처럼 코스를 지도형으로 보여주는 구조입니다.</p>
+    </section>
+
+    <section class="filters">
+      <input id="courseSearch" type="text" placeholder="지역 / 코스명 검색" />
+      <select id="distanceFilter">
+        <option value="">전체 거리</option>
+        <option value="short">5km 이하</option>
+        <option value="middle">5~10km</option>
+        <option value="long">10km 이상</option>
+      </select>
+    </section>
+
+    <div id="courseList" class="course-grid"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
