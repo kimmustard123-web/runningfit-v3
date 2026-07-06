@@ -1,14 +1,32 @@
 [
   {
-    "name": "거제 해안 러닝 코스",
-    "region": "거제",
-    "distance": "5~10km",
-    "description": "지도 API 연결 전 샘플 카드입니다."
+    "name": "거제 해안 조깅 코스",
+    "region": "경남 거제",
+    "distance": "5km",
+    "description": "바다를 보며 가볍게 뛰는 데일리 코스 샘플입니다."
   },
   {
-    "name": "부산 수영강 러닝 코스",
+    "name": "옥포 생활 러닝 코스",
+    "region": "경남 거제",
+    "distance": "3~6km",
+    "description": "입문자용 짧은 반복 코스 샘플입니다."
+  },
+  {
+    "name": "부산 수영강 코스",
     "region": "부산",
+    "distance": "5~10km",
+    "description": "평지 지속주에 적합한 코스 샘플입니다."
+  },
+  {
+    "name": "한강 10K 코스",
+    "region": "서울",
+    "distance": "10km",
+    "description": "대회 준비 지속주 샘플 코스입니다."
+  },
+  {
+    "name": "대구 신천 러닝 코스",
+    "region": "대구",
     "distance": "5km",
-    "description": "지도 API 연결 전 샘플 카드입니다."
+    "description": "퇴근 후 조깅용 샘플 코스입니다."
   }
 ]

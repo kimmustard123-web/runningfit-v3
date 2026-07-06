@@ -1,16 +1,37 @@
 [
   {
-    "name": "대회 데이터 준비중",
-    "date": "2026-00-00",
-    "region": "전국",
-    "status": "needsVerification",
+    "name": "부산 마라톤 샘플",
+    "date": "2026-10-01",
+    "region": "부산",
+    "status": "접수 확인 필요",
     "url": null
   },
   {
-    "name": "지역별 대회 수집 구조",
-    "date": "2026-00-00",
-    "region": "부산/경남",
+    "name": "서울 러닝 페스타 샘플",
+    "date": "2026-09-14",
+    "region": "서울",
+    "status": "접수 확인 필요",
+    "url": null
+  },
+  {
+    "name": "대구 하프마라톤 샘플",
+    "date": "2026-11-08",
+    "region": "대구",
+    "status": "접수 확인 필요",
+    "url": null
+  },
+  {
+    "name": "거제 해안 러닝 샘플",
+    "date": "2026-12-06",
+    "region": "경남 거제",
     "status": "준비중",
+    "url": null
+  },
+  {
+    "name": "제주 러닝 샘플",
+    "date": "2026-10-25",
+    "region": "제주",
+    "status": "접수 확인 필요",
     "url": null
   }
 ]

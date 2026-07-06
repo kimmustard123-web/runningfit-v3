@@ -3,27 +3,52 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>러닝 대회 | RunningFit V4</title>
-  <link rel="stylesheet" href="./style.css" />
+  <title>러닝대회 정보 | RunningFit V3.2</title>
+  <meta name="description" content="공식 주최 페이지로 검증된 러닝대회 정보를 모아보는 RunningFit 대회 페이지입니다." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
 <header class="site-header">
-  <a class="logo" href="./index.html">RunningFit<span>V4</span></a>
-  <nav class="nav">
-    <a href="./shoes.html">러닝화</a><a href="./weather.html">날씨</a><a href="./races.html">대회</a><a href="./courses.html">코스</a>
+  <a class="brand" href="index.html" aria-label="RunningFit 홈">
+    <span class="brand-mark">RF</span>
+    <span>
+      <strong>RunningFit</strong>
+      <small>Races</small>
+    </span>
+  </a>
+  <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
+  <nav class="site-nav" data-nav>
+    <a  href="index.html">홈</a>
+    <a  href="shoes.html">러닝화 추천</a>
+    <a  href="my-shoes.html">내 신발장</a>
+    <a  href="run-log.html">러닝 기록</a>
+    <a  href="weather.html">날씨</a>
+    <a class="active" href="races.html">대회</a>
+    <a  href="courses.html">코스</a>
+    <a  href="profile.html">프로필</a>
   </nav>
 </header>
-<main>
-  <section class="page-hero">
-    <p class="eyebrow">Races</p>
-    <h1>러닝 대회</h1>
-    <p>대회명, 날짜, 지역, 신청 링크를 data/races.json에서 관리합니다.</p>
-  </section>
-  <section class="section">
-    <div class="shoe-grid" id="raceGrid"></div>
-  </section>
-</main>
-<footer class="footer"><p>RunningFit V4</p></footer>
-<script src="./script.js?v=4.3"></script>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Race calendar</p>
+      <h1>러닝대회 정보</h1>
+      <p>대회명, 날짜, 접수 상태, 신청 링크는 반드시 공식 주최/접수 페이지 확인 후 등록합니다.</p>
+    </section>
+    <section class="tool-row">
+      <input data-race-search type="search" placeholder="지역, 대회명 검색" />
+      <select data-race-status>
+        <option value="">전체 상태</option>
+        <option value="open">접수 가능</option>
+        <option value="closed">접수 마감</option>
+        <option value="pending">접수 전</option>
+        <option value="verify">확인 필요</option>
+      </select>
+    </section>
+    <section class="race-list" data-race-list></section>
+  </main>
+  <footer class="site-footer"><p>공식 링크가 없는 대회는 접수 가능으로 표시하지 않습니다.</p></footer>
+  <script src="script.js"></script>
 </body>
 </html>
