@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>프로필 | RunningFit V3.2</title>
+  <meta name="description" content="RunningFit 프로필에서 키, 몸무게, 러닝 경력, 발볼, 착지 방식, 목표 거리를 관리합니다." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="RunningFit 홈">
+    <span class="brand-mark">RF</span>
+    <span>
+      <strong>RunningFit</strong>
+      <small>Profile</small>
+    </span>
+  </a>
+  <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
+  <nav class="site-nav" data-nav>
+    <a  href="index.html">홈</a>
+    <a  href="shoes.html">러닝화 추천</a>
+    <a  href="my-shoes.html">내 신발장</a>
+    <a  href="run-log.html">러닝 기록</a>
+    <a  href="weather.html">날씨</a>
+    <a  href="races.html">대회</a>
+    <a  href="courses.html">코스</a>
+    <a class="active" href="profile.html">프로필</a>
+  </nav>
+</header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Profile beta</p>
+      <h1>내 프로필</h1>
+      <p>현재는 실제 회원 서버가 아니라 브라우저 localStorage에 저장하는 베타 구조입니다.</p>
+    </section>
+
+    <section class="auth-grid">
+      <article class="card">
+        <h2>회원가입 / 로그인 UI</h2>
+        <p class="muted">실제 인증 서버는 아직 연결하지 않았습니다. 버튼을 누르면 베타 로그인 상태만 저장됩니다.</p>
+        <form class="mini-form" data-auth-form>
+          <label>이메일
+            <input name="email" type="email" placeholder="you@example.com" required />
+          </label>
+          <label>닉네임
+            <input name="nickname" type="text" placeholder="예: 겨자러너" required />
+          </label>
+          <button class="btn primary" type="submit">베타 로그인</button>
+        </form>
+      </article>
+
+      <article class="card dark-card">
+        <h2 data-auth-status>로그인 전</h2>
+        <p>실제 출시 단계에서는 Supabase, Firebase, 자체 서버 같은 인증/DB 연결이 필요합니다.</p>
+        <button class="btn light" type="button" data-logout>로그아웃</button>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <p class="eyebrow">Runner profile</p>
+        <h2>러닝 추천에 사용할 정보</h2>
+      </div>
+      <form class="profile-form" data-profile-form>
+        <label>프로필 사진
+          <input name="photo" type="file" accept="image/*" />
+        </label>
+        <div class="profile-preview" data-profile-photo-preview>프로필 사진 미리보기</div>
+
+        <label>키(cm)<input name="height" type="number" min="100" max="230" /></label>
+        <label>몸무게(kg)<input name="weight" type="number" min="30" max="180" /></label>
+        <label>성별
+          <select name="gender">
+            <option value="">선택 안 함</option>
+            <option value="male">남성</option>
+            <option value="female">여성</option>
+            <option value="other">기타/미입력</option>
+          </select>
+        </label>
+        <label>러닝 경력
+          <select name="experience">
+            <option value="beginner">입문</option>
+            <option value="regular">꾸준히 뜀</option>
+            <option value="advanced">숙련</option>
+            <option value="race">대회 준비</option>
+          </select>
+        </label>
+        <label>발볼
+          <select name="width">
+            <option value="normal">보통</option>
+            <option value="wide">넓음</option>
+            <option value="narrow">좁음</option>
+          </select>
+        </label>
+        <label>착지 방식
+          <select name="strike">
+            <option value="">모름</option>
+            <option value="heel">힐 스트라이크</option>
+            <option value="mid">미드풋</option>
+            <option value="fore">포어풋</option>
+          </select>
+        </label>
+        <label>주간 목표 거리(km)<input name="weeklyGoal" type="number" min="0" /></label>
+        <label>월간 목표 거리(km)<input name="monthlyGoal" type="number" min="0" /></label>
+        <button class="btn primary" type="submit">프로필 저장</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><p>프로필 정보는 추천 정확도를 높이기 위한 기반 데이터입니다.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
