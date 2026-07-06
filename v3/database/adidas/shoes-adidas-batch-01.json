@@ -1,0 +1,126 @@
+[
+  {
+    "id": "adidas-adizero-adios-pro-4",
+    "brand": "adidas",
+    "model": "Adizero Adios Pro 4",
+    "category": "Carbon Racing",
+    "surface": "Road",
+    "usage": [
+      "race"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.adidas.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "adidas-adizero-boston-13",
+    "brand": "adidas",
+    "model": "Adizero Boston 13",
+    "category": "Speed Trainer",
+    "surface": "Road",
+    "usage": [
+      "tempo",
+      "long run"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.adidas.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "adidas-adizero-sl-2",
+    "brand": "adidas",
+    "model": "Adizero SL 2",
+    "category": "Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily"
+    ],
+    "cushion": "Balanced",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.adidas.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "adidas-adizero-evo-sl",
+    "brand": "adidas",
+    "model": "Adizero Evo SL",
+    "category": "Lightweight Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily",
+      "tempo"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.adidas.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "adidas-supernova-rise-2",
+    "brand": "adidas",
+    "model": "Supernova Rise 2",
+    "category": "Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily",
+      "long run"
+    ],
+    "cushion": "Balanced",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.adidas.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "adidas-supernova-prima",
+    "brand": "adidas",
+    "model": "Supernova Prima",
+    "category": "Max Cushion",
+    "surface": "Road",
+    "usage": [
+      "daily",
+      "recovery"
+    ],
+    "cushion": "Maximum",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.adidas.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "adidas-supernova-solution-2",
+    "brand": "adidas",
+    "model": "Supernova Solution 2",
+    "category": "Stability Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily"
+    ],
+    "cushion": "Balanced",
+    "stability": "Support",
+    "officialProductUrl": "https://www.adidas.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "adidas-terrex-agravic-speed",
+    "brand": "adidas",
+    "model": "Terrex Agravic Speed",
+    "category": "Trail Running",
+    "surface": "Trail",
+    "usage": [
+      "trail"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.adidas.com/",
+    "officialImage": null,
+    "verified": true
+  }
+]

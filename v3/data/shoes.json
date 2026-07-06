@@ -1,0 +1,4352 @@
+{
+  "metadata": {
+    "project": "RunningFit V3",
+    "databaseName": "RunningFit Core 50 v0.1",
+    "createdDate": "2026-07-07",
+    "market": "South Korea",
+    "scope": "Road running shoes only; trail excluded",
+    "status": "draft",
+    "importantNotice": "실측 수치(weight/drop/stack 등)는 모델별 검증 전까지 null로 유지. 점수는 RunningFit 자체 초안이며, 최종 순위 산정 전 검증 필요."
+  },
+  "scoringCriteria": {
+    "dailyRankingWeights": {
+      "cushion": 0.25,
+      "stability": 0.2,
+      "outsoleDurability": 0.15,
+      "weightFeel": 0.15,
+      "breathabilitySweat": 0.1,
+      "beginnerUsability": 0.15
+    },
+    "stabilityRankingWeights": {
+      "stability": 0.35,
+      "heelCounterSupport": 0.25,
+      "toeBoxRoom": 0.1,
+      "outsoleDurability": 0.15,
+      "cushion": 0.15
+    },
+    "trainingRankingWeights": {
+      "bounce": 0.35,
+      "weightFeel": 0.25,
+      "stability": 0.15,
+      "cushion": 0.1,
+      "breathabilitySweat": 0.15
+    },
+    "raceRankingWeights": {
+      "bounce": 0.4,
+      "weightFeel": 0.25,
+      "carbonPlate": 0.2,
+      "stability": 0.1,
+      "breathabilitySweat": 0.05
+    },
+    "koreanUXPriorities": [
+      "한글/영문/별칭 검색",
+      "정사이즈·반업 판단",
+      "발볼·토박스 체감",
+      "입문자 이해도",
+      "목적별 랭킹"
+    ]
+  },
+  "shoes": [
+    {
+      "id": "asics-novablast-5",
+      "brand": "ASICS",
+      "model": "Novablast 5",
+      "nameEn": "ASICS Novablast 5",
+      "nameKo": "아식스 노바블라스트 5",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27",
+        "nike-pegasus-41"
+      ],
+      "searchKeywords": [
+        "asics",
+        "asics novablast 5",
+        "novablast",
+        "novablast 5",
+        "노바",
+        "노바블라스트",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "아식스",
+        "아식스 노바블라스트 5",
+        "아식스노바블라스트5",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "asics-superblast-2",
+      "brand": "ASICS",
+      "model": "Superblast 2",
+      "nameEn": "ASICS Superblast 2",
+      "nameKo": "아식스 슈퍼블라스트 2",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27",
+        "nike-pegasus-41"
+      ],
+      "searchKeywords": [
+        "asics",
+        "asics superblast 2",
+        "superblast",
+        "superblast 2",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "슈블",
+        "슈퍼",
+        "슈퍼블라스트",
+        "아식스",
+        "아식스 슈퍼블라스트 2",
+        "아식스슈퍼블라스트2",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "asics-gel-nimbus-27",
+      "brand": "ASICS",
+      "model": "GEL-Nimbus 27",
+      "nameEn": "ASICS GEL-Nimbus 27",
+      "nameKo": "아식스 젤 님버스 27",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-cumulus-27",
+        "nike-pegasus-41"
+      ],
+      "searchKeywords": [
+        "asics",
+        "asics gel nimbus 27",
+        "gel-nimbus 27",
+        "nimbus",
+        "논카본",
+        "님버스",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "아식스",
+        "아식스 젤 님버스 27",
+        "아식스젤님버스27",
+        "입문",
+        "젤님버스",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "asics-gel-kayano-32",
+      "brand": "ASICS",
+      "model": "GEL-Kayano 32",
+      "nameEn": "ASICS GEL-Kayano 32",
+      "nameKo": "아식스 젤 카야노 32",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "stability",
+      "purposeLabel": "안정화",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 82,
+        "stability": 91,
+        "training": 52,
+        "race": 35,
+        "beginner": 82,
+        "value": 70,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "입문자는 정사이즈부터, 발볼 넓으면 와이드 옵션 또는 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 10,
+        "bounce": 5,
+        "flexibility": 5,
+        "breathabilitySweat": 6,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 9,
+        "outsoleDurability": 8,
+        "weightFeel": 4
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "발목과 뒤꿈치 지지감이 강한 편",
+        "과내전·무릎 불안감이 있는 러너에게 후보가 될 수 있음",
+        "천천히 오래 달릴 때 안정감 중심"
+      ],
+      "consKo": [
+        "가벼운 기록용 신발을 원하는 러너에게는 답답할 수 있음",
+        "한여름에는 통기성이 아쉬울 수 있음"
+      ],
+      "similarShoes": [
+        "asics-gt-2000-14",
+        "nike-structure-26",
+        "saucony-guide-18",
+        "brooks-adrenaline-gts-24"
+      ],
+      "searchKeywords": [
+        "asics",
+        "asics gel kayano 32",
+        "gel-kayano 32",
+        "kayano",
+        "논카본",
+        "무릎",
+        "발볼",
+        "아식스",
+        "아식스 젤 카야노 32",
+        "아식스젤카야노32",
+        "안정화",
+        "입문",
+        "젤카야노",
+        "카야노",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "asics-gel-cumulus-27",
+      "brand": "ASICS",
+      "model": "GEL-Cumulus 27",
+      "nameEn": "ASICS GEL-Cumulus 27",
+      "nameKo": "아식스 젤 큐물러스 27",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "nike-pegasus-41"
+      ],
+      "searchKeywords": [
+        "asics",
+        "asics gel cumulus 27",
+        "cumulus",
+        "gel-cumulus 27",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "아식스",
+        "아식스 젤 큐물러스 27",
+        "아식스젤큐물러스27",
+        "입문",
+        "젤큐물러스",
+        "쿠션",
+        "큐물러스"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "asics-gt-2000-14",
+      "brand": "ASICS",
+      "model": "GT-2000 14",
+      "nameEn": "ASICS GT-2000 14",
+      "nameKo": "아식스 GT-2000 14",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "stability",
+      "purposeLabel": "안정화",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 82,
+        "stability": 91,
+        "training": 52,
+        "race": 35,
+        "beginner": 82,
+        "value": 70,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 9,
+        "bounce": 5,
+        "flexibility": 5,
+        "breathabilitySweat": 6,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 9,
+        "outsoleDurability": 8,
+        "weightFeel": 4
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "발목과 뒤꿈치 지지감이 강한 편",
+        "과내전·무릎 불안감이 있는 러너에게 후보가 될 수 있음",
+        "천천히 오래 달릴 때 안정감 중심"
+      ],
+      "consKo": [
+        "가벼운 기록용 신발을 원하는 러너에게는 답답할 수 있음",
+        "한여름에는 통기성이 아쉬울 수 있음"
+      ],
+      "similarShoes": [
+        "asics-gel-kayano-32",
+        "nike-structure-26",
+        "saucony-guide-18",
+        "brooks-adrenaline-gts-24"
+      ],
+      "searchKeywords": [
+        "asics",
+        "asics gt 2000 14",
+        "gt-2000 14",
+        "gt2000",
+        "논카본",
+        "무릎",
+        "발볼",
+        "아식스",
+        "아식스 GT-2000 14",
+        "아식스GT-200014",
+        "안정화",
+        "입문",
+        "지티",
+        "지티2000",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "asics-magic-speed-5",
+      "brand": "ASICS",
+      "model": "Magic Speed 5",
+      "nameEn": "ASICS Magic Speed 5",
+      "nameKo": "아식스 매직 스피드 5",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 9,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 8
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "nike-zoom-fly-6",
+        "new-balance-rebel-v5",
+        "new-balance-sc-trainer-v3",
+        "adidas-adizero-evo-sl"
+      ],
+      "searchKeywords": [
+        "asics",
+        "asics magic speed 5",
+        "magic speed",
+        "magic speed 5",
+        "기록",
+        "매직",
+        "매직스피드",
+        "무릎",
+        "발볼",
+        "아식스",
+        "아식스 매직 스피드 5",
+        "아식스매직스피드5",
+        "카본",
+        "쿠션",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "asics-metaspeed-sky-tokyo",
+      "brand": "ASICS",
+      "model": "Metaspeed Sky Tokyo",
+      "nameEn": "ASICS Metaspeed Sky Tokyo",
+      "nameKo": "아식스 메타스피드 스카이 도쿄",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 4,
+        "toeBoxRoomScore": 4,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "nike-vaporfly-4",
+        "nike-alphafly-3",
+        "new-balance-sc-elite-v5",
+        "adidas-adizero-adios-pro-4"
+      ],
+      "searchKeywords": [
+        "asics",
+        "asics metaspeed sky tokyo",
+        "metaspeed",
+        "metaspeed sky tokyo",
+        "기록",
+        "대회용",
+        "메타",
+        "메타스피드",
+        "무릎",
+        "발볼",
+        "아식스",
+        "아식스 메타스피드 스카이 도쿄",
+        "아식스메타스피드스카이도쿄",
+        "카본",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "nike-pegasus-41",
+      "brand": "Nike",
+      "model": "Pegasus 41",
+      "nameEn": "Nike Pegasus 41",
+      "nameKo": "나이키 페가수스 41",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "nike",
+        "nike pegasus 41",
+        "peg",
+        "pegasus",
+        "pegasus 41",
+        "나이키",
+        "나이키 페가수스 41",
+        "나이키페가",
+        "나이키페가수스41",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "입문",
+        "쿠션",
+        "페",
+        "페가",
+        "페가수스"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "nike-pegasus-plus",
+      "brand": "Nike",
+      "model": "Pegasus Plus",
+      "nameEn": "Nike Pegasus Plus",
+      "nameKo": "나이키 페가수스 플러스",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "nike",
+        "nike pegasus plus",
+        "peg",
+        "pegasus",
+        "pegasus plus",
+        "나이키",
+        "나이키 페가수스 플러스",
+        "나이키페가",
+        "나이키페가수스플러스",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "입문",
+        "쿠션",
+        "페",
+        "페가",
+        "페가수스"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "nike-pegasus-premium",
+      "brand": "Nike",
+      "model": "Pegasus Premium",
+      "nameEn": "Nike Pegasus Premium",
+      "nameKo": "나이키 페가수스 프리미엄",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "nike",
+        "nike pegasus premium",
+        "peg",
+        "pegasus",
+        "pegasus premium",
+        "나이키",
+        "나이키 페가수스 프리미엄",
+        "나이키페가",
+        "나이키페가수스프리미엄",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "입문",
+        "쿠션",
+        "페",
+        "페가",
+        "페가수스"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "nike-vomero-18",
+      "brand": "Nike",
+      "model": "Vomero 18",
+      "nameEn": "Nike Vomero 18",
+      "nameKo": "나이키 보메로 18",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "nike",
+        "nike vomero 18",
+        "vomero",
+        "vomero 18",
+        "나이키",
+        "나이키 보메로 18",
+        "나이키보메로18",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "보메",
+        "보메로",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "nike-structure-26",
+      "brand": "Nike",
+      "model": "Structure 26",
+      "nameEn": "Nike Structure 26",
+      "nameKo": "나이키 스트럭처 26",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "stability",
+      "purposeLabel": "안정화",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 82,
+        "stability": 91,
+        "training": 52,
+        "race": 35,
+        "beginner": 82,
+        "value": 70,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 9,
+        "bounce": 5,
+        "flexibility": 5,
+        "breathabilitySweat": 6,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 9,
+        "outsoleDurability": 8,
+        "weightFeel": 4
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "발목과 뒤꿈치 지지감이 강한 편",
+        "과내전·무릎 불안감이 있는 러너에게 후보가 될 수 있음",
+        "천천히 오래 달릴 때 안정감 중심"
+      ],
+      "consKo": [
+        "가벼운 기록용 신발을 원하는 러너에게는 답답할 수 있음",
+        "한여름에는 통기성이 아쉬울 수 있음"
+      ],
+      "similarShoes": [
+        "asics-gel-kayano-32",
+        "asics-gt-2000-14",
+        "saucony-guide-18",
+        "brooks-adrenaline-gts-24"
+      ],
+      "searchKeywords": [
+        "nike",
+        "nike structure 26",
+        "structure",
+        "structure 26",
+        "나이키",
+        "나이키 스트럭처 26",
+        "나이키스트럭처26",
+        "논카본",
+        "무릎",
+        "발볼",
+        "스트럭처",
+        "안정화",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "nike-zoom-fly-6",
+      "brand": "Nike",
+      "model": "Zoom Fly 6",
+      "nameEn": "Nike Zoom Fly 6",
+      "nameKo": "나이키 줌 플라이 6",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 4,
+        "toeBoxRoomScore": 4,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 9,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 8
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-magic-speed-5",
+        "new-balance-rebel-v5",
+        "new-balance-sc-trainer-v3",
+        "adidas-adizero-evo-sl"
+      ],
+      "searchKeywords": [
+        "nike",
+        "nike zoom fly 6",
+        "zoom fly",
+        "zoom fly 6",
+        "기록",
+        "나이키",
+        "나이키 줌 플라이 6",
+        "나이키줌플라이6",
+        "무릎",
+        "발볼",
+        "줌 플라이",
+        "줌플라이",
+        "카본",
+        "쿠션",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "nike-vaporfly-4",
+      "brand": "Nike",
+      "model": "Vaporfly 4",
+      "nameEn": "Nike Vaporfly 4",
+      "nameKo": "나이키 베이퍼플라이 4",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 3,
+        "toeBoxRoomScore": 3,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-metaspeed-sky-tokyo",
+        "nike-alphafly-3",
+        "new-balance-sc-elite-v5",
+        "adidas-adizero-adios-pro-4"
+      ],
+      "searchKeywords": [
+        "nike",
+        "nike vaporfly 4",
+        "vaporfly",
+        "vaporfly 4",
+        "기록",
+        "나이키",
+        "나이키 베이퍼플라이 4",
+        "나이키베이퍼플라이4",
+        "대회용",
+        "무릎",
+        "발볼",
+        "베이퍼",
+        "베이퍼플라이",
+        "카본",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "nike-alphafly-3",
+      "brand": "Nike",
+      "model": "Alphafly 3",
+      "nameEn": "Nike Alphafly 3",
+      "nameKo": "나이키 알파플라이 3",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 3,
+        "toeBoxRoomScore": 3,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-metaspeed-sky-tokyo",
+        "nike-vaporfly-4",
+        "new-balance-sc-elite-v5",
+        "adidas-adizero-adios-pro-4"
+      ],
+      "searchKeywords": [
+        "alphafly",
+        "alphafly 3",
+        "nike",
+        "nike alphafly 3",
+        "기록",
+        "나이키",
+        "나이키 알파플라이 3",
+        "나이키알파플라이3",
+        "대회용",
+        "무릎",
+        "발볼",
+        "알파",
+        "알파플라이",
+        "카본",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "new-balance-1080-v14",
+      "brand": "New Balance",
+      "model": "Fresh Foam X 1080 v14",
+      "nameEn": "New Balance Fresh Foam X 1080 v14",
+      "nameKo": "뉴발란스 1080 v14",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "입문자는 정사이즈부터, 발볼 넓으면 와이드 옵션 또는 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "1080",
+        "fresh foam x 1080 v14",
+        "new balance",
+        "new balance 1080 v14",
+        "논카본",
+        "뉴발",
+        "뉴발1080",
+        "뉴발란스",
+        "뉴발란스 1080 v14",
+        "뉴발란스1080v14",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "입문",
+        "천팔십",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "new-balance-880-v15",
+      "brand": "New Balance",
+      "model": "Fresh Foam X 880 v15",
+      "nameEn": "New Balance Fresh Foam X 880 v15",
+      "nameKo": "뉴발란스 880 v15",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "입문자는 정사이즈부터, 발볼 넓으면 와이드 옵션 또는 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "880",
+        "fresh foam x 880 v15",
+        "new balance",
+        "new balance 880 v15",
+        "논카본",
+        "뉴발",
+        "뉴발880",
+        "뉴발란스",
+        "뉴발란스 880 v15",
+        "뉴발란스880v15",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "입문",
+        "쿠션",
+        "팔팔공"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "new-balance-rebel-v5",
+      "brand": "New Balance",
+      "model": "FuelCell Rebel v5",
+      "nameEn": "New Balance FuelCell Rebel v5",
+      "nameKo": "뉴발란스 레벨 v5",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": false,
+      "plateType": "nylon/other-or-none",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 10,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음"
+      ],
+      "similarShoes": [
+        "asics-magic-speed-5",
+        "nike-zoom-fly-6",
+        "new-balance-sc-trainer-v3",
+        "adidas-adizero-evo-sl"
+      ],
+      "searchKeywords": [
+        "fuelcell rebel v5",
+        "new balance",
+        "new balance rebel v5",
+        "rebel",
+        "기록",
+        "논카본",
+        "뉴발",
+        "뉴발란스",
+        "뉴발란스 레벨 v5",
+        "뉴발란스레벨v5",
+        "레벨",
+        "리벨",
+        "무릎",
+        "발볼",
+        "쿠션",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "new-balance-sc-elite-v5",
+      "brand": "New Balance",
+      "model": "FuelCell SuperComp Elite v5",
+      "nameEn": "New Balance FuelCell SuperComp Elite v5",
+      "nameKo": "뉴발란스 SC 엘리트 v5",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 4,
+        "toeBoxRoomScore": 4,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-metaspeed-sky-tokyo",
+        "nike-vaporfly-4",
+        "nike-alphafly-3",
+        "adidas-adizero-adios-pro-4"
+      ],
+      "searchKeywords": [
+        "elite",
+        "fuelcell supercomp elite v5",
+        "new balance",
+        "new balance sc elite v5",
+        "기록",
+        "뉴발",
+        "뉴발란스",
+        "뉴발란스 SC 엘리트 v5",
+        "뉴발란스SC엘리트v5",
+        "대회용",
+        "무릎",
+        "발볼",
+        "엘리트",
+        "카본",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "new-balance-more-v5",
+      "brand": "New Balance",
+      "model": "Fresh Foam X More v5",
+      "nameEn": "New Balance Fresh Foam X More v5",
+      "nameKo": "뉴발란스 모어 v5",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "fresh foam x more v5",
+        "more",
+        "new balance",
+        "new balance more v5",
+        "논카본",
+        "뉴발",
+        "뉴발란스",
+        "뉴발란스 모어 v5",
+        "뉴발란스모어v5",
+        "데일리 러닝",
+        "모어",
+        "무릎",
+        "발볼",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "new-balance-sc-trainer-v3",
+      "brand": "New Balance",
+      "model": "FuelCell SC Trainer v3",
+      "nameEn": "New Balance FuelCell SC Trainer v3",
+      "nameKo": "뉴발란스 SC 트레이너 v3",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 9,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 8
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-magic-speed-5",
+        "nike-zoom-fly-6",
+        "new-balance-rebel-v5",
+        "adidas-adizero-evo-sl"
+      ],
+      "searchKeywords": [
+        "fuelcell sc trainer v3",
+        "new balance",
+        "new balance sc trainer v3",
+        "trainer",
+        "기록",
+        "뉴발",
+        "뉴발란스",
+        "뉴발란스 SC 트레이너 v3",
+        "뉴발란스SC트레이너v3",
+        "무릎",
+        "발볼",
+        "카본",
+        "쿠션",
+        "트레이너",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "adidas-supernova-rise-2",
+      "brand": "adidas",
+      "model": "Supernova Rise 2",
+      "nameEn": "adidas Supernova Rise 2",
+      "nameKo": "아디다스 슈퍼노바 라이즈 2",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "adidas",
+        "adidas supernova rise 2",
+        "supernova",
+        "supernova rise 2",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "슈퍼노바",
+        "아디다스",
+        "아디다스 슈퍼노바 라이즈 2",
+        "아디다스슈퍼노바라이즈2",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "adidas-supernova-prima",
+      "brand": "adidas",
+      "model": "Supernova Prima",
+      "nameEn": "adidas Supernova Prima",
+      "nameKo": "아디다스 슈퍼노바 프리마",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "adidas",
+        "adidas supernova prima",
+        "supernova",
+        "supernova prima",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "슈퍼노바",
+        "아디다스",
+        "아디다스 슈퍼노바 프리마",
+        "아디다스슈퍼노바프리마",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "adidas-adizero-evo-sl",
+      "brand": "adidas",
+      "model": "Adizero Evo SL",
+      "nameEn": "adidas Adizero Evo SL",
+      "nameKo": "아디다스 아디제로 에보 SL",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": false,
+      "plateType": "nylon/other-or-none",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 10,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음"
+      ],
+      "similarShoes": [
+        "asics-magic-speed-5",
+        "nike-zoom-fly-6",
+        "new-balance-rebel-v5",
+        "new-balance-sc-trainer-v3"
+      ],
+      "searchKeywords": [
+        "adidas",
+        "adidas adizero evo sl",
+        "adizero evo sl",
+        "evo sl",
+        "기록",
+        "논카본",
+        "무릎",
+        "발볼",
+        "아디다스",
+        "아디다스 아디제로 에보 SL",
+        "아디다스아디제로에보SL",
+        "에보",
+        "에보sl",
+        "쿠션",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "adidas-adizero-boston-13",
+      "brand": "adidas",
+      "model": "Adizero Boston 13",
+      "nameEn": "adidas Adizero Boston 13",
+      "nameKo": "아디다스 아디제로 보스턴 13",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": false,
+      "plateType": "nylon/other-or-none",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 9,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 8
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음"
+      ],
+      "similarShoes": [
+        "asics-magic-speed-5",
+        "nike-zoom-fly-6",
+        "new-balance-rebel-v5",
+        "new-balance-sc-trainer-v3"
+      ],
+      "searchKeywords": [
+        "adidas",
+        "adidas adizero boston 13",
+        "adizero boston 13",
+        "boston",
+        "기록",
+        "논카본",
+        "무릎",
+        "발볼",
+        "보스턴",
+        "아디다스",
+        "아디다스 아디제로 보스턴 13",
+        "아디다스아디제로보스턴13",
+        "쿠션",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "adidas-adizero-adios-pro-4",
+      "brand": "adidas",
+      "model": "Adizero Adios Pro 4",
+      "nameEn": "adidas Adizero Adios Pro 4",
+      "nameKo": "아디다스 아디제로 아디오스 프로 4",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 4,
+        "toeBoxRoomScore": 4,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-metaspeed-sky-tokyo",
+        "nike-vaporfly-4",
+        "nike-alphafly-3",
+        "new-balance-sc-elite-v5"
+      ],
+      "searchKeywords": [
+        "adidas",
+        "adidas adizero adios pro 4",
+        "adios pro",
+        "adizero adios pro 4",
+        "기록",
+        "대회용",
+        "무릎",
+        "발볼",
+        "아디다스",
+        "아디다스 아디제로 아디오스 프로 4",
+        "아디다스아디제로아디오스프로4",
+        "아디오스 프로",
+        "아디오스프로",
+        "카본",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "adidas-ultraboost-5",
+      "brand": "adidas",
+      "model": "Ultraboost 5",
+      "nameEn": "adidas Ultraboost 5",
+      "nameKo": "아디다스 울트라부스트 5",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "adidas",
+        "adidas ultraboost 5",
+        "ultraboost",
+        "ultraboost 5",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "아디다스",
+        "아디다스 울트라부스트 5",
+        "아디다스울트라부스트5",
+        "울부",
+        "울트라부스트",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "saucony-ride-18",
+      "brand": "Saucony",
+      "model": "Ride 18",
+      "nameEn": "Saucony Ride 18",
+      "nameKo": "써코니 라이드 18",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "ride",
+        "ride 18",
+        "saucony",
+        "saucony ride 18",
+        "논카본",
+        "데일리 러닝",
+        "라이드",
+        "무릎",
+        "발볼",
+        "서코니",
+        "써코니",
+        "써코니 라이드 18",
+        "써코니라이드18",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "saucony-triumph-23",
+      "brand": "Saucony",
+      "model": "Triumph 23",
+      "nameEn": "Saucony Triumph 23",
+      "nameKo": "써코니 트라이엄프 23",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "saucony",
+        "saucony triumph 23",
+        "triumph",
+        "triumph 23",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "서코니",
+        "써코니",
+        "써코니 트라이엄프 23",
+        "써코니트라이엄프23",
+        "입문",
+        "쿠션",
+        "트라이엄프"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "saucony-guide-18",
+      "brand": "Saucony",
+      "model": "Guide 18",
+      "nameEn": "Saucony Guide 18",
+      "nameKo": "써코니 가이드 18",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "stability",
+      "purposeLabel": "안정화",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 82,
+        "stability": 91,
+        "training": 52,
+        "race": 35,
+        "beginner": 82,
+        "value": 70,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 9,
+        "bounce": 5,
+        "flexibility": 5,
+        "breathabilitySweat": 6,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 9,
+        "outsoleDurability": 8,
+        "weightFeel": 4
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "발목과 뒤꿈치 지지감이 강한 편",
+        "과내전·무릎 불안감이 있는 러너에게 후보가 될 수 있음",
+        "천천히 오래 달릴 때 안정감 중심"
+      ],
+      "consKo": [
+        "가벼운 기록용 신발을 원하는 러너에게는 답답할 수 있음",
+        "한여름에는 통기성이 아쉬울 수 있음"
+      ],
+      "similarShoes": [
+        "asics-gel-kayano-32",
+        "asics-gt-2000-14",
+        "nike-structure-26",
+        "brooks-adrenaline-gts-24"
+      ],
+      "searchKeywords": [
+        "guide",
+        "guide 18",
+        "saucony",
+        "saucony guide 18",
+        "가이드",
+        "논카본",
+        "무릎",
+        "발볼",
+        "서코니",
+        "써코니",
+        "써코니 가이드 18",
+        "써코니가이드18",
+        "안정화",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "saucony-endorphin-speed-5",
+      "brand": "Saucony",
+      "model": "Endorphin Speed 5",
+      "nameEn": "Saucony Endorphin Speed 5",
+      "nameKo": "써코니 엔돌핀 스피드 5",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": false,
+      "plateType": "nylon/other-or-none",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 9,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 8
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음"
+      ],
+      "similarShoes": [
+        "asics-magic-speed-5",
+        "nike-zoom-fly-6",
+        "new-balance-rebel-v5",
+        "new-balance-sc-trainer-v3"
+      ],
+      "searchKeywords": [
+        "endorphin speed",
+        "endorphin speed 5",
+        "saucony",
+        "saucony endorphin speed 5",
+        "기록",
+        "논카본",
+        "무릎",
+        "발볼",
+        "서코니",
+        "써코니",
+        "써코니 엔돌핀 스피드 5",
+        "써코니엔돌핀스피드5",
+        "엔돌핀스피드",
+        "엔스",
+        "쿠션",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "saucony-endorphin-pro-5",
+      "brand": "Saucony",
+      "model": "Endorphin Pro 5",
+      "nameEn": "Saucony Endorphin Pro 5",
+      "nameKo": "써코니 엔돌핀 프로 5",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 4,
+        "toeBoxRoomScore": 4,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-metaspeed-sky-tokyo",
+        "nike-vaporfly-4",
+        "nike-alphafly-3",
+        "new-balance-sc-elite-v5"
+      ],
+      "searchKeywords": [
+        "endorphin pro",
+        "endorphin pro 5",
+        "saucony",
+        "saucony endorphin pro 5",
+        "기록",
+        "대회용",
+        "무릎",
+        "발볼",
+        "서코니",
+        "써코니",
+        "써코니 엔돌핀 프로 5",
+        "써코니엔돌핀프로5",
+        "엔돌핀프로",
+        "엔프",
+        "카본",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "hoka-clifton-10",
+      "brand": "HOKA",
+      "model": "Clifton 10",
+      "nameEn": "HOKA Clifton 10",
+      "nameKo": "호카 클리프톤 10",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "clifton",
+        "clifton 10",
+        "hoka",
+        "hoka clifton 10",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "입문",
+        "쿠션",
+        "클리프톤",
+        "클톤",
+        "호카",
+        "호카 클리프톤 10",
+        "호카클리프톤10"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "hoka-bondi-9",
+      "brand": "HOKA",
+      "model": "Bondi 9",
+      "nameEn": "HOKA Bondi 9",
+      "nameKo": "호카 본디 9",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "bondi",
+        "bondi 9",
+        "hoka",
+        "hoka bondi 9",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "본디",
+        "입문",
+        "쿠션",
+        "호카",
+        "호카 본디 9",
+        "호카본디9"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "hoka-mach-x-2",
+      "brand": "HOKA",
+      "model": "Mach X 2",
+      "nameEn": "HOKA Mach X 2",
+      "nameKo": "호카 마하 X 2",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": false,
+      "plateType": "nylon/other-or-none",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 9,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 8
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음"
+      ],
+      "similarShoes": [
+        "asics-magic-speed-5",
+        "nike-zoom-fly-6",
+        "new-balance-rebel-v5",
+        "new-balance-sc-trainer-v3"
+      ],
+      "searchKeywords": [
+        "hoka",
+        "hoka mach x 2",
+        "mach",
+        "mach x 2",
+        "기록",
+        "논카본",
+        "마하",
+        "무릎",
+        "발볼",
+        "쿠션",
+        "호카",
+        "호카 마하 X 2",
+        "호카마하X2",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "hoka-skyflow",
+      "brand": "HOKA",
+      "model": "Skyflow",
+      "nameEn": "HOKA Skyflow",
+      "nameKo": "호카 스카이플로우",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "hoka",
+        "hoka skyflow",
+        "skyflow",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "스카이플로우",
+        "입문",
+        "쿠션",
+        "호카",
+        "호카 스카이플로우",
+        "호카스카이플로우"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "hoka-cielo-x1-2",
+      "brand": "HOKA",
+      "model": "Cielo X1 2.0",
+      "nameEn": "HOKA Cielo X1 2.0",
+      "nameKo": "호카 시엘로 X1 2.0",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 4,
+        "toeBoxRoomScore": 4,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-metaspeed-sky-tokyo",
+        "nike-vaporfly-4",
+        "nike-alphafly-3",
+        "new-balance-sc-elite-v5"
+      ],
+      "searchKeywords": [
+        "cielo",
+        "cielo x1 2.0",
+        "hoka",
+        "hoka cielo x1 2",
+        "기록",
+        "대회용",
+        "무릎",
+        "발볼",
+        "시엘로",
+        "카본",
+        "쿠션",
+        "호카",
+        "호카 시엘로 X1 2.0",
+        "호카시엘로X12.0"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "brooks-ghost-17",
+      "brand": "Brooks",
+      "model": "Ghost 17",
+      "nameEn": "Brooks Ghost 17",
+      "nameKo": "브룩스 고스트 17",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "입문자는 정사이즈부터, 발볼 넓으면 와이드 옵션 또는 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "brooks",
+        "brooks ghost 17",
+        "ghost",
+        "ghost 17",
+        "고스트",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "브룩스",
+        "브룩스 고스트 17",
+        "브룩스고스트17",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "brooks-glycerin-22",
+      "brand": "Brooks",
+      "model": "Glycerin 22",
+      "nameEn": "Brooks Glycerin 22",
+      "nameKo": "브룩스 글리세린 22",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "입문자는 정사이즈부터, 발볼 넓으면 와이드 옵션 또는 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "brooks",
+        "brooks glycerin 22",
+        "glycerin",
+        "glycerin 22",
+        "글리세린",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "브룩스",
+        "브룩스 글리세린 22",
+        "브룩스글리세린22",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "brooks-adrenaline-gts-24",
+      "brand": "Brooks",
+      "model": "Adrenaline GTS 24",
+      "nameEn": "Brooks Adrenaline GTS 24",
+      "nameKo": "브룩스 아드레날린 GTS 24",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "stability",
+      "purposeLabel": "안정화",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 82,
+        "stability": 91,
+        "training": 52,
+        "race": 35,
+        "beginner": 82,
+        "value": 70,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 9,
+        "bounce": 5,
+        "flexibility": 5,
+        "breathabilitySweat": 6,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 9,
+        "outsoleDurability": 8,
+        "weightFeel": 4
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "발목과 뒤꿈치 지지감이 강한 편",
+        "과내전·무릎 불안감이 있는 러너에게 후보가 될 수 있음",
+        "천천히 오래 달릴 때 안정감 중심"
+      ],
+      "consKo": [
+        "가벼운 기록용 신발을 원하는 러너에게는 답답할 수 있음",
+        "한여름에는 통기성이 아쉬울 수 있음"
+      ],
+      "similarShoes": [
+        "asics-gel-kayano-32",
+        "asics-gt-2000-14",
+        "nike-structure-26",
+        "saucony-guide-18"
+      ],
+      "searchKeywords": [
+        "adrenaline",
+        "adrenaline gts 24",
+        "brooks",
+        "brooks adrenaline gts 24",
+        "논카본",
+        "무릎",
+        "발볼",
+        "브룩스",
+        "브룩스 아드레날린 GTS 24",
+        "브룩스아드레날린GTS24",
+        "아드레날린",
+        "안정화",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "brooks-hyperion-max-3",
+      "brand": "Brooks",
+      "model": "Hyperion Max 3",
+      "nameEn": "Brooks Hyperion Max 3",
+      "nameKo": "브룩스 하이페리온 맥스 3",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "training",
+      "purposeLabel": "훈련용",
+      "carbonPlate": false,
+      "plateType": "nylon/other-or-none",
+      "runningFitScores": {
+        "daily": 70,
+        "stability": 68,
+        "training": 88,
+        "race": 70,
+        "beginner": 55,
+        "value": 65,
+        "overall": 71
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 5,
+        "toeBoxRoomScore": 5,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 6,
+        "bounce": 10,
+        "flexibility": 5,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 7,
+        "heelCounterSupport": 6,
+        "outsoleDurability": 6,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "템포런·인터벌 같은 빠른 훈련에 적합",
+        "일반 데일리화보다 반발감이 강한 편",
+        "대회용 전 단계로 쓰기 좋음"
+      ],
+      "consKo": [
+        "완전 입문자의 첫 러닝화로는 과할 수 있음"
+      ],
+      "similarShoes": [
+        "asics-magic-speed-5",
+        "nike-zoom-fly-6",
+        "new-balance-rebel-v5",
+        "new-balance-sc-trainer-v3"
+      ],
+      "searchKeywords": [
+        "brooks",
+        "brooks hyperion max 3",
+        "hyperion",
+        "hyperion max 3",
+        "기록",
+        "논카본",
+        "무릎",
+        "발볼",
+        "브룩스",
+        "브룩스 하이페리온 맥스 3",
+        "브룩스하이페리온맥스3",
+        "쿠션",
+        "하이페리온",
+        "훈련용"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "on-cloudsurfer-2",
+      "brand": "On",
+      "model": "Cloudsurfer 2",
+      "nameEn": "On Cloudsurfer 2",
+      "nameKo": "온 클라우드서퍼 2",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "cloudsurfer",
+        "cloudsurfer 2",
+        "on",
+        "on cloudsurfer 2",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "온",
+        "온 클라우드서퍼 2",
+        "온러닝",
+        "온클라우드서퍼2",
+        "입문",
+        "쿠션",
+        "클라우드서퍼"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "on-cloudmonster-2",
+      "brand": "On",
+      "model": "Cloudmonster 2",
+      "nameEn": "On Cloudmonster 2",
+      "nameKo": "온 클라우드몬스터 2",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 9,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 6
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능",
+        "충격 흡수와 장거리 편안함이 강점"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "cloudmonster",
+        "cloudmonster 2",
+        "on",
+        "on cloudmonster 2",
+        "논카본",
+        "데일리 러닝",
+        "몬스터",
+        "무릎",
+        "발볼",
+        "온",
+        "온 클라우드몬스터 2",
+        "온러닝",
+        "온클라우드몬스터2",
+        "입문",
+        "쿠션",
+        "클라우드몬스터"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "on-cloudboom-strike",
+      "brand": "On",
+      "model": "Cloudboom Strike",
+      "nameEn": "On Cloudboom Strike",
+      "nameKo": "온 클라우드붐 스트라이크",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "반업 검토",
+        "sizingNoteKo": "길이보다 발볼/토박스 압박을 기준으로 반업 여부 판단",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 4,
+        "toeBoxRoomScore": 4,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-metaspeed-sky-tokyo",
+        "nike-vaporfly-4",
+        "nike-alphafly-3",
+        "new-balance-sc-elite-v5"
+      ],
+      "searchKeywords": [
+        "cloudboom",
+        "cloudboom strike",
+        "on",
+        "on cloudboom strike",
+        "기록",
+        "대회용",
+        "무릎",
+        "발볼",
+        "온",
+        "온 클라우드붐 스트라이크",
+        "온러닝",
+        "온클라우드붐스트라이크",
+        "카본",
+        "쿠션",
+        "클라우드붐"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "puma-velocity-nitro-4",
+      "brand": "PUMA",
+      "model": "Velocity Nitro 4",
+      "nameEn": "PUMA Velocity Nitro 4",
+      "nameKo": "푸마 벨로시티 나이트로 4",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 8,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 8
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "puma",
+        "puma velocity nitro 4",
+        "velocity",
+        "velocity nitro 4",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "벨로시티",
+        "입문",
+        "쿠션",
+        "푸마",
+        "푸마 벨로시티 나이트로 4",
+        "푸마벨로시티나이트로4"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "puma-deviate-nitro-elite-3",
+      "brand": "PUMA",
+      "model": "Deviate Nitro Elite 3",
+      "nameEn": "PUMA Deviate Nitro Elite 3",
+      "nameKo": "푸마 디비에이트 나이트로 엘리트 3",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "race",
+      "purposeLabel": "대회용",
+      "carbonPlate": true,
+      "plateType": "carbon",
+      "runningFitScores": {
+        "daily": 45,
+        "stability": 55,
+        "training": 76,
+        "race": 92,
+        "beginner": 25,
+        "value": 45,
+        "overall": 57
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 4,
+        "toeBoxRoomScore": 4,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 7,
+        "stability": 5,
+        "bounce": 10,
+        "flexibility": 4,
+        "breathabilitySweat": 8,
+        "dryingSpeed": 8,
+        "heelCounterSupport": 5,
+        "outsoleDurability": 5,
+        "weightFeel": 9
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "기록 단축을 노리는 대회용 성향",
+        "가볍고 반발력 중심",
+        "5K~마라톤 레이스 후보",
+        "카본 플레이트 기반의 추진력"
+      ],
+      "consKo": [
+        "입문자 데일리화로는 비추천",
+        "가격과 내구성 측면에서 부담이 큼",
+        "느린 조깅이나 걷기 위주 사용에는 효율이 떨어질 수 있음"
+      ],
+      "similarShoes": [
+        "asics-metaspeed-sky-tokyo",
+        "nike-vaporfly-4",
+        "nike-alphafly-3",
+        "new-balance-sc-elite-v5"
+      ],
+      "searchKeywords": [
+        "deviate",
+        "deviate nitro elite 3",
+        "elite",
+        "puma",
+        "puma deviate nitro elite 3",
+        "기록",
+        "대회용",
+        "디비에이트",
+        "무릎",
+        "발볼",
+        "엘리트",
+        "카본",
+        "쿠션",
+        "푸마",
+        "푸마 디비에이트 나이트로 엘리트 3",
+        "푸마디비에이트나이트로엘리트3"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "mizuno-wave-rider-29",
+      "brand": "Mizuno",
+      "model": "Wave Rider 29",
+      "nameEn": "Mizuno Wave Rider 29",
+      "nameKo": "미즈노 웨이브 라이더 29",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "mizuno",
+        "mizuno wave rider 29",
+        "ride",
+        "wave rider",
+        "wave rider 29",
+        "논카본",
+        "데일리 러닝",
+        "라이더",
+        "라이드",
+        "무릎",
+        "미즈노",
+        "미즈노 웨이브 라이더 29",
+        "미즈노웨이브라이더29",
+        "발볼",
+        "웨이브라이더",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "mizuno-neo-zen",
+      "brand": "Mizuno",
+      "model": "Neo Zen",
+      "nameEn": "Mizuno Neo Zen",
+      "nameKo": "미즈노 네오 젠",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "발볼이 넓거나 러닝 양말을 두껍게 신으면 반업 검토",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 6,
+        "toeBoxRoomScore": 6,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 7,
+        "bounce": 8,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 8
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "mizuno",
+        "mizuno neo zen",
+        "neo zen",
+        "네오젠",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "미즈노",
+        "미즈노 네오 젠",
+        "미즈노네오젠",
+        "발볼",
+        "입문",
+        "쿠션"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    },
+    {
+      "id": "altra-torin-8",
+      "brand": "Altra",
+      "model": "Torin 8",
+      "nameEn": "Altra Torin 8",
+      "nameKo": "알트라 토린 8",
+      "market": "KR",
+      "surface": "road",
+      "primaryPurpose": "daily",
+      "purposeLabel": "데일리 러닝",
+      "carbonPlate": false,
+      "plateType": "none-or-unverified",
+      "runningFitScores": {
+        "daily": 86,
+        "stability": 76,
+        "training": 62,
+        "race": 45,
+        "beginner": 84,
+        "value": 72,
+        "overall": 73
+      },
+      "fitAndSizing": {
+        "sizeRecommendation": "정사이즈 우선",
+        "sizingNoteKo": "토박스가 넓은 편으로, 길이가 맞으면 정사이즈 우선",
+        "lengthFeel": "보통 또는 미확인",
+        "widthFeelScore": 8,
+        "toeBoxRoomScore": 10,
+        "instepFeel": "미확인"
+      },
+      "labStyleMetrics": {
+        "cushion": 8,
+        "stability": 8,
+        "bounce": 7,
+        "flexibility": 7,
+        "breathabilitySweat": 7,
+        "dryingSpeed": 6,
+        "heelCounterSupport": 7,
+        "outsoleDurability": 8,
+        "weightFeel": 7
+      },
+      "specs": {
+        "weight_g": null,
+        "drop_mm": null,
+        "heelStack_mm": null,
+        "forefootStack_mm": null,
+        "removableInsole": null
+      },
+      "prosKo": [
+        "매일 달리기용으로 쓰기 쉬운 범용성",
+        "입문자도 적응하기 쉬운 착화감",
+        "걷기와 가벼운 조깅까지 활용 가능"
+      ],
+      "consKo": [
+        "기록 단축용 추진력은 전문 레이싱화보다 낮음"
+      ],
+      "similarShoes": [
+        "asics-novablast-5",
+        "asics-superblast-2",
+        "asics-gel-nimbus-27",
+        "asics-gel-cumulus-27"
+      ],
+      "searchKeywords": [
+        "altra",
+        "altra torin 8",
+        "torin",
+        "torin 8",
+        "논카본",
+        "데일리 러닝",
+        "무릎",
+        "발볼",
+        "알트라",
+        "알트라 토린 8",
+        "알트라토린8",
+        "입문",
+        "쿠션",
+        "토린"
+      ],
+      "sourcePolicy": {
+        "runrepeatReference": "methodology-and-public-review-style-reference",
+        "officialSpecVerification": "pending",
+        "needsVerification": true,
+        "note": "이 항목은 RunningFit 자체 초안 평가다. RunRepeat의 실험실 항목 구조를 참고했지만, 원문 문장·점수·표를 복사하지 않았다."
+      }
+    }
+  ]
+}

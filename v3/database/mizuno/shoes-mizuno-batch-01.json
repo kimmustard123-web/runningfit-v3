@@ -1,0 +1,227 @@
+[
+  {
+    "id": "mizuno-wave-rider-29",
+    "brand": "Mizuno",
+    "model": "Wave Rider 29",
+    "category": "Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running",
+      "smooth miles"
+    ],
+    "cushion": "Cruise",
+    "stability": "Neutral",
+    "width": "Wide 2E version verified separately on official listing",
+    "weight_oz": 9.3,
+    "weight_g": 264,
+    "drop_mm": 10,
+    "stack_height_mm": {
+      "forefoot": 29,
+      "heel": 39
+    },
+    "price_usd": null,
+    "officialImage": null,
+    "officialImageSource": "Mizuno official product page contains official product images; direct CDN image URL not extracted yet",
+    "officialProductUrl": "https://mizunousa.com/running-wave-rider-29-mens",
+    "officialNewsroomUrl": null,
+    "verified": true,
+    "verificationNotes": "Mizuno official product page verifies 10mm drop, 29/39mm stack, and 9.3 oz men's size 9 weight."
+  },
+  {
+    "id": "mizuno-wave-sky-9",
+    "brand": "Mizuno",
+    "model": "Wave Sky 9",
+    "category": "Max Cushion Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running",
+      "long run"
+    ],
+    "cushion": "Float",
+    "stability": "Neutral",
+    "width": "Standard verified",
+    "weight_oz": 10.2,
+    "weight_g": 289,
+    "drop_mm": 6,
+    "stack_height_mm": {
+      "forefoot": 38,
+      "heel": 44
+    },
+    "price_usd": 180,
+    "officialImage": null,
+    "officialImageSource": "Mizuno official product page contains official product images; direct CDN image URL not extracted yet",
+    "officialProductUrl": "https://mizunousa.com/running-wave-sky-9-mens",
+    "officialNewsroomUrl": null,
+    "verified": true,
+    "verificationNotes": "Mizuno official product page verifies Float category, 6mm drop, 38/44mm stack, 10.2 oz men's size 9 weight, and $180 price."
+  },
+  {
+    "id": "mizuno-wave-inspire-21",
+    "brand": "Mizuno",
+    "model": "Wave Inspire 21",
+    "category": "Support Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running",
+      "support running"
+    ],
+    "cushion": "Propulsive",
+    "stability": "Support",
+    "width": "Wide 2E version verified separately on official listing",
+    "weight_oz": 10.3,
+    "weight_g": 292,
+    "drop_mm": 12,
+    "stack_height_mm": {
+      "forefoot": 26,
+      "heel": 38
+    },
+    "price_usd": 140,
+    "officialImage": null,
+    "officialImageSource": "Mizuno official product page contains official product images; direct CDN image URL not extracted yet",
+    "officialProductUrl": "https://www.mizunousa.com/running-mens-wave-inspire-21-running-shoe/",
+    "officialNewsroomUrl": null,
+    "verified": true,
+    "verificationNotes": "Mizuno official product page verifies Propulsive category, 12mm drop, 26/38mm stack, 10.3 oz men's size 9 weight, and $140 original price."
+  },
+  {
+    "id": "mizuno-neo-zen",
+    "brand": "Mizuno",
+    "model": "Mizuno Neo Zen",
+    "category": "Bounce Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running",
+      "smooth training"
+    ],
+    "cushion": "Bounce",
+    "stability": "Neutral",
+    "width": "Standard verified",
+    "weight_oz": 8.5,
+    "weight_g": 241,
+    "drop_mm": 6,
+    "stack_height_mm": {
+      "forefoot": 34,
+      "heel": 40
+    },
+    "price_usd": 150,
+    "officialImage": null,
+    "officialImageSource": "Mizuno official product page contains official product images; direct CDN image URL not extracted yet",
+    "officialProductUrl": "https://mizunousa.com/running-mens-mizuno-neo-zen-running-shoe/",
+    "officialNewsroomUrl": null,
+    "verified": true,
+    "verificationNotes": "Mizuno official product page verifies Bounce category, 6mm drop, 34/40mm stack, 8.5 oz men's size 9 weight, and $150 original price."
+  },
+  {
+    "id": "mizuno-neo-vista-2",
+    "brand": "Mizuno",
+    "model": "Neo Vista 2",
+    "category": "Super Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running",
+      "super trainer"
+    ],
+    "cushion": "Bounce",
+    "stability": "Neutral",
+    "width": "Standard verified",
+    "weight_oz": 9.6,
+    "weight_g": 272,
+    "drop_mm": 8,
+    "stack_height_mm": {
+      "forefoot": 37,
+      "heel": 45
+    },
+    "price_usd": 200,
+    "officialImage": null,
+    "officialImageSource": "Mizuno official product page contains official product images; direct CDN image URL not extracted yet",
+    "officialProductUrl": "https://mizunousa.com/running-mizuno-neo-vista-2-mens",
+    "officialNewsroomUrl": null,
+    "verified": true,
+    "verificationNotes": "Mizuno official product page verifies Bounce category, 8mm drop, 37/45mm stack, 9.6 oz men's size 9 weight, and $200 original price."
+  },
+  {
+    "id": "mizuno-wave-rebellion-pro-3",
+    "brand": "Mizuno",
+    "model": "Wave Rebellion Pro 3",
+    "category": "Racing Shoe",
+    "surface": "Road",
+    "usage": [
+      "race",
+      "speed"
+    ],
+    "cushion": "Speed",
+    "stability": "Neutral",
+    "width": "Unisex standard verified",
+    "weight_oz": 7.9,
+    "weight_g": 224,
+    "drop_mm": 4,
+    "stack_height_mm": {
+      "forefoot": 36,
+      "heel": 40
+    },
+    "price_usd": null,
+    "officialImage": null,
+    "officialImageSource": "Mizuno official product page contains official product images; direct CDN image URL not extracted yet",
+    "officialProductUrl": "https://mizunousa.com/running-unisex-wave-rebellion-pro-3-running-shoe/",
+    "officialNewsroomUrl": null,
+    "verified": true,
+    "verificationNotes": "Mizuno official product page verifies Speed category, 4mm drop, 36/40mm stack, and 7.9 oz unisex size 9 weight."
+  },
+  {
+    "id": "mizuno-wave-rebellion-flash-3",
+    "brand": "Mizuno",
+    "model": "Wave Rebellion Flash 3",
+    "category": "Speed Trainer",
+    "surface": "Road",
+    "usage": [
+      "speed",
+      "tempo",
+      "race prep"
+    ],
+    "cushion": "Speed",
+    "stability": "Neutral",
+    "width": "Standard verified",
+    "weight_oz": 8.6,
+    "weight_g": 244,
+    "drop_mm": 3,
+    "stack_height_mm": {
+      "forefoot": 34.5,
+      "heel": 37.5
+    },
+    "price_usd": 180,
+    "officialImage": null,
+    "officialImageSource": "Mizuno official product page contains official product images; direct CDN image URL not extracted yet",
+    "officialProductUrl": "https://mizunousa.com/running-wave-rebellion-flash-3-mens/",
+    "officialNewsroomUrl": null,
+    "verified": true,
+    "verificationNotes": "Mizuno official product page verifies 3mm drop, 34.5/37.5mm stack, 8.6 oz men's size 9 weight, and $180 price."
+  },
+  {
+    "id": "mizuno-wave-horizon-8",
+    "brand": "Mizuno",
+    "model": "Wave Horizon 8",
+    "category": "Support Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running",
+      "support running"
+    ],
+    "cushion": "Support",
+    "stability": "Support",
+    "width": "Standard verified; women's wide D listing also exists",
+    "weight_oz": 11.3,
+    "weight_g": 320,
+    "drop_mm": 8,
+    "stack_height_mm": {
+      "forefoot": 33,
+      "heel": 41
+    },
+    "price_usd": 170,
+    "officialImage": null,
+    "officialImageSource": "Mizuno official product page contains official product images; direct CDN image URL not extracted yet",
+    "officialProductUrl": "https://mizunousa.com/running-mens-wave-horizon-8-running-shoe/",
+    "officialNewsroomUrl": null,
+    "verified": true,
+    "verificationNotes": "Mizuno official product page verifies Support category, 8mm drop, 33/41mm stack, 11.3 oz men's size 9 weight, and $170 original price."
+  }
+]

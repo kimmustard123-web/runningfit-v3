@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>러닝화 검색 | RunningFit V4</title>
+  <meta name="description" content="러닝화 브랜드, 모델명, 한글 별칭, 영문명, 초성 검색을 지원하는 RunningFit 러닝화 데이터베이스입니다." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="./index.html">RunningFit<span>V4</span></a>
+  <nav class="nav">
+    <a href="./shoes.html">러닝화</a>
+    <a href="./weather.html">날씨</a>
+    <a href="./races.html">대회</a>
+    <a href="./courses.html">코스</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">Shoe Finder</p>
+    <h1>러닝화 전체보기</h1>
+    <p>예: 페, 페가, 페가수스, Peg, Vom, 1080, 카야노, 슈블, ㅍㄱ</p>
+  </section>
+
+  <section class="finder">
+    <div class="search-row">
+      <input id="shoeSearch" type="search" placeholder="브랜드 / 모델명 / 별칭 / 초성 검색" autocomplete="off" />
+      <button class="btn primary" data-open-recommender>추천</button>
+    </div>
+    <div class="filters">
+      <select id="brandFilter"><option value="">전체 브랜드</option></select>
+      <select id="purposeFilter">
+        <option value="">전체 목적</option>
+        <option value="daily">데일리</option>
+        <option value="stability">안정화</option>
+        <option value="training">훈련용</option>
+        <option value="race">대회용</option>
+        <option value="beginner">입문자</option>
+        <option value="value">가성비</option>
+      </select>
+      <select id="carbonFilter">
+        <option value="">카본 전체</option>
+        <option value="true">카본 있음</option>
+        <option value="false">카본 없음</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Purpose Ranking</p>
+        <h2>목적별 TOP10</h2>
+      </div>
+    </div>
+    <div class="rank-tabs" id="shoeRankTabs"></div>
+    <div class="rank-grid" id="shoeRankGrid"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Database</p>
+        <h2>검색 결과 <span id="resultCount">0</span></h2>
+      </div>
+      <button class="btn ghost" id="clearStorage">저장목록 초기화</button>
+    </div>
+    <div class="shoe-grid" id="shoeGrid"></div>
+  </section>
+
+  <aside class="compare-bar" id="compareBar"></aside>
+</main>
+
+<div class="modal" id="shoeModal" aria-hidden="true"></div>
+<div class="modal" id="recommendModal" aria-hidden="true"></div>
+
+<footer class="footer">
+  <p>RunningFit V4 · RunRepeat 우선 참고 기반 RunningFit 자체 평가를 카드에 표시합니다.</p>
+</footer>
+
+<script src="./script.js?v=4.4"></script>
+</body>
+</html>

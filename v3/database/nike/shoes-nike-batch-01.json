@@ -1,0 +1,121 @@
+[
+  {
+    "id": "nike-pegasus-42",
+    "brand": "Nike",
+    "model": "Pegasus 42",
+    "category": "Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily run",
+      "jogging",
+      "training"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral / Moderate Support",
+    "width": "Regular / Wide option verified on Nike listing",
+    "weight_g": 300,
+    "drop_mm": 10,
+    "price_usd": 145,
+    "officialImage": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/acded880-5c9d-4681-bda5-487928c4affc/AIR%2BZOOM%2BPEGASUS%2B42.png",
+    "officialImageSource": "Nike official product page",
+    "officialProductUrl": "https://www.nike.com/t/pegasus-42-mens-road-running-shoes-S1bYkOza",
+    "officialNewsroomUrl": "https://about.nike.com/en/newsroom/releases/nike-pegasus-42-official-images",
+    "verified": true,
+    "verificationNotes": "Nike product page verifies model, price, image, weight, drop, ReactX, full-length Air Zoom; Nike Newsroom verifies release and official images."
+  },
+  {
+    "id": "nike-vomero-plus",
+    "brand": "Nike",
+    "model": "Vomero Plus",
+    "category": "Max Cushion Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily miles",
+      "long run",
+      "recovery day"
+    ],
+    "cushion": "Maximum / Plush",
+    "stability": "Neutral with broad platform support",
+    "width": "Not verified",
+    "weight_g": null,
+    "drop_mm": null,
+    "price_usd": 180,
+    "officialImage": "https://static.nike.com/a/images/t_prod/w_1536%2Cc_auto%2Car_4%3A5%2Cf_auto%2Cq_auto/92157896-f9c6-4896-8b36-0b28300e08a6/image.jpg",
+    "officialImageSource": "Nike official product page",
+    "officialProductUrl": "https://www.nike.com/t/vomero-plus-mens-road-running-shoes-5npsVBwT",
+    "officialNewsroomUrl": "https://about.nike.com/en/newsroom/releases/nike-vomero-plus-vomero-premium-official-images",
+    "verified": true,
+    "verificationNotes": "Nike product page verifies daily miles/long runs/recovery days and full-length ZoomX; Nike Newsroom verifies Vomero Plus official announcement."
+  },
+  {
+    "id": "nike-structure-26",
+    "brand": "Nike",
+    "model": "Structure 26",
+    "category": "Stability Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily run",
+      "long run",
+      "routine training"
+    ],
+    "cushion": "Soft / Responsive",
+    "stability": "Stability / Support",
+    "width": "Wide option verified on Nike listing",
+    "weight_g": null,
+    "drop_mm": null,
+    "price_usd": null,
+    "officialImage": "https://nmp.about.nike.com/about/prod/429c028f-7696-4b89-8a85-e97dab3686d1/nike-structure-26-womens-1.jpeg?m=eyJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMH0sIndlYnAiOnsicXVhbGl0eSI6MTAwfSwiZXh0cmFjdCI6eyJsZWZ0Ijo3NSwidG9wIjowLCJ3aWR0aCI6MzAzMSwiaGVpZ2h0IjoyMDIyfSwicmVzaXplIjp7IndpZHRoIjozODQwfX19&s=6f1fbae7fa2e9b75f0aa25712bb3348a765e07dd1e286e6f3f7046b2bf78a1a1",
+    "officialImageSource": "Nike Newsroom official image asset",
+    "officialProductUrl": "https://www.nike.com/t/structure-26-mens-road-running-shoes-extra-wide-M4sx9fru/HQ2588-001",
+    "officialNewsroomUrl": "https://about.nike.com/en/newsroom/releases/nike-structure-26-official-images",
+    "verified": true,
+    "verificationNotes": "Nike Newsroom verifies official image and stability/support positioning; Nike product page verifies ReactX and support system."
+  },
+  {
+    "id": "nike-pegasus-premium",
+    "brand": "Nike",
+    "model": "Pegasus Premium",
+    "category": "Premium Responsive Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily run",
+      "responsive training"
+    ],
+    "cushion": "Responsive / Premium",
+    "stability": "Neutral",
+    "width": "Not verified",
+    "weight_g": null,
+    "drop_mm": null,
+    "price_usd": 220,
+    "officialImage": null,
+    "officialImageSource": "Nike Newsroom official images page verified; direct image URL pending extraction",
+    "officialProductUrl": "https://www.nike.com/t/pegasus-premium-womens-road-running-shoes-OHKEqA2b",
+    "officialNewsroomUrl": "https://about.nike.com/en/newsroom/releases/nike-pegasus-premium-official-images",
+    "verified": true,
+    "verificationNotes": "Nike official product/newsroom sources verify ZoomX, sculpted Air Zoom, ReactX and global availability. Direct CDN image URL not yet extracted, so officialImage remains null."
+  },
+  {
+    "id": "nike-vomero-premium",
+    "brand": "Nike",
+    "model": "Vomero Premium",
+    "category": "Maximum Cushion Super Trainer",
+    "surface": "Road",
+    "usage": [
+      "recovery run",
+      "easy run",
+      "marathon training"
+    ],
+    "cushion": "Maximum / Premium",
+    "stability": "Neutral",
+    "width": "Not verified",
+    "weight_g": null,
+    "drop_mm": null,
+    "price_usd": null,
+    "officialImage": null,
+    "officialImageSource": "Nike Newsroom official images page verified; direct image URL pending extraction",
+    "officialProductUrl": null,
+    "officialNewsroomUrl": "https://about.nike.com/en/newsroom/releases/nike-vomero-plus-vomero-premium-official-images",
+    "verified": true,
+    "verificationNotes": "Nike Newsroom verifies model, purpose, ZoomX plus Air Zoom, 55mm heel stack. Product URL and direct image URL not yet verified, so left null."
+  }
+]

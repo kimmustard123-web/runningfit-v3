@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RunningFit V4 | 나에게 맞는 러닝화 추천</title>
+  <meta name="description" content="RunningFit은 한국 러너가 목적, 발볼, 예산, 거리 기준으로 자신에게 맞는 러닝화를 쉽게 찾도록 돕는 러닝화 추천 플랫폼입니다." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="./index.html">RunningFit<span>V4</span></a>
+  <nav class="nav">
+    <a href="./shoes.html">러닝화</a>
+    <a href="./weather.html">날씨</a>
+    <a href="./races.html">대회</a>
+    <a href="./courses.html">코스</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">대한민국 러너를 위한 러닝화 선택 도구</p>
+      <h1>러닝화 정보보다 중요한 건<br />내 발에 맞는 결정이다.</h1>
+      <p class="hero-copy">브랜드, 모델명, 한글 별칭, 초성 검색으로 빠르게 찾고 목적별 TOP10과 추천 엔진으로 결정하세요.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="./shoes.html">러닝화 찾기</a>
+        <button class="btn ghost" data-open-recommender>추천 시작</button>
+      </div>
+    </div>
+    <div class="hero-panel">
+      <div class="metric"><span>Core</span><strong id="homeShoeCount">0</strong><small>models</small></div>
+      <div class="metric"><span>Brands</span><strong id="homeBrandCount">0</strong><small>verified queue</small></div>
+      <div class="metric"><span>Search</span><strong>KO/EN</strong><small>alias + chosung</small></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Purpose Ranking</p>
+        <h2>목적별 TOP10</h2>
+      </div>
+      <a class="text-link" href="./shoes.html">전체 보기</a>
+    </div>
+    <div class="rank-tabs" id="homeRankTabs"></div>
+    <div class="rank-grid" id="homeRankGrid"></div>
+  </section>
+
+  <section class="section split">
+    <article class="card mini">
+      <h3>오늘 러닝 날씨</h3>
+      <p id="homeWeather">더미 데이터 기반. 실제 API 연결 전 구조 확인용.</p>
+      <a class="text-link" href="./weather.html">날씨 보기</a>
+    </article>
+    <article class="card mini">
+      <h3>가까운 러닝 대회</h3>
+      <p>대회 데이터는 data/races.json에서 관리됩니다.</p>
+      <a class="text-link" href="./races.html">대회 보기</a>
+    </article>
+    <article class="card mini">
+      <h3>러닝 코스</h3>
+      <p>지역별 코스 데이터는 data/courses.json에서 관리됩니다.</p>
+      <a class="text-link" href="./courses.html">코스 보기</a>
+    </article>
+  </section>
+</main>
+
+<div class="modal" id="shoeModal" aria-hidden="true"></div>
+<div class="modal" id="recommendModal" aria-hidden="true"></div>
+
+<footer class="footer">
+  <p>RunningFit V4 · RunRepeat 우선 참고 기반 RunningFit 자체 평가 DB입니다.</p>
+</footer>
+
+<script src="./script.js?v=4.4"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "brooks-ghost-17",
+    "brand": "Brooks",
+    "model": "Ghost 17",
+    "category": "Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running",
+      "walking",
+      "long runs"
+    ],
+    "cushion": "Balanced",
+    "stability": "Neutral",
+    "weight_g": 286,
+    "drop_mm": 10,
+    "price_usd": 150,
+    "officialImage": null,
+    "officialImageSource": "Brooks official product page",
+    "officialProductUrl": "https://www.brooksrunning.com/",
+    "verified": true
+  },
+  {
+    "id": "brooks-glycerin-22",
+    "brand": "Brooks",
+    "model": "Glycerin 22",
+    "category": "Max Cushion Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running",
+      "long runs"
+    ],
+    "cushion": "Maximum",
+    "stability": "Neutral",
+    "weight_g": 289,
+    "drop_mm": 10,
+    "price_usd": 165,
+    "officialImage": null,
+    "officialImageSource": "Brooks official product page",
+    "officialProductUrl": "https://www.brooksrunning.com/",
+    "verified": true
+  },
+  {
+    "id": "brooks-glycerin-gts-22",
+    "brand": "Brooks",
+    "model": "Glycerin GTS 22",
+    "category": "Stability Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running"
+    ],
+    "cushion": "Maximum",
+    "stability": "GuideRails",
+    "weight_g": 303,
+    "drop_mm": 10,
+    "price_usd": 165,
+    "officialImage": null,
+    "officialImageSource": "Brooks official product page",
+    "officialProductUrl": "https://www.brooksrunning.com/",
+    "verified": true
+  },
+  {
+    "id": "brooks-adrenaline-gts-24",
+    "brand": "Brooks",
+    "model": "Adrenaline GTS 24",
+    "category": "Stability Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily running"
+    ],
+    "cushion": "Balanced",
+    "stability": "GuideRails",
+    "weight_g": 283,
+    "drop_mm": 12,
+    "price_usd": 140,
+    "officialImage": null,
+    "officialImageSource": "Brooks official product page",
+    "officialProductUrl": "https://www.brooksrunning.com/",
+    "verified": true
+  },
+  {
+    "id": "brooks-hyperion-max-2",
+    "brand": "Brooks",
+    "model": "Hyperion Max 2",
+    "category": "Speed Trainer",
+    "surface": "Road",
+    "usage": [
+      "tempo",
+      "interval"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "weight_g": 258,
+    "drop_mm": 6,
+    "price_usd": 180,
+    "officialImage": null,
+    "officialImageSource": "Brooks official product page",
+    "officialProductUrl": "https://www.brooksrunning.com/",
+    "verified": true
+  },
+  {
+    "id": "brooks-hyperion-2",
+    "brand": "Brooks",
+    "model": "Hyperion 2",
+    "category": "Lightweight Trainer",
+    "surface": "Road",
+    "usage": [
+      "tempo"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "weight_g": 201,
+    "drop_mm": 8,
+    "price_usd": 140,
+    "officialImage": null,
+    "officialImageSource": "Brooks official product page",
+    "officialProductUrl": "https://www.brooksrunning.com/",
+    "verified": true
+  },
+  {
+    "id": "brooks-cascadia-18",
+    "brand": "Brooks",
+    "model": "Cascadia 18",
+    "category": "Trail Running",
+    "surface": "Trail",
+    "usage": [
+      "trail running"
+    ],
+    "cushion": "Balanced",
+    "stability": "Neutral",
+    "weight_g": 315,
+    "drop_mm": 8,
+    "price_usd": 140,
+    "officialImage": null,
+    "officialImageSource": "Brooks official product page",
+    "officialProductUrl": "https://www.brooksrunning.com/",
+    "verified": true
+  }
+]

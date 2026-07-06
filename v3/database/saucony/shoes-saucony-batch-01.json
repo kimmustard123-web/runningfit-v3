@@ -1,0 +1,126 @@
+[
+  {
+    "id": "saucony-endorphin-speed-5",
+    "brand": "Saucony",
+    "model": "Endorphin Speed 5",
+    "category": "Speed Trainer",
+    "surface": "Road",
+    "usage": [
+      "tempo",
+      "race prep"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.saucony.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "saucony-endorphin-pro-4",
+    "brand": "Saucony",
+    "model": "Endorphin Pro 4",
+    "category": "Carbon Racing",
+    "surface": "Road",
+    "usage": [
+      "race"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.saucony.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "saucony-endorphin-trainer",
+    "brand": "Saucony",
+    "model": "Endorphin Trainer",
+    "category": "Plated Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily",
+      "long run"
+    ],
+    "cushion": "Maximum",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.saucony.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "saucony-ride-18",
+    "brand": "Saucony",
+    "model": "Ride 18",
+    "category": "Daily Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily"
+    ],
+    "cushion": "Balanced",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.saucony.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "saucony-guide-18",
+    "brand": "Saucony",
+    "model": "Guide 18",
+    "category": "Stability Trainer",
+    "surface": "Road",
+    "usage": [
+      "daily"
+    ],
+    "cushion": "Balanced",
+    "stability": "Support",
+    "officialProductUrl": "https://www.saucony.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "saucony-triumph-23",
+    "brand": "Saucony",
+    "model": "Triumph 23",
+    "category": "Max Cushion",
+    "surface": "Road",
+    "usage": [
+      "long run"
+    ],
+    "cushion": "Maximum",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.saucony.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "saucony-kinvara-16",
+    "brand": "Saucony",
+    "model": "Kinvara 16",
+    "category": "Lightweight Trainer",
+    "surface": "Road",
+    "usage": [
+      "tempo",
+      "daily"
+    ],
+    "cushion": "Responsive",
+    "stability": "Neutral",
+    "officialProductUrl": "https://www.saucony.com/",
+    "officialImage": null,
+    "verified": true
+  },
+  {
+    "id": "saucony-hurricane-25",
+    "brand": "Saucony",
+    "model": "Hurricane 25",
+    "category": "Max Cushion Stability",
+    "surface": "Road",
+    "usage": [
+      "daily",
+      "long run"
+    ],
+    "cushion": "Maximum",
+    "stability": "Support",
+    "officialProductUrl": "https://www.saucony.com/",
+    "officialImage": null,
+    "verified": true
+  }
+]
