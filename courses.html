@@ -3,38 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>러닝 코스 - RunningFit</title>
+  <title>해안 러닝코스 - RunningFit</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="courses">
+<body>
   <header class="site-header">
-    <a href="index.html" class="logo">RunningFit</a>
+    <div class="logo" onclick="location.href='index.html'">RunningFit</div>
     <nav>
       <a href="index.html">홈</a>
-      <a href="shoes.html">러닝화 추천</a>
       <a href="weather.html">날씨</a>
-      <a href="races.html">대회 정보</a>
-      <a href="courses.html" class="active">러닝 코스</a>
+      <a href="races.html">대회</a>
+      <a href="courses.html">코스</a>
     </nav>
   </header>
 
-  <main class="container">
-    <section class="page-hero">
-      <h1>러닝 코스</h1>
-      <p>나이키런 / 가민처럼 코스를 지도형으로 보여주는 구조입니다.</p>
+  <main>
+    <section class="hero small">
+      <h1>해안 러닝코스</h1>
+      <p>지도 버튼을 누르면 네이버지도 또는 카카오맵에서 위치를 확인할 수 있습니다.</p>
     </section>
 
-    <section class="filters">
-      <input id="courseSearch" type="text" placeholder="지역 / 코스명 검색" />
-      <select id="distanceFilter">
-        <option value="">전체 거리</option>
-        <option value="short">5km 이하</option>
-        <option value="middle">5~10km</option>
-        <option value="long">10km 이상</option>
-      </select>
-    </section>
-
-    <div id="courseList" class="course-grid"></div>
+    <section id="allCourses" class="course-grid"></section>
   </main>
 
   <script src="script.js"></script>

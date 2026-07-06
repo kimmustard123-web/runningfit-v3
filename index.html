@@ -3,71 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RunningFit - 러너의 홈</title>
+  <title>RunningFit - 러닝 전 매일 확인하는 러닝 가이드</title>
+  <meta name="description" content="오늘 러닝 날씨, 가까운 러닝대회, 해안 러닝코스, 초보자 맞춤 러닝화 추천까지 한 번에 확인하세요." />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="home">
+<body>
   <header class="site-header">
-    <a href="index.html" class="logo">RunningFit</a>
+    <div class="logo" onclick="location.href='index.html'">RunningFit</div>
     <nav>
-      <a href="index.html" class="active">홈</a>
-      <a href="shoes.html">러닝화 추천</a>
+      <a href="index.html">홈</a>
       <a href="weather.html">날씨</a>
-      <a href="races.html">대회 정보</a>
-      <a href="courses.html">러닝 코스</a>
+      <a href="races.html">대회</a>
+      <a href="courses.html">코스</a>
     </nav>
   </header>
 
-  <main class="container">
+  <main>
     <section class="hero">
-      <div>
-        <p class="eyebrow">Runner Daily Dashboard</p>
-        <h1>오늘 달릴지, 어떤 신발을 신을지, 어디서 뛸지.</h1>
-        <p>러닝 시작 전 매일 확인하는 러너용 홈 화면.</p>
-      </div>
+      <p class="eyebrow">러닝 시작 전 오늘 확인할 것</p>
+      <h1>오늘 뛸지, 어디서 뛸지, 어떤 신발을 신을지.</h1>
+      <p>RunningFit은 러닝 입문자와 러너를 위한 데일리 러닝 체크 화면입니다.</p>
     </section>
 
-    <section class="dashboard-grid">
-      <a href="weather.html" class="feature-card weather-card">
-        <span>오늘 날씨</span>
-        <h2>거제 23℃</h2>
-        <p>비 없음 · 러닝 적합</p>
-      </a>
+    <section class="grid-2">
+      <article class="card clickable" onclick="location.href='weather.html'">
+        <h2>오늘 러닝 날씨</h2>
+        <div id="todayWeather" class="big-info">불러오는 중...</div>
+        <p class="muted">누르면 이번 주 날씨를 볼 수 있습니다.</p>
+      </article>
 
-      <a href="races.html" class="feature-card">
-        <span>가까운 러닝대회</span>
-        <h2>이번 달 5개</h2>
-        <p>날짜 / 신청상태 확인</p>
-      </a>
-
-      <a href="courses.html" class="feature-card">
-        <span>추천 코스</span>
-        <h2>해안 러닝 코스</h2>
-        <p>지도형 코스 보기</p>
-      </a>
+      <article class="card">
+        <h2>러닝 시작 체크</h2>
+        <p>오늘 컨디션과 신발 상태를 먼저 확인하세요.</p>
+        <button onclick="document.getElementById('shoeSection').scrollIntoView({behavior:'smooth'})">
+          러닝화 추천 받기
+        </button>
+      </article>
     </section>
 
-    <section>
+    <section class="section-head">
+      <h2>가까운 러닝대회 5개</h2>
+      <a href="races.html">전체 보기</a>
+    </section>
+    <section id="homeRaces" class="list-card"></section>
+
+    <section class="section-head">
+      <h2>해안 러닝코스 5개</h2>
+      <a href="courses.html">전체 보기</a>
+    </section>
+    <section id="homeCourses" class="course-grid"></section>
+
+    <section id="shoeSection" class="shoe-section">
       <div class="section-title">
-        <h2>가까운 러닝대회 5개</h2>
-        <a href="races.html">전체 보기 →</a>
+        <p class="eyebrow">Running shoes recommendation</p>
+        <h2>내 상황에 맞는 러닝화 추천</h2>
+        <p>현재 신고 있는 신발, 발볼, 통증, 예산, 주간 거리 기준으로 추천 점수를 계산합니다.</p>
       </div>
-      <div id="homeRaceList" class="card-grid"></div>
-    </section>
 
-    <section>
-      <div class="section-title">
-        <h2>입문자 추천 러닝화</h2>
-        <a href="shoes.html">추천 받기 →</a>
+      <div class="filter-box">
+        <select id="currentShoe">
+          <option value="">현재 신고 있는 신발</option>
+          <option value="none">운동화 없음</option>
+          <option value="sneakers">일반 스니커즈</option>
+          <option value="gym">헬스화</option>
+          <option value="basketball">농구화</option>
+          <option value="walking">워킹화</option>
+          <option value="running">러닝화</option>
+        </select>
+
+        <select id="purpose">
+          <option value="">러닝 목적</option>
+          <option value="beginner">입문</option>
+          <option value="daily">데일리 조깅</option>
+          <option value="speed">기록 단축</option>
+          <option value="long">장거리</option>
+        </select>
+
+        <select id="width">
+          <option value="">발볼</option>
+          <option value="normal">보통</option>
+          <option value="wide">넓음</option>
+        </select>
+
+        <select id="pain">
+          <option value="">통증</option>
+          <option value="none">없음</option>
+          <option value="knee">무릎</option>
+          <option value="ankle">발목</option>
+          <option value="plantar">발바닥</option>
+        </select>
+
+        <select id="budget">
+          <option value="">예산</option>
+          <option value="low">10만원 이하</option>
+          <option value="mid">10~18만원</option>
+          <option value="high">18만원 이상</option>
+        </select>
+
+        <select id="weeklyDistance">
+          <option value="">주간 거리</option>
+          <option value="low">10km 이하</option>
+          <option value="mid">10~30km</option>
+          <option value="high">30km 이상</option>
+        </select>
+
+        <button onclick="recommendShoes()">추천 보기</button>
       </div>
-      <div id="homeShoeList" class="card-grid"></div>
+
+      <div id="shoeResults" class="shoe-grid"></div>
     </section>
   </main>
 
-  <aside id="compareBox" class="compare-box">
-    <h3>비교함</h3>
-    <div id="compareItems"></div>
-  </aside>
+  <footer>
+    <p>RunningFit은 현재 초기 버전입니다. 대회/코스/날씨 데이터는 정식 API 연결 전까지 수동 데이터 기반으로 표시됩니다.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>

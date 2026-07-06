@@ -1,0 +1,50 @@
+[
+  {
+    "name": "부산 바다마라톤",
+    "date": "2026-08-25",
+    "location": "부산",
+    "distance": "5K / 10K / Half",
+    "applyOpen": true,
+    "link": "#"
+  },
+  {
+    "name": "통영 해안 러닝 페스티벌",
+    "date": "2026-09-07",
+    "location": "통영",
+    "distance": "5K / 10K",
+    "applyOpen": false,
+    "link": "#"
+  },
+  {
+    "name": "거제 섬&바다 러닝",
+    "date": "2026-09-21",
+    "location": "거제",
+    "distance": "5K / 10K",
+    "applyOpen": false,
+    "link": "#"
+  },
+  {
+    "name": "창원 러닝 챌린지",
+    "date": "2026-10-05",
+    "location": "창원",
+    "distance": "10K / Half",
+    "applyOpen": true,
+    "link": "#"
+  },
+  {
+    "name": "진주 남강 러닝",
+    "date": "2026-10-19",
+    "location": "진주",
+    "distance": "5K / 10K",
+    "applyOpen": true,
+    "link": "#"
+  },
+  {
+    "name": "부산 가을 마라톤",
+    "date": "2026-11-02",
+    "location": "부산",
+    "distance": "10K / Half / Full",
+    "applyOpen": false,
+    "link": "#"
+  }
+]

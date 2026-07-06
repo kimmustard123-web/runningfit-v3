@@ -1,0 +1,62 @@
+[
+  {
+    "name": "거제 장승포 해안 러닝코스",
+    "region": "거제",
+    "distance": "약 5km",
+    "level": "초급",
+    "description": "해안도로를 따라 달리기 좋은 코스입니다. 바다 풍경이 좋아 입문자 조깅 코스로 적합합니다.",
+    "photoText": "Geoje Coastal Course",
+    "naverMap": "https://map.naver.com/v5/search/장승포항",
+    "kakaoMap": "https://map.kakao.com/link/search/장승포항"
+  },
+  {
+    "name": "거제 지세포 해안 코스",
+    "region": "거제",
+    "distance": "약 4km",
+    "level": "초급",
+    "description": "비교적 평탄한 구간이 많아 초보자 러닝과 산책 러닝에 적합합니다.",
+    "photoText": "Jisepo Ocean Run",
+    "naverMap": "https://map.naver.com/v5/search/지세포항",
+    "kakaoMap": "https://map.kakao.com/link/search/지세포항"
+  },
+  {
+    "name": "거제 구조라 해변 코스",
+    "region": "거제",
+    "distance": "약 3km",
+    "level": "초급",
+    "description": "해변 주변을 가볍게 뛰기 좋은 짧은 코스입니다. 초보자에게 부담이 적습니다.",
+    "photoText": "Gujora Beach Run",
+    "naverMap": "https://map.naver.com/v5/search/구조라해수욕장",
+    "kakaoMap": "https://map.kakao.com/link/search/구조라해수욕장"
+  },
+  {
+    "name": "부산 광안리 해안 코스",
+    "region": "부산",
+    "distance": "약 6km",
+    "level": "초중급",
+    "description": "광안대교 뷰를 보며 달릴 수 있는 대표 해안 러닝코스입니다.",
+    "photoText": "Gwangalli Run",
+    "naverMap": "https://map.naver.com/v5/search/광안리해수욕장",
+    "kakaoMap": "https://map.kakao.com/link/search/광안리해수욕장"
+  },
+  {
+    "name": "부산 해운대 동백섬 코스",
+    "region": "부산",
+    "distance": "약 4km",
+    "level": "초급",
+    "description": "해운대와 동백섬 주변을 연결해 짧고 경치 좋은 러닝이 가능합니다.",
+    "photoText": "Haeundae Run",
+    "naverMap": "https://map.naver.com/v5/search/동백섬",
+    "kakaoMap": "https://map.kakao.com/link/search/동백섬"
+  },
+  {
+    "name": "통영 강구안 해안 코스",
+    "region": "통영",
+    "distance": "약 5km",
+    "level": "초급",
+    "description": "항구와 바다 풍경을 함께 볼 수 있는 도심형 해안 러닝코스입니다.",
+    "photoText": "Tongyeong Harbor Run",
+    "naverMap": "https://map.naver.com/v5/search/강구안",
+    "kakaoMap": "https://map.kakao.com/link/search/강구안"
+  }
+]
