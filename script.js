@@ -1,203 +1,423 @@
-const today = new Date("2026-07-06");
+const DATA_PATHS = {
+  shoes: "data/shoes.json",
+  weather: "data/weather.json",
+  races: "data/races.json",
+  courses: "data/courses.json"
+};
 
-function toDate(value) {
-  return new Date(value + "T00:00:00");
+const state = {
+  shoes: [],
+  compare: []
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  initNav();
+  initHome();
+  initShoesPage();
+  initWeatherPage();
+  initRacesPage();
+  initCoursesPage();
+});
+
+function initNav() {
+  const toggle = document.querySelector("[data-nav-toggle]");
+  const nav = document.querySelector("[data-nav]");
+  if (!toggle || !nav) return;
+  toggle.addEventListener("click", () => nav.classList.toggle("open"));
 }
 
-async function loadJSON(path) {
-  const res = await fetch(path);
-  if (!res.ok) throw new Error(`${path} 불러오기 실패`);
-  return await res.json();
+async function fetchJson(path, fallback) {
+  try {
+    const response = await fetch(path, { cache: "no-store" });
+    if (!response.ok) throw new Error(`${path} ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    console.warn("데이터를 불러오지 못했습니다:", error);
+    return fallback;
+  }
 }
 
-function formatDate(dateString) {
-  const d = toDate(dateString);
-  return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+function normalizeText(value) {
+  return String(value || "").toLowerCase().trim();
 }
 
-async function renderTodayWeather() {
-  const box = document.getElementById("todayWeather");
-  if (!box) return;
-
-  const weather = await loadJSON("data/weather.json");
-  const todayWeather = weather[0];
-
-  box.innerHTML = `
-    ${todayWeather.temp}℃ / ${todayWeather.condition}<br>
-    <span class="badge">${todayWeather.running}</span>
-  `;
+function hasUse(shoe, key) {
+  return Array.isArray(shoe.use) && shoe.use.includes(key);
 }
 
-async function renderWeeklyWeather() {
-  const box = document.getElementById("weeklyWeather");
-  if (!box) return;
+function calculateScore(shoe, filters = {}) {
+  let score = 50;
 
-  const weather = await loadJSON("data/weather.json");
+  if (filters.use && hasUse(shoe, filters.use)) score += 18;
+  if (filters.width && shoe.width === filters.width) score += 12;
+  if (filters.weeklyKm === "0-10" && (hasUse(shoe, "beginner") || hasUse(shoe, "daily"))) score += 10;
+  if (filters.weeklyKm === "10-30" && hasUse(shoe, "daily")) score += 10;
+  if (filters.weeklyKm === "30-60" && (hasUse(shoe, "daily") || hasUse(shoe, "max-cushion"))) score += 10;
+  if (filters.weeklyKm === "60+" && (hasUse(shoe, "max-cushion") || hasUse(shoe, "stability"))) score += 12;
 
-  box.innerHTML = weather.map(day => `
-    <article class="weather-card">
-      <h3>${day.day}</h3>
-      <p><strong>${day.temp}℃</strong> / ${day.condition}</p>
-      <p>강수확률 ${day.rain}%</p>
-      <span class="badge">${day.running}</span>
-    </article>
-  `).join("");
+  if (filters.pain === "knee" && shoe.cushion >= 4) score += 10;
+  if (filters.pain === "ankle" && shoe.stability >= 4) score += 10;
+  if (filters.pain === "plantar" && shoe.cushion >= 4) score += 8;
+  if (filters.pain === "shin" && shoe.cushion >= 4) score += 8;
+
+  score += Math.min(10, Number(shoe.cushion || 0) + Number(shoe.stability || 0));
+
+  return Math.max(1, Math.min(99, Math.round(score)));
 }
 
-async function getUpcomingRaces() {
-  const races = await loadJSON("data/races.json");
-
-  return races
-    .filter(race => toDate(race.date) >= today)
-    .sort((a, b) => toDate(a.date) - toDate(b.date));
+function scoreLabel(score) {
+  if (score >= 85) return "강력 추천";
+  if (score >= 72) return "추천";
+  if (score >= 60) return "조건부 추천";
+  return "비교 필요";
 }
 
-function raceTemplate(race) {
-  const status = race.applyOpen ? "접수 가능" : "접수 예정/확인 필요";
-
-  return `
-    <article class="race-item">
-      <div>
-        <h3>${race.name}</h3>
-        <p>${formatDate(race.date)} · ${race.location} · ${race.distance}</p>
-        <span class="badge">${status}</span>
-      </div>
-      <a href="${race.link}" target="_blank">
-        <button>신청/확인</button>
-      </a>
-    </article>
-  `;
+async function loadShoes() {
+  if (state.shoes.length) return state.shoes;
+  const data = await fetchJson(DATA_PATHS.shoes, []);
+  state.shoes = Array.isArray(data) ? data : data.shoes || [];
+  return state.shoes;
 }
 
-async function renderHomeRaces() {
-  const box = document.getElementById("homeRaces");
-  if (!box) return;
+async function initHome() {
+  const miniForm = document.querySelector("[data-mini-reco-form]");
+  if (miniForm) {
+    const shoes = await loadShoes();
+    const results = document.querySelector("[data-mini-reco-results]");
 
-  const races = await getUpcomingRaces();
-  box.innerHTML = races.slice(0, 5).map(raceTemplate).join("");
+    miniForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const formData = new FormData(miniForm);
+      const filters = {
+        weeklyKm: formData.get("weeklyKm"),
+        width: formData.get("width"),
+        use: formData.get("currentShoe") === "none" || formData.get("currentShoe") === "sneakers" ? "beginner" : "daily"
+      };
+
+      const top = shoes
+        .map(shoe => ({ ...shoe, score: calculateScore(shoe, filters) }))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 3);
+
+      results.innerHTML = top.map(shoe => `
+        <div class="mini-result-card">
+          <strong>${shoe.brand} ${shoe.model}</strong>
+          <p>${shoe.score}점 · ${scoreLabel(shoe.score)}</p>
+          <small>${shoe.recommendReason}</small>
+        </div>
+      `).join("");
+    });
+  }
+
+  const weatherSummary = document.querySelector("[data-weather-summary]");
+  if (weatherSummary) {
+    const weather = await fetchJson(DATA_PATHS.weather, { status: "not_connected" });
+    if (weather.status === "not_connected") {
+      weatherSummary.querySelector("h2").textContent = "실제 날씨 API 연결 필요";
+      weatherSummary.querySelector("p").textContent = weather.message || "현재 날씨를 임의로 표시하지 않습니다.";
+    }
+  }
 }
 
-async function renderAllRaces() {
-  const box = document.getElementById("allRaces");
-  if (!box) return;
+async function initShoesPage() {
+  const grid = document.querySelector("[data-shoe-grid]");
+  const form = document.querySelector("[data-shoe-filter]");
+  if (!grid || !form) return;
 
-  const races = await getUpcomingRaces();
+  const shoes = await loadShoes();
+  fillBrandOptions(shoes);
+  renderShoes(shoes, getFilters(form));
 
-  if (races.length === 0) {
-    box.innerHTML = `<p>현재 등록된 예정 대회가 없습니다.</p>`;
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    renderShoes(shoes, getFilters(form));
+  });
+
+  form.addEventListener("reset", () => {
+    setTimeout(() => renderShoes(shoes, getFilters(form)), 0);
+  });
+
+  form.addEventListener("input", () => renderShoes(shoes, getFilters(form)));
+
+  const modal = document.querySelector("[data-shoe-modal]");
+  const close = document.querySelector("[data-modal-close]");
+  if (modal && close) close.addEventListener("click", () => modal.close());
+
+  const clear = document.querySelector("[data-clear-compare]");
+  if (clear) clear.addEventListener("click", () => {
+    state.compare = [];
+    updateCompare();
+  });
+}
+
+function fillBrandOptions(shoes) {
+  const select = document.querySelector('[data-shoe-filter] select[name="brand"]');
+  if (!select) return;
+  const brands = [...new Set(shoes.map(shoe => shoe.brand))].sort();
+  select.innerHTML = `<option value="">전체</option>` + brands.map(brand => `<option value="${brand}">${brand}</option>`).join("");
+}
+
+function getFilters(form) {
+  const data = new FormData(form);
+  return {
+    q: normalizeText(data.get("q")),
+    brand: data.get("brand"),
+    use: data.get("use"),
+    width: data.get("width"),
+    pain: data.get("pain"),
+    weeklyKm: data.get("weeklyKm")
+  };
+}
+
+function filterShoes(shoes, filters) {
+  return shoes.filter(shoe => {
+    const haystack = normalizeText([
+      shoe.brand, shoe.model, shoe.priceRange, shoe.targetUser, shoe.recommendReason,
+      Array.isArray(shoe.use) ? shoe.use.join(" ") : ""
+    ].join(" "));
+
+    if (filters.q && !haystack.includes(filters.q)) return false;
+    if (filters.brand && shoe.brand !== filters.brand) return false;
+    if (filters.use && !hasUse(shoe, filters.use)) return false;
+    if (filters.width && shoe.width !== filters.width) return false;
+    return true;
+  });
+}
+
+function renderShoes(shoes, filters) {
+  const grid = document.querySelector("[data-shoe-grid]");
+  const count = document.querySelector("[data-result-count]");
+  const result = filterShoes(shoes, filters)
+    .map(shoe => ({ ...shoe, score: calculateScore(shoe, filters) }))
+    .sort((a, b) => b.score - a.score);
+
+  if (count) count.textContent = `${result.length}개`;
+
+  if (!result.length) {
+    grid.innerHTML = `<div class="empty-state">조건에 맞는 러닝화가 없습니다. 필터를 줄여보세요.</div>`;
     return;
   }
 
-  box.innerHTML = races.map(raceTemplate).join("");
+  grid.innerHTML = result.map(shoe => shoeCard(shoe)).join("");
+
+  grid.querySelectorAll("[data-detail]").forEach(button => {
+    button.addEventListener("click", () => openShoeModal(button.dataset.detail));
+  });
+
+  grid.querySelectorAll("[data-compare]").forEach(button => {
+    button.addEventListener("click", () => addCompare(button.dataset.compare));
+  });
 }
 
-function courseTemplate(course) {
+function shoeCard(shoe) {
+  const imageSafe = shoe.officialImage && shoe.officialImageStatus === "verified";
   return `
-    <article class="course-card">
-      <div class="course-photo">${course.photoText}</div>
-      <h3>${course.name}</h3>
-      <p>${course.region} · ${course.distance} · ${course.level}</p>
-      <p>${course.description}</p>
-      <div class="map-buttons">
-        <a href="${course.naverMap}" target="_blank">네이버지도</a>
-        <a href="${course.kakaoMap}" target="_blank">카카오맵</a>
+    <article class="shoe-card">
+      ${imageSafe
+        ? `<img src="${shoe.officialImage}" alt="${shoe.brand} ${shoe.model} 공식 이미지" />`
+        : `<div class="shoe-image-placeholder">공식 이미지 확인 필요<br><small>무단 이미지 사용 안 함</small></div>`
+      }
+      <div class="shoe-top">
+        <div>
+          <p class="eyebrow">${shoe.brand}</p>
+          <h3>${shoe.model}</h3>
+        </div>
+        <div class="score">${shoe.score}</div>
+      </div>
+      <div class="specs">
+        <span>${shoe.priceRange}</span>
+        <span>쿠션 ${shoe.cushion}/5</span>
+        <span>안정 ${shoe.stability}/5</span>
+        <span>${widthLabel(shoe.width)}</span>
+        <span>${shoe.dropMm}mm drop</span>
+      </div>
+      <p class="reason">${shoe.recommendReason}</p>
+      <span class="source-status need">${shoe.officialImageStatusText || "공식 이미지 확인 필요"}</span>
+      <div class="card-actions">
+        <button class="btn primary" type="button" data-detail="${shoe.id}">상세보기</button>
+        <button class="btn ghost" type="button" data-compare="${shoe.id}">비교담기</button>
       </div>
     </article>
   `;
 }
 
-async function renderHomeCourses() {
-  const box = document.getElementById("homeCourses");
-  if (!box) return;
-
-  const courses = await loadJSON("data/courses.json");
-  box.innerHTML = courses.slice(0, 5).map(courseTemplate).join("");
+function widthLabel(width) {
+  if (width === "wide") return "발볼 넓음";
+  if (width === "narrow") return "발볼 좁음";
+  return "발볼 보통";
 }
 
-async function renderAllCourses() {
-  const box = document.getElementById("allCourses");
-  if (!box) return;
+function openShoeModal(id) {
+  const shoe = state.shoes.find(item => item.id === id);
+  const modal = document.querySelector("[data-shoe-modal]");
+  const content = document.querySelector("[data-modal-content]");
+  if (!shoe || !modal || !content) return;
 
-  const courses = await loadJSON("data/courses.json");
-  box.innerHTML = courses.map(courseTemplate).join("");
+  content.innerHTML = `
+    <p class="eyebrow">${shoe.brand}</p>
+    <h2>${shoe.model}</h2>
+    <p>${shoe.targetUser}</p>
+    <div class="specs">
+      <span>${shoe.priceRange}</span>
+      <span>${shoe.weightG ? shoe.weightG + "g" : "무게 확인 필요"}</span>
+      <span>${shoe.dropMm}mm drop</span>
+      <span>${widthLabel(shoe.width)}</span>
+      <span>${shoe.use.join(", ")}</span>
+    </div>
+    <h3>추천 이유</h3>
+    <p class="reason">${shoe.recommendReason}</p>
+    <h3>출처 상태</h3>
+    <p>${shoe.officialSourceLink ? `<a href="${shoe.officialSourceLink}" target="_blank" rel="noopener">공식 출처 보기</a>` : "공식 출처 확인 필요"}</p>
+    <h3>구매 링크</h3>
+    <p>${shoe.buyLink && shoe.buyLink !== "#" ? `<a href="${shoe.buyLink}" target="_blank" rel="noopener">구매 페이지</a>` : "제휴/구매 링크 입력 전"}</p>
+  `;
+  modal.showModal();
 }
 
-function getSelected(id) {
-  return document.getElementById(id)?.value || "";
+function addCompare(id) {
+  const shoe = state.shoes.find(item => item.id === id);
+  if (!shoe) return;
+  if (!state.compare.some(item => item.id === id)) {
+    state.compare.push(shoe);
+  }
+  updateCompare();
 }
 
-async function recommendShoes() {
-  const results = document.getElementById("shoeResults");
-  if (!results) return;
+function updateCompare() {
+  const drawer = document.querySelector("[data-compare-drawer]");
+  const list = document.querySelector("[data-compare-list]");
+  const count = document.querySelector("[data-compare-count]");
+  if (!drawer || !list || !count) return;
 
-  const shoes = await loadJSON("data/shoes.json");
+  drawer.hidden = state.compare.length === 0;
+  count.textContent = `${state.compare.length}개 선택`;
+  list.innerHTML = state.compare.map(shoe => `
+    <span class="compare-item">${shoe.brand} ${shoe.model}</span>
+  `).join("");
+}
 
-  const user = {
-    currentShoe: getSelected("currentShoe"),
-    purpose: getSelected("purpose"),
-    width: getSelected("width"),
-    pain: getSelected("pain"),
-    budget: getSelected("budget"),
-    weeklyDistance: getSelected("weeklyDistance")
-  };
+async function initWeatherPage() {
+  const grid = document.querySelector("[data-weather-grid]");
+  const status = document.querySelector("[data-weather-page-status]");
+  if (!grid) return;
 
-  const scored = shoes.map(shoe => {
-    let score = 50;
-    const reasons = [];
+  const data = await fetchJson(DATA_PATHS.weather, { status: "not_connected", days: [] });
+  if (status) status.textContent = data.message || "실제 API 연결 전입니다.";
 
-    if (user.purpose && shoe.purpose.includes(user.purpose)) {
-      score += 15;
-      reasons.push("러닝 목적과 잘 맞습니다.");
-    }
+  if (!data.days || !data.days.length) {
+    grid.innerHTML = `<div class="empty-state">표시할 실제 날씨 데이터가 없습니다. API 연결 후 갱신 시간과 출처를 함께 표시하세요.</div>`;
+    return;
+  }
 
-    if (user.width === "wide" && shoe.width === "wide") {
-      score += 15;
-      reasons.push("발볼이 넓은 사람에게 유리합니다.");
-    }
-
-    if (user.pain !== "none" && user.pain && shoe.painSupport.includes(user.pain)) {
-      score += 15;
-      reasons.push("선택한 통증 부위에 부담을 줄이는 성향입니다.");
-    }
-
-    if (user.budget && shoe.budget === user.budget) {
-      score += 10;
-      reasons.push("예산대가 맞습니다.");
-    }
-
-    if (user.weeklyDistance && shoe.weeklyDistance.includes(user.weeklyDistance)) {
-      score += 10;
-      reasons.push("주간 러닝 거리와 잘 맞습니다.");
-    }
-
-    if (user.currentShoe && user.currentShoe !== "running" && shoe.beginnerSafe) {
-      score += 10;
-      reasons.push("러닝화 없이 시작하는 입문자에게 안전한 선택입니다.");
-    }
-
-    return {
-      ...shoe,
-      score: Math.min(score, 100),
-      reasons
-    };
-  }).sort((a, b) => b.score - a.score);
-
-  results.innerHTML = scored.map(shoe => `
-    <article class="shoe-card">
-      <h3>${shoe.name}</h3>
-      <p>${shoe.brand} · ${shoe.priceRange}</p>
-      <div class="score"><span style="width:${shoe.score}%"></span></div>
-      <strong>추천 점수 ${shoe.score}점</strong>
-      <p class="reason">${shoe.reasons.length ? shoe.reasons.join(" ") : "기본 러닝화 후보로 볼 수 있습니다."}</p>
-      <p>${shoe.description}</p>
-      <button>상세 보기</button>
+  grid.innerHTML = data.days.map(day => `
+    <article class="weather-card">
+      <h3>${day.date}</h3>
+      <p>${day.summary}</p>
+      <div class="specs">
+        <span>${day.minTemp}~${day.maxTemp}℃</span>
+        <span>강수 ${day.rainChance}%</span>
+      </div>
     </article>
   `).join("");
 }
 
-renderTodayWeather();
-renderWeeklyWeather();
-renderHomeRaces();
-renderAllRaces();
-renderHomeCourses();
-renderAllCourses();
+async function initRacesPage() {
+  const list = document.querySelector("[data-race-list]");
+  if (!list) return;
+
+  const data = await fetchJson(DATA_PATHS.races, { races: [] });
+  const races = data.races || [];
+
+  const search = document.querySelector("[data-race-search]");
+  const status = document.querySelector("[data-race-status]");
+
+  const render = () => {
+    const q = normalizeText(search?.value);
+    const s = status?.value || "";
+    const filtered = races.filter(race => {
+      const text = normalizeText(`${race.name} ${race.region} ${race.date}`);
+      if (q && !text.includes(q)) return false;
+      if (s && race.status !== s) return false;
+      return true;
+    });
+
+    if (!filtered.length) {
+      list.innerHTML = `<div class="empty-state">공식 링크가 확인된 대회 데이터가 아직 없습니다. 확인 전 대회는 접수 가능으로 표시하지 않습니다.</div>`;
+      return;
+    }
+
+    list.innerHTML = filtered.map(race => `
+      <article class="race-card">
+        <span class="chip">${raceStatusLabel(race.status)}</span>
+        <h3>${race.name}</h3>
+        <p>${race.region} · ${race.date}</p>
+        <p>${race.officialLink ? `<a class="btn primary" href="${race.officialLink}" target="_blank" rel="noopener">공식 페이지</a>` : "공식 링크 확인 필요"}</p>
+      </article>
+    `).join("");
+  };
+
+  search?.addEventListener("input", render);
+  status?.addEventListener("change", render);
+  render();
+}
+
+function raceStatusLabel(status) {
+  return {
+    open: "접수 가능",
+    closed: "접수 마감",
+    pending: "접수 전",
+    verify: "확인 필요"
+  }[status] || "확인 필요";
+}
+
+async function initCoursesPage() {
+  const grid = document.querySelector("[data-course-grid]");
+  if (!grid) return;
+
+  const data = await fetchJson(DATA_PATHS.courses, { courses: [] });
+  const courses = data.courses || [];
+  const search = document.querySelector("[data-course-search]");
+  const level = document.querySelector("[data-course-level]");
+
+  const render = () => {
+    const q = normalizeText(search?.value);
+    const l = level?.value || "";
+
+    const filtered = courses.filter(course => {
+      const text = normalizeText(`${course.name} ${course.region} ${course.description}`);
+      if (q && !text.includes(q)) return false;
+      if (l && course.level !== l) return false;
+      return true;
+    });
+
+    if (!filtered.length) {
+      grid.innerHTML = `<div class="empty-state">검증된 코스 데이터가 아직 없습니다. 지도 API 또는 직접 제작 지도 연결 후 등록하세요.</div>`;
+      return;
+    }
+
+    grid.innerHTML = filtered.map(course => `
+      <article class="course-card">
+        <span class="chip">${course.region}</span>
+        <h3>${course.name}</h3>
+        <p>${course.description}</p>
+        <div class="specs">
+          <span>${course.distanceKm}km</span>
+          <span>${courseLevelLabel(course.level)}</span>
+          <span>${course.surface}</span>
+        </div>
+      </article>
+    `).join("");
+  };
+
+  search?.addEventListener("input", render);
+  level?.addEventListener("change", render);
+  render();
+}
+
+function courseLevelLabel(level) {
+  return {
+    easy: "쉬움",
+    normal: "보통",
+    hard: "어려움"
+  }[level] || "난이도 확인 필요";
+}

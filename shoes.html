@@ -1,54 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>러닝화 추천 - RunningFit</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>러닝화 추천 | RunningFit V3</title>
+  <meta name="description" content="초보 러너부터 고마일리지 러너까지 목적, 발볼, 쿠션, 안정성, 통증 조건으로 러닝화를 추천합니다." />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="shoes">
+<body>
   <header class="site-header">
-    <a href="index.html" class="logo">RunningFit</a>
-    <nav>
+    <a class="brand" href="index.html"><span class="brand-mark">RF</span><span><strong>RunningFit</strong><small>Shoe Finder</small></span></a>
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
+    <nav class="site-nav" data-nav>
       <a href="index.html">홈</a>
-      <a href="shoes.html" class="active">러닝화 추천</a>
+      <a class="active" href="shoes.html">러닝화 추천</a>
       <a href="weather.html">날씨</a>
-      <a href="races.html">대회 정보</a>
-      <a href="courses.html">러닝 코스</a>
+      <a href="races.html">대회</a>
+      <a href="courses.html">코스</a>
     </nav>
   </header>
 
-  <main class="container">
+  <main>
     <section class="page-hero">
+      <p class="eyebrow">Shoe recommendation</p>
       <h1>러닝화 추천</h1>
-      <p>현재 신는 신발, 발볼, 통증, 예산 기준으로 추천합니다.</p>
+      <p>브랜드명보다 중요한 것은 현재 실력, 주간 거리, 발볼, 통증, 러닝 목적입니다.</p>
     </section>
 
-    <section class="filters">
-      <input id="shoeSearch" type="text" placeholder="브랜드 / 모델명 검색" />
-      <select id="brandFilter">
-        <option value="">전체 브랜드</option>
-      </select>
-      <select id="priceFilter">
-        <option value="">전체 가격</option>
-        <option value="low">10만원 이하</option>
-        <option value="mid">10~20만원</option>
-        <option value="high">20만원 이상</option>
-      </select>
-      <select id="widthFilter">
-        <option value="">발볼 전체</option>
-        <option value="normal">보통</option>
-        <option value="wide">넓음</option>
-      </select>
+    <section class="filter-shell">
+      <form class="filter-panel" data-shoe-filter>
+        <label>
+          검색
+          <input name="q" type="search" placeholder="예: 페가수스, 안정화, 발볼" />
+        </label>
+
+        <label>
+          브랜드
+          <select name="brand">
+            <option value="">전체</option>
+          </select>
+        </label>
+
+        <label>
+          용도
+          <select name="use">
+            <option value="">전체</option>
+            <option value="daily">데일리</option>
+            <option value="beginner">입문</option>
+            <option value="tempo">템포</option>
+            <option value="race">레이스</option>
+            <option value="stability">안정화</option>
+            <option value="trail">트레일</option>
+            <option value="max-cushion">맥스쿠션</option>
+          </select>
+        </label>
+
+        <label>
+          발볼
+          <select name="width">
+            <option value="">전체</option>
+            <option value="narrow">좁음</option>
+            <option value="normal">보통</option>
+            <option value="wide">넓음</option>
+          </select>
+        </label>
+
+        <label>
+          통증/고민
+          <select name="pain">
+            <option value="">없음/전체</option>
+            <option value="knee">무릎</option>
+            <option value="ankle">발목</option>
+            <option value="plantar">족저</option>
+            <option value="shin">정강이</option>
+          </select>
+        </label>
+
+        <label>
+          주간 거리
+          <select name="weeklyKm">
+            <option value="0-10">0~10km</option>
+            <option value="10-30">10~30km</option>
+            <option value="30-60">30~60km</option>
+            <option value="60+">60km 이상</option>
+          </select>
+        </label>
+
+        <button class="btn primary" type="submit">추천 계산</button>
+        <button class="btn ghost" type="reset">초기화</button>
+      </form>
+
+      <div class="result-meta">
+        <strong data-result-count>0개</strong>
+        <span>추천 결과</span>
+      </div>
     </section>
 
-    <div id="shoeList" class="card-grid"></div>
+    <section class="shoe-grid" data-shoe-grid aria-live="polite"></section>
+
+    <section class="compare-drawer" data-compare-drawer hidden>
+      <div>
+        <strong>비교함</strong>
+        <span data-compare-count>0개 선택</span>
+      </div>
+      <div class="compare-list" data-compare-list></div>
+      <button class="btn ghost" type="button" data-clear-compare>비우기</button>
+    </section>
   </main>
 
-  <aside id="compareBox" class="compare-box">
-    <h3>비교함</h3>
-    <div id="compareItems"></div>
-  </aside>
+  <dialog class="shoe-modal" data-shoe-modal>
+    <button class="modal-close" type="button" data-modal-close aria-label="닫기">×</button>
+    <div data-modal-content></div>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>이미지와 출처는 공식 자료 확인 전까지 표시하지 않습니다.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>

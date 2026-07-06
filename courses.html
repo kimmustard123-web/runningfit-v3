@@ -1,30 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>해안 러닝코스 - RunningFit</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>러닝코스 추천 | RunningFit V3</title>
+  <meta name="description" content="지역별 러닝코스, 거리, 난이도, 노면, 시작 지점을 확인하는 RunningFit 코스 페이지입니다." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="logo" onclick="location.href='index.html'">RunningFit</div>
-    <nav>
+    <a class="brand" href="index.html"><span class="brand-mark">RF</span><span><strong>RunningFit</strong><small>Courses</small></span></a>
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
+    <nav class="site-nav" data-nav>
       <a href="index.html">홈</a>
+      <a href="shoes.html">러닝화 추천</a>
       <a href="weather.html">날씨</a>
       <a href="races.html">대회</a>
-      <a href="courses.html">코스</a>
+      <a class="active" href="courses.html">코스</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero small">
-      <h1>해안 러닝코스</h1>
-      <p>지도 버튼을 누르면 네이버지도 또는 카카오맵에서 위치를 확인할 수 있습니다.</p>
+    <section class="page-hero">
+      <p class="eyebrow">Running courses</p>
+      <h1>러닝코스 추천</h1>
+      <p>지도/GPS 연동 전까지는 검증 가능한 코스만 등록하는 구조로 유지합니다.</p>
     </section>
 
-    <section id="allCourses" class="course-grid"></section>
+    <section class="tool-row">
+      <input data-course-search type="search" placeholder="지역, 코스명 검색" />
+      <select data-course-level>
+        <option value="">전체 난이도</option>
+        <option value="easy">쉬움</option>
+        <option value="normal">보통</option>
+        <option value="hard">어려움</option>
+      </select>
+    </section>
+
+    <section class="course-grid" data-course-grid></section>
   </main>
+
+  <footer class="site-footer">
+    <p>지도 이미지는 무단 캡처하지 않고, 정식 지도 API 또는 직접 제작 자료만 사용합니다.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
