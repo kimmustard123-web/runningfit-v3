@@ -909,3 +909,476 @@ select:focus {
 .strip-card p {
   text-decoration: none;
 }
+
+/* =========================================================
+   RunningFit responsive + mobile navigation final fixes
+   - Hamburger menu always overlays search/inputs/buttons
+   - Header dropdown never changes document flow
+   - Header body and every major content grid become responsive
+   ========================================================= */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.site-header,
+.site-header.rf-header,
+.rf-header-row,
+.header-inner {
+  overflow: visible;
+}
+
+.site-header.rf-header {
+  z-index: 2000;
+  isolation: isolate;
+}
+
+.rf-header-row {
+  position: relative;
+  z-index: 2020;
+}
+
+.rf-header .header-inner {
+  position: relative;
+  z-index: 2020;
+}
+
+.rf-header .nav-toggle {
+  position: relative;
+  z-index: 2050;
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  place-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.rf-header .global-search-wrap {
+  position: relative;
+  z-index: 2000;
+}
+
+.rf-header .global-search,
+.rf-header .global-search input,
+.rf-header .global-search button {
+  position: relative;
+  z-index: 1;
+}
+
+.rf-header .search-suggestions {
+  z-index: 2100;
+}
+
+/* All reusable page wrappers must be able to shrink. */
+main,
+.page-shell,
+.pace-page,
+.api-card,
+.notice,
+.tool-row,
+.section,
+.weather-grid,
+.course-grid,
+.auth-grid,
+.split-section,
+.profile-form,
+.my-shoe-grid,
+.race-list,
+.header-inner,
+.global-search-wrap {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.home-main,
+.home-layout,
+.home-content,
+.home-side,
+.hero-card,
+.hero-copy,
+.hero-actions,
+.quick-grid,
+.section-block,
+.section-head,
+.purpose-grid,
+.weather-grid,
+.course-grid,
+.auth-grid,
+.split-section,
+.profile-form,
+.my-shoe-grid,
+.pace-grid,
+.wizard-form,
+.filter-panel,
+.shoe-grid,
+.recommend-summary {
+  min-width: 0;
+}
+
+.home-layout > *,
+.quick-grid > *,
+.purpose-grid > *,
+.weather-grid > *,
+.course-grid > *,
+.auth-grid > *,
+.split-section > *,
+.profile-form > *,
+.my-shoe-grid > *,
+.pace-grid > *,
+.wizard-form > *,
+.filter-panel > *,
+.shoe-grid > * {
+  min-width: 0;
+}
+
+input,
+select,
+button,
+.btn,
+.primary-btn,
+.secondary-btn,
+.side-btn {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+dt,
+dd,
+a,
+button,
+label,
+span,
+strong {
+  overflow-wrap: anywhere;
+}
+
+.horizontal-scroll,
+.shoe-strip,
+.catalog-view-tabs {
+  max-width: 100%;
+  overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 980px) {
+  main,
+  .page-shell,
+  .pace-page {
+    width: min(100% - 28px, 1280px);
+  }
+
+  .home-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .home-side {
+    position: static;
+    top: auto;
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .hero-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions {
+    width: 100%;
+    min-width: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .quick-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .shoe-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-panel {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-panel label:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 860px) {
+  .rf-header .top-nav {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    left: auto;
+    z-index: 5000;
+    display: none;
+    width: min(340px, calc(100vw - 24px));
+    max-height: calc(100vh - 92px);
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: var(--surface);
+    box-shadow: 0 24px 70px rgba(0, 0, 0, .24);
+    white-space: normal;
+  }
+
+  .rf-header .top-nav.open {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .rf-header .top-nav .nav-link,
+  .rf-header .top-nav .login-btn,
+  .rf-header .theme-toggle {
+    position: relative;
+    z-index: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    text-align: left;
+  }
+
+  .rf-header .global-search-wrap,
+  .rf-header .global-search,
+  .rf-header .global-search input,
+  .rf-header .global-search button,
+  .rf-header .search-suggestions {
+    z-index: 1;
+  }
+
+  .recommend-tabs {
+    position: static;
+    top: auto;
+    z-index: auto;
+  }
+
+  .section-head {
+    align-items: flex-start;
+  }
+
+  .wizard-form,
+  .advanced-grid,
+  .pace-grid,
+  .weather-grid,
+  .course-grid,
+  .auth-grid,
+  .split-section,
+  .profile-form,
+  .my-shoe-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  main,
+  .page-shell,
+  .pace-page,
+  .global-search-wrap,
+  .header-inner,
+  .api-card,
+  .notice,
+  .tool-row,
+  .section,
+  .weather-grid,
+  .course-grid,
+  .auth-grid,
+  .split-section,
+  .profile-form,
+  .my-shoe-grid,
+  .race-list {
+    width: min(100% - 20px, 1280px);
+  }
+
+  main {
+    padding: 20px 0 92px;
+  }
+
+  .home-layout {
+    padding: 12px 0 100px;
+  }
+
+  .hero-card,
+  .page-hero {
+    padding: 24px 20px;
+    border-radius: 22px;
+  }
+
+  .hero-copy h1,
+  .page-hero h1 {
+    font-size: clamp(32px, 11vw, 48px);
+    line-height: 1.05;
+  }
+
+  .hero-actions,
+  .quick-grid,
+  .purpose-grid,
+  .home-side,
+  .wizard-form,
+  .advanced-grid,
+  .filter-panel,
+  .pace-grid,
+  .weather-grid,
+  .course-grid,
+  .auth-grid,
+  .split-section,
+  .profile-form,
+  .my-shoe-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .filter-panel label:first-child {
+    grid-column: auto;
+  }
+
+  .section-block,
+  .reco-panel,
+  .card,
+  .pace-card {
+    padding: 18px;
+  }
+
+  .section-head,
+  .recommend-summary {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .horizontal-scroll {
+    grid-auto-columns: minmax(210px, 82vw);
+  }
+
+  .tool-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .recommend-tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    overflow-x: auto;
+  }
+
+  .tab-btn {
+    min-width: 0;
+    padding: 0 8px;
+    font-size: 13px;
+  }
+
+  .shoe-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .modal-score-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .spec-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .site-header.rf-header {
+    padding: 0;
+  }
+
+  .rf-header-row {
+    min-height: 64px;
+    padding: 8px 0;
+  }
+
+  .rf-header .brand-mark {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+
+  .rf-header .brand-text strong {
+    font-size: 15px;
+  }
+
+  .rf-header .top-nav {
+    top: calc(100% + 4px);
+    right: 0;
+    width: min(320px, calc(100vw - 20px));
+    max-height: calc(100dvh - 78px);
+  }
+
+  .rf-header .global-search-wrap {
+    padding-bottom: 10px;
+  }
+
+  .rf-header .global-search {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 7px;
+  }
+
+  .rf-header .global-search input {
+    min-width: 0;
+    min-height: 48px;
+    padding: 0 13px;
+  }
+
+  .rf-header .global-search button {
+    min-width: 66px;
+    min-height: 48px;
+    padding: 0 13px;
+  }
+
+  .rf-header .search-suggestions {
+    top: 55px;
+    right: 73px;
+  }
+
+  .page-hero,
+  .hero-card {
+    padding: 21px 17px;
+  }
+
+  .section-block,
+  .reco-panel,
+  .card,
+  .pace-card,
+  .run-status-card,
+  .ad-card {
+    border-radius: 18px;
+  }
+
+  .recommend-tabs {
+    position: static;
+    top: auto;
+    z-index: auto;
+  }
+
+  .shoe-modal {
+    width: calc(100% - 20px);
+    max-height: calc(100dvh - 20px);
+    padding: 22px 16px;
+  }
+}
