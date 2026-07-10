@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://voluble-tiramisu-f5d2d2.netlify.app/sitemap.xml

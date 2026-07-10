@@ -14,7 +14,7 @@ async function init() {
   bindTabs();
 
   try {
-    const response = await fetch(SHOES_DATA_PATH, { cache: "no-store" });
+    const response = await fetch(SHOES_DATA_PATH);
     if (!response.ok) throw new Error(`shoes.json 로드 실패: ${response.status}`);
 
     const payload = await response.json();

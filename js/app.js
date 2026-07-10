@@ -2,7 +2,7 @@
 
 window.RF = {
   async loadJSON(path) {
-    const response = await fetch(path, { cache: "no-store" });
+    const response = await fetch(path);
     if (!response.ok) throw new Error(`${path} 로드 실패 (${response.status})`);
     return response.json();
   },

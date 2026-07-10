@@ -56,7 +56,7 @@ function bindTools() {
 
 async function loadShoes() {
   try {
-    const payload = await fetch("./data/shoes.json", { cache: "no-store" }).then((response) => {
+    const payload = await fetch("./data/shoes.json").then((response) => {
       if (!response.ok) throw new Error(`shoes.json 로드 실패 (${response.status})`);
       return response.json();
     });
