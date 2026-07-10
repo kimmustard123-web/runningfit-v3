@@ -1,316 +1,284 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>러닝화 추천 | RunningFit</title>
-  <meta name="description" content="입문자와 숙련 러너를 나누어 러닝화 추천을 제공합니다. 데일리, 회복런, LSD, 템포, 인터벌, 레이스, 안정화, 맥스쿠션, 트레일 조건을 반영합니다." />
-  <link rel="canonical" href="https://voluble-tiramisu-f5d2d2.netlify.app/shoes.html" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="RunningFit" />
-  <meta property="og:title" content="러닝화 추천 | RunningFit" />
-  <meta property="og:description" content="입문자와 숙련 러너를 나누어 러닝화 추천을 제공합니다. 데일리, 회복런, LSD, 템포, 인터벌, 레이스, 안정화, 맥스쿠션, 트레일 조건을 반영합니다." />
-  <meta property="og:url" content="https://voluble-tiramisu-f5d2d2.netlify.app/shoes.html" />
-  <link rel="stylesheet" href="./css/app.css" />
-  <link rel="stylesheet" href="./css/shoes.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>러닝화 추천 | RunningFit</title>
+<meta content="입문자와 숙련 러너를 나누어 러닝화 추천을 제공합니다. 데일리, 회복런, LSD, 템포, 인터벌, 레이스, 안정화, 맥스쿠션, 트레일 조건을 반영합니다." name="description"/>
+<link href="https://voluble-tiramisu-f5d2d2.netlify.app/shoes.html" rel="canonical"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="RunningFit" property="og:site_name"/>
+<meta content="러닝화 추천 | RunningFit" property="og:title"/>
+<meta content="입문자와 숙련 러너를 나누어 러닝화 추천을 제공합니다. 데일리, 회복런, LSD, 템포, 인터벌, 레이스, 안정화, 맥스쿠션, 트레일 조건을 반영합니다." property="og:description"/>
+<meta content="https://voluble-tiramisu-f5d2d2.netlify.app/shoes.html" property="og:url"/>
+<link href="./css/app.css" rel="stylesheet"/>
+<link href="./css/shoes.css" rel="stylesheet"/>
 </head>
 <body>
-  <header class="site-header rf-header">
-    <div class="header-inner rf-header-row">
-      <a href="./index.html" class="brand" aria-label="RunningFit 홈">
-        <span class="brand-mark">RF</span>
-        <span class="brand-text">
-          <strong>RunningFit</strong>
-          <small id="currentPageLabel">러닝화</small>
-        </span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
-
-      <nav class="top-nav" data-nav aria-label="주요 메뉴">
-          <a href="./index.html" class="nav-link">홈</a>
-          <a href="./shoes.html" class="nav-link active">러닝화</a>
-          <a href="./pace.html" class="nav-link">페이스 계산기</a>
-          <a href="./weather.html" class="nav-link">날씨</a>
-          <a href="./races.html" class="nav-link">대회</a>
-          <a href="./courses.html" class="nav-link">코스</a>
-          <a href="./profile.html" class="nav-link">프로필</a>
-        <button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
-      </nav>
-    </div>
-
-    <div class="global-search-wrap">
-      <form id="globalSearchForm" class="global-search" action="./shoes.html">
-        <label for="globalSearchInput" class="sr-only">러닝화 검색</label>
-        <input
-          id="globalSearchInput"
-          name="q"
-          type="search"
-          autocomplete="off"
-          placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색"
-        />
-        <button type="submit">검색</button>
-      </form>
-      <div id="globalSearchSuggestions" class="search-suggestions" aria-label="검색 추천 목록"></div>
-    </div>
-  </header>
-
-  <main>
-    <section class="page-hero">
-      <p class="eyebrow">Shoe recommendation engine</p>
-      <h1>러닝화 추천</h1>
-      <p>입문자는 쉽게, 고수는 정밀하게. 필터가 아니라 상담형 추천에 가깝게 발전시키는 버전입니다.</p>
-    </section>
-
-    <section class="recommend-tabs" aria-label="추천 방식 선택">
-      <button class="tab-btn" type="button" data-reco-tab="browse">전체 검색</button>
-      <button class="tab-btn active" type="button" data-reco-tab="beginner">첫 러닝화</button>
-      <button class="tab-btn" type="button" data-reco-tab="advanced">정밀 추천</button>
-    </section>
-
-    <section class="reco-panel active" id="beginner" data-reco-panel="beginner">
-      <div class="section-title">
-        <p class="eyebrow">Beginner</p>
-        <h2>첫 러닝화 추천</h2>
-        <p>성별, 체중, 발 사이즈, 발볼, 예산만 선택하면 맞춤 TOP5를 추천합니다.</p>
-      </div>
-      <form class="wizard-form beginner-form" data-beginner-form>
-        <label>성별
-          <select name="gender" required>
-            <option value="male">남성</option>
-            <option value="female">여성</option>
-          </select>
-        </label>
-        <label>체중
-          <select name="weightRange" required data-weight-range></select>
-        </label>
-        <label>발 사이즈
-          <select name="footSize" required>
-            <option value="">선택</option>
-            <option>220</option><option>225</option><option>230</option><option>235</option>
-            <option>240</option><option>245</option><option>250</option><option>255</option>
-            <option>260</option><option>265</option><option>270</option><option>275</option>
-            <option>280</option><option>285</option><option>290</option><option>295</option>
-            <option>300</option><option>305</option><option>310</option>
-          </select>
-        </label>
-        <label>발볼
-          <select name="width" required>
-            <option value="narrow">좁음</option>
-            <option value="normal" selected>보통</option>
-            <option value="wide">넓음</option>
-          </select>
-        </label>
-        <label>예산
+<header class="site-header rf-header">
+<div class="header-inner rf-header-row">
+<a aria-label="RunningFit 홈" class="brand" href="./index.html">
+<span class="brand-mark">RF</span>
+<span class="brand-text">
+<strong>RunningFit</strong>
+<small id="currentPageLabel">러닝화</small>
+</span>
+</a>
+<button aria-label="메뉴 열기" class="nav-toggle" data-nav-toggle="" type="button">☰</button>
+<nav aria-label="주요 메뉴" class="top-nav" data-nav="">
+<a class="nav-link" href="./index.html">홈</a>
+<a class="nav-link active" href="./shoes.html">러닝화</a>
+<a class="nav-link" href="./pace.html">페이스 계산기</a>
+<a class="nav-link" href="./weather.html">날씨</a>
+<a class="nav-link" href="./races.html">대회</a>
+<a class="nav-link" href="./courses.html">코스</a>
+<a class="nav-link" href="./profile.html">프로필</a>
+<button aria-label="다크모드 전환" class="theme-toggle" id="themeToggle" type="button">🌙</button>
+</nav>
+</div>
+<div class="global-search-wrap">
+<form action="./shoes.html" class="global-search" id="globalSearchForm">
+<label class="sr-only" for="globalSearchInput">러닝화 검색</label>
+<input autocomplete="off" id="globalSearchInput" name="q" placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색" type="search"/>
+<button type="submit">검색</button>
+</form>
+<div aria-label="검색 추천 목록" class="search-suggestions" id="globalSearchSuggestions"></div>
+</div>
+</header>
+<main>
+<section class="page-hero">
+<p class="eyebrow">Shoe recommendation engine</p>
+<h1>러닝화 추천</h1>
+<p>입문자는 쉽게, 고수는 정밀하게. 필터가 아니라 상담형 추천에 가깝게 발전시키는 버전입니다.</p>
+</section>
+<section aria-label="추천 방식 선택" class="recommend-tabs">
+<button class="tab-btn" data-reco-tab="browse" type="button">전체 검색</button>
+<button class="tab-btn active" data-reco-tab="beginner" type="button">첫 러닝화</button>
+<button class="tab-btn" data-reco-tab="advanced" type="button">정밀 추천</button>
+</section>
+<section class="reco-panel active" data-reco-panel="beginner" id="beginner">
+<div class="section-title">
+<p class="eyebrow">Beginner</p>
+<h2>첫 러닝화 추천</h2>
+<p>성별, 체중, 발 사이즈, 발볼, 예산만 선택하면 맞춤 TOP5를 추천합니다.</p>
+</div>
+<form class="wizard-form beginner-form" data-beginner-form="">
+<label>성별
+          <select name="gender" required="">
+<option value="male">남성</option>
+<option value="female">여성</option>
+</select>
+</label>
+<label>체중
+          <select data-weight-range="" name="weightRange" required=""></select>
+</label>
+<label>발 사이즈
+          <select name="footSize" required="">
+<option value="">선택</option>
+<option>220</option><option>225</option><option>230</option><option>235</option>
+<option>240</option><option>245</option><option>250</option><option>255</option>
+<option>260</option><option>265</option><option>270</option><option>275</option>
+<option>280</option><option>285</option><option>290</option><option>295</option>
+<option>300</option><option>305</option><option>310</option>
+</select>
+</label>
+<label>발볼
+          <select name="width" required="">
+<option value="narrow">좁음</option>
+<option selected="" value="normal">보통</option>
+<option value="wide">넓음</option>
+</select>
+</label>
+<label>예산
           <select name="budget">
-            <option value="">상관없음</option>
-            <option value="under100">10만원 이하</option>
-            <option value="100to150">10~15만원</option>
-            <option value="150to200" selected>15~20만원</option>
-            <option value="200to250">20~25만원</option>
-            <option value="over250">25만원 이상</option>
-          </select>
-        </label>
-        <button class="btn primary beginner-submit" type="submit">내게 맞는 러닝화 추천받기</button>
-      </form>
-    </section>
-
-    <section class="reco-panel" id="advanced" data-reco-panel="advanced">
-      <div class="section-title">
-        <p class="eyebrow">Advanced</p>
-        <h2>정밀 추천</h2>
-        <p>성별, 체중, 발 형태, 착지, 목적과 주 사용 거리까지 반영해 정밀하게 추천합니다.</p>
-      </div>
-
-      <form class="wizard-form advanced-grid" data-advanced-form>
-        <label>성별
-          <select name="gender" required>
-            <option value="male">남성</option>
-            <option value="female">여성</option>
-          </select>
-        </label>
-
-        <label>체중
-          <select name="weightRange" required data-weight-range></select>
-        </label>
-
-        <label>신발 사이즈
-          <select name="footSize" required>
-            <option value="">선택</option>
-            <option>220</option><option>225</option><option>230</option><option>235</option>
-            <option>240</option><option>245</option><option>250</option><option>255</option>
-            <option>260</option><option>265</option><option>270</option><option>275</option>
-            <option>280</option><option>285</option><option>290</option><option>295</option>
-            <option>300</option><option>305</option><option>310</option>
-          </select>
-        </label>
-
-        <label>발볼
-          <select name="width" required>
-            <option value="narrow">좁음</option>
-            <option value="normal" selected>보통</option>
-            <option value="wide">넓음</option>
-          </select>
-        </label>
-
-        <label>토박스 높이
-          <select name="toeBoxHeight" required>
-            <option value="low">낮음</option>
-            <option value="medium" selected>보통</option>
-            <option value="high">높음</option>
-          </select>
-        </label>
-
-        <label>뒤꿈치 지지력
-          <select name="heelSupport" required>
-            <option value="low">약함</option>
-            <option value="medium" selected>보통</option>
-            <option value="high">강함</option>
-          </select>
-        </label>
-
-        <label>통증 부위
-          <select name="pain" required>
-            <option value="none">없음</option>
-            <option value="knee">무릎</option>
-            <option value="ankle">발목</option>
-            <option value="plantar">족저근막</option>
-            <option value="achilles">아킬레스건</option>
-            <option value="shin">정강이</option>
-            <option value="instep">발등</option>
-            <option value="other">기타</option>
-          </select>
-        </label>
-
-        <label>착지 방식
-          <select name="strike" required>
-            <option value="unknown">잘 모르겠음</option>
-            <option value="heel">뒤꿈치 착지</option>
-            <option value="mid">미드풋 착지</option>
-            <option value="fore">앞꿈치 착지</option>
-          </select>
-        </label>
-
-        <label>러닝 목적
-          <select name="purpose" required>
-            <option value="firstRunning">첫 러닝화</option>
-            <option value="dailyRunning" selected>매일 러닝</option>
-            <option value="training">훈련용</option>
-            <option value="race">대회용</option>
-          </select>
-        </label>
-
-        <label>주 사용 거리
-          <select name="distance" required>
-            <option value="5K">5K</option>
-            <option value="10K" selected>10K</option>
-            <option value="half">하프</option>
-            <option value="full">풀</option>
-          </select>
-        </label>
-
-        <label>카본 여부
-          <select name="carbonPreference" required>
-            <option value="any" selected>상관없음</option>
-            <option value="carbon">카본 포함</option>
-            <option value="non_carbon">카본 없음</option>
-          </select>
-        </label>
-
-        <label>예산
+<option value="">상관없음</option>
+<option value="under100">10만원 이하</option>
+<option value="100to150">10~15만원</option>
+<option selected="" value="150to200">15~20만원</option>
+<option value="200to250">20~25만원</option>
+<option value="over250">25만원 이상</option>
+</select>
+</label>
+<button class="btn primary beginner-submit" type="submit">내게 맞는 러닝화 추천받기</button>
+</form>
+</section>
+<section class="reco-panel" data-reco-panel="advanced" id="advanced">
+<div class="section-title">
+<p class="eyebrow">Advanced</p>
+<h2>정밀 추천</h2>
+<p>성별, 체중, 발 형태, 착지, 목적과 주 사용 거리까지 반영해 정밀하게 추천합니다.</p>
+</div>
+<form class="wizard-form advanced-grid" data-advanced-form="">
+<label>성별
+          <select name="gender" required="">
+<option value="male">남성</option>
+<option value="female">여성</option>
+</select>
+</label>
+<label>체중
+          <select data-weight-range="" name="weightRange" required=""></select>
+</label>
+<label>신발 사이즈
+          <select name="footSize" required="">
+<option value="">선택</option>
+<option>220</option><option>225</option><option>230</option><option>235</option>
+<option>240</option><option>245</option><option>250</option><option>255</option>
+<option>260</option><option>265</option><option>270</option><option>275</option>
+<option>280</option><option>285</option><option>290</option><option>295</option>
+<option>300</option><option>305</option><option>310</option>
+</select>
+</label>
+<label>발볼
+          <select name="width" required="">
+<option value="narrow">좁음</option>
+<option selected="" value="normal">보통</option>
+<option value="wide">넓음</option>
+</select>
+</label>
+<label>토박스 높이
+          <select name="toeBoxHeight" required="">
+<option value="low">낮음</option>
+<option selected="" value="medium">보통</option>
+<option value="high">높음</option>
+</select>
+</label>
+<label>뒤꿈치 지지력
+          <select name="heelSupport" required="">
+<option value="low">약함</option>
+<option selected="" value="medium">보통</option>
+<option value="high">강함</option>
+</select>
+</label>
+<label>통증 부위
+          <select name="pain" required="">
+<option value="none">없음</option>
+<option value="knee">무릎</option>
+<option value="ankle">발목</option>
+<option value="plantar">족저근막</option>
+<option value="achilles">아킬레스건</option>
+<option value="shin">정강이</option>
+<option value="instep">발등</option>
+<option value="other">기타</option>
+</select>
+</label>
+<label>착지 방식
+          <select name="strike" required="">
+<option value="unknown">잘 모르겠음</option>
+<option value="heel">뒤꿈치 착지</option>
+<option value="mid">미드풋 착지</option>
+<option value="fore">앞꿈치 착지</option>
+</select>
+</label>
+<label>러닝 목적
+          <select name="purpose" required="">
+<option value="firstRunning">첫 러닝화</option>
+<option selected="" value="dailyRunning">매일 러닝</option>
+<option value="training">훈련용</option>
+<option value="race">대회용</option>
+</select>
+</label>
+<label>주 사용 거리
+          <select name="distance" required="">
+<option value="5K">5K</option>
+<option selected="" value="10K">10K</option>
+<option value="half">하프</option>
+<option value="full">풀</option>
+</select>
+</label>
+<label>카본 여부
+          <select name="carbonPreference" required="">
+<option selected="" value="any">상관없음</option>
+<option value="carbon">카본 포함</option>
+<option value="non_carbon">카본 없음</option>
+</select>
+</label>
+<label>예산
           <select name="budget">
-            <option value="">상관없음</option>
-            <option value="under100">10만원 이하</option>
-            <option value="100to150">10~15만원</option>
-            <option value="150to200">15~20만원</option>
-            <option value="200to250">20~25만원</option>
-            <option value="over250">25만원 이상</option>
-          </select>
-        </label>
-
-        <label>브랜드
+<option value="">상관없음</option>
+<option value="under100">10만원 이하</option>
+<option value="100to150">10~15만원</option>
+<option value="150to200">15~20만원</option>
+<option value="200to250">20~25만원</option>
+<option value="over250">25만원 이상</option>
+</select>
+</label>
+<label>브랜드
           <select name="brand">
-            <option value="">상관없음</option>
-            <option value="Nike">Nike</option>
-            <option value="ASICS">ASICS</option>
-            <option value="New Balance">New Balance</option>
-            <option value="adidas">adidas</option>
-            <option value="Saucony">Saucony</option>
-            <option value="HOKA">HOKA</option>
-            <option value="Brooks">Brooks</option>
-            <option value="On">On</option>
-            <option value="Mizuno">Mizuno</option>
-            <option value="PUMA">PUMA</option>
-          </select>
-        </label>
-
-        <button class="btn primary" type="submit">정밀 추천 계산</button>
-      </form>
-    </section>
-
-    <section class="reco-panel" id="browse" data-reco-panel="browse">
-      <div class="catalog-view-shell" aria-label="러닝화 목록 보기">
-        <p class="catalog-view-title">목록 선택</p>
-        <div class="catalog-view-tabs" data-catalog-view-tabs>
-          <button type="button" class="catalog-view-btn active" data-catalog-view="all">전체</button>
-          <button type="button" class="catalog-view-btn" data-catalog-view="popular">인기 TOP5</button>
-          <button type="button" class="catalog-view-btn" data-catalog-view="new">신제품</button>
-          <button type="button" class="catalog-view-btn" data-catalog-view="firstRunning">첫 러닝화 TOP10</button>
-          <button type="button" class="catalog-view-btn" data-catalog-view="dailyRunning">매일 러닝 TOP10</button>
-          <button type="button" class="catalog-view-btn" data-catalog-view="training">훈련용 TOP10</button>
-          <button type="button" class="catalog-view-btn" data-catalog-view="race">대회용 TOP10</button>
-        </div>
-      </div>
-
-      <div class="filter-shell">
-        <form class="filter-panel" data-shoe-filter>
-          <label>검색
-            <input name="q" type="search" placeholder="예: 나이키, 아식스, 젤 카야노, 페가수스" />
-          </label>
-          <label>브랜드
+<option value="">상관없음</option>
+<option value="Nike">Nike</option>
+<option value="ASICS">ASICS</option>
+<option value="New Balance">New Balance</option>
+<option value="adidas">adidas</option>
+<option value="Saucony">Saucony</option>
+<option value="HOKA">HOKA</option>
+<option value="Brooks">Brooks</option>
+<option value="On">On</option>
+<option value="Mizuno">Mizuno</option>
+<option value="PUMA">PUMA</option>
+</select>
+</label>
+<button class="btn primary" type="submit">정밀 추천 계산</button>
+</form>
+</section>
+<section class="reco-panel" data-reco-panel="browse" id="browse">
+<div aria-label="러닝화 목록 보기" class="catalog-view-shell">
+<p class="catalog-view-title">목록 선택</p>
+<div class="catalog-view-tabs" data-catalog-view-tabs="">
+<button class="catalog-view-btn active" data-catalog-view="all" type="button">전체</button>
+<button class="catalog-view-btn" data-catalog-view="popular" type="button">인기 TOP5</button>
+<button class="catalog-view-btn" data-catalog-view="new" type="button">신제품</button>
+<button class="catalog-view-btn" data-catalog-view="firstRunning" type="button">첫 러닝화 TOP10</button>
+<button class="catalog-view-btn" data-catalog-view="dailyRunning" type="button">매일 러닝 TOP10</button>
+<button class="catalog-view-btn" data-catalog-view="training" type="button">훈련용 TOP10</button>
+<button class="catalog-view-btn" data-catalog-view="race" type="button">대회용 TOP10</button>
+</div>
+</div>
+<div class="filter-shell">
+<form class="filter-panel" data-shoe-filter="">
+<label>검색
+            <input name="q" placeholder="예: 나이키, 아식스, 젤 카야노, 페가수스" type="search"/>
+</label>
+<label>브랜드
             <select name="brand"><option value="">전체</option></select>
-          </label>
-          <label>예산
+</label>
+<label>예산
             <select name="budget">
-              <option value="">상관없음</option>
-              <option value="under100">10만원 이하</option>
-              <option value="100to150">10~15만원</option>
-              <option value="150to200">15~20만원</option>
-              <option value="200to250">20~25만원</option>
-              <option value="over250">25만원 이상</option>
-            </select>
-          </label>
-          <button class="btn primary" type="submit">검색</button>
-          <button class="btn ghost" type="reset">초기화</button>
-        </form>
-        <div class="result-meta">
-          <strong data-result-count>0개</strong>
-          <span>추천 결과</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="recommend-summary" data-recommend-summary hidden></section>
-    <section class="shoe-grid" data-shoe-grid aria-live="polite"></section>
-
-    <section class="compare-drawer" data-compare-drawer hidden>
-      <div>
-        <strong>비교함</strong>
-        <span data-compare-count>0개 선택</span>
-      </div>
-      <div class="compare-list" data-compare-list></div>
-      <button class="btn ghost" type="button" data-clear-compare>비우기</button>
-    </section>
-  </main>
-
-  <dialog class="shoe-modal" data-shoe-modal>
-    <button class="modal-close" type="button" data-modal-close aria-label="닫기">×</button>
-    <div data-modal-content></div>
-  </dialog>
-
-  <footer class="site-footer"><p>RunningFit의 자체 분류와 추천 점수는 신발 선택을 돕기 위한 참고 정보입니다.</p></footer>
-  <script src="./js/app.js" defer></script>
-  <script src="./js/shoes.js" defer></script>
+<option value="">상관없음</option>
+<option value="under100">10만원 이하</option>
+<option value="100to150">10~15만원</option>
+<option value="150to200">15~20만원</option>
+<option value="200to250">20~25만원</option>
+<option value="over250">25만원 이상</option>
+</select>
+</label>
+<button class="btn primary" type="submit">검색</button>
+<button class="btn ghost" type="reset">초기화</button>
+</form>
+<div class="result-meta">
+<strong data-result-count="">0개</strong>
+<span>추천 결과</span>
+</div>
+</div>
+</section>
+<section class="recommend-summary" data-recommend-summary="" hidden=""></section>
+<section aria-live="polite" class="shoe-grid" data-shoe-grid=""></section>
+<section class="compare-drawer" data-compare-drawer="" hidden="">
+<div>
+<strong>비교함</strong>
+<span data-compare-count="">0개 선택</span>
+</div>
+<div class="compare-list" data-compare-list=""></div>
+<button class="btn ghost" data-clear-compare="" type="button">비우기</button>
+</section>
+</main>
+<dialog class="shoe-modal" data-shoe-modal="">
+<button aria-label="닫기" class="modal-close" data-modal-close="" type="button">×</button>
+<div data-modal-content=""></div>
+</dialog>
+<footer class="site-footer"><p>RunningFit의 자체 분류와 추천 점수는 신발 선택을 돕기 위한 참고 정보입니다.</p></footer>
+<script defer="" src="./js/app.js"></script>
+<script defer="" src="./js/shoes.js"></script>
 </body>
 </html>

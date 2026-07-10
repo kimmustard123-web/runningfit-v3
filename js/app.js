@@ -55,9 +55,67 @@ window.RF = {
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
+  ensureSkipLink();
   bindHeader();
+  ensureSiteFooter();
+  bindNetworkStatus();
   await bindGlobalSearch();
 });
+
+function ensureSkipLink() {
+  if (document.querySelector(".skip-link")) return;
+  const main = document.querySelector("main");
+  if (!main) return;
+  if (!main.id) main.id = "main-content";
+  const link = document.createElement("a");
+  link.className = "skip-link";
+  link.href = `#${main.id}`;
+  link.textContent = "본문 바로가기";
+  document.body.prepend(link);
+}
+
+function ensureSiteFooter() {
+  if (document.querySelector(".site-footer")) return;
+  const footer = document.createElement("footer");
+  footer.className = "site-footer";
+  footer.innerHTML = `
+    <div class="site-footer-inner">
+      <strong>RunningFit</strong>
+      <nav aria-label="서비스 안내">
+        <a href="./terms.html">이용약관</a>
+        <a href="./privacy.html">개인정보처리방침</a>
+        <a href="./contact.html">문의</a>
+      </nav>
+      <p>러닝화 추천과 계산 결과는 참고 정보이며, 의료적 진단이나 경기 결과를 보장하지 않습니다.</p>
+      <small>© ${new Date().getFullYear()} RunningFit</small>
+    </div>`;
+  const bottomNav = document.querySelector(".mobile-bottom-nav");
+  if (bottomNav) bottomNav.insertAdjacentElement("beforebegin", footer);
+  else document.body.append(footer);
+}
+
+function bindNetworkStatus() {
+  let banner = document.querySelector(".network-status");
+  if (!banner) {
+    banner = document.createElement("div");
+    banner.className = "network-status";
+    banner.setAttribute("role", "status");
+    banner.setAttribute("aria-live", "polite");
+    document.body.append(banner);
+  }
+  const update = () => {
+    const offline = !navigator.onLine;
+    banner.textContent = offline ? "인터넷 연결이 끊겼습니다. 일부 데이터가 표시되지 않을 수 있습니다." : "인터넷 연결이 복구되었습니다.";
+    banner.classList.toggle("show", offline);
+    if (!offline) {
+      banner.classList.add("restored");
+      window.setTimeout(() => banner.classList.remove("show", "restored"), 1800);
+    }
+  };
+  window.addEventListener("offline", update);
+  window.addEventListener("online", update);
+  if (!navigator.onLine) update();
+}
 
 function bindHeader() {
   const nav = document.querySelector("[data-nav]");
@@ -155,6 +213,8 @@ function ensureMobileBottomNav(page) {
     "courses.html": "index.html"
   };
   const activePage = aliases[page] || page;
+
+  ensureSiteFooter();
 
   bottomNav.querySelectorAll("a[href]").forEach((anchor) => {
     const href = (anchor.getAttribute("href") || "").replace("./", "");

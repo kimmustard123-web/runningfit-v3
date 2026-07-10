@@ -1,116 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>러닝대회 정보 | RunningFit V3.2</title>
-  <meta name="description" content="공식 주최 페이지로 검증된 러닝대회 정보를 모아보는 RunningFit 대회 페이지입니다." />
-  <link rel="canonical" href="https://voluble-tiramisu-f5d2d2.netlify.app/races.html" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="RunningFit" />
-  <meta property="og:title" content="러닝대회 정보 | RunningFit V3.2" />
-  <meta property="og:description" content="공식 주최 페이지로 검증된 러닝대회 정보를 모아보는 RunningFit 대회 페이지입니다." />
-  <meta property="og:url" content="https://voluble-tiramisu-f5d2d2.netlify.app/races.html" />
-  <link rel="stylesheet" href="./css/app.css" />
-  <link rel="stylesheet" href="./css/pages.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>러닝대회 정보 | RunningFit V3.2</title>
+<meta content="공식 주최 페이지로 검증된 러닝대회 정보를 모아보는 RunningFit 대회 페이지입니다." name="description"/>
+<link href="https://voluble-tiramisu-f5d2d2.netlify.app/races.html" rel="canonical"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="RunningFit" property="og:site_name"/>
+<meta content="러닝대회 정보 | RunningFit V3.2" property="og:title"/>
+<meta content="공식 주최 페이지로 검증된 러닝대회 정보를 모아보는 RunningFit 대회 페이지입니다." property="og:description"/>
+<meta content="https://voluble-tiramisu-f5d2d2.netlify.app/races.html" property="og:url"/>
+<link href="./css/app.css" rel="stylesheet"/>
+<link href="./css/pages.css" rel="stylesheet"/>
 </head>
 <body>
-  <header class="site-header rf-header">
-    <div class="header-inner rf-header-row">
-      <a href="./index.html" class="brand" aria-label="RunningFit 홈">
-        <span class="brand-mark">RF</span>
-        <span class="brand-text">
-          <strong>RunningFit</strong>
-          <small id="currentPageLabel">대회</small>
-        </span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
-
-      <nav class="top-nav" data-nav aria-label="주요 메뉴">
-          <a href="./index.html" class="nav-link">홈</a>
-          <a href="./shoes.html" class="nav-link">러닝화</a>
-          <a href="./pace.html" class="nav-link">페이스 계산기</a>
-          <a href="./weather.html" class="nav-link">날씨</a>
-          <a href="./races.html" class="nav-link active">대회</a>
-          <a href="./courses.html" class="nav-link">코스</a>
-          <a href="./profile.html" class="nav-link">프로필</a>
-        <button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
-      </nav>
-    </div>
-
-    <div class="global-search-wrap">
-      <form id="globalSearchForm" class="global-search" action="./shoes.html">
-        <label for="globalSearchInput" class="sr-only">러닝화 검색</label>
-        <input
-          id="globalSearchInput"
-          name="q"
-          type="search"
-          autocomplete="off"
-          placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색"
-        />
-        <button type="submit">검색</button>
-      </form>
-      <div id="globalSearchSuggestions" class="search-suggestions" aria-label="검색 추천 목록"></div>
-    </div>
-  </header>
-
-  <main>
-    <section class="page-hero race-hero">
-      <p class="eyebrow">2026 ROAD RACE CALENDAR</p>
-      <h1>전국 마라톤 대회</h1>
-      <p>2026년 7월 12일 이후 국내 로드 러닝·마라톤 일정을 날짜, 지역, 거리, 접수 상태별로 확인하세요.</p>
-      <div class="race-summary" data-race-summary></div>
-    </section>
-
-    <section class="race-filter-panel">
-      <label>대회 검색
-        <input data-race-search type="search" placeholder="대회명, 지역, 장소 검색" />
-      </label>
-      <label>지역
-        <select data-race-region><option value="">전국</option></select>
-      </label>
-      <label>거리
-        <select data-race-distance>
-          <option value="">전체 거리</option>
-          <option value="5K">5K</option>
-          <option value="10K">10K</option>
-          <option value="하프">하프</option>
-          <option value="풀">풀</option>
-        </select>
-      </label>
-      <label>월
-        <select data-race-month>
-          <option value="">전체 월</option>
-          <option value="07">7월</option>
-          <option value="08">8월</option>
-          <option value="09">9월</option>
-          <option value="10">10월</option>
-          <option value="11">11월</option>
-          <option value="12">12월</option>
-        </select>
-      </label>
-      <label>접수 상태
-        <select data-race-status>
-          <option value="">전체 상태</option>
-          <option value="open">접수중</option>
-          <option value="pending">접수예정·확인중</option>
-          <option value="closed">접수마감</option>
-        </select>
-      </label>
-      <button class="btn ghost" type="button" data-race-reset>초기화</button>
-    </section>
-
-    <section class="race-result-head">
-      <strong data-race-count>0개</strong>
-      <span>대회 일정</span>
-    </section>
-
-    <section class="race-list" data-race-list aria-live="polite"></section>
-  </main>
-  <footer class="site-footer"><p>일정과 접수 상태는 변경될 수 있으므로 참가 전 주최 측 공지를 반드시 확인하세요.</p></footer>
-  <script src="./js/app.js" defer></script>
-  <script src="./js/pages.js" defer></script>
+<header class="site-header rf-header">
+<div class="header-inner rf-header-row">
+<a aria-label="RunningFit 홈" class="brand" href="./index.html">
+<span class="brand-mark">RF</span>
+<span class="brand-text">
+<strong>RunningFit</strong>
+<small id="currentPageLabel">대회</small>
+</span>
+</a>
+<button aria-label="메뉴 열기" class="nav-toggle" data-nav-toggle="" type="button">☰</button>
+<nav aria-label="주요 메뉴" class="top-nav" data-nav="">
+<a class="nav-link" href="./index.html">홈</a>
+<a class="nav-link" href="./shoes.html">러닝화</a>
+<a class="nav-link" href="./pace.html">페이스 계산기</a>
+<a class="nav-link" href="./weather.html">날씨</a>
+<a class="nav-link active" href="./races.html">대회</a>
+<a class="nav-link" href="./courses.html">코스</a>
+<a class="nav-link" href="./profile.html">프로필</a>
+<button aria-label="다크모드 전환" class="theme-toggle" id="themeToggle" type="button">🌙</button>
+</nav>
+</div>
+<div class="global-search-wrap">
+<form action="./shoes.html" class="global-search" id="globalSearchForm">
+<label class="sr-only" for="globalSearchInput">러닝화 검색</label>
+<input autocomplete="off" id="globalSearchInput" name="q" placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색" type="search"/>
+<button type="submit">검색</button>
+</form>
+<div aria-label="검색 추천 목록" class="search-suggestions" id="globalSearchSuggestions"></div>
+</div>
+</header>
+<main>
+<section class="page-hero race-hero">
+<p class="eyebrow">2026 ROAD RACE CALENDAR</p>
+<h1>전국 마라톤 대회</h1>
+<p>2026년 7월 12일 이후 국내 로드 러닝·마라톤 일정을 날짜, 지역, 거리, 접수 상태별로 확인하세요.</p>
+<div class="race-summary" data-race-summary=""></div>
+</section>
+<section class="race-filter-panel">
+<label>대회 검색
+        <input data-race-search="" placeholder="대회명, 지역, 장소 검색" type="search"/>
+</label>
+<label>지역
+        <select data-race-region=""><option value="">전국</option></select>
+</label>
+<label>거리
+        <select data-race-distance="">
+<option value="">전체 거리</option>
+<option value="5K">5K</option>
+<option value="10K">10K</option>
+<option value="하프">하프</option>
+<option value="풀">풀</option>
+</select>
+</label>
+<label>월
+        <select data-race-month="">
+<option value="">전체 월</option>
+<option value="07">7월</option>
+<option value="08">8월</option>
+<option value="09">9월</option>
+<option value="10">10월</option>
+<option value="11">11월</option>
+<option value="12">12월</option>
+</select>
+</label>
+<label>접수 상태
+        <select data-race-status="">
+<option value="">전체 상태</option>
+<option value="open">접수중</option>
+<option value="pending">접수예정·확인중</option>
+<option value="closed">접수마감</option>
+</select>
+</label>
+<button class="btn ghost" data-race-reset="" type="button">초기화</button>
+</section>
+<section class="race-result-head">
+<strong data-race-count="">0개</strong>
+<span>대회 일정</span>
+</section>
+<section aria-live="polite" class="race-list" data-race-list=""></section>
+</main>
+<footer class="site-footer"><p>일정과 접수 상태는 변경될 수 있으므로 참가 전 주최 측 공지를 반드시 확인하세요.</p></footer>
+<script defer="" src="./js/app.js"></script>
+<script defer="" src="./js/pages.js"></script>
 </body>
 </html>

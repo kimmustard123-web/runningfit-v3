@@ -1,119 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>오늘의 러닝 기록 | RunningFit V3.2</title>
-  <meta name="description" content="러닝 기록을 입력하고 사용한 러닝화의 누적거리와 남은 수명을 자동 계산합니다." />
-  <link rel="stylesheet" href="./css/app.css" />
-  <link rel="stylesheet" href="./css/pages.css" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>오늘의 러닝 기록 | RunningFit V3.2</title>
+<meta content="러닝 기록을 입력하고 사용한 러닝화의 누적거리와 남은 수명을 자동 계산합니다." name="description"/>
+<link href="./css/app.css" rel="stylesheet"/>
+<link href="./css/pages.css" rel="stylesheet"/>
+<meta content="noindex, nofollow" name="robots"/></head>
 <body>
-  <header class="site-header rf-header">
-    <div class="header-inner rf-header-row">
-      <a href="./index.html" class="brand" aria-label="RunningFit 홈">
-        <span class="brand-mark">RF</span>
-        <span class="brand-text">
-          <strong>RunningFit</strong>
-          <small id="currentPageLabel">러닝 기록</small>
-        </span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
-
-      <nav class="top-nav" data-nav aria-label="주요 메뉴">
-          <a href="./index.html" class="nav-link">홈</a>
-          <a href="./shoes.html" class="nav-link">러닝화</a>
-          <a href="./pace.html" class="nav-link">페이스 계산기</a>
-          <a href="./weather.html" class="nav-link">날씨</a>
-          <a href="./races.html" class="nav-link">대회</a>
-          <a href="./courses.html" class="nav-link">코스</a>
-          <a href="./profile.html" class="nav-link active">프로필</a>
-        <button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
-      </nav>
-    </div>
-
-    <div class="global-search-wrap">
-      <form id="globalSearchForm" class="global-search" action="./shoes.html">
-        <label for="globalSearchInput" class="sr-only">러닝화 검색</label>
-        <input
-          id="globalSearchInput"
-          name="q"
-          type="search"
-          autocomplete="off"
-          placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색"
-        />
-        <button type="submit">검색</button>
-      </form>
-      <div id="globalSearchSuggestions" class="search-suggestions" aria-label="검색 추천 목록"></div>
-    </div>
-  </header>
-
-  <main>
-    <section class="page-hero">
-      <p class="eyebrow">Today run</p>
-      <h1>오늘의 러닝 기록</h1>
-      <p>Nike Run Club, Garmin, Google Fit, Apple Watch 캡처를 업로드할 수 있습니다. OCR은 아직 연결하지 않았습니다.</p>
-    </section>
-
-    <section class="split-section">
-      <form class="card run-log-form" data-run-log-form>
-        <h2>기록 입력</h2>
-        <label>날짜<input name="date" type="date" required /></label>
-        <label>거리(km)<input name="distanceKm" type="number" min="0" step="0.01" required /></label>
-        <label>시간<input name="duration" type="text" placeholder="예: 32:10" /></label>
-        <label>페이스<input name="pace" type="text" placeholder="예: 6'23&quot;/km" /></label>
-        <label>칼로리<input name="calories" type="number" min="0" /></label>
-        <label>훈련 유형
+<header class="site-header rf-header">
+<div class="header-inner rf-header-row">
+<a aria-label="RunningFit 홈" class="brand" href="./index.html">
+<span class="brand-mark">RF</span>
+<span class="brand-text">
+<strong>RunningFit</strong>
+<small id="currentPageLabel">러닝 기록</small>
+</span>
+</a>
+<button aria-label="메뉴 열기" class="nav-toggle" data-nav-toggle="" type="button">☰</button>
+<nav aria-label="주요 메뉴" class="top-nav" data-nav="">
+<a class="nav-link" href="./index.html">홈</a>
+<a class="nav-link" href="./shoes.html">러닝화</a>
+<a class="nav-link" href="./pace.html">페이스 계산기</a>
+<a class="nav-link" href="./weather.html">날씨</a>
+<a class="nav-link" href="./races.html">대회</a>
+<a class="nav-link" href="./courses.html">코스</a>
+<a class="nav-link active" href="./profile.html">프로필</a>
+<button aria-label="다크모드 전환" class="theme-toggle" id="themeToggle" type="button">🌙</button>
+</nav>
+</div>
+<div class="global-search-wrap">
+<form action="./shoes.html" class="global-search" id="globalSearchForm">
+<label class="sr-only" for="globalSearchInput">러닝화 검색</label>
+<input autocomplete="off" id="globalSearchInput" name="q" placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색" type="search"/>
+<button type="submit">검색</button>
+</form>
+<div aria-label="검색 추천 목록" class="search-suggestions" id="globalSearchSuggestions"></div>
+</div>
+</header>
+<main>
+<section class="page-hero">
+<p class="eyebrow">Today run</p>
+<h1>오늘의 러닝 기록</h1>
+<p>Nike Run Club, Garmin, Google Fit, Apple Watch 캡처를 업로드할 수 있습니다. OCR은 아직 연결하지 않았습니다.</p>
+</section>
+<section class="split-section">
+<form class="card run-log-form" data-run-log-form="">
+<h2>기록 입력</h2>
+<label>날짜<input name="date" required="" type="date"/></label>
+<label>거리(km)<input min="0" name="distanceKm" required="" step="0.01" type="number"/></label>
+<label>시간<input name="duration" placeholder="예: 32:10" type="text"/></label>
+<label>페이스<input name="pace" placeholder="예: 6'23&quot;/km" type="text"/></label>
+<label>칼로리<input min="0" name="calories" type="number"/></label>
+<label>훈련 유형
           <select name="training">
-            <option value="easy">조깅/이지런</option>
-            <option value="recovery">회복런</option>
-            <option value="lsd">LSD</option>
-            <option value="tempo">템포런</option>
-            <option value="interval">인터벌</option>
-            <option value="race">레이스</option>
-            <option value="trail">트레일</option>
-          </select>
-        </label>
-        <label>사용한 러닝화
-          <select name="shoeId" data-run-shoe-select>
-            <option value="">신발장에 등록된 신발 없음</option>
-          </select>
-        </label>
-        <label>러닝앱 캡처 업로드
-          <input name="screenshot" type="file" accept="image/*" />
-        </label>
-        <div class="upload-preview" data-run-upload-preview>
-          <strong>OCR 연결 예정</strong>
-          <p>NRC, Garmin, Google Fit, Apple Watch 캡처에서 거리·시간·페이스를 읽는 기능은 추후 구현합니다.</p>
-        </div>
-        <button class="btn primary" type="submit">기록 저장하고 마일리지 누적</button>
-      </form>
-
-      <aside class="story-card-shell">
-        <div class="story-card" data-story-card>
-          <p class="story-label">RunningFit</p>
-          <h2 data-story-distance>0.00km</h2>
-          <p data-story-pace>pace -</p>
-          <div class="story-divider"></div>
-          <p data-story-shoe>오늘 신은 러닝화</p>
-          <p data-story-life>남은 수명 계산 전</p>
-        </div>
-        <div class="notice">인스타 스토리용 PNG 저장 기능은 추후 추가 예정입니다. 현재는 HTML/CSS 미리보기입니다.</div>
-      </aside>
-    </section>
-
-    <section class="section">
-      <div class="section-title">
-        <p class="eyebrow">History</p>
-        <h2>최근 러닝 기록</h2>
-      </div>
-      <section class="race-list" data-run-log-list></section>
-    </section>
-  </main>
-  <footer class="site-footer"><p>기록 저장 시 선택한 러닝화의 누적거리가 증가합니다.</p></footer>
-  <script src="./js/backend.js" defer></script>
-  <script src="./js/app.js" defer></script>
-  <script src="./js/pages.js" defer></script>
+<option value="easy">조깅/이지런</option>
+<option value="recovery">회복런</option>
+<option value="lsd">LSD</option>
+<option value="tempo">템포런</option>
+<option value="interval">인터벌</option>
+<option value="race">레이스</option>
+<option value="trail">트레일</option>
+</select>
+</label>
+<label>사용한 러닝화
+          <select data-run-shoe-select="" name="shoeId">
+<option value="">신발장에 등록된 신발 없음</option>
+</select>
+</label>
+<label>러닝앱 캡처 업로드
+          <input accept="image/*" name="screenshot" type="file"/>
+</label>
+<div class="upload-preview" data-run-upload-preview="">
+<strong>OCR 연결 예정</strong>
+<p>NRC, Garmin, Google Fit, Apple Watch 캡처에서 거리·시간·페이스를 읽는 기능은 추후 구현합니다.</p>
+</div>
+<button class="btn primary" type="submit">기록 저장하고 마일리지 누적</button>
+</form>
+<aside class="story-card-shell">
+<div class="story-card" data-story-card="">
+<p class="story-label">RunningFit</p>
+<h2 data-story-distance="">0.00km</h2>
+<p data-story-pace="">pace -</p>
+<div class="story-divider"></div>
+<p data-story-shoe="">오늘 신은 러닝화</p>
+<p data-story-life="">남은 수명 계산 전</p>
+</div>
+<div class="notice">인스타 스토리용 PNG 저장 기능은 추후 추가 예정입니다. 현재는 HTML/CSS 미리보기입니다.</div>
+</aside>
+</section>
+<section class="section">
+<div class="section-title">
+<p class="eyebrow">History</p>
+<h2>최근 러닝 기록</h2>
+</div>
+<section class="race-list" data-run-log-list=""></section>
+</section>
+</main>
+<footer class="site-footer"><p>기록 저장 시 선택한 러닝화의 누적거리가 증가합니다.</p></footer>
+<script defer="" src="./js/backend.js"></script>
+<script defer="" src="./js/app.js"></script>
+<script defer="" src="./js/pages.js"></script>
 </body>
 </html>

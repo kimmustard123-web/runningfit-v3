@@ -1,136 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>프로필 | RunningFit V3.2</title>
-  <meta name="description" content="RunningFit 프로필에서 키, 몸무게, 러닝 경력, 발볼, 착지 방식, 목표 거리를 관리합니다." />
-  <link rel="stylesheet" href="./css/app.css" />
-  <link rel="stylesheet" href="./css/pages.css" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>프로필 | RunningFit V3.2</title>
+<meta content="RunningFit 프로필에서 키, 몸무게, 러닝 경력, 발볼, 착지 방식, 목표 거리를 관리합니다." name="description"/>
+<link href="./css/app.css" rel="stylesheet"/>
+<link href="./css/pages.css" rel="stylesheet"/>
+<meta content="noindex, nofollow" name="robots"/></head>
 <body>
-  <header class="site-header rf-header">
-    <div class="header-inner rf-header-row">
-      <a href="./index.html" class="brand" aria-label="RunningFit 홈">
-        <span class="brand-mark">RF</span>
-        <span class="brand-text">
-          <strong>RunningFit</strong>
-          <small id="currentPageLabel">프로필</small>
-        </span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
-
-      <nav class="top-nav" data-nav aria-label="주요 메뉴">
-          <a href="./index.html" class="nav-link">홈</a>
-          <a href="./shoes.html" class="nav-link">러닝화</a>
-          <a href="./pace.html" class="nav-link">페이스 계산기</a>
-          <a href="./weather.html" class="nav-link">날씨</a>
-          <a href="./races.html" class="nav-link">대회</a>
-          <a href="./courses.html" class="nav-link">코스</a>
-          <a href="./profile.html" class="nav-link active">프로필</a>
-        <button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
-      </nav>
-    </div>
-
-    <div class="global-search-wrap">
-      <form id="globalSearchForm" class="global-search" action="./shoes.html">
-        <label for="globalSearchInput" class="sr-only">러닝화 검색</label>
-        <input
-          id="globalSearchInput"
-          name="q"
-          type="search"
-          autocomplete="off"
-          placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색"
-        />
-        <button type="submit">검색</button>
-      </form>
-      <div id="globalSearchSuggestions" class="search-suggestions" aria-label="검색 추천 목록"></div>
-    </div>
-  </header>
-
-  <main>
-    <section class="page-hero">
-      <p class="eyebrow">Profile beta</p>
-      <h1>내 프로필</h1>
-      <p>현재는 이 기기에 안전하게 저장되며, 서버 계정 연결을 위한 저장 구조가 분리되어 있습니다.</p>
-    </section>
-
-    <section class="auth-grid">
-      <article class="card">
-        <h2>로그인 준비 단계</h2>
-        <p class="muted">현재는 기기 저장 방식입니다. 다음 단계에서 Supabase 인증을 연결하면 같은 화면을 실제 계정으로 전환할 수 있습니다.</p>
-        <form class="mini-form" data-auth-form>
-          <label>이메일
-            <input name="email" type="email" placeholder="you@example.com" required />
-          </label>
-          <label>닉네임
-            <input name="nickname" type="text" placeholder="예: 겨자러너" required />
-          </label>
-          <button class="btn primary" type="submit">기기 로그인</button>
-        </form>
-      </article>
-
-      <article class="card dark-card">
-        <h2 data-auth-status>로그인 전</h2>
-        <p>프로필·내 신발·러닝 기록 저장 코드는 서버 전환이 가능하도록 분리했습니다.</p>
-        <button class="btn light" type="button" data-logout>로그아웃</button>
-      </article>
-    </section>
-
-    <section class="section">
-      <div class="section-title">
-        <p class="eyebrow">Runner profile</p>
-        <h2>러닝 추천에 사용할 정보</h2>
-      </div>
-      <form class="profile-form" data-profile-form>
-        <label>프로필 사진
-          <input name="photo" type="file" accept="image/*" />
-        </label>
-        <div class="profile-preview" data-profile-photo-preview>프로필 사진 미리보기</div>
-
-        <label>키(cm)<input name="height" type="number" min="100" max="230" /></label>
-        <label>몸무게(kg)<input name="weight" type="number" min="30" max="180" /></label>
-        <label>성별
+<header class="site-header rf-header">
+<div class="header-inner rf-header-row">
+<a aria-label="RunningFit 홈" class="brand" href="./index.html">
+<span class="brand-mark">RF</span>
+<span class="brand-text">
+<strong>RunningFit</strong>
+<small id="currentPageLabel">프로필</small>
+</span>
+</a>
+<button aria-label="메뉴 열기" class="nav-toggle" data-nav-toggle="" type="button">☰</button>
+<nav aria-label="주요 메뉴" class="top-nav" data-nav="">
+<a class="nav-link" href="./index.html">홈</a>
+<a class="nav-link" href="./shoes.html">러닝화</a>
+<a class="nav-link" href="./pace.html">페이스 계산기</a>
+<a class="nav-link" href="./weather.html">날씨</a>
+<a class="nav-link" href="./races.html">대회</a>
+<a class="nav-link" href="./courses.html">코스</a>
+<a class="nav-link active" href="./profile.html">프로필</a>
+<button aria-label="다크모드 전환" class="theme-toggle" id="themeToggle" type="button">🌙</button>
+</nav>
+</div>
+<div class="global-search-wrap">
+<form action="./shoes.html" class="global-search" id="globalSearchForm">
+<label class="sr-only" for="globalSearchInput">러닝화 검색</label>
+<input autocomplete="off" id="globalSearchInput" name="q" placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색" type="search"/>
+<button type="submit">검색</button>
+</form>
+<div aria-label="검색 추천 목록" class="search-suggestions" id="globalSearchSuggestions"></div>
+</div>
+</header>
+<main>
+<section class="page-hero">
+<p class="eyebrow">Profile beta</p>
+<h1>내 프로필</h1>
+<p>현재는 이 기기에 안전하게 저장되며, 서버 계정 연결을 위한 저장 구조가 분리되어 있습니다.</p>
+</section>
+<section class="auth-grid">
+<article class="card">
+<h2>로그인 준비 단계</h2>
+<p class="muted">현재는 기기 저장 방식입니다. 다음 단계에서 Supabase 인증을 연결하면 같은 화면을 실제 계정으로 전환할 수 있습니다.</p>
+<form class="mini-form" data-auth-form="">
+<label>이메일
+            <input name="email" placeholder="you@example.com" required="" type="email"/>
+</label>
+<label>닉네임
+            <input name="nickname" placeholder="예: 겨자러너" required="" type="text"/>
+</label>
+<button class="btn primary" type="submit">기기 로그인</button>
+</form>
+</article>
+<article class="card dark-card">
+<h2 data-auth-status="">로그인 전</h2>
+<p>프로필·내 신발·러닝 기록 저장 코드는 서버 전환이 가능하도록 분리했습니다.</p>
+<button class="btn light" data-logout="" type="button">로그아웃</button>
+</article>
+</section>
+<section class="section">
+<div class="section-title">
+<p class="eyebrow">Runner profile</p>
+<h2>러닝 추천에 사용할 정보</h2>
+</div>
+<form class="profile-form" data-profile-form="">
+<label>프로필 사진
+          <input accept="image/*" name="photo" type="file"/>
+</label>
+<div class="profile-preview" data-profile-photo-preview="">프로필 사진 미리보기</div>
+<label>키(cm)<input max="230" min="100" name="height" type="number"/></label>
+<label>몸무게(kg)<input max="180" min="30" name="weight" type="number"/></label>
+<label>성별
           <select name="gender">
-            <option value="">선택 안 함</option>
-            <option value="male">남성</option>
-            <option value="female">여성</option>
-            <option value="other">기타/미입력</option>
-          </select>
-        </label>
-        <label>러닝 경력
+<option value="">선택 안 함</option>
+<option value="male">남성</option>
+<option value="female">여성</option>
+<option value="other">기타/미입력</option>
+</select>
+</label>
+<label>러닝 경력
           <select name="experience">
-            <option value="beginner">입문</option>
-            <option value="regular">꾸준히 뜀</option>
-            <option value="advanced">숙련</option>
-            <option value="race">대회 준비</option>
-          </select>
-        </label>
-        <label>발볼
+<option value="beginner">입문</option>
+<option value="regular">꾸준히 뜀</option>
+<option value="advanced">숙련</option>
+<option value="race">대회 준비</option>
+</select>
+</label>
+<label>발볼
           <select name="width">
-            <option value="normal">보통</option>
-            <option value="wide">넓음</option>
-            <option value="narrow">좁음</option>
-          </select>
-        </label>
-        <label>착지 방식
+<option value="normal">보통</option>
+<option value="wide">넓음</option>
+<option value="narrow">좁음</option>
+</select>
+</label>
+<label>착지 방식
           <select name="strike">
-            <option value="">모름</option>
-            <option value="heel">힐 스트라이크</option>
-            <option value="mid">미드풋</option>
-            <option value="fore">포어풋</option>
-          </select>
-        </label>
-        <label>주간 목표 거리(km)<input name="weeklyGoal" type="number" min="0" /></label>
-        <label>월간 목표 거리(km)<input name="monthlyGoal" type="number" min="0" /></label>
-        <button class="btn primary" type="submit">프로필 저장</button>
-      </form>
-    </section>
-  </main>
-  <footer class="site-footer"><p>프로필 정보는 추천 정확도를 높이기 위한 기반 데이터입니다.</p></footer>
-  <script src="./js/backend.js" defer></script>
-  <script src="./js/app.js" defer></script>
-  <script src="./js/pages.js" defer></script>
+<option value="">모름</option>
+<option value="heel">힐 스트라이크</option>
+<option value="mid">미드풋</option>
+<option value="fore">포어풋</option>
+</select>
+</label>
+<label>주간 목표 거리(km)<input min="0" name="weeklyGoal" type="number"/></label>
+<label>월간 목표 거리(km)<input min="0" name="monthlyGoal" type="number"/></label>
+<button class="btn primary" type="submit">프로필 저장</button>
+</form>
+</section>
+</main>
+<footer class="site-footer"><p>프로필 정보는 추천 정확도를 높이기 위한 기반 데이터입니다.</p></footer>
+<script defer="" src="./js/backend.js"></script>
+<script defer="" src="./js/app.js"></script>
+<script defer="" src="./js/pages.js"></script>
 </body>
 </html>

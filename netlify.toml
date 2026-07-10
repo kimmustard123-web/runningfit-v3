@@ -30,3 +30,8 @@
   for = "/data/*"
   [headers.values]
     Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

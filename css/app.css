@@ -1376,3 +1376,41 @@ body.nav-open {
     transition-duration: .01ms !important;
   }
 }
+
+/* Phase 5: accessibility, legal footer and connectivity feedback */
+.skip-link {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  transform: translateY(-160%);
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--text);
+  color: var(--surface);
+  font-weight: 800;
+  text-decoration: none;
+}
+.skip-link:focus { transform: translateY(0); }
+.site-footer { margin-top: 32px; border-top: 1px solid var(--line); background: var(--surface); }
+.site-footer-inner { width: min(100% - 32px, 1280px); margin: 0 auto; display: grid; gap: 10px; justify-items: center; }
+.site-footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 16px; }
+.site-footer a { color: var(--muted); font-weight: 700; text-decoration: none; }
+.site-footer a:hover, .site-footer a:focus-visible { color: var(--text); text-decoration: underline; }
+.site-footer p { margin: 0; max-width: 720px; line-height: 1.6; }
+.network-status { position: fixed; left: 50%; bottom: 92px; z-index: 500; display: none; width: min(92vw, 520px); transform: translateX(-50%); padding: 12px 16px; border-radius: 12px; background: #242424; color: #fff; text-align: center; font-size: 13px; font-weight: 750; box-shadow: var(--shadow); }
+.network-status.show { display: block; }
+.network-status.restored { background: #176b3a; }
+.legal-shell { width: min(100% - 32px, 880px); margin: 32px auto 80px; }
+.legal-card { padding: clamp(22px, 4vw, 42px); border: 1px solid var(--line); border-radius: 24px; background: var(--surface); box-shadow: var(--shadow); }
+.legal-card h1 { margin-top: 0; }
+.legal-card h2 { margin-top: 30px; font-size: 20px; }
+.legal-card p, .legal-card li { line-height: 1.75; color: var(--muted); }
+.legal-meta { margin-bottom: 24px; font-size: 13px; color: var(--muted); }
+.contact-form { display: grid; gap: 14px; margin-top: 24px; }
+.contact-form label { display: grid; gap: 7px; font-weight: 800; }
+.contact-form input, .contact-form textarea, .contact-form select { width: 100%; min-height: 46px; padding: 11px 13px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--text); font: inherit; }
+.contact-form textarea { min-height: 160px; resize: vertical; }
+.contact-form button { min-height: 48px; border: 0; border-radius: 12px; background: var(--accent); color: var(--accent-text); font-weight: 900; cursor: pointer; }
+.hp-field { position: absolute; left: -9999px; }
+@media (max-width: 700px) { .site-footer { padding-bottom: 118px; } .legal-shell { margin-top: 18px; } }

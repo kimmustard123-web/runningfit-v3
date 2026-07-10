@@ -1,224 +1,199 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>페이스 계산기 · 러닝 훈련 도구 | RunningFit</title>
-  <meta name="description" content="목표 기록, 평균 페이스, 구간표, VDOT 참고값, 훈련 페이스, 인터벌, 트레드밀 속도, 레이스 전략과 러닝화 추천을 계산합니다." />
-  <link rel="canonical" href="https://voluble-tiramisu-f5d2d2.netlify.app/pace.html" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="RunningFit" />
-  <meta property="og:title" content="페이스 계산기 · 러닝 훈련 도구 | RunningFit" />
-  <meta property="og:description" content="목표 기록, 평균 페이스, 구간표, VDOT 참고값, 훈련 페이스, 인터벌, 트레드밀 속도, 레이스 전략과 러닝화 추천을 계산합니다." />
-  <meta property="og:url" content="https://voluble-tiramisu-f5d2d2.netlify.app/pace.html" />
-  <link rel="stylesheet" href="./css/app.css" />
-  <link rel="stylesheet" href="./css/pace.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>페이스 계산기 · 러닝 훈련 도구 | RunningFit</title>
+<meta content="목표 기록, 평균 페이스, 구간표, VDOT 참고값, 훈련 페이스, 인터벌, 트레드밀 속도, 레이스 전략과 러닝화 추천을 계산합니다." name="description"/>
+<link href="https://voluble-tiramisu-f5d2d2.netlify.app/pace.html" rel="canonical"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="RunningFit" property="og:site_name"/>
+<meta content="페이스 계산기 · 러닝 훈련 도구 | RunningFit" property="og:title"/>
+<meta content="목표 기록, 평균 페이스, 구간표, VDOT 참고값, 훈련 페이스, 인터벌, 트레드밀 속도, 레이스 전략과 러닝화 추천을 계산합니다." property="og:description"/>
+<meta content="https://voluble-tiramisu-f5d2d2.netlify.app/pace.html" property="og:url"/>
+<link href="./css/app.css" rel="stylesheet"/>
+<link href="./css/pace.css" rel="stylesheet"/>
 </head>
 <body>
-  <header class="site-header rf-header">
-    <div class="header-inner rf-header-row">
-      <a href="./index.html" class="brand" aria-label="RunningFit 홈">
-        <span class="brand-mark">RF</span>
-        <span class="brand-text">
-          <strong>RunningFit</strong>
-          <small id="currentPageLabel">페이스 계산기</small>
-        </span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
-
-      <nav class="top-nav" data-nav aria-label="주요 메뉴">
-        <a href="./index.html" class="nav-link">홈</a>
-        <a href="./shoes.html" class="nav-link">러닝화</a>
-        <a href="./pace.html" class="nav-link active">페이스 계산기</a>
-        <a href="./weather.html" class="nav-link">날씨</a>
-        <a href="./races.html" class="nav-link">대회</a>
-        <a href="./courses.html" class="nav-link">코스</a>
-        <a href="./profile.html" class="nav-link">프로필</a>
-        <button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
-      </nav>
-    </div>
-
-    <div class="global-search-wrap">
-      <form id="globalSearchForm" class="global-search" action="./shoes.html">
-        <label for="globalSearchInput" class="sr-only">러닝화 검색</label>
-        <input id="globalSearchInput" name="q" type="search" autocomplete="off" placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색" />
-        <button type="submit">검색</button>
-      </form>
-      <div id="globalSearchSuggestions" class="search-suggestions" aria-label="검색 추천 목록"></div>
-    </div>
-  </header>
-
-  <main class="pace-page">
-    <section class="page-hero pace-hero">
-      <div>
-        <p class="eyebrow">RUNNING PACE HUB</p>
-        <h1>기록부터 훈련까지<br>한 번에 계산</h1>
-        <p>목표 기록을 입력하면 평균 페이스, 구간표, 예상 기록, 훈련 페이스와 러닝화 추천까지 연결합니다.</p>
-      </div>
-      <div class="hero-quick-stats" aria-label="계산 결과 요약">
-        <div><span>평균 페이스</span><strong id="heroPace">-</strong></div>
-        <div><span>평균 속도</span><strong id="heroSpeed">-</strong></div>
-        <div><span>VDOT 참고값</span><strong id="heroVdot">-</strong></div>
-      </div>
-    </section>
-
-    <section class="pace-workbench" aria-labelledby="goalCalculatorTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">GOAL CALCULATOR</p>
-          <h2 id="goalCalculatorTitle">목표 기록 계산</h2>
-        </div>
-        <p>거리와 목표 시간을 입력하면 아래 모든 도구가 동시에 갱신됩니다.</p>
-      </div>
-
-      <form class="goal-form" id="goalForm">
-        <label>목표 거리
+<header class="site-header rf-header">
+<div class="header-inner rf-header-row">
+<a aria-label="RunningFit 홈" class="brand" href="./index.html">
+<span class="brand-mark">RF</span>
+<span class="brand-text">
+<strong>RunningFit</strong>
+<small id="currentPageLabel">페이스 계산기</small>
+</span>
+</a>
+<button aria-label="메뉴 열기" class="nav-toggle" data-nav-toggle="" type="button">☰</button>
+<nav aria-label="주요 메뉴" class="top-nav" data-nav="">
+<a class="nav-link" href="./index.html">홈</a>
+<a class="nav-link" href="./shoes.html">러닝화</a>
+<a class="nav-link active" href="./pace.html">페이스 계산기</a>
+<a class="nav-link" href="./weather.html">날씨</a>
+<a class="nav-link" href="./races.html">대회</a>
+<a class="nav-link" href="./courses.html">코스</a>
+<a class="nav-link" href="./profile.html">프로필</a>
+<button aria-label="다크모드 전환" class="theme-toggle" id="themeToggle" type="button">🌙</button>
+</nav>
+</div>
+<div class="global-search-wrap">
+<form action="./shoes.html" class="global-search" id="globalSearchForm">
+<label class="sr-only" for="globalSearchInput">러닝화 검색</label>
+<input autocomplete="off" id="globalSearchInput" name="q" placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색" type="search"/>
+<button type="submit">검색</button>
+</form>
+<div aria-label="검색 추천 목록" class="search-suggestions" id="globalSearchSuggestions"></div>
+</div>
+</header>
+<main class="pace-page">
+<section class="page-hero pace-hero">
+<div>
+<p class="eyebrow">RUNNING PACE HUB</p>
+<h1>기록부터 훈련까지<br/>한 번에 계산</h1>
+<p>목표 기록을 입력하면 평균 페이스, 구간표, 예상 기록, 훈련 페이스와 러닝화 추천까지 연결합니다.</p>
+</div>
+<div aria-label="계산 결과 요약" class="hero-quick-stats">
+<div><span>평균 페이스</span><strong id="heroPace">-</strong></div>
+<div><span>평균 속도</span><strong id="heroSpeed">-</strong></div>
+<div><span>VDOT 참고값</span><strong id="heroVdot">-</strong></div>
+</div>
+</section>
+<section aria-labelledby="goalCalculatorTitle" class="pace-workbench">
+<div class="section-heading">
+<div>
+<p class="eyebrow">GOAL CALCULATOR</p>
+<h2 id="goalCalculatorTitle">목표 기록 계산</h2>
+</div>
+<p>거리와 목표 시간을 입력하면 아래 모든 도구가 동시에 갱신됩니다.</p>
+</div>
+<form class="goal-form" id="goalForm">
+<label>목표 거리
           <select id="raceDistancePreset">
-            <option value="5">5K</option>
-            <option value="10" selected>10K</option>
-            <option value="21.0975">하프</option>
-            <option value="42.195">풀</option>
-            <option value="custom">직접 입력</option>
-          </select>
-        </label>
-        <label id="customDistanceLabel" hidden>직접 거리(km)
-          <input id="customDistance" type="number" min="0.1" step="0.1" value="15" />
-        </label>
-        <label>목표 시간
+<option value="5">5K</option>
+<option selected="" value="10">10K</option>
+<option value="21.0975">하프</option>
+<option value="42.195">풀</option>
+<option value="custom">직접 입력</option>
+</select>
+</label>
+<label hidden="" id="customDistanceLabel">직접 거리(km)
+          <input id="customDistance" min="0.1" step="0.1" type="number" value="15"/>
+</label>
+<label>목표 시간
           <div class="time-fields">
-            <input id="goalHours" type="number" min="0" max="99" value="0" aria-label="시간" />
-            <span>:</span>
-            <input id="goalMinutes" type="number" min="0" max="59" value="50" aria-label="분" />
-            <span>:</span>
-            <input id="goalSeconds" type="number" min="0" max="59" value="0" aria-label="초" />
-          </div>
-        </label>
-        <button class="btn primary goal-submit" type="submit">전체 계산하기</button>
-      </form>
-
-      <div class="primary-results" id="primaryResults">
-        <article><span>목표 기록</span><strong id="resultGoalTime">-</strong></article>
-        <article><span>평균 페이스</span><strong id="resultPace">-</strong><small>/km</small></article>
-        <article><span>평균 속도</span><strong id="resultSpeed">-</strong><small>km/h</small></article>
-        <article><span>400m 랩</span><strong id="result400">-</strong></article>
-      </div>
-    </section>
-
-    <nav class="pace-tool-nav" aria-label="페이스 도구 바로가기">
-      <a href="#splits">구간표</a>
-      <a href="#prediction">완주 예측</a>
-      <a href="#training">훈련 페이스</a>
-      <a href="#interval">인터벌</a>
-      <a href="#treadmill">트레드밀</a>
-      <a href="#strategy">레이스 전략</a>
-      <a href="#shoes">러닝화</a>
-    </nav>
-
-    <section class="pace-dashboard">
-      <article class="tool-card tool-card-wide" id="splits">
-        <div class="tool-heading">
-          <div><p class="eyebrow">SPLIT TABLE</p><h2>목표 구간표</h2></div>
-          <select id="splitStep" aria-label="구간 단위">
-            <option value="1">1km 단위</option>
-            <option value="5" selected>5km 단위</option>
-          </select>
-        </div>
-        <div class="split-table-wrap"><table class="pace-table"><thead><tr><th>구간</th><th>누적 시간</th><th>구간 페이스</th></tr></thead><tbody id="splitTableBody"></tbody></table></div>
-      </article>
-
-      <article class="tool-card" id="prediction">
-        <div class="tool-heading"><div><p class="eyebrow">RACE PREDICTION</p><h2>완주 예상</h2></div></div>
-        <p class="tool-description">현재 입력 기록을 기준으로 거리 증가에 따른 피로를 반영한 참고 예측입니다.</p>
-        <div class="metric-list" id="predictionResults"></div>
-      </article>
-
-      <article class="tool-card" id="vdot">
-        <div class="tool-heading"><div><p class="eyebrow">FITNESS INDEX</p><h2>VDOT 참고값</h2></div></div>
-        <div class="vdot-display"><strong id="vdotValue">-</strong><span>현재 기록 기반</span></div>
-        <p class="tool-note">공식 검사 결과가 아니라 경기 기록을 표준식에 대입한 참고값입니다.</p>
-      </article>
-
-      <article class="tool-card tool-card-wide" id="training">
-        <div class="tool-heading"><div><p class="eyebrow">TRAINING PACE</p><h2>훈련 페이스 추천</h2></div></div>
-        <div class="training-grid" id="trainingPaces"></div>
-      </article>
-
-      <article class="tool-card" id="interval">
-        <div class="tool-heading"><div><p class="eyebrow">INTERVAL</p><h2>인터벌 환산</h2></div></div>
-        <label>기준 페이스
-          <input id="intervalBasePace" type="text" value="04:00" inputmode="numeric" placeholder="04:00" />
-        </label>
-        <label>반복 횟수
-          <input id="intervalCount" type="number" min="1" max="50" value="10" />
-        </label>
-        <button class="btn primary" id="intervalCalculate" type="button">환산하기</button>
-        <div class="metric-list compact" id="intervalResults"></div>
-      </article>
-
-      <article class="tool-card" id="treadmill">
-        <div class="tool-heading"><div><p class="eyebrow">TREADMILL</p><h2>트레드밀 변환</h2></div></div>
-        <div class="toggle-row" role="group" aria-label="변환 방향">
-          <button type="button" class="toggle-btn active" data-convert-mode="paceToSpeed">페이스 → 속도</button>
-          <button type="button" class="toggle-btn" data-convert-mode="speedToPace">속도 → 페이스</button>
-        </div>
-        <label id="treadmillPaceLabel">페이스 /km
-          <input id="treadmillPace" type="text" value="05:00" inputmode="numeric" />
-        </label>
-        <label id="treadmillSpeedLabel" hidden>속도 km/h
-          <input id="treadmillSpeed" type="number" min="1" max="30" step="0.1" value="12" />
-        </label>
-        <button class="btn primary" id="treadmillCalculate" type="button">변환하기</button>
-        <div class="single-result" id="treadmillResult">12.0 km/h</div>
-      </article>
-
-      <article class="tool-card" id="strategy">
-        <div class="tool-heading"><div><p class="eyebrow">RACE STRATEGY</p><h2>네거티브 스플릿</h2></div></div>
-        <label>전략 강도
+<input aria-label="시간" id="goalHours" max="99" min="0" type="number" value="0"/>
+<span>:</span>
+<input aria-label="분" id="goalMinutes" max="59" min="0" type="number" value="50"/>
+<span>:</span>
+<input aria-label="초" id="goalSeconds" max="59" min="0" type="number" value="0"/>
+</div>
+</label>
+<button class="btn primary goal-submit" type="submit">전체 계산하기</button>
+</form>
+<div class="primary-results" id="primaryResults">
+<article><span>목표 기록</span><strong id="resultGoalTime">-</strong></article>
+<article><span>평균 페이스</span><strong id="resultPace">-</strong><small>/km</small></article>
+<article><span>평균 속도</span><strong id="resultSpeed">-</strong><small>km/h</small></article>
+<article><span>400m 랩</span><strong id="result400">-</strong></article>
+</div>
+</section>
+<nav aria-label="페이스 도구 바로가기" class="pace-tool-nav">
+<a href="#splits">구간표</a>
+<a href="#prediction">완주 예측</a>
+<a href="#training">훈련 페이스</a>
+<a href="#interval">인터벌</a>
+<a href="#treadmill">트레드밀</a>
+<a href="#strategy">레이스 전략</a>
+<a href="#shoes">러닝화</a>
+</nav>
+<section class="pace-dashboard">
+<article class="tool-card tool-card-wide" id="splits">
+<div class="tool-heading">
+<div><p class="eyebrow">SPLIT TABLE</p><h2>목표 구간표</h2></div>
+<select aria-label="구간 단위" id="splitStep">
+<option value="1">1km 단위</option>
+<option selected="" value="5">5km 단위</option>
+</select>
+</div>
+<div class="split-table-wrap"><table class="pace-table"><thead><tr><th>구간</th><th>누적 시간</th><th>구간 페이스</th></tr></thead><tbody id="splitTableBody"></tbody></table></div>
+</article>
+<article class="tool-card" id="prediction">
+<div class="tool-heading"><div><p class="eyebrow">RACE PREDICTION</p><h2>완주 예상</h2></div></div>
+<p class="tool-description">현재 입력 기록을 기준으로 거리 증가에 따른 피로를 반영한 참고 예측입니다.</p>
+<div class="metric-list" id="predictionResults"></div>
+</article>
+<article class="tool-card" id="vdot">
+<div class="tool-heading"><div><p class="eyebrow">FITNESS INDEX</p><h2>VDOT 참고값</h2></div></div>
+<div class="vdot-display"><strong id="vdotValue">-</strong><span>현재 기록 기반</span></div>
+<p class="tool-note">공식 검사 결과가 아니라 경기 기록을 표준식에 대입한 참고값입니다.</p>
+</article>
+<article class="tool-card tool-card-wide" id="training">
+<div class="tool-heading"><div><p class="eyebrow">TRAINING PACE</p><h2>훈련 페이스 추천</h2></div></div>
+<div class="training-grid" id="trainingPaces"></div>
+</article>
+<article class="tool-card" id="interval">
+<div class="tool-heading"><div><p class="eyebrow">INTERVAL</p><h2>인터벌 환산</h2></div></div>
+<label>기준 페이스
+          <input id="intervalBasePace" inputmode="numeric" placeholder="04:00" type="text" value="04:00"/>
+</label>
+<label>반복 횟수
+          <input id="intervalCount" max="50" min="1" type="number" value="10"/>
+</label>
+<button class="btn primary" id="intervalCalculate" type="button">환산하기</button>
+<div class="metric-list compact" id="intervalResults"></div>
+</article>
+<article class="tool-card" id="treadmill">
+<div class="tool-heading"><div><p class="eyebrow">TREADMILL</p><h2>트레드밀 변환</h2></div></div>
+<div aria-label="변환 방향" class="toggle-row" role="group">
+<button class="toggle-btn active" data-convert-mode="paceToSpeed" type="button">페이스 → 속도</button>
+<button class="toggle-btn" data-convert-mode="speedToPace" type="button">속도 → 페이스</button>
+</div>
+<label id="treadmillPaceLabel">페이스 /km
+          <input id="treadmillPace" inputmode="numeric" type="text" value="05:00"/>
+</label>
+<label hidden="" id="treadmillSpeedLabel">속도 km/h
+          <input id="treadmillSpeed" max="30" min="1" step="0.1" type="number" value="12"/>
+</label>
+<button class="btn primary" id="treadmillCalculate" type="button">변환하기</button>
+<div class="single-result" id="treadmillResult">12.0 km/h</div>
+</article>
+<article class="tool-card" id="strategy">
+<div class="tool-heading"><div><p class="eyebrow">RACE STRATEGY</p><h2>네거티브 스플릿</h2></div></div>
+<label>전략 강도
           <select id="strategyLevel">
-            <option value="safe">안전하게</option>
-            <option value="balanced" selected>균형형</option>
-            <option value="aggressive">공격적으로</option>
-          </select>
-        </label>
-        <div class="strategy-grid" id="strategyResults"></div>
-      </article>
+<option value="safe">안전하게</option>
+<option selected="" value="balanced">균형형</option>
+<option value="aggressive">공격적으로</option>
+</select>
+</label>
+<div class="strategy-grid" id="strategyResults"></div>
+</article>
+<article class="tool-card" id="calories">
+<div class="tool-heading"><div><p class="eyebrow">ENERGY</p><h2>칼로리 참고값</h2></div></div>
+<label>체중(kg)
+          <input id="runnerWeight" max="250" min="30" type="number" value="70"/>
+</label>
+<button class="btn primary" id="calorieCalculate" type="button">계산하기</button>
+<div class="single-result"><strong id="calorieResult">-</strong><span> kcal 전후</span></div>
+<p class="tool-note">달리기 에너지 소비를 체중×거리의 단순 참고식으로 계산합니다.</p>
+</article>
+<article class="tool-card tool-card-wide shoe-recommendation-card" id="shoes">
+<div class="tool-heading">
+<div><p class="eyebrow">RUNNINGFIT SHOES</p><h2>목표에 맞는 러닝화</h2></div>
+<a class="text-link" href="./shoes.html#browse" id="seeAllShoesLink">전체보기</a>
+</div>
+<div class="pace-shoe-grid" id="paceShoeRecommendations"></div>
+</article>
+</section>
+<section class="calculation-notice">
+<strong>계산 결과 안내</strong>
+<p>완주 예측·VDOT·훈련 페이스·칼로리는 참고용입니다. 컨디션, 코스, 기온, 습도, 고도와 훈련 이력에 따라 실제 결과가 달라질 수 있습니다.</p>
+</section>
+</main>
 
-      <article class="tool-card" id="calories">
-        <div class="tool-heading"><div><p class="eyebrow">ENERGY</p><h2>칼로리 참고값</h2></div></div>
-        <label>체중(kg)
-          <input id="runnerWeight" type="number" min="30" max="250" value="70" />
-        </label>
-        <button class="btn primary" id="calorieCalculate" type="button">계산하기</button>
-        <div class="single-result"><strong id="calorieResult">-</strong><span> kcal 전후</span></div>
-        <p class="tool-note">달리기 에너지 소비를 체중×거리의 단순 참고식으로 계산합니다.</p>
-      </article>
-
-      <article class="tool-card tool-card-wide shoe-recommendation-card" id="shoes">
-        <div class="tool-heading">
-          <div><p class="eyebrow">RUNNINGFIT SHOES</p><h2>목표에 맞는 러닝화</h2></div>
-          <a class="text-link" id="seeAllShoesLink" href="./shoes.html#browse">전체보기</a>
-        </div>
-        <div class="pace-shoe-grid" id="paceShoeRecommendations"></div>
-      </article>
-    </section>
-
-    <section class="calculation-notice">
-      <strong>계산 결과 안내</strong>
-      <p>완주 예측·VDOT·훈련 페이스·칼로리는 참고용입니다. 컨디션, 코스, 기온, 습도, 고도와 훈련 이력에 따라 실제 결과가 달라질 수 있습니다.</p>
-    </section>
-  </main>
-
-  <nav class="mobile-bottom-nav">
-    <a href="index.html">홈</a>
-    <a href="shoes.html">러닝화</a>
-    <a class="active" href="pace.html">페이스</a>
-    <a href="races.html">대회</a>
-    <a href="courses.html">코스</a>
-  </nav>
-
-  <script src="./js/app.js" defer></script>
-  <script src="./js/pace.js" defer></script>
+<script defer="" src="./js/app.js"></script>
+<script defer="" src="./js/pace.js"></script>
 </body>
 </html>
