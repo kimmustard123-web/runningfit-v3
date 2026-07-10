@@ -39,9 +39,43 @@ document.addEventListener("DOMContentLoaded", async () => {
 function bindHeader() {
   const nav = document.querySelector("[data-nav]");
   const navToggle = document.querySelector("[data-nav-toggle]");
+  const header = document.querySelector(".rf-header");
+
+  let backdrop = document.querySelector(".mobile-nav-backdrop");
+  if (!backdrop && header) {
+    backdrop = document.createElement("button");
+    backdrop.type = "button";
+    backdrop.className = "mobile-nav-backdrop";
+    backdrop.setAttribute("aria-label", "메뉴 닫기");
+    header.insertAdjacentElement("afterend", backdrop);
+  }
+
+  const setMenu = (isOpen) => {
+    nav?.classList.toggle("open", isOpen);
+    backdrop?.classList.toggle("open", isOpen);
+    document.body.classList.toggle("nav-open", isOpen);
+    navToggle?.setAttribute("aria-expanded", String(isOpen));
+    navToggle?.setAttribute("aria-label", isOpen ? "메뉴 닫기" : "메뉴 열기");
+  };
+
+  navToggle?.setAttribute("aria-expanded", "false");
+  navToggle?.setAttribute("aria-haspopup", "true");
 
   navToggle?.addEventListener("click", () => {
-    nav?.classList.toggle("open");
+    setMenu(!nav?.classList.contains("open"));
+  });
+
+  backdrop?.addEventListener("click", () => setMenu(false));
+  nav?.querySelectorAll("a").forEach((anchor) => {
+    anchor.addEventListener("click", () => setMenu(false));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setMenu(false);
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 860) setMenu(false);
   });
 
   const savedTheme = localStorage.getItem("rf-theme");
@@ -66,9 +100,44 @@ function bindHeader() {
   });
 
   document.addEventListener("click", (event) => {
-    if (!event.target.closest(".rf-header-row")) {
-      nav?.classList.remove("open");
+    if (!event.target.closest(".rf-header-row") && !event.target.closest(".top-nav")) {
+      setMenu(false);
     }
+  });
+
+  ensureMobileBottomNav(page);
+}
+
+function ensureMobileBottomNav(page) {
+  let bottomNav = document.querySelector(".mobile-bottom-nav");
+
+  if (!bottomNav) {
+    bottomNav = document.createElement("nav");
+    bottomNav.className = "mobile-bottom-nav";
+    bottomNav.setAttribute("aria-label", "모바일 하단 메뉴");
+    bottomNav.innerHTML = `
+      <a href="./index.html">홈</a>
+      <a href="./shoes.html">러닝화</a>
+      <a href="./pace.html">페이스</a>
+      <a href="./races.html">대회</a>
+      <a href="./profile.html">프로필</a>
+    `;
+    document.body.append(bottomNav);
+  }
+
+  const aliases = {
+    "my-shoes.html": "profile.html",
+    "run-log.html": "profile.html",
+    "weather.html": "index.html",
+    "courses.html": "index.html"
+  };
+  const activePage = aliases[page] || page;
+
+  bottomNav.querySelectorAll("a[href]").forEach((anchor) => {
+    const href = (anchor.getAttribute("href") || "").replace("./", "");
+    anchor.classList.toggle("active", href === activePage);
+    if (href === activePage) anchor.setAttribute("aria-current", "page");
+    else anchor.removeAttribute("aria-current");
   });
 }
 

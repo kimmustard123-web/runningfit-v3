@@ -909,3 +909,469 @@ select:focus {
 .strip-card p {
   text-decoration: none;
 }
+
+/* =========================================================
+   RunningFit Commercial Phase 2 — responsive & mobile UX
+   ========================================================= */
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--text) 24%, transparent);
+  outline-offset: 2px;
+}
+
+.horizontal-scroll {
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.rf-header .nav-toggle {
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  place-items: center;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.rf-header .nav-toggle:hover,
+.rf-header .nav-toggle[aria-expanded="true"] {
+  background: var(--surface-soft);
+}
+
+.rf-header .top-nav {
+  z-index: 210;
+}
+
+body.nav-open {
+  overflow: hidden;
+}
+
+.mobile-nav-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 190;
+  display: none;
+  border: 0;
+  background: rgba(0, 0, 0, .28);
+  backdrop-filter: blur(2px);
+}
+
+.mobile-nav-backdrop.open {
+  display: block;
+}
+
+.mobile-bottom-nav {
+  padding-bottom: max(7px, env(safe-area-inset-bottom));
+}
+
+.mobile-bottom-nav a {
+  min-width: 0;
+  min-height: 48px;
+  display: grid;
+  place-items: center;
+  line-height: 1.2;
+}
+
+@media (max-width: 1080px) {
+  .home-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .home-side {
+    position: static;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .quick-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .quick-grid > :last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 860px) {
+  .rf-header-row {
+    min-height: 66px;
+  }
+
+  .rf-header .nav-toggle {
+    display: grid;
+    position: relative;
+    z-index: 220;
+    flex: 0 0 46px;
+  }
+
+  .rf-header .top-nav {
+    position: fixed;
+    top: 76px;
+    right: 12px;
+    left: 12px;
+    width: auto;
+    max-height: calc(100dvh - 96px);
+    overflow-y: auto;
+    padding: 12px;
+    border-radius: 20px;
+    transform: translateY(-8px) scale(.985);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  }
+
+  .rf-header .top-nav.open {
+    display: grid;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0) scale(1);
+  }
+
+  .rf-header .top-nav .nav-link,
+  .rf-header .theme-toggle {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    padding: 0 14px;
+    border-radius: 13px;
+    font-size: 15px;
+  }
+
+  .rf-header .global-search-wrap {
+    z-index: 80;
+  }
+
+  .page-hero h1,
+  .hero-copy h1 {
+    overflow-wrap: anywhere;
+  }
+
+  .recommend-tabs {
+    overflow-x: auto;
+    grid-template-columns: repeat(3, minmax(145px, 1fr));
+    scrollbar-width: none;
+  }
+
+  .recommend-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .shoe-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-panel,
+  .wizard-form,
+  .advanced-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    padding-bottom: calc(84px + env(safe-area-inset-bottom));
+  }
+
+  main,
+  .page-shell,
+  .pace-page,
+  .api-card,
+  .notice,
+  .tool-row,
+  .section,
+  .weather-grid,
+  .course-grid,
+  .auth-grid,
+  .split-section,
+  .profile-form,
+  .my-shoe-grid,
+  .race-list {
+    width: min(100% - 20px, 1280px);
+  }
+
+  main {
+    padding-bottom: 30px;
+  }
+
+  .site-footer {
+    padding-bottom: 24px;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+    border-radius: 13px;
+  }
+
+  .brand strong {
+    font-size: 15px;
+  }
+
+  .brand small {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .rf-header .global-search-wrap {
+    padding-bottom: 10px;
+  }
+
+  .rf-header .global-search input,
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+
+  .rf-header .search-suggestions {
+    position: fixed;
+    top: 128px;
+    right: 10px;
+    left: 10px;
+    max-height: min(56dvh, 430px);
+    overflow-y: auto;
+  }
+
+  .hero-card {
+    gap: 20px;
+    padding: 25px 20px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(34px, 10.5vw, 48px);
+    line-height: 1.04;
+  }
+
+  .hero-actions,
+  .hero-actions > * {
+    width: 100%;
+  }
+
+  .quick-grid,
+  .home-side,
+  .purpose-grid,
+  .weather-grid,
+  .course-grid,
+  .auth-grid,
+  .split-section,
+  .profile-form,
+  .my-shoe-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .quick-grid > :last-child {
+    grid-column: auto;
+  }
+
+  .info-card,
+  .run-status-card,
+  .ad-card {
+    min-height: 0;
+  }
+
+  .section-head {
+    align-items: flex-start;
+  }
+
+  .section-head h2 {
+    font-size: clamp(21px, 6vw, 27px);
+  }
+
+  .section-more {
+    flex: 0 0 auto;
+    min-height: 44px;
+    padding: 0 6px;
+  }
+
+  .horizontal-scroll {
+    grid-auto-columns: minmax(210px, 78vw);
+    margin-right: -18px;
+    padding-right: 18px;
+  }
+
+  .filter-panel,
+  .wizard-form,
+  .advanced-grid,
+  .shoe-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .filter-panel label:first-child {
+    grid-column: auto;
+  }
+
+  .recommend-summary {
+    display: grid;
+    padding: 16px;
+  }
+
+  .shoe-card,
+  .card,
+  .pace-card,
+  .race-item,
+  .weather-card-item,
+  .course-card-item,
+  .run-item {
+    min-width: 0;
+  }
+
+  .shoe-modal {
+    width: calc(100% - 16px);
+    max-height: calc(100dvh - 16px);
+    padding: 22px 16px 18px;
+    border-radius: 20px;
+  }
+
+  .modal-heading {
+    padding-right: 42px;
+  }
+
+  .modal-heading h2 {
+    font-size: 27px;
+  }
+
+  .modal-score-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .spec-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .mobile-bottom-nav {
+    left: max(8px, env(safe-area-inset-left));
+    right: max(8px, env(safe-area-inset-right));
+    bottom: max(8px, env(safe-area-inset-bottom));
+    gap: 3px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rf-header .header-inner,
+  .rf-header .global-search-wrap,
+  .page-shell,
+  .pace-page,
+  main,
+  .api-card,
+  .notice,
+  .tool-row,
+  .section,
+  .weather-grid,
+  .course-grid,
+  .auth-grid,
+  .split-section,
+  .profile-form,
+  .my-shoe-grid,
+  .race-list {
+    width: calc(100% - 16px);
+  }
+
+  .rf-header .global-search {
+    gap: 6px;
+  }
+
+  .rf-header .global-search input {
+    min-width: 0;
+    padding: 0 12px;
+  }
+
+  .rf-header .global-search button {
+    min-width: 64px;
+    padding: 0 12px;
+  }
+
+  .page-hero,
+  .hero-card,
+  .section-block,
+  .reco-panel,
+  .card,
+  .pace-card {
+    border-radius: 19px;
+  }
+
+  .page-hero {
+    padding: 22px 17px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(31px, 10vw, 42px);
+  }
+
+  .section-block {
+    padding: 16px;
+  }
+
+  .section-head {
+    gap: 8px;
+  }
+
+  .section-more {
+    font-size: 12px;
+  }
+
+  .race-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .race-item {
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .race-card-head {
+    align-items: flex-start;
+  }
+
+  .race-content h2 {
+    overflow-wrap: anywhere;
+  }
+
+  .mobile-bottom-nav a {
+    min-height: 46px;
+    padding: 6px 2px;
+    font-size: 10.5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
