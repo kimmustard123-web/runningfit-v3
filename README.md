@@ -19,3 +19,11 @@
 - 프로필/내 신발/러닝 기록의 서버 전환 준비
 - Supabase 초기 스키마 및 RLS 정책 초안 추가
 - 실제 서버 로그인은 Supabase 프로젝트 URL과 키를 연결한 뒤 활성화해야 함
+
+
+## 로컬/Netlify 동기화 패치
+- 배포 버전: `20260711-sync1`
+- 모든 CSS/JS URL에 버전 쿼리 적용
+- 개발 중 CSS/JS/JSON 캐시 재검증 적용
+- `deploy-version.json` 추가
+- Netlify에는 이 폴더의 내용 전체를 배포해야 함
