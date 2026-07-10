@@ -1,1 +1,21 @@
 /* Home-specific styles are layered on app.css. */
+
+
+.home-race-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.home-race-list a {
+  display: grid;
+  gap: 2px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.home-race-list a:last-child { border-bottom: 0; }
+.home-race-list strong { font-size: 13px; }
+.home-race-list span { color: var(--muted); font-size: 11px; }

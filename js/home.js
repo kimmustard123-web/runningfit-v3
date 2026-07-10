@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderRank("dailyTopShoes", shoes, "daily");
     renderRank("trainingTopShoes", shoes, "training");
     renderRank("raceTopShoes", shoes, "race");
+    renderUpcomingRaces();
   } catch (error) {
     console.error(error);
   }
@@ -68,4 +69,30 @@ function renderRank(id, shoes, key) {
         <span>${shoe[key] ?? "-"}</span>
       </div>
     `).join("");
+}
+
+
+async function renderUpcomingRaces() {
+  const title = document.getElementById("nextRaceTitle");
+  const list = document.getElementById("nextRaceList");
+  if (!title || !list) return;
+
+  try {
+    const payload = await RF.loadJSON("./data/races.json");
+    const races = (Array.isArray(payload) ? payload : payload.races || [])
+      .filter((race) => race.date >= "2026-07-12")
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .slice(0, 3);
+
+    title.textContent = races.length ? `가장 가까운 대회 ${races.length}개` : "등록된 예정 대회가 없습니다.";
+    list.innerHTML = races.map((race) => `
+      <a href="./races.html?month=${encodeURIComponent(race.date.slice(5,7))}">
+        <strong>${RF.esc(race.name)}</strong>
+        <span>${RF.esc(race.date)} · ${RF.esc(race.region)}</span>
+      </a>
+    `).join("");
+  } catch (error) {
+    title.textContent = "대회 정보를 불러오지 못했습니다.";
+    console.error(error);
+  }
 }
