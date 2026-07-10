@@ -1,4 +1,4 @@
 {
-  "version": "20260711-sync2",
-  "change": "recommendation tabs fixed to three equal visible columns"
+  "version": "20260711-weather1",
+  "feature": "KMA live weather"
 }

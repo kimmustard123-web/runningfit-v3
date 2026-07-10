@@ -13,8 +13,8 @@
 <meta content="RunningFit V4 | 러닝화 추천 플랫폼" property="og:title"/>
 <meta content="러닝 전 날씨, 전국 러닝대회, 추천 러닝코스, 인기 러닝화와 목적별 러닝화 TOP 추천을 한 번에 확인하세요." property="og:description"/>
 <meta content="https://voluble-tiramisu-f5d2d2.netlify.app/" property="og:url"/>
-<link href="./css/app.css?v=20260711-sync2" rel="stylesheet"/>
-<link href="./css/home.css?v=20260711-sync2" rel="stylesheet"/>
+<link href="./css/app.css?v=20260711-weather1" rel="stylesheet"/>
+<link href="./css/home.css?v=20260711-weather1" rel="stylesheet"/>
 </head>
 <body>
 <header class="site-header rf-header">
@@ -68,7 +68,7 @@
 <div>
 <p class="card-label">오늘 러닝 날씨</p>
 <h2 id="todayWeatherTitle">러닝하기 좋은 날인지 확인</h2>
-<p id="todayWeatherText">현재는 더미 데이터 기준입니다. 추후 실제 날씨 API 연결 예정.</p>
+<p id="todayWeatherText">현재 위치의 날씨를 불러오는 중입니다.</p>
 </div>
 <a class="card-link" href="./weather.html">날씨 자세히 보기</a>
 </article>
@@ -165,7 +165,8 @@
 </aside>
 </main>
 
-<script defer="" src="./js/app.js?v=20260711-sync2"></script>
-<script defer="" src="./js/home.js?v=20260711-sync2"></script>
+<script defer="" src="./js/app.js?v=20260711-weather1"></script>
+<script defer src="./js/weather-api.js?v=20260711-weather1"></script>
+<script defer src="./js/home.js?v=20260711-weather1"></script>
 </body>
 </html>

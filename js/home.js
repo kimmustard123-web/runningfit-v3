@@ -3,6 +3,8 @@
 document.addEventListener("DOMContentLoaded", async () => {
   if (!document.querySelector(".home-layout")) return;
 
+  renderHomeWeather();
+
   try {
     const payload = await RF.loadJSON("./data/shoes.json");
     const raw = Array.isArray(payload) ? payload : payload.shoes || [];
@@ -95,4 +97,26 @@ async function renderUpcomingRaces() {
     title.textContent = "대회 정보를 불러오지 못했습니다.";
     console.error(error);
   }
+}
+
+
+async function renderHomeWeather() {
+  const title = document.getElementById("todayWeatherTitle");
+  const text = document.getElementById("todayWeatherText");
+  if (!title || !text || !window.RFWeather) return;
+  try {
+    const location = await RFWeather.resolvePreferredLocation();
+    const data = await RFWeather.fetchWeather(location);
+    const c = data.current || {};
+    const r = data.running || {};
+    title.textContent = `${RFWeather.weatherIcon(c)} ${location.name} ${formatHomeWeatherValue(c.temperature, "℃")} · ${r.level || "확인"}`;
+    text.textContent = `${r.recommendation || "날씨를 확인하세요."} 습도 ${formatHomeWeatherValue(c.humidity, "%")}, 풍속 ${formatHomeWeatherValue(c.windSpeed, "m/s")}`;
+  } catch (error) {
+    title.textContent = "날씨를 불러오지 못했습니다.";
+    text.textContent = error.message;
+  }
+}
+
+function formatHomeWeatherValue(value, suffix) {
+  return value == null || Number.isNaN(Number(value)) ? "-" : `${Math.round(Number(value) * 10) / 10}${suffix}`;
 }
