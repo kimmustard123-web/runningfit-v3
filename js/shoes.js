@@ -10,14 +10,10 @@ let activeCatalogView = "all";
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
-  bindNavigation();
   bindTabs();
 
   try {
-    const response = await fetch(SHOES_DATA_PATH);
-    if (!response.ok) throw new Error(`shoes.json 로드 실패: ${response.status}`);
-
-    const payload = await response.json();
+    const payload = await RF.loadJSON(SHOES_DATA_PATH);
     allShoes = Array.isArray(payload) ? payload : Array.isArray(payload.shoes) ? payload.shoes : [];
 
     if (!allShoes.length) throw new Error("신발 데이터가 비어 있습니다.");
@@ -120,22 +116,6 @@ function getBudgetTier(priceUsd) {
   return "mid";
 }
 
-function bindNavigation() {
-  const toggle = document.querySelector("[data-nav-toggle]");
-  const nav = document.querySelector("[data-nav]");
-  toggle?.addEventListener("click", () => nav?.classList.toggle("open"));
-
-  const themeToggle = document.querySelector("#themeToggle");
-  const savedTheme = localStorage.getItem("rf-theme");
-  if (savedTheme === "dark") document.documentElement.dataset.theme = "dark";
-
-  themeToggle?.addEventListener("click", () => {
-    const isDark = document.documentElement.dataset.theme === "dark";
-    document.documentElement.dataset.theme = isDark ? "light" : "dark";
-    localStorage.setItem("rf-theme", isDark ? "light" : "dark");
-  });
-}
-
 function bindTabs() {
   const buttons = [...document.querySelectorAll("[data-reco-tab]")];
   const panels = [...document.querySelectorAll("[data-reco-panel]")];
@@ -234,7 +214,7 @@ function bindBrowse() {
     event.preventDefault();
     apply();
   });
-  form.addEventListener("input", apply);
+  form.addEventListener("input", RF.debounce(apply, 140));
   form.addEventListener("reset", () => setTimeout(() => {
     activeCatalogView = "all";
     document.querySelectorAll("[data-catalog-view]").forEach((button) => button.classList.toggle("active", button.dataset.catalogView === "all"));
@@ -462,9 +442,14 @@ function sortByScore(shoes, key) {
   return [...shoes].sort((a, b) => (b.scores[key] ?? -1) - (a.scores[key] ?? -1));
 }
 
+let renderGeneration = 0;
+
 function renderCards(shoes, showMatch = false) {
   const grid = document.querySelector("[data-shoe-grid]");
   if (!grid) return;
+
+  renderGeneration += 1;
+  const generation = renderGeneration;
 
   if (!shoes.length) {
     grid.innerHTML = `
@@ -476,7 +461,38 @@ function renderCards(shoes, showMatch = false) {
     return;
   }
 
-  grid.innerHTML = shoes.map((shoe, index) => cardHtml(shoe, index, showMatch)).join("");
+  const firstBatchSize = 24;
+  const batchSize = 24;
+  grid.innerHTML = shoes
+    .slice(0, firstBatchSize)
+    .map((shoe, index) => cardHtml(shoe, index, showMatch))
+    .join("");
+
+  let cursor = firstBatchSize;
+  const appendBatch = () => {
+    if (generation !== renderGeneration || cursor >= shoes.length) return;
+
+    const nextCursor = Math.min(cursor + batchSize, shoes.length);
+    const html = shoes
+      .slice(cursor, nextCursor)
+      .map((shoe, offset) => cardHtml(shoe, cursor + offset, showMatch))
+      .join("");
+
+    grid.insertAdjacentHTML("beforeend", html);
+    cursor = nextCursor;
+
+    if (cursor < shoes.length) scheduleIdle(appendBatch);
+  };
+
+  if (cursor < shoes.length) scheduleIdle(appendBatch);
+}
+
+function scheduleIdle(callback) {
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(callback, { timeout: 250 });
+  } else {
+    window.setTimeout(callback, 32);
+  }
 }
 
 function cardHtml(shoe, index, showMatch) {

@@ -1,10 +1,33 @@
 "use strict";
 
+const rfJsonCache = new Map();
+
 window.RF = {
-  async loadJSON(path) {
-    const response = await fetch(path);
-    if (!response.ok) throw new Error(`${path} 로드 실패 (${response.status})`);
-    return response.json();
+  async loadJSON(path, options = {}) {
+    const useMemoryCache = options.memoryCache !== false;
+    if (useMemoryCache && rfJsonCache.has(path)) return rfJsonCache.get(path);
+
+    const request = fetch(path, {
+      cache: options.cache || "default",
+      signal: options.signal
+    }).then(async (response) => {
+      if (!response.ok) throw new Error(`${path} 로드 실패 (${response.status})`);
+      return response.json();
+    }).catch((error) => {
+      rfJsonCache.delete(path);
+      throw error;
+    });
+
+    if (useMemoryCache) rfJsonCache.set(path, request);
+    return request;
+  },
+
+  debounce(callback, delay = 140) {
+    let timer = 0;
+    return (...args) => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => callback(...args), delay);
+    };
   },
 
   esc(value) {
@@ -210,7 +233,7 @@ async function bindGlobalSearch() {
     box.classList.toggle("open", matches.length > 0);
   };
 
-  input.addEventListener("input", showSuggestions);
+  input.addEventListener("input", RF.debounce(showSuggestions, 120));
 
   form.addEventListener("submit", () => {
     close();

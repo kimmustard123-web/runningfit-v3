@@ -19,3 +19,7 @@
 .home-race-list a:last-child { border-bottom: 0; }
 .home-race-list strong { font-size: 13px; }
 .home-race-list span { color: var(--muted); font-size: 11px; }
+
+
+/* Phase 3 performance: skip off-screen card layout/paint work. */
+.strip-card, .mini-rank-item { content-visibility: auto; contain-intrinsic-size: 140px; }

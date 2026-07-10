@@ -1,1 +1,5 @@
 /* Shoes-specific styles are layered on app.css. */
+
+
+/* Phase 3 performance: skip off-screen card layout/paint work. */
+.shoe-card { content-visibility: auto; contain-intrinsic-size: 520px; }

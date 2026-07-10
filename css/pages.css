@@ -154,3 +154,7 @@
   .race-date-box { min-height: 66px; }
   .race-content h2 { font-size: 17px; }
 }
+
+
+/* Phase 3 performance: skip off-screen card layout/paint work. */
+.weather-card-item, .course-card-item, .race-card, .run-item { content-visibility: auto; contain-intrinsic-size: 240px; }
