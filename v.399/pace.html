@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>페이스 계산기 | RunningFit</title>
+  <meta name="description" content="러닝 페이스, 목표 기록, 예상 완주 시간, 인터벌 훈련 기준을 계산합니다." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-row top-row">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">RF</span>
+      <span class="brand-name">RunningFit</span>
+    </a>
+
+    <nav class="desktop-nav">
+      <a class="nav-link" href="index.html">홈</a>
+      <a class="nav-link" href="shoes.html">러닝화</a>
+      <a class="nav-link active" href="pace.html">페이스 계산기</a>
+      <a class="nav-link" href="weather.html">날씨</a>
+      <a class="nav-link" href="races.html">대회</a>
+      <a class="nav-link" href="courses.html">코스</a>
+      <button class="login-btn" type="button" id="loginBtn">로그인</button>
+    </nav>
+  </div>
+</header>
+
+<main class="pace-page">
+  <section class="page-hero">
+    <p class="eyebrow">RUNNING TOOL</p>
+    <h1>페이스 계산기</h1>
+    <p>목표 기록, 예상 완주 시간, 400m 인터벌 기준까지 한 번에 계산합니다.</p>
+  </section>
+
+  <section class="pace-grid">
+    <article class="pace-card">
+      <h2>목표 기록 → 페이스</h2>
+      <label>거리(km)
+        <input id="targetDistance" type="number" value="10" min="0.1" step="0.1">
+      </label>
+      <label>목표 시간
+        <input id="targetTime" type="text" value="00:50:00" placeholder="예: 00:50:00">
+      </label>
+      <button class="btn primary" type="button" id="calcTargetPace">계산하기</button>
+      <div class="pace-result" id="targetPaceResult">-</div>
+    </article>
+
+    <article class="pace-card">
+      <h2>페이스 → 예상 기록</h2>
+      <label>페이스 / km
+        <input id="paceInput" type="text" value="05:00" placeholder="예: 05:00">
+      </label>
+      <button class="btn primary" type="button" id="calcFinishTimes">예상 기록 계산</button>
+      <div class="pace-result-list" id="finishTimeResult"></div>
+    </article>
+
+    <article class="pace-card">
+      <h2>400m 인터벌 계산</h2>
+      <label>목표 페이스 / km
+        <input id="intervalPace" type="text" value="04:00" placeholder="예: 04:00">
+      </label>
+      <label>반복 횟수
+        <input id="intervalCount" type="number" value="10" min="1">
+      </label>
+      <button class="btn primary" type="button" id="calcInterval">인터벌 계산</button>
+      <div class="pace-result-list" id="intervalResult"></div>
+    </article>
+
+    <article class="pace-card">
+      <h2>400m × 10 예상 기록</h2>
+      <label>400m 평균 기록
+        <input id="avg400" type="text" value="01:36" placeholder="예: 01:36">
+      </label>
+      <button class="btn primary" type="button" id="calcRacePredict">대회 예상 계산</button>
+      <div class="pace-result-list" id="racePredictResult"></div>
+    </article>
+  </section>
+</main>
+
+<nav class="mobile-bottom-nav">
+  <a href="index.html">홈</a>
+  <a href="shoes.html">러닝화</a>
+  <a class="active" href="pace.html">페이스</a>
+  <a href="races.html">대회</a>
+  <a href="courses.html">코스</a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>

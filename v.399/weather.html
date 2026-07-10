@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>러닝 날씨 | RunningFit V3.2</title>
+  <meta name="description" content="오늘 러닝하기 좋은 날씨인지 확인하는 RunningFit 날씨 페이지입니다." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="RunningFit 홈">
+    <span class="brand-mark">RF</span>
+    <span>
+      <strong>RunningFit</strong>
+      <small>Weather</small>
+    </span>
+  </a>
+  <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
+  <nav class="site-nav" data-nav>
+    <a  href="index.html">홈</a>
+    <a  href="shoes.html">러닝화 추천</a>
+    <a  href="my-shoes.html">내 신발장</a>
+    <a  href="run-log.html">러닝 기록</a>
+    <a class="active" href="weather.html">날씨</a>
+    <a  href="races.html">대회</a>
+    <a  href="courses.html">코스</a>
+    <a  href="profile.html">프로필</a>
+    <button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
+  </nav>
+</header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Running weather</p>
+      <h1>오늘 러닝 날씨</h1>
+      <p>실제 날씨 API 연결 전입니다. 임의 현재 날씨를 실제처럼 표시하지 않습니다.</p>
+    </section>
+    <section class="card api-card">
+      <h2>데이터 연결 상태</h2>
+      <p data-weather-page-status>날씨 데이터를 불러오는 중입니다.</p>
+      <div class="notice">실제 서비스에서는 위치 권한 또는 지역 검색을 통해 공식/상용 날씨 API를 연결해야 합니다.</div>
+    </section>
+    <section class="weather-grid" data-weather-grid></section>
+  </main>
+  <footer class="site-footer"><p>날씨 정보는 API 연결 후 출처와 갱신 시간을 함께 표시해야 합니다.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

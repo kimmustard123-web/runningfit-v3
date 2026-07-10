@@ -7,14 +7,13 @@
   <title>RunningFit V4 | 러닝화 추천 플랫폼</title>
   <meta name="description" content="러닝 전 날씨, 전국 러닝대회, 추천 러닝코스, 인기 러닝화와 목적별 러닝화 TOP 추천을 한 번에 확인하세요." />
 
-  <link rel="stylesheet" href="./css/app.css" />
-  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <header class="site-header rf-header">
-    <div class="header-inner rf-header-row">
-      <a href="./index.html" class="brand" aria-label="RunningFit 홈">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./index.html" class="brand">
         <span class="brand-mark">RF</span>
         <span class="brand-text">
           <strong>RunningFit</strong>
@@ -22,17 +21,14 @@
         </span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
-
-      <nav class="top-nav" data-nav aria-label="주요 메뉴">
-          <a href="./index.html" class="nav-link active">홈</a>
-          <a href="./shoes.html" class="nav-link">러닝화</a>
-          <a href="./pace.html" class="nav-link">페이스 계산기</a>
-          <a href="./weather.html" class="nav-link">날씨</a>
-          <a href="./races.html" class="nav-link">대회</a>
-          <a href="./courses.html" class="nav-link">코스</a>
-          <a href="./profile.html" class="nav-link">프로필</a>
-        <button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
+      <nav class="top-nav" aria-label="주요 메뉴">
+        <a href="./index.html" class="nav-link active">홈</a>
+        <a href="./shoes.html" class="nav-link">러닝화추천</a>
+        <a href="./pace.html" class="nav-link">페이스계산기</a>
+        <a href="./weather.html" class="nav-link">날씨</a>
+        <a href="./races.html" class="nav-link">대회</a>
+        <a href="./courses.html" class="nav-link">코스</a>
+        <a href="./profile.html" class="nav-link">프로필</a>
       </nav>
     </div>
 
@@ -44,10 +40,11 @@
           name="q"
           type="search"
           autocomplete="off"
-          placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색"
+          placeholder="러닝화 검색 · 예: 페가수스, 페, 나이키, 젤카야노"
         />
         <button type="submit">검색</button>
       </form>
+
       <div id="globalSearchSuggestions" class="search-suggestions" aria-label="검색 추천 목록"></div>
     </div>
   </header>
@@ -55,20 +52,30 @@
   <main class="page-shell home-layout">
     <section class="home-main">
       <section class="hero-card">
-        <div class="hero-copy">
-          <p class="eyebrow">RUNNINGFIT V4</p>
-          <h1>당신에게 맞는 러닝화를<br>가장 쉽게 찾으세요.</h1>
-          <p>
-            러닝핏이 목적, 발볼, 쿠션감, 훈련 스타일을 고려하여
-            당신에게 가장 잘 맞는 러닝화를 추천합니다.
-          </p>
-        </div>
+  <div class="hero-copy">
+    <p class="eyebrow">RUNNINGFIT V4</p>
 
-        <div class="hero-actions">
-          <a href="./shoes.html#browse" class="primary-btn">러닝화 전체 검색</a>
-          <a href="./shoes.html#beginner" class="secondary-btn">러닝화 추천 시작</a>
-        </div>
-      </section>
+    <h1>
+      당신에게 맞는 러닝화를<br>
+      가장 쉽게 찾으세요.
+    </h1>
+
+    <p>
+      러닝핏이 목적, 발볼, 쿠션감, 훈련 스타일을 고려하여
+      당신에게 가장 잘 맞는 러닝화를 추천합니다.
+    </p>
+  </div>
+
+  <div class="hero-actions">
+    <a href="./shoes.html#browse" class="primary-btn">
+      러닝화 전체검색
+    </a>
+
+    <a href="./shoes.html#beginner" class="secondary-btn">
+      러닝화 추천 시작
+    </a>
+  </div>
+</section>
 
       <section class="quick-grid">
         <article class="info-card weather-card">
@@ -105,7 +112,7 @@
             <p class="eyebrow">POPULAR</p>
             <h2>🔥 이번 주 인기 러닝화 TOP5</h2>
           </div>
-          <a href="./shoes.html?view=popular#browse" class="section-more">전체보기</a>
+          <a href="./shoes.html#popular" class="section-more">전체보기</a>
         </div>
         <div id="weeklyPopularShoes" class="horizontal-scroll shoe-strip"></div>
       </section>
@@ -116,7 +123,7 @@
             <p class="eyebrow">NEW RELEASE</p>
             <h2>🆕 새로 출시된 러닝화</h2>
           </div>
-          <a href="./shoes.html?view=new#browse" class="section-more">전체보기</a>
+          <a href="./shoes.html#new" class="section-more">전체보기</a>
         </div>
         <div id="newReleaseShoes" class="horizontal-scroll shoe-strip"></div>
       </section>
@@ -125,9 +132,9 @@
         <div class="section-head">
           <div>
             <p class="eyebrow">PURPOSE RANKING</p>
-            <h2>🏆 목적별 TOP10</h2>
+            <h2>🏆 목적별 TOP</h2>
           </div>
-          <a href="./shoes.html?view=all#browse" class="section-more">전체보기</a>
+          <a href="./shoes.html" class="section-more">러닝화 탭으로</a>
         </div>
 
         <div class="purpose-grid">
@@ -135,30 +142,41 @@
             <h3>첫 러닝화 TOP10</h3>
             <p>러닝 입문자가 처음 고르기 좋은 안정적인 모델.</p>
             <div id="beginnerTopShoes" class="mini-rank-list"></div>
-            <a href="./shoes.html?view=firstRunning#browse" class="mini-link">전체보기</a>
+            <a href="./shoes.html#beginner" class="mini-link">첫 러닝화 보기</a>
           </article>
 
           <article class="purpose-card">
             <h3>매일 러닝 TOP10</h3>
             <p>출퇴근 전후, 조깅, 일상 러닝에 적합한 모델.</p>
             <div id="dailyTopShoes" class="mini-rank-list"></div>
-            <a href="./shoes.html?view=dailyRunning#browse" class="mini-link">전체보기</a>
+            <a href="./shoes.html#daily" class="mini-link">매일 러닝 보기</a>
           </article>
 
           <article class="purpose-card">
             <h3>훈련용 TOP10</h3>
             <p>템포런, 인터벌, 빌드업 등 훈련용 모델.</p>
             <div id="trainingTopShoes" class="mini-rank-list"></div>
-            <a href="./shoes.html?view=training#browse" class="mini-link">전체보기</a>
+            <a href="./shoes.html#training" class="mini-link">훈련용 보기</a>
           </article>
 
           <article class="purpose-card">
             <h3>대회용 TOP10</h3>
             <p>기록 단축과 레이스 데이를 위한 모델.</p>
             <div id="raceTopShoes" class="mini-rank-list"></div>
-            <a href="./shoes.html?view=race#browse" class="mini-link">전체보기</a>
+            <a href="./shoes.html#race" class="mini-link">대회용 보기</a>
           </article>
         </div>
+      </section>
+
+      <section class="section-block recommendation-block">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">TODAY PICK</p>
+            <h2>⭐ 오늘의 추천 러닝화</h2>
+          </div>
+        </div>
+
+        <div id="todayRecommendedShoe" class="today-shoe-card"></div>
       </section>
     </section>
 
@@ -192,7 +210,6 @@
     <a href="./profile.html">설정</a>
   </nav>
 
-  <script src="./js/app.js" defer></script>
-  <script src="./js/home.js" defer></script>
+  <script src="./script.js"></script>
 </body>
 </html>

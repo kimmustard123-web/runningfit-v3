@@ -5,49 +5,30 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>내 신발장 | RunningFit V3.2</title>
   <meta name="description" content="내 러닝화를 등록하고 누적거리, 예상 수명, 남은 마일리지, 교체 시점을 관리합니다." />
-  <link rel="stylesheet" href="./css/app.css" />
-  <link rel="stylesheet" href="./css/pages.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header rf-header">
-    <div class="header-inner rf-header-row">
-      <a href="./index.html" class="brand" aria-label="RunningFit 홈">
-        <span class="brand-mark">RF</span>
-        <span class="brand-text">
-          <strong>RunningFit</strong>
-          <small id="currentPageLabel">내 신발장</small>
-        </span>
-      </a>
 
-      <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
-
-      <nav class="top-nav" data-nav aria-label="주요 메뉴">
-          <a href="./index.html" class="nav-link">홈</a>
-          <a href="./shoes.html" class="nav-link">러닝화</a>
-          <a href="./pace.html" class="nav-link">페이스 계산기</a>
-          <a href="./weather.html" class="nav-link">날씨</a>
-          <a href="./races.html" class="nav-link">대회</a>
-          <a href="./courses.html" class="nav-link">코스</a>
-          <a href="./profile.html" class="nav-link active">프로필</a>
-        <button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
-      </nav>
-    </div>
-
-    <div class="global-search-wrap">
-      <form id="globalSearchForm" class="global-search" action="./shoes.html">
-        <label for="globalSearchInput" class="sr-only">러닝화 검색</label>
-        <input
-          id="globalSearchInput"
-          name="q"
-          type="search"
-          autocomplete="off"
-          placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색"
-        />
-        <button type="submit">검색</button>
-      </form>
-      <div id="globalSearchSuggestions" class="search-suggestions" aria-label="검색 추천 목록"></div>
-    </div>
-  </header>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="RunningFit 홈">
+    <span class="brand-mark">RF</span>
+    <span>
+      <strong>RunningFit</strong>
+      <small>My Shoe Rack</small>
+    </span>
+  </a>
+  <button class="nav-toggle" type="button" aria-label="메뉴 열기" data-nav-toggle>☰</button>
+  <nav class="site-nav" data-nav>
+    <a  href="index.html">홈</a>
+    <a  href="shoes.html">러닝화 추천</a>
+    <a class="active" href="my-shoes.html">내 신발장</a>
+    <a  href="run-log.html">러닝 기록</a>
+    <a  href="weather.html">날씨</a>
+    <a  href="races.html">대회</a>
+    <a  href="courses.html">코스</a>
+    <a  href="profile.html">프로필</a><button id="themeToggle" class="theme-toggle" type="button" aria-label="다크모드 전환">🌙</button>
+  </nav>
+</header>
 
   <main>
     <section class="page-hero">
@@ -105,7 +86,6 @@
     </section>
   </main>
   <footer class="site-footer"><p>내 신발장 데이터는 현재 브라우저 저장소에 저장됩니다.</p></footer>
-  <script src="./js/app.js" defer></script>
-  <script src="./js/pages.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>

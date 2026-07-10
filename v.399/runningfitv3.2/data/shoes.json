@@ -1,0 +1,4800 @@
+[
+  {
+    "id": "asics-gel-kayano-31",
+    "coreTier": "Core50",
+    "brand": "ASICS",
+    "modelEn": "GEL-Kayano 31",
+    "modelKo": "젤 카야노 31",
+    "search": {
+      "ko": [
+        "카야노",
+        "젤카야노",
+        "kayano",
+        "젤 카야노 31",
+        "asics"
+      ],
+      "en": [
+        "Kayano",
+        "Gel Kayano",
+        "GEL-Kayano 31",
+        "ASICS"
+      ],
+      "alias": [
+        "ㄱㅇㄴ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "stability",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 72,
+      "daily": 86,
+      "stability": 89,
+      "training": 58,
+      "race": 58,
+      "beginner": 86,
+      "value": 58,
+      "popularity": 71
+    },
+    "summary": "젤 카야노 31는 발목 흔들림, 무릎 부담, 과회내전 걱정이 있는 러너가 우선 비교할 안정화 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통~넓음",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.0,
+      "stability": 9.0,
+      "energyReturn": 6.7,
+      "breathability": 7.0,
+      "outsoleDurability": 8.0,
+      "comfort": 8.1
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "착지 안정감에 초점을 둔다",
+      "입문자에게 심리적으로 편하다",
+      "천천히 오래 뛰는 러닝에 어울린다",
+      "발목이 흔들리는 느낌이 있는 사람에게 비교 가치가 높다"
+    ],
+    "cons": [
+      "빠른 템포주에는 둔하게 느껴질 수 있다",
+      "가벼운 레이싱 감각과는 거리가 있다"
+    ],
+    "similarShoes": [
+      "saucony-guide-17",
+      "brooks-adrenaline-gts-23",
+      "puma-foreverrun-nitro"
+    ],
+    "image": "assets/images/shoes/asics-gel-kayano-31.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "stability",
+      "primaryLabel": "안정화"
+    },
+    "targetRunner": [
+      "발목이나 무릎 부담이 걱정되는 사람",
+      "착지 안정감을 우선하는 입문자",
+      "천천히 오래 뛰는 러너"
+    ],
+    "notRecommendedFor": [
+      "가벼운 인터벌화를 찾는 사람",
+      "대회용 카본화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "안정감을 우선하는 러너를 위한 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "asics-gel-nimbus-26",
+    "coreTier": "Core50",
+    "brand": "ASICS",
+    "modelEn": "GEL-Nimbus 26",
+    "modelKo": "젤 님버스 26",
+    "search": {
+      "ko": [
+        "님버스",
+        "젤님버스",
+        "젤 님버스 26",
+        "asics"
+      ],
+      "en": [
+        "Nimbus",
+        "GEL-Nimbus 26",
+        "ASICS"
+      ],
+      "alias": [
+        "ㄴㅂㅅ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 68,
+      "daily": 88,
+      "stability": 58,
+      "training": 59,
+      "race": 58,
+      "beginner": 86,
+      "value": 61,
+      "popularity": 75
+    },
+    "summary": "젤 님버스 26는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14",
+      "adidas-adizero-sl2"
+    ],
+    "image": "assets/images/shoes/asics-gel-nimbus-26.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "asics-novablast-4",
+    "coreTier": "Core50",
+    "brand": "ASICS",
+    "modelEn": "Novablast 4",
+    "modelKo": "노바블라스트 4",
+    "search": {
+      "ko": [
+        "노바",
+        "노바블라스트",
+        "노바블라스트 4",
+        "asics"
+      ],
+      "en": [
+        "Nova",
+        "Novablast",
+        "Novablast 4",
+        "ASICS"
+      ],
+      "alias": [
+        "ㄴㅂ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "training"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 68,
+      "daily": 86,
+      "stability": 58,
+      "training": 88,
+      "race": 58,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 70
+    },
+    "summary": "노바블라스트 4는 템포런, 지속주, 빠른 조깅까지 소화할 수 있는 훈련용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통~여유",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 7.8,
+      "stability": 7.2,
+      "energyReturn": 8.6,
+      "breathability": 8.0,
+      "outsoleDurability": 7.3,
+      "comfort": 7.7
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "데일리화보다 빠른 주행에 유리하다",
+      "템포런과 지속주에 활용하기 좋다",
+      "대회화 전 단계로 쓰기 좋다",
+      "반발감과 안정감의 균형을 기대할 수 있다"
+    ],
+    "cons": [
+      "완전 입문자에게는 과하게 느껴질 수 있다",
+      "천천히 걷고 뛰는 용도만이면 굳이 필요 없을 수 있다"
+    ],
+    "similarShoes": [
+      "new-balance-fuelcell-rebel-v4",
+      "hoka-mach-6",
+      "brooks-hyperion-max-2"
+    ],
+    "image": "assets/images/shoes/asics-novablast-4.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "training",
+      "primaryLabel": "훈련용"
+    },
+    "targetRunner": [
+      "5km~하프 기록을 줄이고 싶은 러너",
+      "데일리화보다 빠른 신발이 필요한 사람",
+      "훈련용 서브화를 찾는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 하나만 사려는 사람",
+      "매우 푹신한 착화감만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "데일리보다 빠르게 달리고 싶을 때 비교할 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "asics-superblast-2",
+    "coreTier": "Core50",
+    "brand": "ASICS",
+    "modelEn": "Superblast 2",
+    "modelKo": "슈퍼블라스트 2",
+    "search": {
+      "ko": [
+        "슈블",
+        "슈퍼블라스트",
+        "슈퍼블라스트 2",
+        "asics"
+      ],
+      "en": [
+        "Superblast",
+        "Superblast 2",
+        "ASICS"
+      ],
+      "alias": [
+        "ㅅㅂ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "training",
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 73,
+      "daily": 87,
+      "stability": 58,
+      "training": 89,
+      "race": 86,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 70
+    },
+    "summary": "슈퍼블라스트 2는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3",
+      "new-balance-fuelcell-sc-trainer-v3"
+    ],
+    "image": "assets/images/shoes/asics-superblast-2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "asics-metaspeed-sky-paris",
+    "coreTier": "Core50",
+    "brand": "ASICS",
+    "modelEn": "Metaspeed Sky Paris",
+    "modelKo": "메타스피드 스카이 파리",
+    "search": {
+      "ko": [
+        "메타스피드",
+        "스카이파리",
+        "메타스피드 스카이 파리",
+        "asics"
+      ],
+      "en": [
+        "Metaspeed",
+        "Sky Paris",
+        "Metaspeed Sky Paris",
+        "ASICS"
+      ],
+      "alias": [
+        "ㅁㅌ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 63,
+      "daily": 58,
+      "stability": 58,
+      "training": 58,
+      "race": 86,
+      "beginner": 58,
+      "value": 59,
+      "popularity": 73
+    },
+    "summary": "메타스피드 스카이 파리는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3",
+      "new-balance-fuelcell-sc-trainer-v3"
+    ],
+    "image": "assets/images/shoes/asics-metaspeed-sky-paris.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "nike-pegasus-41",
+    "coreTier": "Core50",
+    "brand": "Nike",
+    "modelEn": "Pegasus 41",
+    "modelKo": "페가수스 41",
+    "search": {
+      "ko": [
+        "페",
+        "페가",
+        "페가수스",
+        "페가수스 41",
+        "nike"
+      ],
+      "en": [
+        "Peg",
+        "Pegasus",
+        "Pegasus 41",
+        "Nike"
+      ],
+      "alias": [
+        "ㅍㄱ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner",
+      "value"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 72,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 87,
+      "value": 88,
+      "popularity": 74
+    },
+    "summary": "페가수스 41는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14",
+      "adidas-adizero-sl2"
+    ],
+    "image": "assets/images/shoes/nike-pegasus-41.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "nike-vomero-17",
+    "coreTier": "Core50",
+    "brand": "Nike",
+    "modelEn": "Vomero 17",
+    "modelKo": "보메로 17",
+    "search": {
+      "ko": [
+        "보메",
+        "보메로",
+        "보메로 17",
+        "nike"
+      ],
+      "en": [
+        "Vom",
+        "Vomero",
+        "Vomero 17",
+        "Nike"
+      ],
+      "alias": [
+        "ㅂㅁ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 71,
+      "daily": 88,
+      "stability": 62,
+      "training": 64,
+      "race": 58,
+      "beginner": 86,
+      "value": 66,
+      "popularity": 78
+    },
+    "summary": "보메로 17는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "new-balance-fresh-foam-x-1080-v14",
+      "adidas-adizero-sl2"
+    ],
+    "image": "assets/images/shoes/nike-vomero-17.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "nike-invincible-3",
+    "coreTier": "Core50",
+    "brand": "Nike",
+    "modelEn": "Invincible 3",
+    "modelKo": "인빈서블 3",
+    "search": {
+      "ko": [
+        "인빈",
+        "인빈서블",
+        "인빈서블 3",
+        "nike"
+      ],
+      "en": [
+        "Invincible",
+        "Invincible 3",
+        "Nike"
+      ],
+      "alias": [
+        "ㅇㅂ"
+      ]
+    },
+    "purpose": [
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 63,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 70
+    },
+    "summary": "인빈서블 3는 매일 조깅, 가벼운 지속주, 러닝 입문자가 무난하게 고르기 좋은 데일리 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.2,
+      "stability": 7.6,
+      "energyReturn": 7.2,
+      "breathability": 7.7,
+      "outsoleDurability": 7.5,
+      "comfort": 8.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "활용 범위가 넓다",
+      "초보자도 적응하기 쉽다",
+      "조깅과 가벼운 지속주에 잘 맞는다",
+      "하나만 산다면 비교 후보에 넣기 좋다"
+    ],
+    "cons": [
+      "레이싱화만큼 빠르지는 않다",
+      "강한 추진감을 원하는 러너에게는 심심할 수 있다"
+    ],
+    "similarShoes": [
+      "adidas-ultraboost-5x",
+      "on-cloudmonster-2",
+      "puma-magnify-nitro-2",
+      "altra-torin-7"
+    ],
+    "image": "assets/images/shoes/nike-invincible-3.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "daily",
+      "primaryLabel": "데일리"
+    },
+    "targetRunner": [
+      "주 2~5회 조깅하는 러너",
+      "첫 러닝화를 찾는 사람",
+      "하나의 신발로 여러 러닝을 처리하고 싶은 사람"
+    ],
+    "notRecommendedFor": [
+      "대회 기록 단축만 노리는 러너",
+      "초경량 레이싱화만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "실패 확률을 낮추는 데일리 러닝화 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "nike-zoom-fly-6",
+    "coreTier": "Core50",
+    "brand": "Nike",
+    "modelEn": "Zoom Fly 6",
+    "modelKo": "줌 플라이 6",
+    "search": {
+      "ko": [
+        "줌플라이",
+        "줌플",
+        "줌 플라이 6",
+        "nike"
+      ],
+      "en": [
+        "Zoom Fly",
+        "Zoom Fly 6",
+        "Nike"
+      ],
+      "alias": [
+        "ㅈㅍ"
+      ]
+    },
+    "purpose": [
+      "training",
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 68,
+      "daily": 59,
+      "stability": 58,
+      "training": 86,
+      "race": 86,
+      "beginner": 59,
+      "value": 60,
+      "popularity": 74
+    },
+    "summary": "줌 플라이 6는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-vaporfly-3",
+      "new-balance-fuelcell-sc-trainer-v3"
+    ],
+    "image": "assets/images/shoes/nike-zoom-fly-6.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "nike-vaporfly-3",
+    "coreTier": "Core50",
+    "brand": "Nike",
+    "modelEn": "Vaporfly 3",
+    "modelKo": "베이퍼플라이 3",
+    "search": {
+      "ko": [
+        "베넥",
+        "베이퍼",
+        "베이퍼플라이",
+        "베이퍼플라이 3",
+        "nike"
+      ],
+      "en": [
+        "Vaporfly",
+        "Vaporfly 3",
+        "Nike"
+      ],
+      "alias": [
+        "ㅂㅇㅍ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 64,
+      "daily": 58,
+      "stability": 58,
+      "training": 58,
+      "race": 92,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 70
+    },
+    "summary": "베이퍼플라이 3는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "new-balance-fuelcell-sc-trainer-v3"
+    ],
+    "image": "assets/images/shoes/nike-vaporfly-3.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "new-balance-fresh-foam-x-1080-v14",
+    "coreTier": "Core50",
+    "brand": "New Balance",
+    "modelEn": "Fresh Foam X 1080 v14",
+    "modelKo": "프레시폼 1080 v14",
+    "search": {
+      "ko": [
+        "1080",
+        "프레시폼1080",
+        "프레시폼 1080 v14",
+        "new balance"
+      ],
+      "en": [
+        "1080",
+        "Fresh Foam 1080",
+        "Fresh Foam X 1080 v14",
+        "New Balance"
+      ],
+      "alias": [
+        "ㅇㅊㅍ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 68,
+      "daily": 88,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 86,
+      "value": 59,
+      "popularity": 73
+    },
+    "summary": "프레시폼 1080 v14는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "adidas-adizero-sl2"
+    ],
+    "image": "assets/images/shoes/new-balance-fresh-foam-x-1080-v14.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "new-balance-fresh-foam-x-880-v14",
+    "coreTier": "Core50",
+    "brand": "New Balance",
+    "modelEn": "Fresh Foam X 880 v14",
+    "modelKo": "프레시폼 880 v14",
+    "search": {
+      "ko": [
+        "880",
+        "프레시폼 880 v14",
+        "new balance"
+      ],
+      "en": [
+        "880",
+        "Fresh Foam X 880 v14",
+        "New Balance"
+      ],
+      "alias": [
+        "ㅍㄹㅅ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "value"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 68,
+      "daily": 86,
+      "stability": 58,
+      "training": 60,
+      "race": 58,
+      "beginner": 61,
+      "value": 86,
+      "popularity": 76
+    },
+    "summary": "프레시폼 880 v14는 가격 부담을 줄이면서 러닝화 기본기를 챙기고 싶은 사용자를 위한 가성비 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 7.6,
+      "stability": 7.2,
+      "energyReturn": 6.9,
+      "breathability": 7.2,
+      "outsoleDurability": 7.5,
+      "comfort": 7.8
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "첫 러닝화 예산에 맞추기 좋다",
+      "기본기가 충분한 모델을 고르기 쉽다",
+      "서브 러닝화로도 활용 가능하다",
+      "할인 시 만족도가 높을 가능성이 크다"
+    ],
+    "cons": [
+      "최상급 소재나 레이싱 성능은 기대하기 어렵다",
+      "색상·사이즈별 가격 차이가 클 수 있다"
+    ],
+    "similarShoes": [
+      "saucony-ride-17",
+      "puma-velocity-nitro-3"
+    ],
+    "image": "assets/images/shoes/new-balance-fresh-foam-x-880-v14.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "value",
+      "primaryLabel": "가성비"
+    },
+    "targetRunner": [
+      "예산을 아끼고 싶은 입문자",
+      "서브 러닝화를 찾는 사람",
+      "러닝 빈도가 아직 높지 않은 사람"
+    ],
+    "notRecommendedFor": [
+      "최상급 레이스 성능만 원하는 사람",
+      "최신 플래그십 모델만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "예산을 아끼면서 기본기를 챙기는 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "new-balance-fuelcell-rebel-v4",
+    "coreTier": "Core50",
+    "brand": "New Balance",
+    "modelEn": "FuelCell Rebel v4",
+    "modelKo": "퓨얼셀 레벨 v4",
+    "search": {
+      "ko": [
+        "레벨",
+        "리벨",
+        "퓨얼셀레벨",
+        "퓨얼셀 레벨 v4",
+        "new balance"
+      ],
+      "en": [
+        "Rebel",
+        "FuelCell Rebel",
+        "FuelCell Rebel v4",
+        "New Balance"
+      ],
+      "alias": [
+        "ㄹㅂ"
+      ]
+    },
+    "purpose": [
+      "training",
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 70,
+      "daily": 86,
+      "stability": 61,
+      "training": 88,
+      "race": 58,
+      "beginner": 64,
+      "value": 65,
+      "popularity": 78
+    },
+    "summary": "퓨얼셀 레벨 v4는 템포런, 지속주, 빠른 조깅까지 소화할 수 있는 훈련용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통~여유",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 7.8,
+      "stability": 7.2,
+      "energyReturn": 8.6,
+      "breathability": 8.0,
+      "outsoleDurability": 7.3,
+      "comfort": 7.7
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "데일리화보다 빠른 주행에 유리하다",
+      "템포런과 지속주에 활용하기 좋다",
+      "대회화 전 단계로 쓰기 좋다",
+      "반발감과 안정감의 균형을 기대할 수 있다"
+    ],
+    "cons": [
+      "완전 입문자에게는 과하게 느껴질 수 있다",
+      "천천히 걷고 뛰는 용도만이면 굳이 필요 없을 수 있다"
+    ],
+    "similarShoes": [
+      "asics-novablast-4",
+      "hoka-mach-6",
+      "brooks-hyperion-max-2"
+    ],
+    "image": "assets/images/shoes/new-balance-fuelcell-rebel-v4.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "training",
+      "primaryLabel": "훈련용"
+    },
+    "targetRunner": [
+      "5km~하프 기록을 줄이고 싶은 러너",
+      "데일리화보다 빠른 신발이 필요한 사람",
+      "훈련용 서브화를 찾는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 하나만 사려는 사람",
+      "매우 푹신한 착화감만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "데일리보다 빠르게 달리고 싶을 때 비교할 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "new-balance-fuelcell-sc-trainer-v3",
+    "coreTier": "Core50",
+    "brand": "New Balance",
+    "modelEn": "FuelCell SC Trainer v3",
+    "modelKo": "퓨얼셀 SC 트레이너 v3",
+    "search": {
+      "ko": [
+        "sc트레이너",
+        "트레이너",
+        "퓨얼셀 SC 트레이너 v3",
+        "new balance"
+      ],
+      "en": [
+        "SC Trainer",
+        "FuelCell SC Trainer v3",
+        "New Balance"
+      ],
+      "alias": [
+        "ㅌㄹㅇㄴ"
+      ]
+    },
+    "purpose": [
+      "training",
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 70,
+      "daily": 62,
+      "stability": 59,
+      "training": 86,
+      "race": 86,
+      "beginner": 62,
+      "value": 63,
+      "popularity": 77
+    },
+    "summary": "퓨얼셀 SC 트레이너 v3는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/new-balance-fuelcell-sc-trainer-v3.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "new-balance-fuelcell-sc-elite-v4",
+    "coreTier": "Core50",
+    "brand": "New Balance",
+    "modelEn": "FuelCell SC Elite v4",
+    "modelKo": "퓨얼셀 SC 엘리트 v4",
+    "search": {
+      "ko": [
+        "sc엘리트",
+        "엘리트",
+        "퓨얼셀 SC 엘리트 v4",
+        "new balance"
+      ],
+      "en": [
+        "SC Elite",
+        "FuelCell SC Elite v4",
+        "New Balance"
+      ],
+      "alias": [
+        "ㅇㄹㅌ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 63,
+      "daily": 58,
+      "stability": 58,
+      "training": 58,
+      "race": 86,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 72
+    },
+    "summary": "퓨얼셀 SC 엘리트 v4는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/new-balance-fuelcell-sc-elite-v4.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "adidas-adizero-adios-pro-3",
+    "coreTier": "Core50",
+    "brand": "adidas",
+    "modelEn": "Adizero Adios Pro 3",
+    "modelKo": "아디제로 아디오스 프로 3",
+    "search": {
+      "ko": [
+        "아디오스프로",
+        "아디프로",
+        "아디제로 아디오스 프로 3",
+        "adidas"
+      ],
+      "en": [
+        "Adios Pro",
+        "Adizero Adios Pro 3",
+        "adidas"
+      ],
+      "alias": [
+        "ㅇㄷㅇㅅ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 67,
+      "daily": 63,
+      "stability": 60,
+      "training": 62,
+      "race": 92,
+      "beginner": 63,
+      "value": 64,
+      "popularity": 78
+    },
+    "summary": "아디제로 아디오스 프로 3는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/adidas-adizero-adios-pro-3.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "adidas-adizero-boston-12",
+    "coreTier": "Core50",
+    "brand": "adidas",
+    "modelEn": "Adizero Boston 12",
+    "modelKo": "아디제로 보스턴 12",
+    "search": {
+      "ko": [
+        "보스턴",
+        "보스턴12",
+        "아디제로 보스턴 12",
+        "adidas"
+      ],
+      "en": [
+        "Boston",
+        "Adizero Boston 12",
+        "adidas"
+      ],
+      "alias": [
+        "ㅂㅅㅌ"
+      ]
+    },
+    "purpose": [
+      "training",
+      "race"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 69,
+      "daily": 60,
+      "stability": 58,
+      "training": 88,
+      "race": 86,
+      "beginner": 60,
+      "value": 61,
+      "popularity": 75
+    },
+    "summary": "아디제로 보스턴 12는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/adidas-adizero-boston-12.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "adidas-adizero-sl2",
+    "coreTier": "Core50",
+    "brand": "adidas",
+    "modelEn": "Adizero SL2",
+    "modelKo": "아디제로 SL2",
+    "search": {
+      "ko": [
+        "sl2",
+        "에스엘",
+        "아디제로 SL2",
+        "adidas"
+      ],
+      "en": [
+        "SL2",
+        "Adizero SL2",
+        "adidas"
+      ],
+      "alias": [
+        "ㅇㅅㅇ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "value",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 72,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 86,
+      "value": 86,
+      "popularity": 71
+    },
+    "summary": "아디제로 SL2는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/adidas-adizero-sl2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "adidas-supernova-rise",
+    "coreTier": "Core50",
+    "brand": "adidas",
+    "modelEn": "Supernova Rise",
+    "modelKo": "슈퍼노바 라이즈",
+    "search": {
+      "ko": [
+        "슈퍼노바",
+        "라이즈",
+        "슈퍼노바 라이즈",
+        "adidas"
+      ],
+      "en": [
+        "Supernova Rise",
+        "Supernova Rise",
+        "adidas"
+      ],
+      "alias": [
+        "ㅅㅍㄴㅂ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 67,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 86,
+      "value": 58,
+      "popularity": 71
+    },
+    "summary": "슈퍼노바 라이즈는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/adidas-supernova-rise.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "adidas-ultraboost-5x",
+    "coreTier": "Core50",
+    "brand": "adidas",
+    "modelEn": "Ultraboost 5X",
+    "modelKo": "울트라부스트 5X",
+    "search": {
+      "ko": [
+        "울부",
+        "울트라부스트",
+        "울트라부스트 5X",
+        "adidas"
+      ],
+      "en": [
+        "Ultraboost",
+        "Ultraboost 5X",
+        "adidas"
+      ],
+      "alias": [
+        "ㅇㅂ"
+      ]
+    },
+    "purpose": [
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 63,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 71
+    },
+    "summary": "울트라부스트 5X는 매일 조깅, 가벼운 지속주, 러닝 입문자가 무난하게 고르기 좋은 데일리 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.2,
+      "stability": 7.6,
+      "energyReturn": 7.2,
+      "breathability": 7.7,
+      "outsoleDurability": 7.5,
+      "comfort": 8.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "활용 범위가 넓다",
+      "초보자도 적응하기 쉽다",
+      "조깅과 가벼운 지속주에 잘 맞는다",
+      "하나만 산다면 비교 후보에 넣기 좋다"
+    ],
+    "cons": [
+      "레이싱화만큼 빠르지는 않다",
+      "강한 추진감을 원하는 러너에게는 심심할 수 있다"
+    ],
+    "similarShoes": [
+      "nike-invincible-3",
+      "on-cloudmonster-2",
+      "puma-magnify-nitro-2",
+      "altra-torin-7"
+    ],
+    "image": "assets/images/shoes/adidas-ultraboost-5x.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "daily",
+      "primaryLabel": "데일리"
+    },
+    "targetRunner": [
+      "주 2~5회 조깅하는 러너",
+      "첫 러닝화를 찾는 사람",
+      "하나의 신발로 여러 러닝을 처리하고 싶은 사람"
+    ],
+    "notRecommendedFor": [
+      "대회 기록 단축만 노리는 러너",
+      "초경량 레이싱화만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "실패 확률을 낮추는 데일리 러닝화 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "saucony-endorphin-speed-4",
+    "coreTier": "Core50",
+    "brand": "Saucony",
+    "modelEn": "Endorphin Speed 4",
+    "modelKo": "엔돌핀 스피드 4",
+    "search": {
+      "ko": [
+        "엔스",
+        "엔돌핀스피드",
+        "엔돌핀 스피드 4",
+        "saucony"
+      ],
+      "en": [
+        "Endorphin Speed",
+        "Endorphin Speed 4",
+        "Saucony"
+      ],
+      "alias": [
+        "ㅇㅅ"
+      ]
+    },
+    "purpose": [
+      "training",
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 72,
+      "daily": 65,
+      "stability": 62,
+      "training": 89,
+      "race": 86,
+      "beginner": 65,
+      "value": 66,
+      "popularity": 78
+    },
+    "summary": "엔돌핀 스피드 4는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/saucony-endorphin-speed-4.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "saucony-endorphin-pro-4",
+    "coreTier": "Core50",
+    "brand": "Saucony",
+    "modelEn": "Endorphin Pro 4",
+    "modelKo": "엔돌핀 프로 4",
+    "search": {
+      "ko": [
+        "엔프",
+        "엔돌핀프로",
+        "엔돌핀 프로 4",
+        "saucony"
+      ],
+      "en": [
+        "Endorphin Pro",
+        "Endorphin Pro 4",
+        "Saucony"
+      ],
+      "alias": [
+        "ㅇㅍ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 65,
+      "daily": 60,
+      "stability": 58,
+      "training": 59,
+      "race": 91,
+      "beginner": 60,
+      "value": 61,
+      "popularity": 75
+    },
+    "summary": "엔돌핀 프로 4는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/saucony-endorphin-pro-4.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "saucony-triumph-22",
+    "coreTier": "Core50",
+    "brand": "Saucony",
+    "modelEn": "Triumph 22",
+    "modelKo": "트라이엄프 22",
+    "search": {
+      "ko": [
+        "트엄",
+        "트라이엄프",
+        "트라이엄프 22",
+        "saucony"
+      ],
+      "en": [
+        "Triumph",
+        "Triumph 22",
+        "Saucony"
+      ],
+      "alias": [
+        "ㅌㄹㅇ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 70,
+      "daily": 86,
+      "stability": 61,
+      "training": 63,
+      "race": 58,
+      "beginner": 86,
+      "value": 65,
+      "popularity": 78
+    },
+    "summary": "트라이엄프 22는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/saucony-triumph-22.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "saucony-ride-17",
+    "coreTier": "Core50",
+    "brand": "Saucony",
+    "modelEn": "Ride 17",
+    "modelKo": "라이드 17",
+    "search": {
+      "ko": [
+        "라이드",
+        "라이드 17",
+        "saucony"
+      ],
+      "en": [
+        "Ride",
+        "Ride 17",
+        "Saucony"
+      ],
+      "alias": [
+        "ㄹㅇㄷ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "value"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 69,
+      "daily": 86,
+      "stability": 60,
+      "training": 62,
+      "race": 58,
+      "beginner": 63,
+      "value": 86,
+      "popularity": 78
+    },
+    "summary": "라이드 17는 가격 부담을 줄이면서 러닝화 기본기를 챙기고 싶은 사용자를 위한 가성비 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 7.6,
+      "stability": 7.2,
+      "energyReturn": 6.9,
+      "breathability": 7.2,
+      "outsoleDurability": 7.5,
+      "comfort": 7.8
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "첫 러닝화 예산에 맞추기 좋다",
+      "기본기가 충분한 모델을 고르기 쉽다",
+      "서브 러닝화로도 활용 가능하다",
+      "할인 시 만족도가 높을 가능성이 크다"
+    ],
+    "cons": [
+      "최상급 소재나 레이싱 성능은 기대하기 어렵다",
+      "색상·사이즈별 가격 차이가 클 수 있다"
+    ],
+    "similarShoes": [
+      "new-balance-fresh-foam-x-880-v14",
+      "puma-velocity-nitro-3"
+    ],
+    "image": "assets/images/shoes/saucony-ride-17.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "value",
+      "primaryLabel": "가성비"
+    },
+    "targetRunner": [
+      "예산을 아끼고 싶은 입문자",
+      "서브 러닝화를 찾는 사람",
+      "러닝 빈도가 아직 높지 않은 사람"
+    ],
+    "notRecommendedFor": [
+      "최상급 레이스 성능만 원하는 사람",
+      "최신 플래그십 모델만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "예산을 아끼면서 기본기를 챙기는 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "saucony-guide-17",
+    "coreTier": "Core50",
+    "brand": "Saucony",
+    "modelEn": "Guide 17",
+    "modelKo": "가이드 17",
+    "search": {
+      "ko": [
+        "가이드",
+        "가이드 17",
+        "saucony"
+      ],
+      "en": [
+        "Guide",
+        "Guide 17",
+        "Saucony"
+      ],
+      "alias": [
+        "ㄱㅇㄷ"
+      ]
+    },
+    "purpose": [
+      "stability",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 68,
+      "daily": 59,
+      "stability": 86,
+      "training": 58,
+      "race": 58,
+      "beginner": 86,
+      "value": 60,
+      "popularity": 74
+    },
+    "summary": "가이드 17는 발목 흔들림, 무릎 부담, 과회내전 걱정이 있는 러너가 우선 비교할 안정화 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통~넓음",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.0,
+      "stability": 9.0,
+      "energyReturn": 6.7,
+      "breathability": 7.0,
+      "outsoleDurability": 8.0,
+      "comfort": 8.1
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "착지 안정감에 초점을 둔다",
+      "입문자에게 심리적으로 편하다",
+      "천천히 오래 뛰는 러닝에 어울린다",
+      "발목이 흔들리는 느낌이 있는 사람에게 비교 가치가 높다"
+    ],
+    "cons": [
+      "빠른 템포주에는 둔하게 느껴질 수 있다",
+      "가벼운 레이싱 감각과는 거리가 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-kayano-31",
+      "brooks-adrenaline-gts-23",
+      "puma-foreverrun-nitro"
+    ],
+    "image": "assets/images/shoes/saucony-guide-17.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "stability",
+      "primaryLabel": "안정화"
+    },
+    "targetRunner": [
+      "발목이나 무릎 부담이 걱정되는 사람",
+      "착지 안정감을 우선하는 입문자",
+      "천천히 오래 뛰는 러너"
+    ],
+    "notRecommendedFor": [
+      "가벼운 인터벌화를 찾는 사람",
+      "대회용 카본화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "안정감을 우선하는 러너를 위한 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "hoka-clifton-9",
+    "coreTier": "Core50",
+    "brand": "HOKA",
+    "modelEn": "Clifton 9",
+    "modelKo": "클리프톤 9",
+    "search": {
+      "ko": [
+        "클리프톤",
+        "클리프톤 9",
+        "hoka"
+      ],
+      "en": [
+        "Clifton",
+        "Clifton 9",
+        "HOKA"
+      ],
+      "alias": [
+        "ㅋㄹㅍㅌ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 69,
+      "daily": 86,
+      "stability": 58,
+      "training": 60,
+      "race": 58,
+      "beginner": 88,
+      "value": 62,
+      "popularity": 76
+    },
+    "summary": "클리프톤 9는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/hoka-clifton-9.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "hoka-bondi-8",
+    "coreTier": "Core50",
+    "brand": "HOKA",
+    "modelEn": "Bondi 8",
+    "modelKo": "본디 8",
+    "search": {
+      "ko": [
+        "본디",
+        "본디 8",
+        "hoka"
+      ],
+      "en": [
+        "Bondi",
+        "Bondi 8",
+        "HOKA"
+      ],
+      "alias": [
+        "ㅂㄷ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 70,
+      "daily": 87,
+      "stability": 61,
+      "training": 63,
+      "race": 58,
+      "beginner": 86,
+      "value": 65,
+      "popularity": 78
+    },
+    "summary": "본디 8는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/hoka-bondi-8.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "hoka-mach-6",
+    "coreTier": "Core50",
+    "brand": "HOKA",
+    "modelEn": "Mach 6",
+    "modelKo": "마하 6",
+    "search": {
+      "ko": [
+        "마하",
+        "마하 6",
+        "hoka"
+      ],
+      "en": [
+        "Mach",
+        "Mach 6",
+        "HOKA"
+      ],
+      "alias": [
+        "ㅁㅎ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "training"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 67,
+      "daily": 86,
+      "stability": 58,
+      "training": 86,
+      "race": 58,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 72
+    },
+    "summary": "마하 6는 템포런, 지속주, 빠른 조깅까지 소화할 수 있는 훈련용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통~여유",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 7.8,
+      "stability": 7.2,
+      "energyReturn": 8.6,
+      "breathability": 8.0,
+      "outsoleDurability": 7.3,
+      "comfort": 7.7
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "데일리화보다 빠른 주행에 유리하다",
+      "템포런과 지속주에 활용하기 좋다",
+      "대회화 전 단계로 쓰기 좋다",
+      "반발감과 안정감의 균형을 기대할 수 있다"
+    ],
+    "cons": [
+      "완전 입문자에게는 과하게 느껴질 수 있다",
+      "천천히 걷고 뛰는 용도만이면 굳이 필요 없을 수 있다"
+    ],
+    "similarShoes": [
+      "asics-novablast-4",
+      "new-balance-fuelcell-rebel-v4",
+      "brooks-hyperion-max-2"
+    ],
+    "image": "assets/images/shoes/hoka-mach-6.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "training",
+      "primaryLabel": "훈련용"
+    },
+    "targetRunner": [
+      "5km~하프 기록을 줄이고 싶은 러너",
+      "데일리화보다 빠른 신발이 필요한 사람",
+      "훈련용 서브화를 찾는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 하나만 사려는 사람",
+      "매우 푹신한 착화감만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "데일리보다 빠르게 달리고 싶을 때 비교할 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "hoka-cielo-x1",
+    "coreTier": "Core50",
+    "brand": "HOKA",
+    "modelEn": "Cielo X1",
+    "modelKo": "시엘로 X1",
+    "search": {
+      "ko": [
+        "시엘로",
+        "시엘로 X1",
+        "hoka"
+      ],
+      "en": [
+        "Cielo",
+        "Cielo X1",
+        "HOKA"
+      ],
+      "alias": [
+        "ㅅㅇㄹ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 63,
+      "daily": 58,
+      "stability": 58,
+      "training": 58,
+      "race": 86,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 71
+    },
+    "summary": "시엘로 X1는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/hoka-cielo-x1.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "hoka-rocket-x2",
+    "coreTier": "Core50",
+    "brand": "HOKA",
+    "modelEn": "Rocket X 2",
+    "modelKo": "로켓 X 2",
+    "search": {
+      "ko": [
+        "로켓",
+        "로켓 X 2",
+        "hoka"
+      ],
+      "en": [
+        "Rocket X",
+        "Rocket X 2",
+        "HOKA"
+      ],
+      "alias": [
+        "ㄹㅋ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 64,
+      "daily": 60,
+      "stability": 58,
+      "training": 59,
+      "race": 86,
+      "beginner": 60,
+      "value": 61,
+      "popularity": 75
+    },
+    "summary": "로켓 X 2는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/hoka-rocket-x2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "brooks-ghost-16",
+    "coreTier": "Core50",
+    "brand": "Brooks",
+    "modelEn": "Ghost 16",
+    "modelKo": "고스트 16",
+    "search": {
+      "ko": [
+        "고스트",
+        "고스트 16",
+        "brooks"
+      ],
+      "en": [
+        "Ghost",
+        "Ghost 16",
+        "Brooks"
+      ],
+      "alias": [
+        "ㄱㅅㅌ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 68,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 88,
+      "value": 60,
+      "popularity": 74
+    },
+    "summary": "고스트 16는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/brooks-ghost-16.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "brooks-glycerin-21",
+    "coreTier": "Core50",
+    "brand": "Brooks",
+    "modelEn": "Glycerin 21",
+    "modelKo": "글리세린 21",
+    "search": {
+      "ko": [
+        "글리세린",
+        "글리세린 21",
+        "brooks"
+      ],
+      "en": [
+        "Glycerin",
+        "Glycerin 21",
+        "Brooks"
+      ],
+      "alias": [
+        "ㄱㄹㅅㄹ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 68,
+      "daily": 87,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 86,
+      "value": 60,
+      "popularity": 74
+    },
+    "summary": "글리세린 21는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/brooks-glycerin-21.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "brooks-adrenaline-gts-23",
+    "coreTier": "Core50",
+    "brand": "Brooks",
+    "modelEn": "Adrenaline GTS 23",
+    "modelKo": "아드레날린 GTS 23",
+    "search": {
+      "ko": [
+        "아드레날린",
+        "아드레날린 GTS 23",
+        "brooks"
+      ],
+      "en": [
+        "Adrenaline",
+        "Adrenaline GTS 23",
+        "Brooks"
+      ],
+      "alias": [
+        "ㅇㄷㄹ"
+      ]
+    },
+    "purpose": [
+      "stability",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 69,
+      "daily": 61,
+      "stability": 86,
+      "training": 60,
+      "race": 58,
+      "beginner": 86,
+      "value": 62,
+      "popularity": 76
+    },
+    "summary": "아드레날린 GTS 23는 발목 흔들림, 무릎 부담, 과회내전 걱정이 있는 러너가 우선 비교할 안정화 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통~넓음",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.0,
+      "stability": 9.0,
+      "energyReturn": 6.7,
+      "breathability": 7.0,
+      "outsoleDurability": 8.0,
+      "comfort": 8.1
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "착지 안정감에 초점을 둔다",
+      "입문자에게 심리적으로 편하다",
+      "천천히 오래 뛰는 러닝에 어울린다",
+      "발목이 흔들리는 느낌이 있는 사람에게 비교 가치가 높다"
+    ],
+    "cons": [
+      "빠른 템포주에는 둔하게 느껴질 수 있다",
+      "가벼운 레이싱 감각과는 거리가 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-kayano-31",
+      "saucony-guide-17",
+      "puma-foreverrun-nitro"
+    ],
+    "image": "assets/images/shoes/brooks-adrenaline-gts-23.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "stability",
+      "primaryLabel": "안정화"
+    },
+    "targetRunner": [
+      "발목이나 무릎 부담이 걱정되는 사람",
+      "착지 안정감을 우선하는 입문자",
+      "천천히 오래 뛰는 러너"
+    ],
+    "notRecommendedFor": [
+      "가벼운 인터벌화를 찾는 사람",
+      "대회용 카본화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "안정감을 우선하는 러너를 위한 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "brooks-hyperion-max-2",
+    "coreTier": "Core50",
+    "brand": "Brooks",
+    "modelEn": "Hyperion Max 2",
+    "modelKo": "하이페리온 맥스 2",
+    "search": {
+      "ko": [
+        "하맥",
+        "하이페리온",
+        "하이페리온 맥스 2",
+        "brooks"
+      ],
+      "en": [
+        "Hyperion Max",
+        "Hyperion Max 2",
+        "Brooks"
+      ],
+      "alias": [
+        "ㅎㅇㅍ"
+      ]
+    },
+    "purpose": [
+      "training"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 63,
+      "daily": 58,
+      "stability": 58,
+      "training": 86,
+      "race": 58,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 72
+    },
+    "summary": "하이페리온 맥스 2는 템포런, 지속주, 빠른 조깅까지 소화할 수 있는 훈련용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통~여유",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 7.8,
+      "stability": 7.2,
+      "energyReturn": 8.6,
+      "breathability": 8.0,
+      "outsoleDurability": 7.3,
+      "comfort": 7.7
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "데일리화보다 빠른 주행에 유리하다",
+      "템포런과 지속주에 활용하기 좋다",
+      "대회화 전 단계로 쓰기 좋다",
+      "반발감과 안정감의 균형을 기대할 수 있다"
+    ],
+    "cons": [
+      "완전 입문자에게는 과하게 느껴질 수 있다",
+      "천천히 걷고 뛰는 용도만이면 굳이 필요 없을 수 있다"
+    ],
+    "similarShoes": [
+      "asics-novablast-4",
+      "new-balance-fuelcell-rebel-v4",
+      "hoka-mach-6"
+    ],
+    "image": "assets/images/shoes/brooks-hyperion-max-2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "training",
+      "primaryLabel": "훈련용"
+    },
+    "targetRunner": [
+      "5km~하프 기록을 줄이고 싶은 러너",
+      "데일리화보다 빠른 신발이 필요한 사람",
+      "훈련용 서브화를 찾는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 하나만 사려는 사람",
+      "매우 푹신한 착화감만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "데일리보다 빠르게 달리고 싶을 때 비교할 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "brooks-hyperion-elite-4",
+    "coreTier": "Core50",
+    "brand": "Brooks",
+    "modelEn": "Hyperion Elite 4",
+    "modelKo": "하이페리온 엘리트 4",
+    "search": {
+      "ko": [
+        "하엘",
+        "하이페리온엘리트",
+        "하이페리온 엘리트 4",
+        "brooks"
+      ],
+      "en": [
+        "Hyperion Elite",
+        "Hyperion Elite 4",
+        "Brooks"
+      ],
+      "alias": [
+        "ㅎㅇㅍ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 63,
+      "daily": 58,
+      "stability": 58,
+      "training": 58,
+      "race": 86,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 70
+    },
+    "summary": "하이페리온 엘리트 4는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/brooks-hyperion-elite-4.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "on-cloudmonster-2",
+    "coreTier": "Core50",
+    "brand": "On",
+    "modelEn": "Cloudmonster 2",
+    "modelKo": "클라우드몬스터 2",
+    "search": {
+      "ko": [
+        "클몬",
+        "클라우드몬스터",
+        "클라우드몬스터 2",
+        "on"
+      ],
+      "en": [
+        "Cloudmonster",
+        "Cloudmonster 2",
+        "On"
+      ],
+      "alias": [
+        "ㅋㅁ"
+      ]
+    },
+    "purpose": [
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 66,
+      "daily": 87,
+      "stability": 61,
+      "training": 63,
+      "race": 58,
+      "beginner": 64,
+      "value": 65,
+      "popularity": 78
+    },
+    "summary": "클라우드몬스터 2는 매일 조깅, 가벼운 지속주, 러닝 입문자가 무난하게 고르기 좋은 데일리 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.2,
+      "stability": 7.6,
+      "energyReturn": 7.2,
+      "breathability": 7.7,
+      "outsoleDurability": 7.5,
+      "comfort": 8.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "활용 범위가 넓다",
+      "초보자도 적응하기 쉽다",
+      "조깅과 가벼운 지속주에 잘 맞는다",
+      "하나만 산다면 비교 후보에 넣기 좋다"
+    ],
+    "cons": [
+      "레이싱화만큼 빠르지는 않다",
+      "강한 추진감을 원하는 러너에게는 심심할 수 있다"
+    ],
+    "similarShoes": [
+      "nike-invincible-3",
+      "adidas-ultraboost-5x",
+      "puma-magnify-nitro-2",
+      "altra-torin-7"
+    ],
+    "image": "assets/images/shoes/on-cloudmonster-2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "daily",
+      "primaryLabel": "데일리"
+    },
+    "targetRunner": [
+      "주 2~5회 조깅하는 러너",
+      "첫 러닝화를 찾는 사람",
+      "하나의 신발로 여러 러닝을 처리하고 싶은 사람"
+    ],
+    "notRecommendedFor": [
+      "대회 기록 단축만 노리는 러너",
+      "초경량 레이싱화만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "실패 확률을 낮추는 데일리 러닝화 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "on-cloudsurfer",
+    "coreTier": "Core50",
+    "brand": "On",
+    "modelEn": "Cloudsurfer",
+    "modelKo": "클라우드서퍼",
+    "search": {
+      "ko": [
+        "클서",
+        "클라우드서퍼",
+        "클라우드서퍼",
+        "on"
+      ],
+      "en": [
+        "Cloudsurfer",
+        "Cloudsurfer",
+        "On"
+      ],
+      "alias": [
+        "ㅋㅅ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 70,
+      "daily": 86,
+      "stability": 62,
+      "training": 64,
+      "race": 58,
+      "beginner": 86,
+      "value": 66,
+      "popularity": 78
+    },
+    "summary": "클라우드서퍼는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/on-cloudsurfer.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "on-cloudrunner-2",
+    "coreTier": "Core50",
+    "brand": "On",
+    "modelEn": "Cloudrunner 2",
+    "modelKo": "클라우드러너 2",
+    "search": {
+      "ko": [
+        "클러너",
+        "클라우드러너",
+        "클라우드러너 2",
+        "on"
+      ],
+      "en": [
+        "Cloudrunner",
+        "Cloudrunner 2",
+        "On"
+      ],
+      "alias": [
+        "ㅋㄹㄴ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 70,
+      "daily": 86,
+      "stability": 61,
+      "training": 63,
+      "race": 58,
+      "beginner": 86,
+      "value": 65,
+      "popularity": 78
+    },
+    "summary": "클라우드러너 2는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/on-cloudrunner-2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "on-cloudboom-strike",
+    "coreTier": "Core50",
+    "brand": "On",
+    "modelEn": "Cloudboom Strike",
+    "modelKo": "클라우드붐 스트라이크",
+    "search": {
+      "ko": [
+        "클라우드붐",
+        "스트라이크",
+        "클라우드붐 스트라이크",
+        "on"
+      ],
+      "en": [
+        "Cloudboom Strike",
+        "Cloudboom Strike",
+        "On"
+      ],
+      "alias": [
+        "ㅋㅂ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 65,
+      "daily": 61,
+      "stability": 58,
+      "training": 60,
+      "race": 86,
+      "beginner": 61,
+      "value": 62,
+      "popularity": 76
+    },
+    "summary": "클라우드붐 스트라이크는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/on-cloudboom-strike.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "puma-velocity-nitro-3",
+    "coreTier": "Core50",
+    "brand": "PUMA",
+    "modelEn": "Velocity Nitro 3",
+    "modelKo": "벨로시티 나이트로 3",
+    "search": {
+      "ko": [
+        "벨로시티",
+        "나이트로",
+        "벨로시티 나이트로 3",
+        "puma"
+      ],
+      "en": [
+        "Velocity Nitro",
+        "Velocity Nitro 3",
+        "PUMA"
+      ],
+      "alias": [
+        "ㅂㄹㅅㅌ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "value"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 68,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 58,
+      "value": 89,
+      "popularity": 73
+    },
+    "summary": "벨로시티 나이트로 3는 가격 부담을 줄이면서 러닝화 기본기를 챙기고 싶은 사용자를 위한 가성비 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 7.6,
+      "stability": 7.2,
+      "energyReturn": 6.9,
+      "breathability": 7.2,
+      "outsoleDurability": 7.5,
+      "comfort": 7.8
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "첫 러닝화 예산에 맞추기 좋다",
+      "기본기가 충분한 모델을 고르기 쉽다",
+      "서브 러닝화로도 활용 가능하다",
+      "할인 시 만족도가 높을 가능성이 크다"
+    ],
+    "cons": [
+      "최상급 소재나 레이싱 성능은 기대하기 어렵다",
+      "색상·사이즈별 가격 차이가 클 수 있다"
+    ],
+    "similarShoes": [
+      "new-balance-fresh-foam-x-880-v14",
+      "saucony-ride-17"
+    ],
+    "image": "assets/images/shoes/puma-velocity-nitro-3.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "value",
+      "primaryLabel": "가성비"
+    },
+    "targetRunner": [
+      "예산을 아끼고 싶은 입문자",
+      "서브 러닝화를 찾는 사람",
+      "러닝 빈도가 아직 높지 않은 사람"
+    ],
+    "notRecommendedFor": [
+      "최상급 레이스 성능만 원하는 사람",
+      "최신 플래그십 모델만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "예산을 아끼면서 기본기를 챙기는 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "puma-deviate-nitro-3",
+    "coreTier": "Core50",
+    "brand": "PUMA",
+    "modelEn": "Deviate Nitro 3",
+    "modelKo": "디비에이트 나이트로 3",
+    "search": {
+      "ko": [
+        "디비에이트",
+        "디비에이트 나이트로 3",
+        "puma"
+      ],
+      "en": [
+        "Deviate Nitro",
+        "Deviate Nitro 3",
+        "PUMA"
+      ],
+      "alias": [
+        "ㄷㅂ"
+      ]
+    },
+    "purpose": [
+      "training",
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 69,
+      "daily": 60,
+      "stability": 58,
+      "training": 88,
+      "race": 88,
+      "beginner": 60,
+      "value": 61,
+      "popularity": 75
+    },
+    "summary": "디비에이트 나이트로 3는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/puma-deviate-nitro-3.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "puma-magnify-nitro-2",
+    "coreTier": "Core50",
+    "brand": "PUMA",
+    "modelEn": "Magnify Nitro 2",
+    "modelKo": "매그니파이 나이트로 2",
+    "search": {
+      "ko": [
+        "매그니파이",
+        "매그니파이 나이트로 2",
+        "puma"
+      ],
+      "en": [
+        "Magnify Nitro",
+        "Magnify Nitro 2",
+        "PUMA"
+      ],
+      "alias": [
+        "ㅁㄱ"
+      ]
+    },
+    "purpose": [
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 63,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 72
+    },
+    "summary": "매그니파이 나이트로 2는 매일 조깅, 가벼운 지속주, 러닝 입문자가 무난하게 고르기 좋은 데일리 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.2,
+      "stability": 7.6,
+      "energyReturn": 7.2,
+      "breathability": 7.7,
+      "outsoleDurability": 7.5,
+      "comfort": 8.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "활용 범위가 넓다",
+      "초보자도 적응하기 쉽다",
+      "조깅과 가벼운 지속주에 잘 맞는다",
+      "하나만 산다면 비교 후보에 넣기 좋다"
+    ],
+    "cons": [
+      "레이싱화만큼 빠르지는 않다",
+      "강한 추진감을 원하는 러너에게는 심심할 수 있다"
+    ],
+    "similarShoes": [
+      "nike-invincible-3",
+      "adidas-ultraboost-5x",
+      "on-cloudmonster-2",
+      "altra-torin-7"
+    ],
+    "image": "assets/images/shoes/puma-magnify-nitro-2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "daily",
+      "primaryLabel": "데일리"
+    },
+    "targetRunner": [
+      "주 2~5회 조깅하는 러너",
+      "첫 러닝화를 찾는 사람",
+      "하나의 신발로 여러 러닝을 처리하고 싶은 사람"
+    ],
+    "notRecommendedFor": [
+      "대회 기록 단축만 노리는 러너",
+      "초경량 레이싱화만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "실패 확률을 낮추는 데일리 러닝화 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "puma-foreverrun-nitro",
+    "coreTier": "Core50",
+    "brand": "PUMA",
+    "modelEn": "ForeverRun Nitro",
+    "modelKo": "포에버런 나이트로",
+    "search": {
+      "ko": [
+        "포에버런",
+        "포에버런 나이트로",
+        "puma"
+      ],
+      "en": [
+        "ForeverRun",
+        "ForeverRun Nitro",
+        "PUMA"
+      ],
+      "alias": [
+        "ㅍㅇㅂ"
+      ]
+    },
+    "purpose": [
+      "stability",
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 70,
+      "daily": 86,
+      "stability": 86,
+      "training": 63,
+      "race": 58,
+      "beginner": 64,
+      "value": 65,
+      "popularity": 78
+    },
+    "summary": "포에버런 나이트로는 발목 흔들림, 무릎 부담, 과회내전 걱정이 있는 러너가 우선 비교할 안정화 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통~넓음",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.0,
+      "stability": 9.0,
+      "energyReturn": 6.7,
+      "breathability": 7.0,
+      "outsoleDurability": 8.0,
+      "comfort": 8.1
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "착지 안정감에 초점을 둔다",
+      "입문자에게 심리적으로 편하다",
+      "천천히 오래 뛰는 러닝에 어울린다",
+      "발목이 흔들리는 느낌이 있는 사람에게 비교 가치가 높다"
+    ],
+    "cons": [
+      "빠른 템포주에는 둔하게 느껴질 수 있다",
+      "가벼운 레이싱 감각과는 거리가 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-kayano-31",
+      "saucony-guide-17",
+      "brooks-adrenaline-gts-23"
+    ],
+    "image": "assets/images/shoes/puma-foreverrun-nitro.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "stability",
+      "primaryLabel": "안정화"
+    },
+    "targetRunner": [
+      "발목이나 무릎 부담이 걱정되는 사람",
+      "착지 안정감을 우선하는 입문자",
+      "천천히 오래 뛰는 러너"
+    ],
+    "notRecommendedFor": [
+      "가벼운 인터벌화를 찾는 사람",
+      "대회용 카본화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "안정감을 우선하는 러너를 위한 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "altra-torin-7",
+    "coreTier": "Core50",
+    "brand": "Altra",
+    "modelEn": "Torin 7",
+    "modelKo": "토린 7",
+    "search": {
+      "ko": [
+        "토린",
+        "토린 7",
+        "altra"
+      ],
+      "en": [
+        "Torin",
+        "Torin 7",
+        "Altra"
+      ],
+      "alias": [
+        "ㅌㄹ"
+      ]
+    },
+    "purpose": [
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 65,
+      "daily": 86,
+      "stability": 59,
+      "training": 61,
+      "race": 58,
+      "beginner": 62,
+      "value": 63,
+      "popularity": 77
+    },
+    "summary": "토린 7는 매일 조깅, 가벼운 지속주, 러닝 입문자가 무난하게 고르기 좋은 데일리 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.2,
+      "stability": 7.6,
+      "energyReturn": 7.2,
+      "breathability": 7.7,
+      "outsoleDurability": 7.5,
+      "comfort": 8.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "활용 범위가 넓다",
+      "초보자도 적응하기 쉽다",
+      "조깅과 가벼운 지속주에 잘 맞는다",
+      "하나만 산다면 비교 후보에 넣기 좋다"
+    ],
+    "cons": [
+      "레이싱화만큼 빠르지는 않다",
+      "강한 추진감을 원하는 러너에게는 심심할 수 있다"
+    ],
+    "similarShoes": [
+      "nike-invincible-3",
+      "adidas-ultraboost-5x",
+      "on-cloudmonster-2",
+      "puma-magnify-nitro-2"
+    ],
+    "image": "assets/images/shoes/altra-torin-7.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "daily",
+      "primaryLabel": "데일리"
+    },
+    "targetRunner": [
+      "주 2~5회 조깅하는 러너",
+      "첫 러닝화를 찾는 사람",
+      "하나의 신발로 여러 러닝을 처리하고 싶은 사람"
+    ],
+    "notRecommendedFor": [
+      "대회 기록 단축만 노리는 러너",
+      "초경량 레이싱화만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "실패 확률을 낮추는 데일리 러닝화 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "altra-via-olympus-2",
+    "coreTier": "Core50",
+    "brand": "Altra",
+    "modelEn": "Via Olympus 2",
+    "modelKo": "비아 올림푸스 2",
+    "search": {
+      "ko": [
+        "비아올림푸스",
+        "올림푸스",
+        "비아 올림푸스 2",
+        "altra"
+      ],
+      "en": [
+        "Via Olympus",
+        "Via Olympus 2",
+        "Altra"
+      ],
+      "alias": [
+        "ㅇㄹㅍㅅ"
+      ]
+    },
+    "purpose": [
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 67,
+      "daily": 86,
+      "stability": 62,
+      "training": 64,
+      "race": 58,
+      "beginner": 65,
+      "value": 66,
+      "popularity": 78
+    },
+    "summary": "비아 올림푸스 2는 매일 조깅, 가벼운 지속주, 러닝 입문자가 무난하게 고르기 좋은 데일리 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.2,
+      "stability": 7.6,
+      "energyReturn": 7.2,
+      "breathability": 7.7,
+      "outsoleDurability": 7.5,
+      "comfort": 8.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "활용 범위가 넓다",
+      "초보자도 적응하기 쉽다",
+      "조깅과 가벼운 지속주에 잘 맞는다",
+      "하나만 산다면 비교 후보에 넣기 좋다"
+    ],
+    "cons": [
+      "레이싱화만큼 빠르지는 않다",
+      "강한 추진감을 원하는 러너에게는 심심할 수 있다"
+    ],
+    "similarShoes": [
+      "nike-invincible-3",
+      "adidas-ultraboost-5x",
+      "on-cloudmonster-2",
+      "puma-magnify-nitro-2"
+    ],
+    "image": "assets/images/shoes/altra-via-olympus-2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "daily",
+      "primaryLabel": "데일리"
+    },
+    "targetRunner": [
+      "주 2~5회 조깅하는 러너",
+      "첫 러닝화를 찾는 사람",
+      "하나의 신발로 여러 러닝을 처리하고 싶은 사람"
+    ],
+    "notRecommendedFor": [
+      "대회 기록 단축만 노리는 러너",
+      "초경량 레이싱화만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "실패 확률을 낮추는 데일리 러닝화 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "altra-experience-flow",
+    "coreTier": "Core50",
+    "brand": "Altra",
+    "modelEn": "Experience Flow",
+    "modelKo": "익스피리언스 플로우",
+    "search": {
+      "ko": [
+        "익스피리언스",
+        "플로우",
+        "익스피리언스 플로우",
+        "altra"
+      ],
+      "en": [
+        "Experience Flow",
+        "Experience Flow",
+        "Altra"
+      ],
+      "alias": [
+        "ㅇㅅㅍ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 70,
+      "daily": 86,
+      "stability": 61,
+      "training": 63,
+      "race": 58,
+      "beginner": 86,
+      "value": 65,
+      "popularity": 78
+    },
+    "summary": "익스피리언스 플로우는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/altra-experience-flow.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "mizuno-wave-rider-28",
+    "coreTier": "Core50",
+    "brand": "Mizuno",
+    "modelEn": "Wave Rider 28",
+    "modelKo": "웨이브 라이더 28",
+    "search": {
+      "ko": [
+        "웨라",
+        "웨이브라이더",
+        "웨이브 라이더 28",
+        "mizuno"
+      ],
+      "en": [
+        "Wave Rider",
+        "Wave Rider 28",
+        "Mizuno"
+      ],
+      "alias": [
+        "ㅇㅇㅂ"
+      ]
+    },
+    "purpose": [
+      "daily",
+      "beginner"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 70,
+      "daily": 86,
+      "stability": 62,
+      "training": 64,
+      "race": 58,
+      "beginner": 87,
+      "value": 66,
+      "popularity": 78
+    },
+    "summary": "웨이브 라이더 28는 운동화로 뛰다가 러닝화를 처음 사는 사람이 실패 확률을 낮추기 좋은 입문 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.1,
+      "stability": 8.0,
+      "energyReturn": 6.8,
+      "breathability": 7.5,
+      "outsoleDurability": 7.6,
+      "comfort": 8.5
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "선택 난이도가 낮다",
+      "러닝 입문자가 적응하기 쉽다",
+      "과한 스펙보다 편안함을 우선한다",
+      "데일리 러닝과 걷기에도 활용하기 좋다"
+    ],
+    "cons": [
+      "빠른 기록용으로는 한계가 있다",
+      "러닝 실력이 늘면 더 빠른 신발이 필요할 수 있다"
+    ],
+    "similarShoes": [
+      "asics-gel-nimbus-26",
+      "nike-pegasus-41",
+      "nike-vomero-17",
+      "new-balance-fresh-foam-x-1080-v14"
+    ],
+    "image": "assets/images/shoes/mizuno-wave-rider-28.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "beginner",
+      "primaryLabel": "입문자"
+    },
+    "targetRunner": [
+      "러닝화를 처음 사는 사람",
+      "5km 전후 러닝을 시작하는 사람",
+      "편하고 무난한 선택을 원하는 사람"
+    ],
+    "notRecommendedFor": [
+      "기록용 카본화를 바로 찾는 사람",
+      "인터벌 전용화를 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "처음 사는 러닝화로 비교하기 쉬운 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "mizuno-wave-sky-8",
+    "coreTier": "Core50",
+    "brand": "Mizuno",
+    "modelEn": "Wave Sky 8",
+    "modelKo": "웨이브 스카이 8",
+    "search": {
+      "ko": [
+        "웨스",
+        "웨이브스카이",
+        "웨이브 스카이 8",
+        "mizuno"
+      ],
+      "en": [
+        "Wave Sky",
+        "Wave Sky 8",
+        "Mizuno"
+      ],
+      "alias": [
+        "ㅇㅇㅂ"
+      ]
+    },
+    "purpose": [
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 63,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 70
+    },
+    "summary": "웨이브 스카이 8는 매일 조깅, 가벼운 지속주, 러닝 입문자가 무난하게 고르기 좋은 데일리 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.2,
+      "stability": 7.6,
+      "energyReturn": 7.2,
+      "breathability": 7.7,
+      "outsoleDurability": 7.5,
+      "comfort": 8.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "활용 범위가 넓다",
+      "초보자도 적응하기 쉽다",
+      "조깅과 가벼운 지속주에 잘 맞는다",
+      "하나만 산다면 비교 후보에 넣기 좋다"
+    ],
+    "cons": [
+      "레이싱화만큼 빠르지는 않다",
+      "강한 추진감을 원하는 러너에게는 심심할 수 있다"
+    ],
+    "similarShoes": [
+      "nike-invincible-3",
+      "adidas-ultraboost-5x",
+      "on-cloudmonster-2",
+      "puma-magnify-nitro-2"
+    ],
+    "image": "assets/images/shoes/mizuno-wave-sky-8.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "daily",
+      "primaryLabel": "데일리"
+    },
+    "targetRunner": [
+      "주 2~5회 조깅하는 러너",
+      "첫 러닝화를 찾는 사람",
+      "하나의 신발로 여러 러닝을 처리하고 싶은 사람"
+    ],
+    "notRecommendedFor": [
+      "대회 기록 단축만 노리는 러너",
+      "초경량 레이싱화만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "실패 확률을 낮추는 데일리 러닝화 후보.",
+    "carbonLabel": "데일리 구조"
+  },
+  {
+    "id": "mizuno-wave-rebellion-pro-2",
+    "coreTier": "Core50",
+    "brand": "Mizuno",
+    "modelEn": "Wave Rebellion Pro 2",
+    "modelKo": "웨이브 리벨리온 프로 2",
+    "search": {
+      "ko": [
+        "리벨리온프로",
+        "웨이브리벨리온",
+        "웨이브 리벨리온 프로 2",
+        "mizuno"
+      ],
+      "en": [
+        "Wave Rebellion Pro",
+        "Wave Rebellion Pro 2",
+        "Mizuno"
+      ],
+      "alias": [
+        "ㄹㅂㄹㅇ"
+      ]
+    },
+    "purpose": [
+      "race"
+    ],
+    "carbonPlate": true,
+    "scores": {
+      "overall": 69,
+      "daily": 65,
+      "stability": 62,
+      "training": 68,
+      "race": 86,
+      "beginner": 65,
+      "value": 66,
+      "popularity": 78
+    },
+    "summary": "웨이브 리벨리온 프로 2는 기록 단축, 레이스 페이스, 빠른 주행 효율을 우선하는 대회용 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "레이스 핏 기준 정사이즈",
+      "length": "레이스 핏 기준 정사이즈",
+      "width": "보통~약간 좁음",
+      "toeBox": "타이트",
+      "instep": "낮음~보통"
+    },
+    "performance": {
+      "cushion": 8.4,
+      "stability": 6.5,
+      "energyReturn": 9.5,
+      "breathability": 8.4,
+      "outsoleDurability": 6.5,
+      "comfort": 7.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "빠른 페이스에서 장점이 크다",
+      "대회용 신발로 분리해서 쓰기 좋다",
+      "반발감과 추진감을 기대할 수 있다",
+      "기록을 목표로 하는 러너에게 적합하다"
+    ],
+    "cons": [
+      "입문자의 매일 신는 신발로는 부담스럽다",
+      "착화 안정성보다 속도감에 치우칠 수 있다",
+      "가격 부담이 큰 편이다"
+    ],
+    "similarShoes": [
+      "asics-superblast-2",
+      "asics-metaspeed-sky-paris",
+      "nike-zoom-fly-6",
+      "nike-vaporfly-3"
+    ],
+    "image": "assets/images/shoes/mizuno-wave-rebellion-pro-2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "race",
+      "primaryLabel": "대회용"
+    },
+    "targetRunner": [
+      "10km·하프·마라톤 기록을 노리는 러너",
+      "대회용 신발을 따로 찾는 사람",
+      "빠른 페이스 훈련을 자주 하는 사람"
+    ],
+    "notRecommendedFor": [
+      "첫 러닝화를 찾는 입문자",
+      "발목 안정감이 최우선인 사람",
+      "천천히 조깅만 하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "기록을 목표로 할 때 비교할 대회용 후보.",
+    "carbonLabel": "속도 훈련/대회 구조"
+  },
+  {
+    "id": "salomon-aero-glide-2",
+    "coreTier": "Core50",
+    "brand": "Salomon",
+    "modelEn": "Aero Glide 2",
+    "modelKo": "에어로 글라이드 2",
+    "search": {
+      "ko": [
+        "에어로글라이드",
+        "에어로 글라이드 2",
+        "salomon"
+      ],
+      "en": [
+        "Aero Glide",
+        "Aero Glide 2",
+        "Salomon"
+      ],
+      "alias": [
+        "ㅇㅇㄹ"
+      ]
+    },
+    "purpose": [
+      "daily"
+    ],
+    "carbonPlate": false,
+    "scores": {
+      "overall": 63,
+      "daily": 86,
+      "stability": 58,
+      "training": 58,
+      "race": 58,
+      "beginner": 58,
+      "value": 58,
+      "popularity": 72
+    },
+    "summary": "에어로 글라이드 2는 매일 조깅, 가벼운 지속주, 러닝 입문자가 무난하게 고르기 좋은 데일리 러닝화입니다.",
+    "fit": {
+      "sizeAdvice": "정사이즈 우선",
+      "length": "정사이즈 우선",
+      "width": "보통",
+      "toeBox": "보통",
+      "instep": "보통"
+    },
+    "performance": {
+      "cushion": 8.2,
+      "stability": 7.6,
+      "energyReturn": 7.2,
+      "breathability": 7.7,
+      "outsoleDurability": 7.5,
+      "comfort": 8.4
+    },
+    "specs": {
+      "display": "RunningFit 평가 중심"
+    },
+    "pros": [
+      "활용 범위가 넓다",
+      "초보자도 적응하기 쉽다",
+      "조깅과 가벼운 지속주에 잘 맞는다",
+      "하나만 산다면 비교 후보에 넣기 좋다"
+    ],
+    "cons": [
+      "레이싱화만큼 빠르지는 않다",
+      "강한 추진감을 원하는 러너에게는 심심할 수 있다"
+    ],
+    "similarShoes": [
+      "nike-invincible-3",
+      "adidas-ultraboost-5x",
+      "on-cloudmonster-2",
+      "puma-magnify-nitro-2"
+    ],
+    "image": "assets/images/shoes/salomon-aero-glide-2.webp",
+    "officialUrl": "RunningFit 평가 준비중",
+    "sourceStatus": "RF평가",
+    "RF평가": false,
+    "rfClassification": {
+      "primary": "daily",
+      "primaryLabel": "데일리"
+    },
+    "targetRunner": [
+      "주 2~5회 조깅하는 러너",
+      "첫 러닝화를 찾는 사람",
+      "하나의 신발로 여러 러닝을 처리하고 싶은 사람"
+    ],
+    "notRecommendedFor": [
+      "대회 기록 단축만 노리는 러너",
+      "초경량 레이싱화만 원하는 사람"
+    ],
+    "carbonStatus": "RunningFit 평가",
+    "dataMode": "runningFitEvaluation",
+    "referencePolicy": "RunRepeat 우선 참고 + RunningFit 자체 평가",
+    "officialSpecPriority": "낮음",
+    "oneLine": "실패 확률을 낮추는 데일리 러닝화 후보.",
+    "carbonLabel": "데일리 구조"
+  }
+]
