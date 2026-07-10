@@ -1414,3 +1414,36 @@ body.nav-open {
 .contact-form button { min-height: 48px; border: 0; border-radius: 12px; background: var(--accent); color: var(--accent-text); font-weight: 900; cursor: pointer; }
 .hp-field { position: absolute; left: -9999px; }
 @media (max-width: 700px) { .site-footer { padding-bottom: 118px; } .legal-shell { margin-top: 18px; } }
+
+/* RunningFit sync2: recommendation tabs are always fully visible */
+.recommend-tabs {
+  width: 100%;
+  min-width: 0;
+  overflow: visible;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.recommend-tabs .tab-btn {
+  width: 100%;
+  min-width: 0;
+  padding-inline: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 560px) {
+  .recommend-tabs {
+    gap: 4px;
+    padding: 4px;
+    overflow: visible;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .recommend-tabs .tab-btn {
+    min-height: 46px;
+    padding-inline: 3px;
+    font-size: clamp(12px, 3.45vw, 15px);
+    letter-spacing: -0.04em;
+  }
+}
