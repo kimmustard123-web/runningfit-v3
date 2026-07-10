@@ -53,13 +53,13 @@
     <section class="page-hero">
       <p class="eyebrow">Profile beta</p>
       <h1>내 프로필</h1>
-      <p>현재는 실제 회원 서버가 아니라 브라우저 localStorage에 저장하는 베타 구조입니다.</p>
+      <p>현재는 이 기기에 안전하게 저장되며, 서버 계정 연결을 위한 저장 구조가 분리되어 있습니다.</p>
     </section>
 
     <section class="auth-grid">
       <article class="card">
-        <h2>회원가입 / 로그인 UI</h2>
-        <p class="muted">실제 인증 서버는 아직 연결하지 않았습니다. 버튼을 누르면 베타 로그인 상태만 저장됩니다.</p>
+        <h2>로그인 준비 단계</h2>
+        <p class="muted">현재는 기기 저장 방식입니다. 다음 단계에서 Supabase 인증을 연결하면 같은 화면을 실제 계정으로 전환할 수 있습니다.</p>
         <form class="mini-form" data-auth-form>
           <label>이메일
             <input name="email" type="email" placeholder="you@example.com" required />
@@ -67,13 +67,13 @@
           <label>닉네임
             <input name="nickname" type="text" placeholder="예: 겨자러너" required />
           </label>
-          <button class="btn primary" type="submit">베타 로그인</button>
+          <button class="btn primary" type="submit">기기 로그인</button>
         </form>
       </article>
 
       <article class="card dark-card">
         <h2 data-auth-status>로그인 전</h2>
-        <p>실제 출시 단계에서는 Supabase, Firebase, 자체 서버 같은 인증/DB 연결이 필요합니다.</p>
+        <p>프로필·내 신발·러닝 기록 저장 코드는 서버 전환이 가능하도록 분리했습니다.</p>
         <button class="btn light" type="button" data-logout>로그아웃</button>
       </article>
     </section>
@@ -129,6 +129,7 @@
     </section>
   </main>
   <footer class="site-footer"><p>프로필 정보는 추천 정확도를 높이기 위한 기반 데이터입니다.</p></footer>
+  <script src="./js/backend.js" defer></script>
   <script src="./js/app.js" defer></script>
   <script src="./js/pages.js" defer></script>
 </body>

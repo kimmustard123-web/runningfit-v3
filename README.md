@@ -11,3 +11,11 @@
 
 ## 확인 사항
 현재 프로젝트에는 실제 러닝화 이미지 파일이 포함되어 있지 않으므로 WebP/AVIF 변환 대상은 없습니다. 향후 이미지를 추가할 때는 assets/images 아래에 WebP 또는 AVIF로 넣고 width/height, loading=lazy를 적용해야 합니다.
+
+
+## 상용화 4단계
+- 햄버거 메뉴 배경 블러 제거
+- localStorage 직접 호출을 RFBackend 저장 계층으로 분리
+- 프로필/내 신발/러닝 기록의 서버 전환 준비
+- Supabase 초기 스키마 및 RLS 정책 초안 추가
+- 실제 서버 로그인은 Supabase 프로젝트 URL과 키를 연결한 뒤 활성화해야 함

@@ -229,14 +229,7 @@ function bindBeginner() {
   const form = document.querySelector("[data-beginner-form]");
   if (!form) return;
 
-  const weightSelect = form.querySelector("[data-weight-range]");
-  if (weightSelect && !weightSelect.options.length) {
-    weightSelect.innerHTML = `
-      <option value="light">70kg 미만</option>
-      <option value="normal" selected>70~90kg</option>
-      <option value="heavy">90kg 이상</option>
-    `;
-  }
+  populateWeightSelects(form);
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -270,11 +263,10 @@ function scoreBeginner(shoe, answers) {
     }
   }
 
-  const weightKey = beginnerWeightKey(answers.weightRange);
-  const weightScore = safeNumber(shoe.rec.weightSupport?.[weightKey]);
+  const weightScore = getWeightScore(shoe, answers.weightRange);
   if (weightScore !== null) {
     total += (weightScore - 50) * 0.15;
-    if (weightScore >= 85) reasons.push("체중 구간 적합도가 높음");
+    if (weightScore >= 85) reasons.push("선택한 체중대와 적합도가 높음");
   }
 
   if (!shoe.carbonPlate) {
@@ -291,15 +283,51 @@ function scoreBeginner(shoe, answers) {
   return { ...shoe, matchScore: clamp(Math.round(total), 0, 100), matchReasons: reasons };
 }
 
+function populateWeightSelects(scope = document) {
+  scope.querySelectorAll("[data-weight-range]").forEach((select) => {
+    if (select.options.length) return;
+
+    const options = [{ value: "under40", label: "40kg 미만" }];
+    for (let start = 40; start <= 115; start += 5) {
+      options.push({
+        value: `${start}to${start + 4}`,
+        label: `${start}~${start + 4}kg`,
+        selected: start === 80
+      });
+    }
+    options.push({ value: "over120", label: "120kg 이상" });
+
+    select.innerHTML = options.map((option) => `
+      <option value="${option.value}"${option.selected ? " selected" : ""}>${option.label}</option>
+    `).join("");
+  });
+}
+
+function getRepresentativeWeight(value) {
+  if (value === "under40") return 37.5;
+  if (value === "over120") return 122.5;
+
+  const match = String(value || "").match(/^(\d+)to(\d+)$/);
+  if (match) return (Number(match[1]) + Number(match[2])) / 2;
+
+  if (value === "light") return 55;
+  if (value === "normal") return 75;
+  if (value === "heavy") return 100;
+  return 75;
+}
+
 function beginnerWeightKey(value) {
-  if (["under50", "50to60", "60to70", "light"].includes(value)) return "light";
-  if (["90to100", "100to110", "over110", "heavy"].includes(value)) return "heavy";
+  const weight = getRepresentativeWeight(value);
+  if (weight < 65) return "light";
+  if (weight >= 90) return "heavy";
   return "normal";
 }
 
 function bindAdvanced() {
   const form = document.querySelector("[data-advanced-form]");
   if (!form) return;
+
+  populateWeightSelects(form);
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -358,8 +386,22 @@ function scoreAdvanced(shoe, answers) {
 }
 
 function getWeightScore(shoe, range) {
-  const key = beginnerWeightKey(range);
-  return safeNumber(shoe.rec.weightSupport?.[key]) ?? 70;
+  const support = shoe.rec.weightSupport || {};
+  const light = safeNumber(support.light) ?? 70;
+  const normal = safeNumber(support.normal) ?? 70;
+  const heavy = safeNumber(support.heavy) ?? 70;
+  const weight = getRepresentativeWeight(range);
+
+  if (weight <= 55) return light;
+  if (weight < 75) {
+    const ratio = (weight - 55) / 20;
+    return light + (normal - light) * ratio;
+  }
+  if (weight < 100) {
+    const ratio = (weight - 75) / 25;
+    return normal + (heavy - normal) * ratio;
+  }
+  return heavy;
 }
 
 function getWidthScore(shoe, answer) {
