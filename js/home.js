@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderRank("trainingTopShoes", shoes, "training");
     renderRank("raceTopShoes", shoes, "race");
     renderUpcomingRaces();
+    renderFeaturedCourse();
   } catch (error) {
     console.error(error);
   }
@@ -119,4 +120,23 @@ async function renderHomeWeather() {
 
 function formatHomeWeatherValue(value, suffix) {
   return value == null || Number.isNaN(Number(value)) ? "-" : `${Math.round(Number(value) * 10) / 10}${suffix}`;
+}
+
+
+async function renderFeaturedCourse(){
+  const title=document.getElementById("featuredCourseTitle");
+  const text=document.getElementById("featuredCourseText");
+  const link=document.getElementById("featuredCourseLink");
+  if(!title||!text||!link)return;
+  try{
+    const payload=await RF.loadJSON("./data/courses.json");
+    const courses=Array.isArray(payload)?payload:(payload.courses||[]);
+    const featured=courses.filter(x=>x.featured);
+    const pool=featured.length?featured:courses;
+    if(!pool.length)throw new Error("등록된 코스가 없습니다.");
+    const course=pool[new Date().getDate()%pool.length];
+    title.textContent=course.name||"추천 러닝코스";
+    text.textContent=`${course.region||"지역 미확인"} · ${course.distanceText||"거리 미확인"}`;
+    link.href=`./courses.html?q=${encodeURIComponent(course.name||"")}`;
+  }catch(error){title.textContent="추천 코스를 확인하세요";text.textContent="전국 대표 러닝 장소 100개를 준비했습니다.";console.error(error)}
 }

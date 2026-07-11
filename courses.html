@@ -1,71 +1,43 @@
 <!DOCTYPE html>
-
 <html lang="ko">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>러닝코스 추천 | RunningFit V3.2</title>
-<meta content="지역별 러닝코스, 거리, 난이도, 노면, 시작 지점을 확인하는 RunningFit 코스 페이지입니다." name="description"/>
-<link href="https://voluble-tiramisu-f5d2d2.netlify.app/courses.html" rel="canonical"/>
-<meta content="#ffffff" name="theme-color"/>
-<meta content="website" property="og:type"/>
-<meta content="RunningFit" property="og:site_name"/>
-<meta content="러닝코스 추천 | RunningFit V3.2" property="og:title"/>
-<meta content="지역별 러닝코스, 거리, 난이도, 노면, 시작 지점을 확인하는 RunningFit 코스 페이지입니다." property="og:description"/>
-<meta content="https://voluble-tiramisu-f5d2d2.netlify.app/courses.html" property="og:url"/>
-<link href="./css/app.css?v=20260711-weather1" rel="stylesheet"/>
-<link href="./css/pages.css?v=20260711-weather1" rel="stylesheet"/>
+<title>전국 러닝코스 100선 | RunningFit</title>
+<meta content="전국 17개 지역 대표 러닝 장소 100개를 검색하고 카카오맵에서 확인하세요." name="description"/>
+<link href="./css/app.css?v=20260711-courses100" rel="stylesheet"/>
+<link href="./css/pages.css?v=20260711-courses100" rel="stylesheet"/>
 </head>
 <body>
 <header class="site-header rf-header">
 <div class="header-inner rf-header-row">
-<a aria-label="RunningFit 홈" class="brand" href="./index.html">
-<span class="brand-mark">RF</span>
-<span class="brand-text">
-<strong>RunningFit</strong>
-<small id="currentPageLabel">코스</small>
-</span>
-</a>
-<button aria-label="메뉴 열기" class="nav-toggle" data-nav-toggle="" type="button">☰</button>
-<nav aria-label="주요 메뉴" class="top-nav" data-nav="">
-<a class="nav-link" href="./index.html">홈</a>
-<a class="nav-link" href="./shoes.html">러닝화</a>
-<a class="nav-link" href="./pace.html">페이스 계산기</a>
-<a class="nav-link" href="./weather.html">날씨</a>
-<a class="nav-link" href="./races.html">대회</a>
-<a class="nav-link active" href="./courses.html">코스</a>
-<a class="nav-link" href="./profile.html">프로필</a>
-<button aria-label="다크모드 전환" class="theme-toggle" id="themeToggle" type="button">🌙</button>
-</nav>
-</div>
-<div class="global-search-wrap">
-<form action="./shoes.html" class="global-search" id="globalSearchForm">
-<label class="sr-only" for="globalSearchInput">러닝화 검색</label>
-<input autocomplete="off" id="globalSearchInput" name="q" placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색" type="search"/>
-<button type="submit">검색</button>
-</form>
-<div aria-label="검색 추천 목록" class="search-suggestions" id="globalSearchSuggestions"></div>
-</div>
+<a aria-label="RunningFit 홈" class="brand" href="./index.html"><span class="brand-mark">RF</span><span class="brand-text"><strong>RunningFit</strong><small id="currentPageLabel">코스</small></span></a>
+<button aria-label="메뉴 열기" class="nav-toggle" data-nav-toggle type="button">☰</button>
+<nav aria-label="주요 메뉴" class="top-nav" data-nav>
+<a class="nav-link" href="./index.html">홈</a><a class="nav-link" href="./shoes.html">러닝화</a><a class="nav-link" href="./pace.html">페이스 계산기</a><a class="nav-link" href="./weather.html">날씨</a><a class="nav-link" href="./races.html">대회</a><a class="nav-link active" href="./courses.html">코스</a><a class="nav-link" href="./profile.html">프로필</a><button aria-label="다크모드 전환" class="theme-toggle" id="themeToggle" type="button">🌙</button>
+</nav></div>
+<div class="global-search-wrap"><form action="./shoes.html" class="global-search" id="globalSearchForm"><label class="sr-only" for="globalSearchInput">러닝화 검색</label><input autocomplete="off" id="globalSearchInput" name="q" placeholder="러닝화 검색 · 모델명, 브랜드, 한글·영문·초성 검색" type="search"/><button type="submit">검색</button></form><div aria-label="검색 추천 목록" class="search-suggestions" id="globalSearchSuggestions"></div></div>
 </header>
-<main>
-<section class="page-hero">
-<p class="eyebrow">Running courses</p>
-<h1>러닝코스 추천</h1>
-<p>지도/GPS 연동 전까지는 검증 가능한 코스만 등록하는 구조로 유지합니다.</p>
+<main class="courses-page">
+<section class="page-hero course-hero"><p class="eyebrow">100 running places</p><h1>전국 대표 러닝코스 100선</h1><p>전국 17개 지역의 대표적인 공원·수변·해안 보행 공간을 모았습니다. 미확인 거리와 시설 정보는 표시하지 않습니다.</p><div class="course-summary" data-course-summary></div></section>
+<section class="course-filter-panel" aria-label="코스 검색 및 필터">
+<label><span>검색</span><input data-course-search placeholder="코스명·지역 검색" type="search"/></label>
+<label><span>지역</span><select data-course-region><option value="">전국</option></select></label>
+<label><span>거리</span><select data-course-distance><option value="">전체 거리</option><option value="short">3km 이하</option><option value="medium">3~5km</option><option value="long">5~10km</option><option value="ultra">10km 이상</option><option value="unknown">거리 미확인</option></select></label>
+<label><span>난이도</span><select data-course-level><option value="">전체 난이도</option><option value="easy">쉬움</option><option value="normal">보통</option><option value="hard">어려움</option><option value="unknown">미확인</option></select></label>
+<button class="btn ghost" data-course-reset type="button">필터 초기화</button>
 </section>
-<section class="tool-row">
-<input data-course-search="" placeholder="지역, 코스명 검색" type="search"/>
-<select data-course-level="">
-<option value="">전체 난이도</option>
-<option value="easy">쉬움</option>
-<option value="normal">보통</option>
-<option value="hard">어려움</option>
-</select>
-</section>
-<section class="course-grid" data-course-grid=""></section>
+<div class="course-result-head"><strong data-course-count>0개</strong><span>카드를 눌러 상세정보를 확인하세요.</span></div>
+<section class="course-grid" data-course-grid></section>
 </main>
-<footer class="site-footer"><p>지도 이미지는 무단 캡처하지 않고, 정식 지도 API 또는 직접 제작 자료만 사용합니다.</p></footer>
-<script defer="" src="./js/app.js?v=20260711-weather1"></script>
-<script defer="" src="./js/pages.js?v=20260711-weather1"></script>
-</body>
-</html>
+<div class="course-modal" data-course-modal aria-hidden="true">
+<div class="course-modal-backdrop" data-course-close></div>
+<section class="course-modal-panel" role="dialog" aria-modal="true" aria-labelledby="courseModalTitle">
+<button class="course-modal-close" data-course-close type="button" aria-label="닫기">×</button>
+<p class="eyebrow" data-course-modal-region></p><h2 id="courseModalTitle" data-course-modal-title></h2>
+<dl class="course-detail-list" data-course-modal-body></dl>
+<div class="course-modal-actions" data-course-modal-actions></div>
+</section></div>
+<footer class="site-footer"><p>지도는 카카오맵 검색으로 연결되며, 실제 통행 가능 여부와 시설 운영 상태는 현장에서 다시 확인하세요.</p></footer>
+<script defer src="./js/app.js?v=20260711-courses100"></script><script defer src="./js/pages.js?v=20260711-courses100"></script>
+</body></html>

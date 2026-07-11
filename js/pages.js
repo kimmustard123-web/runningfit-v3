@@ -119,7 +119,58 @@ async function races(){
   }
 }
 
-async function courses(){const grid=document.querySelector("[data-course-grid]");if(!grid)return;const d=await RF.loadJSON("./data/courses.json");const q=document.querySelector("[data-course-search]"),lv=document.querySelector("[data-course-level]");const render=()=>{const s=(q?.value||"").toLowerCase(),v=lv?.value||"";const f=d.filter(x=>(!s||JSON.stringify(x).toLowerCase().includes(s))&&(!v||x.level===v||x.difficulty===v));grid.innerHTML=f.map(x=>`<article class="course-card-item"><p class="eyebrow">${RF.esc(x.region||x.location||"코스")}</p><h2>${RF.esc(x.name||x.title)}</h2><p>${RF.esc(x.distance||"")} ${RF.esc(x.level||x.difficulty||"")}</p><p>${RF.esc(x.description||"")}</p></article>`).join("")||"검색 결과 없음"};q?.addEventListener("input",RF.debounce(render,140));lv?.addEventListener("change",render);render()}
+async function courses(){
+  const grid=document.querySelector("[data-course-grid]");
+  if(!grid)return;
+  try{
+    const payload=await RF.loadJSON("./data/courses.json");
+    const data=Array.isArray(payload)?payload:(payload.courses||[]);
+    const q=document.querySelector("[data-course-search]");
+    const region=document.querySelector("[data-course-region]");
+    const distance=document.querySelector("[data-course-distance]");
+    const level=document.querySelector("[data-course-level]");
+    const count=document.querySelector("[data-course-count]");
+    const summary=document.querySelector("[data-course-summary]");
+    const modal=document.querySelector("[data-course-modal]");
+    const modalRegion=document.querySelector("[data-course-modal-region]");
+    const modalTitle=document.querySelector("[data-course-modal-title]");
+    const modalBody=document.querySelector("[data-course-modal-body]");
+    const modalActions=document.querySelector("[data-course-modal-actions]");
+    const labels={easy:"쉬움",normal:"보통",hard:"어려움"};
+    const show=v=>v===null||v===undefined||v===""?"미확인":RF.esc(String(v));
+    const regions=[...new Set(data.map(x=>x.region).filter(Boolean))];
+    region.innerHTML='<option value="">전국</option>'+regions.map(x=>`<option value="${RF.esc(x)}">${RF.esc(x)}</option>`).join("");
+    const initialQuery=new URLSearchParams(location.search).get("q");if(initialQuery)q.value=initialQuery;
+    if(summary)summary.innerHTML=`<div><strong>${data.length}</strong><span>등록 코스</span></div><div><strong>${regions.length}</strong><span>지역</span></div><div><strong>${data.filter(x=>x.featured).length}</strong><span>추천 코스</span></div>`;
+    const close=()=>{modal?.classList.remove("is-open");modal?.setAttribute("aria-hidden","true");document.body.classList.remove("course-modal-open")};
+    const open=x=>{
+      modalRegion.textContent=x.region||"코스";modalTitle.textContent=x.name||"러닝코스";
+      const rows=[["거리",x.distanceText],["난이도",x.difficulty?labels[x.difficulty]||x.difficulty:null],["노면",x.surface],["형태",x.routeType],["주차",x.parking],["화장실",x.toilet],["조명",x.lighting],["설명",x.description],["확인 안내",x.verificationNote]];
+      modalBody.innerHTML=rows.map(([a,b])=>`<div><dt>${RF.esc(a)}</dt><dd>${show(b)}</dd></div>`).join("");
+      const keyword=encodeURIComponent(x.mapKeyword||`${x.region||""} ${x.name||""}`);
+      modalActions.innerHTML=`<a class="btn primary" href="https://map.kakao.com/link/search/${keyword}" target="_blank" rel="noopener noreferrer">카카오맵에서 보기</a><a class="btn ghost" href="https://map.kakao.com/?q=${keyword}" target="_blank" rel="noopener noreferrer">길찾기 준비</a>`;
+      modal.classList.add("is-open");modal.setAttribute("aria-hidden","false");document.body.classList.add("course-modal-open");
+    };
+    const render=()=>{
+      const term=(q.value||"").trim().toLowerCase();
+      const selectedRegion=region.value;const selectedDistance=distance.value;const selectedLevel=level.value;
+      const filtered=data.filter(x=>{
+        const hay=[x.name,x.region,x.locality,x.mapKeyword,x.description].filter(Boolean).join(" ").toLowerCase();
+        const d=x.distanceCategory||"unknown";const l=x.difficulty||"unknown";
+        return(!term||hay.includes(term))&&(!selectedRegion||x.region===selectedRegion)&&(!selectedDistance||d===selectedDistance)&&(!selectedLevel||l===selectedLevel);
+      });
+      count.textContent=`${filtered.length}개`;
+      grid.innerHTML=filtered.map(x=>`<button class="course-card-item course-card-button" data-course-id="${RF.esc(x.id)}" type="button"><span class="course-card-top"><span class="course-region-badge">${RF.esc(x.region||"지역 미확인")}</span>${x.featured?'<span class="course-featured">추천</span>':''}</span><strong>${RF.esc(x.name||"러닝코스")}</strong><span class="course-card-meta"><span>거리 ${show(x.distanceText)}</span><span>난이도 ${x.difficulty?RF.esc(labels[x.difficulty]||x.difficulty):"미확인"}</span></span><p>${RF.esc(x.description||"")}</p><span class="course-more">상세보기 →</span></button>`).join("")||'<div class="empty-state"><h3>검색 결과가 없습니다.</h3><p>필터를 초기화하고 다시 검색해 보세요.</p></div>';
+    };
+    [q,region,distance,level].forEach(el=>{el?.addEventListener(el===q?"input":"change",el===q?RF.debounce(render,120):render)});
+    document.querySelector("[data-course-reset]")?.addEventListener("click",()=>{q.value="";region.value="";distance.value="";level.value="";render()});
+    const byId=new Map(data.map(x=>[String(x.id),x]));
+    grid.addEventListener("click",e=>{const b=e.target.closest("[data-course-id]");if(b&&byId.has(b.dataset.courseId))open(byId.get(b.dataset.courseId))});
+    document.querySelectorAll("[data-course-close]").forEach(x=>x.addEventListener("click",close));
+    document.addEventListener("keydown",e=>{if(e.key==="Escape")close()});
+    render();
+  }catch(error){console.error(error);grid.innerHTML=`<div class="empty-state"><h3>코스 데이터를 불러오지 못했습니다.</h3><p>${RF.esc(error.message)}</p></div>`}
+}
 async function profile(){
   const form=document.querySelector("[data-auth-form]");
   const status=document.querySelector("[data-auth-status]");
