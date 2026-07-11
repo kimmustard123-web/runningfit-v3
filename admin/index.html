@@ -1,1 +1,94 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RunningFit 관리자</title><link rel="stylesheet" href="../css/app.css"><link rel="stylesheet" href="./admin.css"></head><body><header class="admin-header"><a href="../index.html"><b>RF</b> 사이트 보기</a><h1>RunningFit 관리자</h1><button id="exportAll">전체 백업</button></header><main class="admin-layout"><aside><button data-type="shoes" class="active">러닝화</button><button data-type="races">대회</button><button data-type="courses">코스</button><hr><label class="import-label">백업 가져오기<input id="importAll" type="file" accept="application/json"></label><button id="resetType" class="danger">현재 항목 초기화</button></aside><section><div class="admin-toolbar"><div><h2 id="entityTitle">러닝화 관리</h2><p>추가·수정·삭제 후 즉시 같은 브라우저의 사이트에 반영됩니다.</p></div><div><input id="search" type="search" placeholder="검색"><button id="addNew">+ 새 항목</button></div></div><div id="stats" class="stats"></div><div id="list" class="admin-list"></div></section></main><dialog id="editor"><form method="dialog" id="editorForm"><div class="dialog-head"><h2 id="editorTitle">항목 편집</h2><button value="cancel">×</button></div><div id="fields" class="form-grid"></div><div class="dialog-actions"><button value="cancel" class="ghost">취소</button><button type="submit" value="default">저장</button></div></form></dialog><script src="../js/content-store.js"></script><script src="./admin.js"></script></body></html>
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>RunningFit Admin</title>
+  <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+  <section id="loginView" class="login-view">
+    <div class="login-card">
+      <a class="brand" href="../index.html"><span>RF</span> RunningFit</a>
+      <p class="eyebrow">ADMIN CONSOLE</p>
+      <h1>운영 관리자</h1>
+      <p class="muted">로컬 개발에서는 바로 시작할 수 있습니다. 상용화할 때는 Supabase 관리자 로그인으로 전환합니다.</p>
+      <button id="localLogin" class="primary wide">로컬 관리자 시작</button>
+      <details>
+        <summary>Supabase 관리자 로그인</summary>
+        <label>이메일<input id="adminEmail" type="email" autocomplete="username"></label>
+        <label>비밀번호<input id="adminPassword" type="password" autocomplete="current-password"></label>
+        <button id="serverLogin" class="secondary wide">서버 로그인</button>
+      </details>
+      <p id="loginMessage" class="message"></p>
+    </div>
+  </section>
+
+  <div id="appView" class="app" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="../index.html"><span>RF</span> RunningFit</a>
+      <nav>
+        <button data-view="dashboard" class="active">대시보드</button>
+        <button data-view="shoes">러닝화 관리</button>
+        <button data-view="races">대회 관리</button>
+        <button data-view="courses">코스 관리</button>
+        <button data-view="media">이미지 최적화</button>
+        <button data-view="backup">백업·복원</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <span id="modeBadge" class="badge"></span>
+        <a href="../index.html">사이트 보기</a>
+        <button id="logout" class="text-button">로그아웃</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div><p class="eyebrow">RUNNINGFIT V5</p><h1 id="pageTitle">대시보드</h1></div>
+        <button id="addNew" class="primary" hidden>+ 새 항목</button>
+      </header>
+
+      <section id="dashboardView" class="view active">
+        <div id="summaryCards" class="summary-grid"></div>
+        <div class="panel"><h2>운영 원칙</h2><div class="steps"><p><b>1.</b> 관리자에서 데이터 작성</p><p><b>2.</b> 이미지 최적화 후 등록</p><p><b>3.</b> 공개 상태로 전환</p><p><b>4.</b> Supabase 연결 시 모든 사용자에게 즉시 반영</p></div></div>
+      </section>
+
+      <section id="listView" class="view">
+        <div class="toolbar"><input id="search" type="search" placeholder="이름·브랜드·지역 검색"><select id="statusFilter"><option value="all">전체 상태</option><option value="published">공개</option><option value="hidden">비공개</option></select></div>
+        <div id="stats" class="inline-stats"></div>
+        <div id="list" class="data-list"></div>
+      </section>
+
+      <section id="mediaView" class="view">
+        <div class="panel">
+          <h2>이미지 자동 최적화</h2>
+          <p class="muted">PNG/JPG를 선택하면 카드용 WebP로 축소합니다. 로컬 모드에서는 파일을 내려받아 프로젝트에 넣고, 서버 모드에서는 Storage 업로드 구조로 전환됩니다.</p>
+          <div class="media-grid">
+            <label class="dropzone">이미지 선택<input id="mediaInput" type="file" accept="image/png,image/jpeg,image/webp"></label>
+            <div><label>파일 ID<input id="mediaSlug" placeholder="nike-pegasus-41"></label><label>최대 가로 크기<input id="mediaWidth" type="number" value="640" min="160" max="2000"></label><label>품질<input id="mediaQuality" type="number" value="82" min="40" max="100"></label><button id="optimizeImage" class="primary">WebP 최적화</button></div>
+            <div id="mediaResult" class="media-result">미리보기</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="backupView" class="view">
+        <div class="panel"><h2>전체 데이터 백업</h2><p class="muted">관리자 데이터 전체를 JSON으로 저장하거나 다시 불러옵니다.</p><div class="button-row"><button id="exportAll" class="primary">전체 백업 다운로드</button><label class="secondary file-button">백업 가져오기<input id="importAll" type="file" accept="application/json"></label></div></div>
+        <div class="panel danger-panel"><h2>기본 데이터로 초기화</h2><p class="muted">로컬 관리자 수정 내용을 지우고 프로젝트의 기본 JSON으로 되돌립니다.</p><button id="resetAll" class="danger">전체 초기화</button></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="editor">
+    <form id="editorForm">
+      <header><div><p class="eyebrow">CONTENT EDITOR</p><h2 id="editorTitle">항목 편집</h2></div><button type="button" id="closeEditor" class="icon-button">×</button></header>
+      <div id="fields" class="form-grid"></div>
+      <footer><button type="button" id="cancelEditor" class="secondary">취소</button><button type="submit" class="primary">저장</button></footer>
+    </form>
+  </dialog>
+
+  <script src="../js/backend-config.js"></script>
+  <script src="../js/content-store.js"></script>
+  <script src="./admin.js"></script>
+</body>
+</html>
