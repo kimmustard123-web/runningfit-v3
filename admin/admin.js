@@ -30,7 +30,15 @@ const shoeFields = [
   ["score_race", "대회용 점수", "number"],
   ["image_url", "이미지 경로", "text"],
   ["image_alt", "이미지 설명", "text"],
-  ["official_url", "출처 / 공식 URL", "url"],
+  ["official_url", "공식 제품 정보 URL", "url"],
+  ["summary", "한 줄 평가", "textarea"],
+  ["recommended_for", "추천 러너", "text"],
+  ["recommended_distances", "추천 거리(쉼표)", "text"],
+  ["recommended_training", "추천 활용", "text"],
+  ["size_advice", "사이즈 조언", "text"],
+  ["purchase_url", "공식 모델 판매/검색 URL", "url"],
+  ["brand_store_url", "브랜드 공식 스토어 URL", "url"],
+  ["purchase_status", "판매 상태", "select", false, "available|sold_out|discontinued|hidden"],
   ["source_name", "출처명", "text"],
   ["source_checked_at", "확인일", "date"],
   ["description", "설명", "textarea"],
@@ -126,12 +134,32 @@ function showView(view) {
 async function loadShoes() {
   try {
     const data = await api("/api/admin-shoes");
-    rows = data.shoes || [];
+    rows = (data.shoes || []).map(hydrateAdminRow);
     renderDashboard();
     renderList();
   } catch (error) {
     alert(error.message);
   }
+}
+
+function hydrateAdminRow(row) {
+  const raw = row?.raw_data && typeof row.raw_data === "object" ? row.raw_data : {};
+  const detail = raw.detail || {};
+  const purchase = raw.purchase || {};
+  return {
+    ...row,
+    summary: detail.summary || "",
+    recommended_for: detail.recommendedFor || "",
+    recommended_distances: Array.isArray(detail.recommendedDistances) ? detail.recommendedDistances : [],
+    recommended_training: detail.recommendedTraining || "",
+    size_advice: detail.sizeAdvice || "",
+    purchase_url: purchase.officialStoreUrl || "",
+    brand_store_url: purchase.brandStoreUrl || "",
+    purchase_status: purchase.status || "available",
+    description: row.description || detail.description || "",
+    pros: Array.isArray(row.pros) && row.pros.length ? row.pros : (detail.pros || []),
+    cons: Array.isArray(row.cons) && row.cons.length ? row.cons : (detail.cons || [])
+  };
 }
 
 function renderDashboard() {
@@ -200,6 +228,8 @@ async function saveEditor(event) {
     else if (kind === "number") payload[key] = element.value === "" ? null : Number(element.value);
     else payload[key] = String(form.get(key) || "").trim();
   }
+  const original = editingSlug ? rows.find((item) => item.slug === editingSlug) : null;
+  payload.raw_data = original?.raw_data || null;
   try {
     if (editingSlug) {
       await api(`/api/admin-shoes?slug=${encodeURIComponent(editingSlug)}`, { method: "PUT", body: JSON.stringify(payload) });

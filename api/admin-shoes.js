@@ -99,12 +99,16 @@ function sanitizeShoe(input) {
     source_checked_at: input.source_checked_at || null,
     updated_at: new Date().toISOString()
   };
-  row.raw_data = buildRawData(row);
+  row.raw_data = buildRawData(row, input);
   return row;
 }
 
-function buildRawData(row) {
+function buildRawData(row, input) {
+  const previous = input?.raw_data && typeof input.raw_data === "object" ? input.raw_data : {};
+  const previousDetail = previous.detail && typeof previous.detail === "object" ? previous.detail : {};
+  const previousPurchase = previous.purchase && typeof previous.purchase === "object" ? previous.purchase : {};
   return {
+    ...previous,
     id: row.slug,
     brand: row.brand,
     modelEn: row.model_name,
@@ -112,9 +116,29 @@ function buildRawData(row) {
     carbonPlate: row.carbon_plate,
     plateType: row.plate_type,
     search: { ko: [row.model_name_ko, row.brand].filter(Boolean), en: [row.model_name, row.brand].filter(Boolean), aliases: row.aliases },
-    source: { primary: row.source_name, url: row.official_url || "", checkedAt: row.source_checked_at },
+    source: { primary: "RunningFit 리서치", url: "", checkedAt: row.source_checked_at },
     specs: { weightG: row.weight_g, heelStackMm: row.heel_stack_mm, forefootStackMm: row.forefoot_stack_mm, dropMm: row.drop_mm, width: row.width_fit, toeBoxHeight: row.toe_box_height, heelSupport: row.heel_support },
     runningFit: { primary: row.category, scores: { firstRunning: row.score_beginner, dailyRunning: row.score_daily, training: row.score_training, race: row.score_race } },
+    detail: {
+      ...previousDetail,
+      summary: String(input.summary || previousDetail.summary || "").trim(),
+      description: row.description || previousDetail.description || "",
+      pros: row.pros,
+      cons: row.cons,
+      recommendedFor: String(input.recommended_for || previousDetail.recommendedFor || "").trim(),
+      recommendedDistances: arrayValue(input.recommended_distances || previousDetail.recommendedDistances),
+      recommendedTraining: String(input.recommended_training || previousDetail.recommendedTraining || "").trim(),
+      sizeAdvice: String(input.size_advice || previousDetail.sizeAdvice || "").trim(),
+      specs: { weightG: row.weight_g, heelStackMm: row.heel_stack_mm, forefootStackMm: row.forefoot_stack_mm, dropMm: row.drop_mm, widthFit: row.width_fit, toeBoxHeight: row.toe_box_height, heelSupport: row.heel_support }
+    },
+    purchase: {
+      ...previousPurchase,
+      officialStoreUrl: String(input.purchase_url || previousPurchase.officialStoreUrl || "").trim(),
+      brandStoreUrl: String(input.brand_store_url || previousPurchase.brandStoreUrl || "").trim(),
+      status: ["available", "sold_out", "discontinued", "hidden"].includes(input.purchase_status) ? input.purchase_status : (previousPurchase.status || "available"),
+      checkedAt: new Date().toISOString().slice(0, 10),
+      label: "공식 스토어에서 제품 보기"
+    },
     image: { src: row.image_url || "", alt: row.image_alt || `${row.brand} ${row.model_name_ko || row.model_name}`, type: "ai-generated" }
   };
 }

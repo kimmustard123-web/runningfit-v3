@@ -1,9 +1,9 @@
 {
   "metadata": {
     "project": "RunningFit",
-    "version": "Core50-RunRepeat-Rebuild-2026-07-11",
+    "version": "Core50-RunningFit-Unified-2026-07-12",
     "modelCount": 50,
-    "sourcePolicy": "RunRepeat 중심",
+    "sourcePolicy": "RunningFit 자체 편집 데이터",
     "recommendationQuestions": 13,
     "purposeCategories": [
       "firstRunning",
@@ -42,16 +42,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-pegasus-41",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 85,
-        "daily": 88,
-        "tempo": 72,
-        "race": 50,
-        "stability": 82
       },
       "specs": {
         "weightG": 297,
@@ -119,6 +112,46 @@
         "type": "ai-generated",
         "width": 282,
         "height": 229
+      },
+      "detail": {
+        "summary": "매일 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "첫 러닝화로 활용하기 쉬운 균형"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 297,
+          "dropMm": 10.1,
+          "heelStackMm": 33.6,
+          "forefootStackMm": 23.5,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Pegasus%2041&vst=Pegasus%2041",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 85,
+        "daily": 88,
+        "tempo": 72,
+        "race": 50,
+        "stability": 82
       }
     },
     {
@@ -142,16 +175,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-pegasus-plus",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 84,
-        "daily": 87,
-        "tempo": 85,
-        "race": 70,
-        "stability": 73
       },
       "specs": {
         "weightG": 244,
@@ -219,6 +245,47 @@
         "type": "ai-generated",
         "width": 280,
         "height": 229
+      },
+      "detail": {
+        "summary": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "매일 러닝에 적합한 균형"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 244,
+          "dropMm": 9.7,
+          "heelStackMm": 33,
+          "forefootStackMm": 23.3,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Pegasus%20Plus&vst=Pegasus%20Plus",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 84,
+        "daily": 87,
+        "tempo": 85,
+        "race": 70,
+        "stability": 73
       }
     },
     {
@@ -242,16 +309,9 @@
       "carbonPlate": false,
       "plateType": "air_zoom",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-pegasus-premium",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 86,
-        "daily": 88,
-        "tempo": 78,
-        "race": 62,
-        "stability": 58
       },
       "specs": {
         "weightG": 308,
@@ -319,6 +379,47 @@
         "type": "ai-generated",
         "width": 266,
         "height": 229
+      },
+      "detail": {
+        "summary": "매일 러닝에서 안정적인 지지와 높은 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 안정적인 지지와 높은 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "매일 러닝에 적합한 균형"
+        ],
+        "cons": [
+          "가벼운 템포화와 비교하면 무게감이 느껴질 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 308,
+          "dropMm": 10,
+          "heelStackMm": 40,
+          "forefootStackMm": 30,
+          "widthFit": "narrow",
+          "toeBoxHeight": "high",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Pegasus%20Premium&vst=Pegasus%20Premium",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 86,
+        "daily": 88,
+        "tempo": 78,
+        "race": 62,
+        "stability": 58
       }
     },
     {
@@ -342,16 +443,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-vomero-18",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 90,
-        "daily": 91,
-        "tempo": 54,
-        "race": 38,
-        "stability": 84
       },
       "specs": {
         "weightG": 325,
@@ -419,6 +513,47 @@
         "type": "ai-generated",
         "width": 270,
         "height": 229
+      },
+      "detail": {
+        "summary": "매일 러닝에서 안정적인 지지와 높은 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 안정적인 지지와 높은 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "매일 러닝에 적합한 균형"
+        ],
+        "cons": [
+          "가벼운 템포화와 비교하면 무게감이 느껴질 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 325,
+          "dropMm": 10,
+          "heelStackMm": 42.5,
+          "forefootStackMm": 32.5,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Vomero%2018&vst=Vomero%2018",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 90,
+        "daily": 91,
+        "tempo": 54,
+        "race": 38,
+        "stability": 84
       }
     },
     {
@@ -442,16 +577,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-vomero-plus",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 89,
-        "daily": 92,
-        "tempo": 70,
-        "race": 52,
-        "stability": 82
       },
       "specs": {
         "weightG": 289,
@@ -519,6 +647,47 @@
         "type": "ai-generated",
         "width": 272,
         "height": 229
+      },
+      "detail": {
+        "summary": "매일 러닝에서 높은 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 높은 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "매일 러닝에 적합한 균형"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 289,
+          "dropMm": 9.6,
+          "heelStackMm": 42.3,
+          "forefootStackMm": 32.7,
+          "widthFit": "standard",
+          "toeBoxHeight": "low",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Vomero%20Plus&vst=Vomero%20Plus",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 89,
+        "daily": 92,
+        "tempo": 70,
+        "race": 52,
+        "stability": 82
       }
     },
     {
@@ -542,16 +711,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-structure-26",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 85,
-        "daily": 89,
-        "tempo": 51,
-        "race": 36,
-        "stability": 90
       },
       "specs": {
         "weightG": 296,
@@ -619,6 +781,47 @@
         "type": "ai-generated",
         "width": 282,
         "height": 230
+      },
+      "detail": {
+        "summary": "안정화에서 안정적인 지지와 높은 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "안정화에서 안정적인 지지와 높은 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "첫 러닝화로 활용하기 쉬운 균형"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "안정화을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "안정화",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 296,
+          "dropMm": 10.1,
+          "heelStackMm": 38.5,
+          "forefootStackMm": 28.4,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Structure%2026&vst=Structure%2026",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 85,
+        "daily": 89,
+        "tempo": 51,
+        "race": 36,
+        "stability": 90
       }
     },
     {
@@ -642,16 +845,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-zoom-fly-6",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 88,
-        "daily": 83,
-        "tempo": 90,
-        "race": 79,
-        "stability": 64
       },
       "specs": {
         "weightG": 248,
@@ -719,6 +915,48 @@
         "type": "ai-generated",
         "width": 280,
         "height": 230
+      },
+      "detail": {
+        "summary": "훈련용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "훈련용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "매일 러닝에 적합한 균형"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 248,
+          "dropMm": 9.8,
+          "heelStackMm": 39.9,
+          "forefootStackMm": 30.1,
+          "widthFit": "narrow",
+          "toeBoxHeight": "low",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Zoom%20Fly%206&vst=Zoom%20Fly%206",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 88,
+        "daily": 83,
+        "tempo": 90,
+        "race": 79,
+        "stability": 64
       }
     },
     {
@@ -742,16 +980,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-vaporfly-4",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 93,
-        "daily": 38,
-        "tempo": 91,
-        "race": 94,
-        "stability": 59
       },
       "specs": {
         "weightG": 166,
@@ -819,6 +1050,48 @@
         "type": "ai-generated",
         "width": 266,
         "height": 230
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "빠른 페이스와 대회 활용성"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 166,
+          "dropMm": 5.9,
+          "heelStackMm": 34.1,
+          "forefootStackMm": 28.2,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Vaporfly%204&vst=Vaporfly%204",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 93,
+        "daily": 38,
+        "tempo": 91,
+        "race": 94,
+        "stability": 59
       }
     },
     {
@@ -842,16 +1115,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-alphafly-3",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 93,
-        "daily": 44,
-        "tempo": 90,
-        "race": 95,
-        "stability": 74
       },
       "specs": {
         "weightG": 201,
@@ -919,6 +1185,48 @@
         "type": "ai-generated",
         "width": 270,
         "height": 230
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "빠른 페이스와 대회 활용성"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 201,
+          "dropMm": 8.1,
+          "heelStackMm": 38.1,
+          "forefootStackMm": 30,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Alphafly%203&vst=Alphafly%203",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 93,
+        "daily": 44,
+        "tempo": 90,
+        "race": 95,
+        "stability": 74
       }
     },
     {
@@ -942,16 +1250,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/nike-streakfly-2",
+        "primary": "RunningFit 리서치",
+        "url": "",
         "checkedAt": "2026-07-11"
-      },
-      "runRepeat": {
-        "overall": 91,
-        "daily": 23,
-        "tempo": 93,
-        "race": 92,
-        "stability": 38
       },
       "specs": {
         "weightG": 145,
@@ -1019,6 +1320,47 @@
         "type": "ai-generated",
         "width": 272,
         "height": 230
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "빠른 페이스와 대회 활용성"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 145,
+          "dropMm": 3.7,
+          "heelStackMm": 27,
+          "forefootStackMm": 23.3,
+          "widthFit": "narrow",
+          "toeBoxHeight": "low",
+          "heelSupport": "low"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nike.com/kr/w?q=Streakfly%202&vst=Streakfly%202",
+        "brandStoreUrl": "https://www.nike.com/kr/w/running-shoes-37v7jzy7ok",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "overall": 91,
+        "daily": 23,
+        "tempo": 93,
+        "race": 92,
+        "stability": 38
       }
     },
     {
@@ -1041,29 +1383,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-novablast-5",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 93,
-        "priceUsd": 150,
-        "weightG": 254,
-        "heelStackMm": 40.9,
-        "forefootStackMm": 33.5,
-        "dropMm": 7.4,
-        "shockAbsorptionHeelSA": null,
-        "shockAbsorptionForefootSA": null,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "standard",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "medium",
-        "notes": [
-          "가볍고 부드러우며 반응성이 개선된 다목적 데일리 트레이너",
-          "접지력이 약점으로 지적됨"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -1128,6 +1450,60 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "매일 러닝에서 높은 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 높은 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "가볍고 부드러우며 반응성이 개선된 다목적 데일리 트레이너"
+        ],
+        "cons": [
+          "접지력이 약점으로 지적됨"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 254,
+          "dropMm": 7.4,
+          "heelStackMm": 40.9,
+          "forefootStackMm": 33.5,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=Novablast%205",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 93,
+        "priceUsd": 150,
+        "weightG": 254,
+        "heelStackMm": 40.9,
+        "forefootStackMm": 33.5,
+        "dropMm": 7.4,
+        "shockAbsorptionHeelSA": null,
+        "shockAbsorptionForefootSA": null,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "standard",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "medium",
+        "notes": [
+          "가볍고 부드러우며 반응성이 개선된 다목적 데일리 트레이너",
+          "접지력이 약점으로 지적됨"
+        ]
       }
     },
     {
@@ -1150,29 +1526,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-superblast-2",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 91,
-        "priceUsd": 200,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "shockAbsorptionHeelSA": null,
-        "shockAbsorptionForefootSA": null,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "narrow_to_standard",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "medium",
-        "notes": [
-          "다양한 페이스와 거리에서 뛰어난 슈퍼 트레이너",
-          "넓은 발에는 여유가 부족할 수 있음"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -1237,6 +1593,60 @@
         "type": "ai-generated",
         "width": 280,
         "height": 211
+      },
+      "detail": {
+        "summary": "러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "다양한 페이스와 거리에서 뛰어난 슈퍼 트레이너"
+        ],
+        "cons": [
+          "넓은 발에는 여유가 부족할 수 있음"
+        ],
+        "recommendedFor": "러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow_to_standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=Superblast%202",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 91,
+        "priceUsd": 200,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "shockAbsorptionHeelSA": null,
+        "shockAbsorptionForefootSA": null,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "narrow_to_standard",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "medium",
+        "notes": [
+          "다양한 페이스와 거리에서 뛰어난 슈퍼 트레이너",
+          "넓은 발에는 여유가 부족할 수 있음"
+        ]
       }
     },
     {
@@ -1259,29 +1669,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-gel-nimbus-27",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 85,
-        "priceUsd": 165,
-        "weightG": 299,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "shockAbsorptionHeelSA": null,
-        "shockAbsorptionForefootSA": null,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "standard",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "high",
-        "notes": [
-          "편안함 중심의 고쿠션 데일리 트레이너",
-          "빠른 페이스 활용성은 낮음"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -1346,6 +1736,59 @@
         "type": "ai-generated",
         "width": 266,
         "height": 211
+      },
+      "detail": {
+        "summary": "편안한 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "편안한 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "편안함 중심의 고쿠션 데일리 트레이너"
+        ],
+        "cons": [
+          "빠른 페이스 활용성은 낮음"
+        ],
+        "recommendedFor": "편안한 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "편안한 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 299,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=GEL-Nimbus%2027",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 85,
+        "priceUsd": 165,
+        "weightG": 299,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "shockAbsorptionHeelSA": null,
+        "shockAbsorptionForefootSA": null,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "standard",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "high",
+        "notes": [
+          "편안함 중심의 고쿠션 데일리 트레이너",
+          "빠른 페이스 활용성은 낮음"
+        ]
       }
     },
     {
@@ -1368,31 +1811,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-gel-kayano-32",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 86,
-        "priceUsd": 165,
-        "weightG": 295,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "shockAbsorptionHeelSA": 133,
-        "shockAbsorptionForefootSA": 116,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "standard",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "high",
-        "notes": [
-          "높은 안정성과 충격 흡수",
-          "낮은 에너지 리턴",
-          "토박스 폭 73.9mm, 높이 27.5mm",
-          "접지 0.84"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -1457,6 +1878,64 @@
         "type": "ai-generated",
         "width": 270,
         "height": 211
+      },
+      "detail": {
+        "summary": "안정화에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "안정화에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "높은 안정성과 충격 흡수",
+          "낮은 에너지 리턴",
+          "토박스 폭 73.9mm, 높이 27.5mm",
+          "접지 0.84"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "안정화을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "안정화",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 295,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=GEL-Kayano%2032",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 86,
+        "priceUsd": 165,
+        "weightG": 295,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "shockAbsorptionHeelSA": 133,
+        "shockAbsorptionForefootSA": 116,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "standard",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "high",
+        "notes": [
+          "높은 안정성과 충격 흡수",
+          "낮은 에너지 리턴",
+          "토박스 폭 73.9mm, 높이 27.5mm",
+          "접지 0.84"
+        ]
       }
     },
     {
@@ -1479,32 +1958,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-magic-speed-4",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 84,
-        "priceUsd": 170,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "shockAbsorptionHeelSA": null,
-        "shockAbsorptionForefootSA": null,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "narrow",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "low",
-        "notes": [
-          "카본 플레이트",
-          "통기성 5/5",
-          "뒤틀림 강성 5/5",
-          "힐카운터 강성 1/5",
-          "중립 러너용"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -1569,6 +2025,64 @@
         "type": "ai-generated",
         "width": 272,
         "height": 211
+      },
+      "detail": {
+        "summary": "훈련용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "훈련용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "카본 플레이트",
+          "통기성 5/5",
+          "뒤틀림 강성 5/5",
+          "힐카운터 강성 1/5"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "low"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=Magic%20Speed%204",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 84,
+        "priceUsd": 170,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "shockAbsorptionHeelSA": null,
+        "shockAbsorptionForefootSA": null,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "narrow",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "low",
+        "notes": [
+          "카본 플레이트",
+          "통기성 5/5",
+          "뒤틀림 강성 5/5",
+          "힐카운터 강성 1/5",
+          "중립 러너용"
+        ]
       }
     },
     {
@@ -1591,30 +2105,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-metaspeed-sky-paris",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 88,
-        "priceUsd": 250,
-        "weightG": null,
-        "heelStackMm": 39.1,
-        "forefootStackMm": 32.6,
-        "dropMm": 6.5,
-        "shockAbsorptionHeelSA": 137,
-        "shockAbsorptionForefootSA": 120,
-        "energyReturnHeelPct": 73.2,
-        "energyReturnForefootPct": 70.7,
-        "widthFit": "narrow",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "low",
-        "notes": [
-          "5K부터 마라톤까지 경쟁용",
-          "미드풋·포어풋 착지에 유리",
-          "힐 스트라이커와 넓은 발에는 덜 적합"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -1679,6 +2172,63 @@
         "type": "ai-generated",
         "width": 282,
         "height": 215
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "5K부터 마라톤까지 경쟁용",
+          "미드풋·포어풋 착지에 유리",
+          "힐 스트라이커와 넓은 발에는 덜 적합"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": 6.5,
+          "heelStackMm": 39.1,
+          "forefootStackMm": 32.6,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "low"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=Metaspeed%20Sky%20Paris",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 88,
+        "priceUsd": 250,
+        "weightG": null,
+        "heelStackMm": 39.1,
+        "forefootStackMm": 32.6,
+        "dropMm": 6.5,
+        "shockAbsorptionHeelSA": 137,
+        "shockAbsorptionForefootSA": 120,
+        "energyReturnHeelPct": 73.2,
+        "energyReturnForefootPct": 70.7,
+        "widthFit": "narrow",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "low",
+        "notes": [
+          "5K부터 마라톤까지 경쟁용",
+          "미드풋·포어풋 착지에 유리",
+          "힐 스트라이커와 넓은 발에는 덜 적합"
+        ]
       }
     },
     {
@@ -1701,29 +2251,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-metaspeed-edge-paris",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": 250,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "shockAbsorptionHeelSA": null,
-        "shockAbsorptionForefootSA": null,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "narrow",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "low",
-        "notes": [
-          "RunRepeat 페이지 존재 확인",
-          "세부 실측값은 현재 검색 결과에서 확인되지 않아 null 유지"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -1788,6 +2318,59 @@
         "type": "ai-generated",
         "width": 280,
         "height": 215
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "세부 실측값은 현재 검색 결과에서 확인되지 않아 null 유지"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "low"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=Metaspeed%20Edge%20Paris",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": 250,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "shockAbsorptionHeelSA": null,
+        "shockAbsorptionForefootSA": null,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "narrow",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "low",
+        "notes": [
+          "세부 실측값은 현재 검색 결과에서 확인되지 않아 null 유지"
+        ]
       }
     },
     {
@@ -1810,28 +2393,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-gel-cumulus-27",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 84,
-        "priceUsd": 140,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "shockAbsorptionHeelSA": null,
-        "shockAbsorptionForefootSA": null,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "standard",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "medium",
-        "notes": [
-          "일상 러닝과 워킹에 적합한 균형형 모델"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -1896,6 +2460,58 @@
         "type": "ai-generated",
         "width": 266,
         "height": 215
+      },
+      "detail": {
+        "summary": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "일상 러닝과 워킹에 적합한 균형형 모델"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=GEL-Cumulus%2027",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 84,
+        "priceUsd": 140,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "shockAbsorptionHeelSA": null,
+        "shockAbsorptionForefootSA": null,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "standard",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "medium",
+        "notes": [
+          "일상 러닝과 워킹에 적합한 균형형 모델"
+        ]
       }
     },
     {
@@ -1918,33 +2534,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-gt-2000-14",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 87,
-        "priceUsd": 140,
-        "weightG": 269,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "shockAbsorptionHeelSA": null,
-        "shockAbsorptionForefootSA": null,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "narrow",
-        "toeBoxHeightClass": "low",
-        "heelSupportClass": "high",
-        "notes": [
-          "정사이즈",
-          "토박스 높이 24.9mm",
-          "유연성 15.0N",
-          "힐카운터 4/5",
-          "뒤꿈치 플랫폼 97.1mm",
-          "아웃솔 마모 0.5mm"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2009,6 +2601,66 @@
         "type": "ai-generated",
         "width": 270,
         "height": 215
+      },
+      "detail": {
+        "summary": "안정화에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "안정화에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "정사이즈",
+          "토박스 높이 24.9mm",
+          "유연성 15.0N",
+          "힐카운터 4/5"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "안정화을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "안정화",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 269,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow",
+          "toeBoxHeight": "low",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=GT-2000%2014",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 87,
+        "priceUsd": 140,
+        "weightG": 269,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "shockAbsorptionHeelSA": null,
+        "shockAbsorptionForefootSA": null,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "narrow",
+        "toeBoxHeightClass": "low",
+        "heelSupportClass": "high",
+        "notes": [
+          "정사이즈",
+          "토박스 높이 24.9mm",
+          "유연성 15.0N",
+          "힐카운터 4/5",
+          "뒤꿈치 플랫폼 97.1mm",
+          "아웃솔 마모 0.5mm"
+        ]
       }
     },
     {
@@ -2031,29 +2683,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/asics-noosa-tri-17",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": 140,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "shockAbsorptionHeelSA": null,
-        "shockAbsorptionForefootSA": null,
-        "energyReturnHeelPct": null,
-        "energyReturnForefootPct": null,
-        "widthFit": "standard",
-        "toeBoxHeightClass": "standard",
-        "heelSupportClass": "medium",
-        "notes": [
-          "RunRepeat 페이지 존재 확인",
-          "세부 실측값은 현재 검색 결과에서 확인되지 않아 null 유지"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2118,6 +2750,57 @@
         "type": "ai-generated",
         "width": 272,
         "height": 215
+      },
+      "detail": {
+        "summary": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "세부 실측값은 현재 검색 결과에서 확인되지 않아 null 유지"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.asics.com/kr/ko-kr/search/?q=Noosa%20Tri%2017",
+        "brandStoreUrl": "https://www.asics.com/kr/ko-kr/mens-running-shoes/c/kr10101000/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": 140,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "shockAbsorptionHeelSA": null,
+        "shockAbsorptionForefootSA": null,
+        "energyReturnHeelPct": null,
+        "energyReturnForefootPct": null,
+        "widthFit": "standard",
+        "toeBoxHeightClass": "standard",
+        "heelSupportClass": "medium",
+        "notes": [
+          "세부 실측값은 현재 검색 결과에서 확인되지 않아 null 유지"
+        ]
       }
     },
     {
@@ -2140,24 +2823,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/new-balance-fresh-foam-x-1080-v14",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 88,
-        "priceUsd": 165,
-        "weightG": 285,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "narrow_to_standard",
-        "notes": [
-          "매우 부드러운 데일리·회복 러닝화",
-          "내구성과 통기성이 강점",
-          "테이퍼드 토박스와 무게 증가는 약점"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2222,6 +2890,55 @@
         "type": "ai-generated",
         "width": 282,
         "height": 229
+      },
+      "detail": {
+        "summary": "편안한 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "편안한 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "매우 부드러운 데일리·회복 러닝화",
+          "내구성과 통기성이 강점"
+        ],
+        "cons": [
+          "테이퍼드 토박스와 무게 증가는 약점"
+        ],
+        "recommendedFor": "편안한 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "편안한 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 285,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow_to_standard",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nbkorea.com/search/productList.action?schWord=Fresh%20Foam%20X%201080%20v14",
+        "brandStoreUrl": "https://www.nbkorea.com/product/productList.action?cateGrpCode=250110",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 88,
+        "priceUsd": 165,
+        "weightG": 285,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "narrow_to_standard",
+        "notes": [
+          "매우 부드러운 데일리·회복 러닝화",
+          "내구성과 통기성이 강점",
+          "테이퍼드 토박스와 무게 증가는 약점"
+        ]
       }
     },
     {
@@ -2244,24 +2961,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/new-balance-fresh-foam-x-880-v-15",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard",
-        "notes": [
-          "관절 친화적인 고스택 데일리 트레이너",
-          "1080보다 낮은 가격대의 대안",
-          "아웃솔 내구성은 강점이 아님"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2326,6 +3028,56 @@
         "type": "ai-generated",
         "width": 280,
         "height": 229
+      },
+      "detail": {
+        "summary": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "관절 친화적인 고스택 데일리 트레이너",
+          "1080보다 낮은 가격대의 대안",
+          "아웃솔 내구성은 강점이 아님"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nbkorea.com/search/productList.action?schWord=Fresh%20Foam%20X%20880%20v15",
+        "brandStoreUrl": "https://www.nbkorea.com/product/productList.action?cateGrpCode=250110",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard",
+        "notes": [
+          "관절 친화적인 고스택 데일리 트레이너",
+          "1080보다 낮은 가격대의 대안",
+          "아웃솔 내구성은 강점이 아님"
+        ]
       }
     },
     {
@@ -2348,24 +3100,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/new-balance-fuel-cell-rebel-v-5",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard",
-        "notes": [
-          "가볍고 유연하며 템포와 이지런을 모두 소화",
-          "미드풋 착지에 특히 유리",
-          "통기성과 어퍼 내구성, 접지력이 약점"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2430,6 +3167,55 @@
         "type": "ai-generated",
         "width": 266,
         "height": 229
+      },
+      "detail": {
+        "summary": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "가볍고 유연하며 템포와 이지런을 모두 소화",
+          "미드풋 착지에 특히 유리"
+        ],
+        "cons": [
+          "통기성과 어퍼 내구성, 접지력이 약점"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nbkorea.com/search/productList.action?schWord=FuelCell%20Rebel%20v5",
+        "brandStoreUrl": "https://www.nbkorea.com/product/productList.action?cateGrpCode=250110",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard",
+        "notes": [
+          "가볍고 유연하며 템포와 이지런을 모두 소화",
+          "미드풋 착지에 특히 유리",
+          "통기성과 어퍼 내구성, 접지력이 약점"
+        ]
       }
     },
     {
@@ -2452,24 +3238,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/new-balance-fuel-cell-super-comp-elite-v-5",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": 250,
-        "weightG": 198,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard",
-        "notes": [
-          "v4 대비 무게가 232g에서 198g으로 감소",
-          "레이스용 카본 슈즈",
-          "가볍고 부드러운 장거리 레이스 지향"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2534,6 +3305,57 @@
         "type": "ai-generated",
         "width": 270,
         "height": 229
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "v4 대비 무게가 232g에서 198g으로 감소",
+          "레이스용 카본 슈즈",
+          "가볍고 부드러운 장거리 레이스 지향"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 198,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nbkorea.com/search/productList.action?schWord=FuelCell%20SuperComp%20Elite%20v5",
+        "brandStoreUrl": "https://www.nbkorea.com/product/productList.action?cateGrpCode=250110",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": 250,
+        "weightG": 198,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard",
+        "notes": [
+          "v4 대비 무게가 232g에서 198g으로 감소",
+          "레이스용 카본 슈즈",
+          "가볍고 부드러운 장거리 레이스 지향"
+        ]
       }
     },
     {
@@ -2556,25 +3378,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/new-balance-fresh-foam-x-860-v-15",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": null,
-        "weightG": 332,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard",
-        "notes": [
-          "안정화",
-          "무게 332g으로 매우 무거움",
-          "통기성 4/5",
-          "장거리 안정성과 편안함 중심"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2639,6 +3445,57 @@
         "type": "ai-generated",
         "width": 272,
         "height": 229
+      },
+      "detail": {
+        "summary": "안정화에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "안정화에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "안정화",
+          "통기성 4/5",
+          "장거리 안정성과 편안함 중심"
+        ],
+        "cons": [
+          "무게 332g으로 매우 무거움"
+        ],
+        "recommendedFor": "안정화을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "안정화",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 332,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.nbkorea.com/search/productList.action?schWord=Fresh%20Foam%20X%20860%20v15",
+        "brandStoreUrl": "https://www.nbkorea.com/product/productList.action?cateGrpCode=250110",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": null,
+        "weightG": 332,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard",
+        "notes": [
+          "안정화",
+          "무게 332g으로 매우 무거움",
+          "통기성 4/5",
+          "장거리 안정성과 편안함 중심"
+        ]
       }
     },
     {
@@ -2661,25 +3518,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/hoka-clifton-10",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard_to_wide",
-        "notes": [
-          "관절 보호와 장거리 편안함",
-          "높은 스택에도 안정적인 승차감",
-          "힐 스트라이커에 유리",
-          "무게 증가와 낮은 폼 반응성이 약점"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2744,6 +3585,57 @@
         "type": "ai-generated",
         "width": 282,
         "height": 230
+      },
+      "detail": {
+        "summary": "매일 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "관절 보호와 장거리 편안함",
+          "높은 스택에도 안정적인 승차감",
+          "힐 스트라이커에 유리"
+        ],
+        "cons": [
+          "무게 증가와 낮은 폼 반응성이 약점"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard_to_wide",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kr.hoka.com/product/search.html?keyword=Clifton%2010",
+        "brandStoreUrl": "https://kr.hoka.com/category/road-running/24/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard_to_wide",
+        "notes": [
+          "관절 보호와 장거리 편안함",
+          "높은 스택에도 안정적인 승차감",
+          "힐 스트라이커에 유리",
+          "무게 증가와 낮은 폼 반응성이 약점"
+        ]
       }
     },
     {
@@ -2766,24 +3658,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/hoka-mach-7",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "narrow_to_standard",
-        "notes": [
-          "빠른 훈련용 경량 데일리 트레이너",
-          "전작 대비 접지력 0.49에서 0.73으로 개선",
-          "좁은 발에 더 잘 맞는 성향"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2848,6 +3725,55 @@
         "type": "ai-generated",
         "width": 280,
         "height": 230
+      },
+      "detail": {
+        "summary": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "빠른 훈련용 경량 데일리 트레이너",
+          "전작 대비 접지력 0.49에서 0.73으로 개선"
+        ],
+        "cons": [
+          "좁은 발에 더 잘 맞는 성향"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow_to_standard",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kr.hoka.com/product/search.html?keyword=Mach%207",
+        "brandStoreUrl": "https://kr.hoka.com/category/road-running/24/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "narrow_to_standard",
+        "notes": [
+          "빠른 훈련용 경량 데일리 트레이너",
+          "전작 대비 접지력 0.49에서 0.73으로 개선",
+          "좁은 발에 더 잘 맞는 성향"
+        ]
       }
     },
     {
@@ -2870,24 +3796,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/hoka-bondi-9",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard_to_wide",
-        "notes": [
-          "맥스쿠션 회복·걷기·이지런 중심",
-          "빠른 훈련보다 보호력과 안정성 우선",
-          "세부 실측값 미확인 항목은 null"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -2952,6 +3863,56 @@
         "type": "ai-generated",
         "width": 266,
         "height": 230
+      },
+      "detail": {
+        "summary": "편안한 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "편안한 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "맥스쿠션 회복·걷기·이지런 중심",
+          "빠른 훈련보다 보호력과 안정성 우선",
+          "세부 실측값 미확인 항목은 null"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "편안한 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "편안한 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard_to_wide",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kr.hoka.com/product/search.html?keyword=Bondi%209",
+        "brandStoreUrl": "https://kr.hoka.com/category/road-running/24/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard_to_wide",
+        "notes": [
+          "맥스쿠션 회복·걷기·이지런 중심",
+          "빠른 훈련보다 보호력과 안정성 우선",
+          "세부 실측값 미확인 항목은 null"
+        ]
       }
     },
     {
@@ -2974,24 +3935,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/hoka-arahi-8",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard_to_wide",
-        "notes": [
-          "크기 대비 가벼운 안정화",
-          "충격 흡수와 내구성이 강점",
-          "이전 세대보다 넓어진 핏"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3056,6 +4002,56 @@
         "type": "ai-generated",
         "width": 270,
         "height": 230
+      },
+      "detail": {
+        "summary": "안정화에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "안정화에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "크기 대비 가벼운 안정화",
+          "충격 흡수와 내구성이 강점",
+          "이전 세대보다 넓어진 핏"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "안정화을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "안정화",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard_to_wide",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kr.hoka.com/product/search.html?keyword=Arahi%208",
+        "brandStoreUrl": "https://kr.hoka.com/category/road-running/24/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard_to_wide",
+        "notes": [
+          "크기 대비 가벼운 안정화",
+          "충격 흡수와 내구성이 강점",
+          "이전 세대보다 넓어진 핏"
+        ]
       }
     },
     {
@@ -3078,24 +4074,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/hoka-cielo-x-1-3-0",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "narrow",
-        "notes": [
-          "높은 충격 흡수와 강한 바운스",
-          "하프와 풀마라톤에 초점",
-          "매우 타이트한 핏과 강한 로커로 범용성 제한"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3160,6 +4141,57 @@
         "type": "ai-generated",
         "width": 272,
         "height": 230
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "높은 충격 흡수와 강한 바운스",
+          "하프와 풀마라톤에 초점",
+          "매우 타이트한 핏과 강한 로커로 범용성 제한"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow",
+          "toeBoxHeight": "unknown",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kr.hoka.com/product/search.html?keyword=Cielo%20X1%203.0",
+        "brandStoreUrl": "https://kr.hoka.com/category/road-running/24/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "narrow",
+        "notes": [
+          "높은 충격 흡수와 강한 바운스",
+          "하프와 풀마라톤에 초점",
+          "매우 타이트한 핏과 강한 로커로 범용성 제한"
+        ]
       }
     },
     {
@@ -3182,25 +4214,9 @@
       "carbonPlate": true,
       "plateType": "carbon_rods",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/adidas-adizero-adios-pro-4",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 93,
-        "daily": 55,
-        "tempo": 94,
-        "race": 96,
-        "stability": 70,
-        "priceUsd": 250,
-        "weightG": null,
-        "shockAbsorptionHeelSA": 142,
-        "notes": [
-          "RunRepeat 2026 경쟁화 추천 1위권",
-          "높은 에너지 리턴과 장거리 쿠션",
-          "레이스 중심"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3265,6 +4281,54 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "높은 에너지 리턴과 장거리 쿠션",
+          "레이스 중심"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.adidas.co.kr/search?q=Adizero%20Adios%20Pro%204",
+        "brandStoreUrl": "https://www.adidas.co.kr/men-running-shoes",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 93,
+        "daily": 55,
+        "tempo": 94,
+        "race": 96,
+        "stability": 70,
+        "priceUsd": 250,
+        "weightG": null,
+        "shockAbsorptionHeelSA": 142,
+        "notes": [
+          "높은 에너지 리턴과 장거리 쿠션",
+          "레이스 중심"
+        ]
       }
     },
     {
@@ -3287,24 +4351,9 @@
       "carbonPlate": true,
       "plateType": "energy_rods",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/adidas-adizero-boston-13",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 88,
-        "daily": 84,
-        "tempo": 91,
-        "race": 76,
-        "stability": 78,
-        "priceUsd": 160,
-        "weightG": null,
-        "shockAbsorptionHeelSA": 127,
-        "notes": [
-          "중장거리 템포와 훈련용",
-          "RunRepeat 고충격흡수 목록에 힐 127 SA"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3369,6 +4418,54 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "훈련용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "훈련용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "중장거리 템포와 훈련용"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.adidas.co.kr/search?q=Adizero%20Boston%2013",
+        "brandStoreUrl": "https://www.adidas.co.kr/men-running-shoes",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 88,
+        "daily": 84,
+        "tempo": 91,
+        "race": 76,
+        "stability": 78,
+        "priceUsd": 160,
+        "weightG": null,
+        "shockAbsorptionHeelSA": 127,
+        "notes": [
+          "중장거리 템포와 훈련용"
+        ]
       }
     },
     {
@@ -3391,25 +4488,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/adidas-adizero-evo-sl",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 94,
-        "daily": 92,
-        "tempo": 94,
-        "race": 82,
-        "stability": 74,
-        "priceUsd": 150,
-        "weightG": null,
-        "shockAbsorptionHeelSA": 147,
-        "notes": [
-          "100% Lightstrike Pro",
-          "가볍고 쿠션·반응성·범용성이 뛰어남",
-          "RunRepeat 2026 종합 추천 상위권"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3474,6 +4555,56 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "100% Lightstrike Pro",
+          "가볍고 쿠션·반응성·범용성이 뛰어남"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.adidas.co.kr/search?q=Adizero%20EVO%20SL",
+        "brandStoreUrl": "https://www.adidas.co.kr/men-running-shoes",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 94,
+        "daily": 92,
+        "tempo": 94,
+        "race": 82,
+        "stability": 74,
+        "priceUsd": 150,
+        "weightG": null,
+        "shockAbsorptionHeelSA": 147,
+        "notes": [
+          "100% Lightstrike Pro",
+          "가볍고 쿠션·반응성·범용성이 뛰어남"
+        ]
       }
     },
     {
@@ -3496,24 +4627,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/adidas-supernova-rise-2",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 86,
-        "daily": 90,
-        "tempo": 67,
-        "race": 45,
-        "stability": 87,
-        "priceUsd": 140,
-        "weightG": null,
-        "shockAbsorptionHeelSA": null,
-        "notes": [
-          "안정적이고 편안한 데일리 트레이너",
-          "RunRepeat 카탈로그 점수 86"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3578,6 +4694,52 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "안정적이고 편안한 데일리 트레이너"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.adidas.co.kr/search?q=Supernova%20Rise%202",
+        "brandStoreUrl": "https://www.adidas.co.kr/men-running-shoes",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 86,
+        "daily": 90,
+        "tempo": 67,
+        "race": 45,
+        "stability": 87,
+        "priceUsd": 140,
+        "weightG": null,
+        "shockAbsorptionHeelSA": null,
+        "notes": [
+          "안정적이고 편안한 데일리 트레이너"
+        ]
       }
     },
     {
@@ -3600,24 +4762,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/saucony-endorphin-pro-4",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 90,
-        "daily": 62,
-        "tempo": 91,
-        "race": 92,
-        "stability": 74,
-        "priceUsd": 225,
-        "weightG": null,
-        "shockAbsorptionHeelSA": null,
-        "notes": [
-          "카본 레이스화",
-          "미드풋·포어풋 러너에게는 일부 경쟁 모델보다 불리하다는 평가"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3682,6 +4829,54 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "카본 레이스화",
+          "미드풋·포어풋 러너에게는 일부 경쟁 모델보다 불리하다는 평가"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://saucony.co.kr/product/search.html?keyword=Endorphin%20Pro%204",
+        "brandStoreUrl": "https://saucony.co.kr/category/road/64/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 90,
+        "daily": 62,
+        "tempo": 91,
+        "race": 92,
+        "stability": 74,
+        "priceUsd": 225,
+        "weightG": null,
+        "shockAbsorptionHeelSA": null,
+        "notes": [
+          "카본 레이스화",
+          "미드풋·포어풋 러너에게는 일부 경쟁 모델보다 불리하다는 평가"
+        ]
       }
     },
     {
@@ -3704,25 +4899,9 @@
       "carbonPlate": false,
       "plateType": "nylon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/saucony-endorphin-speed-5",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 94,
-        "daily": 91,
-        "tempo": 95,
-        "race": 83,
-        "stability": 78,
-        "priceUsd": 175,
-        "weightG": null,
-        "shockAbsorptionHeelSA": null,
-        "notes": [
-          "높은 에너지 리턴",
-          "템포에 특히 강하고 데일리 활용도도 높음",
-          "통기성이 뛰어남"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3787,6 +4966,57 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "높은 에너지 리턴",
+          "통기성이 뛰어남"
+        ],
+        "cons": [
+          "템포에 특히 강하고 데일리 활용도도 높음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://saucony.co.kr/product/search.html?keyword=Endorphin%20Speed%205",
+        "brandStoreUrl": "https://saucony.co.kr/category/road/64/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 94,
+        "daily": 91,
+        "tempo": 95,
+        "race": 83,
+        "stability": 78,
+        "priceUsd": 175,
+        "weightG": null,
+        "shockAbsorptionHeelSA": null,
+        "notes": [
+          "높은 에너지 리턴",
+          "템포에 특히 강하고 데일리 활용도도 높음",
+          "통기성이 뛰어남"
+        ]
       }
     },
     {
@@ -3809,26 +5039,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/saucony-triumph-23",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "daily": 93,
-        "tempo": 68,
-        "race": 49,
-        "stability": 91,
-        "priceUsd": null,
-        "weightG": null,
-        "shockAbsorptionHeelSA": null,
-        "notes": [
-          "높은 에너지 리턴",
-          "장거리용 풍부한 쿠션",
-          "넓은 플랫폼과 우수한 접지",
-          "민첩성은 제한적"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3893,6 +5106,59 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "높은 에너지 리턴",
+          "장거리용 풍부한 쿠션",
+          "넓은 플랫폼과 우수한 접지",
+          "민첩성은 제한적"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://saucony.co.kr/product/search.html?keyword=Triumph%2023",
+        "brandStoreUrl": "https://saucony.co.kr/category/road/64/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "daily": 93,
+        "tempo": 68,
+        "race": 49,
+        "stability": 91,
+        "priceUsd": null,
+        "weightG": null,
+        "shockAbsorptionHeelSA": null,
+        "notes": [
+          "높은 에너지 리턴",
+          "장거리용 풍부한 쿠션",
+          "넓은 플랫폼과 우수한 접지",
+          "민첩성은 제한적"
+        ]
       }
     },
     {
@@ -3915,25 +5181,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/brooks-glycerin-max",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 84,
-        "daily": 91,
-        "tempo": 46,
-        "race": 33,
-        "stability": 89,
-        "priceUsd": null,
-        "weightG": null,
-        "shockAbsorptionHeelSA": null,
-        "notes": [
-          "RunRepeat 직접 점수: 데일리 91, 템포 46, 레이스 33, 안정성 89",
-          "클라우드 같은 편안함",
-          "높은 가격과 무게"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -3998,6 +5248,56 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "템포 46, 레이스 33, 안정성 89",
+          "클라우드 같은 편안함",
+          "높은 가격과 무게"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.brooksrunning.com/en_us/search?q=Glycerin%20Max",
+        "brandStoreUrl": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 84,
+        "daily": 91,
+        "tempo": 46,
+        "race": 33,
+        "stability": 89,
+        "priceUsd": null,
+        "weightG": null,
+        "shockAbsorptionHeelSA": null,
+        "notes": [
+          "템포 46, 레이스 33, 안정성 89",
+          "클라우드 같은 편안함",
+          "높은 가격과 무게"
+        ]
       }
     },
     {
@@ -4020,24 +5320,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/brooks-glycerin-22",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": null,
-        "daily": 90,
-        "tempo": 58,
-        "race": 42,
-        "stability": 86,
-        "priceUsd": null,
-        "weightG": null,
-        "shockAbsorptionHeelSA": null,
-        "notes": [
-          "쿠션 중심 데일리 트레이너",
-          "세부 공개 수치는 제한적으로 확인되어 미확인값은 null"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4102,6 +5387,54 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "쿠션 중심 데일리 트레이너",
+          "세부 공개 수치는 제한적으로 확인되어 미확인값은 null"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.brooksrunning.com/en_us/search?q=Glycerin%2022",
+        "brandStoreUrl": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": null,
+        "daily": 90,
+        "tempo": 58,
+        "race": 42,
+        "stability": 86,
+        "priceUsd": null,
+        "weightG": null,
+        "shockAbsorptionHeelSA": null,
+        "notes": [
+          "쿠션 중심 데일리 트레이너",
+          "세부 공개 수치는 제한적으로 확인되어 미확인값은 null"
+        ]
       }
     },
     {
@@ -4124,26 +5457,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/brooks-hyperion-max-3",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 87,
-        "daily": 85,
-        "tempo": 92,
-        "race": 78,
-        "stability": 68,
-        "priceUsd": null,
-        "weightG": null,
-        "shockAbsorptionHeelSA": null,
-        "notes": [
-          "Brooks 최초의 본격 슈퍼 트레이너로 평가",
-          "DNA Gold 폼",
-          "충격 흡수와 에너지 리턴 개선",
-          "중립 러너에게 적합"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4208,6 +5524,59 @@
         "type": "ai-generated",
         "width": 282,
         "height": 211
+      },
+      "detail": {
+        "summary": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "훈련용에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "Brooks 최초의 본격 슈퍼 트레이너로 평가",
+          "DNA Gold 폼",
+          "충격 흡수와 에너지 리턴 개선",
+          "중립 러너에게 적합"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.brooksrunning.com/en_us/search?q=Hyperion%20Max%203",
+        "brandStoreUrl": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 87,
+        "daily": 85,
+        "tempo": 92,
+        "race": 78,
+        "stability": 68,
+        "priceUsd": null,
+        "weightG": null,
+        "shockAbsorptionHeelSA": null,
+        "notes": [
+          "Brooks 최초의 본격 슈퍼 트레이너로 평가",
+          "DNA Gold 폼",
+          "충격 흡수와 에너지 리턴 개선",
+          "중립 러너에게 적합"
+        ]
       }
     },
     {
@@ -4230,31 +5599,9 @@
       "carbonPlate": false,
       "plateType": "speedboard",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/on-cloudmonster-2",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 86,
-        "daily": 90,
-        "tempo": 70,
-        "race": 52,
-        "stability": 88,
-        "priceUsd": 180,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "wide",
-        "toeBoxHeight": "standard",
-        "heelSupport": "high",
-        "notes": [
-          "넓은 어퍼",
-          "안정적이고 역동적인 승차감",
-          "내구성 우수",
-          "가격이 높음"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4319,6 +5666,63 @@
         "type": "ai-generated",
         "width": 282,
         "height": 229
+      },
+      "detail": {
+        "summary": "매일 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "넓은 어퍼",
+          "안정적이고 역동적인 승차감",
+          "내구성 우수"
+        ],
+        "cons": [
+          "가격이 높음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "wide",
+          "toeBoxHeight": "standard",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.on.com/ko-kr/search?q=Cloudmonster%202",
+        "brandStoreUrl": "https://www.on.com/ko-kr/shop/shoes/running",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 86,
+        "daily": 90,
+        "tempo": 70,
+        "race": 52,
+        "stability": 88,
+        "priceUsd": 180,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "wide",
+        "toeBoxHeight": "standard",
+        "heelSupport": "high",
+        "notes": [
+          "넓은 어퍼",
+          "안정적이고 역동적인 승차감",
+          "내구성 우수",
+          "가격이 높음"
+        ]
       }
     },
     {
@@ -4341,29 +5745,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/on-cloudsurfer-2",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 80,
-        "daily": 86,
-        "tempo": 44,
-        "race": 31,
-        "stability": 78,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard",
-        "toeBoxHeight": "standard",
-        "heelSupport": "medium",
-        "notes": [
-          "편안함과 내구성이 강점",
-          "반응성은 가격 대비 낮다는 평가"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4428,6 +5812,59 @@
         "type": "ai-generated",
         "width": 280,
         "height": 229
+      },
+      "detail": {
+        "summary": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "편안함과 내구성이 강점",
+          "반응성은 가격 대비 낮다는 평가"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.on.com/ko-kr/search?q=Cloudsurfer%202",
+        "brandStoreUrl": "https://www.on.com/ko-kr/shop/shoes/running",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 80,
+        "daily": 86,
+        "tempo": 44,
+        "race": 31,
+        "stability": 78,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard",
+        "toeBoxHeight": "standard",
+        "heelSupport": "medium",
+        "notes": [
+          "편안함과 내구성이 강점",
+          "반응성은 가격 대비 낮다는 평가"
+        ]
       }
     },
     {
@@ -4450,29 +5887,9 @@
       "carbonPlate": false,
       "plateType": "none",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/on-cloudsurfer-next",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 82,
-        "daily": 86,
-        "tempo": 66,
-        "race": 48,
-        "stability": 76,
-        "priceUsd": null,
-        "weightG": 264,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard",
-        "toeBoxHeight": "standard",
-        "heelSupport": "medium",
-        "notes": [
-          "무게 264g",
-          "일상 러닝용 편안함과 무게 균형"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4537,6 +5954,59 @@
         "type": "ai-generated",
         "width": 266,
         "height": 229
+      },
+      "detail": {
+        "summary": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 균형 잡힌 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "무게 264g",
+          "일상 러닝용 편안함과 무게 균형"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": 264,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.on.com/ko-kr/search?q=Cloudsurfer%20Next",
+        "brandStoreUrl": "https://www.on.com/ko-kr/shop/shoes/running",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 82,
+        "daily": 86,
+        "tempo": 66,
+        "race": 48,
+        "stability": 76,
+        "priceUsd": null,
+        "weightG": 264,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard",
+        "toeBoxHeight": "standard",
+        "heelSupport": "medium",
+        "notes": [
+          "무게 264g",
+          "일상 러닝용 편안함과 무게 균형"
+        ]
       }
     },
     {
@@ -4559,30 +6029,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/on-cloudboom-strike",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 92,
-        "daily": 58,
-        "tempo": 94,
-        "race": 96,
-        "stability": 58,
-        "priceUsd": 280,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "standard",
-        "toeBoxHeight": "standard",
-        "heelSupport": "medium",
-        "notes": [
-          "높은 에너지 리턴과 충격 흡수",
-          "5K부터 마라톤까지 경쟁용",
-          "힐 스트라이커와 안정성 요구 러너에는 불리"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4647,6 +6096,61 @@
         "type": "ai-generated",
         "width": 270,
         "height": 229
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "높은 에너지 리턴과 충격 흡수",
+          "5K부터 마라톤까지 경쟁용",
+          "힐 스트라이커와 안정성 요구 러너에는 불리"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "standard",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://www.on.com/ko-kr/search?q=Cloudboom%20Strike",
+        "brandStoreUrl": "https://www.on.com/ko-kr/shop/shoes/running",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 92,
+        "daily": 58,
+        "tempo": 94,
+        "race": 96,
+        "stability": 58,
+        "priceUsd": 280,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "standard",
+        "toeBoxHeight": "standard",
+        "heelSupport": "medium",
+        "notes": [
+          "높은 에너지 리턴과 충격 흡수",
+          "5K부터 마라톤까지 경쟁용",
+          "힐 스트라이커와 안정성 요구 러너에는 불리"
+        ]
       }
     },
     {
@@ -4669,30 +6173,9 @@
       "carbonPlate": false,
       "plateType": "nylon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/mizuno-neo-vista-2",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 90,
-        "daily": 92,
-        "tempo": 88,
-        "race": 72,
-        "stability": 70,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": 46.0,
-        "forefootStackMm": 37.5,
-        "dropMm": 8.5,
-        "widthFit": "standard",
-        "toeBoxHeight": "high",
-        "heelSupport": "medium",
-        "notes": [
-          "힐 46.0mm·전족부 37.5mm",
-          "힐 충격 흡수 170 SA·전족부 137 SA",
-          "부드러운 장거리·편안함 중심"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4757,6 +6240,63 @@
         "type": "ai-generated",
         "width": 272,
         "height": 229
+      },
+      "detail": {
+        "summary": "훈련용에서 높은 쿠션과 활용도를 중시하는 러너를 위한 러닝화",
+        "description": "훈련용에서 높은 쿠션과 활용도를 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "힐 46.0mm·전족부 37.5mm",
+          "힐 충격 흡수 170 SA·전족부 137 SA",
+          "부드러운 장거리·편안함 중심"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": 8.5,
+          "heelStackMm": 46,
+          "forefootStackMm": 37.5,
+          "widthFit": "standard",
+          "toeBoxHeight": "high",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kor.mizuno.com/product/search.html?keyword=Neo%20Vista%202",
+        "brandStoreUrl": "https://kor.mizuno.com/category/러닝화/56/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 90,
+        "daily": 92,
+        "tempo": 88,
+        "race": 72,
+        "stability": 70,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": 46.0,
+        "forefootStackMm": 37.5,
+        "dropMm": 8.5,
+        "widthFit": "standard",
+        "toeBoxHeight": "high",
+        "heelSupport": "medium",
+        "notes": [
+          "힐 46.0mm·전족부 37.5mm",
+          "힐 충격 흡수 170 SA·전족부 137 SA",
+          "부드러운 장거리·편안함 중심"
+        ]
       }
     },
     {
@@ -4779,30 +6319,9 @@
       "carbonPlate": false,
       "plateType": "wave_plate",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/mizuno-wave-rider-29",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 86,
-        "daily": 89,
-        "tempo": 61,
-        "race": 42,
-        "stability": 90,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "wide",
-        "toeBoxHeight": "standard",
-        "heelSupport": "high",
-        "notes": [
-          "넓은 발에 잘 맞음",
-          "안정성과 힐 고정 우수",
-          "반응성은 강하지 않음"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4867,6 +6386,61 @@
         "type": "ai-generated",
         "width": 282,
         "height": 230
+      },
+      "detail": {
+        "summary": "매일 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화",
+        "description": "매일 러닝에서 안정적인 지지와 균형 잡힌 쿠션을 중시하는 러너를 위한 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "넓은 발에 잘 맞음",
+          "안정성과 힐 고정 우수",
+          "반응성은 강하지 않음"
+        ],
+        "cons": [
+          "최고 속도 중심의 레이싱화와 비교하면 추진력은 제한적일 수 있음"
+        ],
+        "recommendedFor": "매일 러닝을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "매일 러닝",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "wide",
+          "toeBoxHeight": "standard",
+          "heelSupport": "high"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kor.mizuno.com/product/search.html?keyword=Wave%20Rider%2029",
+        "brandStoreUrl": "https://kor.mizuno.com/category/러닝화/56/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 86,
+        "daily": 89,
+        "tempo": 61,
+        "race": 42,
+        "stability": 90,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "wide",
+        "toeBoxHeight": "standard",
+        "heelSupport": "high",
+        "notes": [
+          "넓은 발에 잘 맞음",
+          "안정성과 힐 고정 우수",
+          "반응성은 강하지 않음"
+        ]
       }
     },
     {
@@ -4889,31 +6463,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/mizuno-wave-rebellion-pro-3",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 89,
-        "daily": 42,
-        "tempo": 91,
-        "race": 92,
-        "stability": 55,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "narrow",
-        "toeBoxHeight": "standard",
-        "heelSupport": "medium",
-        "notes": [
-          "미드풋 착지 러너에게 특화",
-          "마라톤 레이스용",
-          "충격 흡수와 접지 강점",
-          "에너지 리턴은 최상위 경쟁화보다 낮다는 평가"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -4978,6 +6530,63 @@
         "type": "ai-generated",
         "width": 280,
         "height": 230
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "미드풋 착지 러너에게 특화",
+          "마라톤 레이스용",
+          "충격 흡수와 접지 강점",
+          "에너지 리턴은 최상위 경쟁화보다 낮다는 평가"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kor.mizuno.com/product/search.html?keyword=Wave%20Rebellion%20Pro%203",
+        "brandStoreUrl": "https://kor.mizuno.com/category/러닝화/56/",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 89,
+        "daily": 42,
+        "tempo": 91,
+        "race": 92,
+        "stability": 55,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "narrow",
+        "toeBoxHeight": "standard",
+        "heelSupport": "medium",
+        "notes": [
+          "미드풋 착지 러너에게 특화",
+          "마라톤 레이스용",
+          "충격 흡수와 접지 강점",
+          "에너지 리턴은 최상위 경쟁화보다 낮다는 평가"
+        ]
       }
     },
     {
@@ -5000,30 +6609,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/puma-deviate-nitro-3",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 89,
-        "daily": 85,
-        "tempo": 92,
-        "race": 81,
-        "stability": 75,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "narrow",
-        "toeBoxHeight": "standard",
-        "heelSupport": "medium",
-        "notes": [
-          "카본 플레이트",
-          "에너지 리턴·접지·쿠션 우수",
-          "가장 넓은 내부 폭 91.5mm로 좁은 핏"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -5088,6 +6676,62 @@
         "type": "ai-generated",
         "width": 266,
         "height": 230
+      },
+      "detail": {
+        "summary": "훈련용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "훈련용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "카본 플레이트",
+          "에너지 리턴·접지·쿠션 우수"
+        ],
+        "cons": [
+          "가장 넓은 내부 폭 91.5mm로 좁은 핏"
+        ],
+        "recommendedFor": "훈련용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K",
+          "half",
+          "full"
+        ],
+        "recommendedTraining": "훈련용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kr.puma.com/catalogsearch/result/?q=Deviate%20Nitro%203",
+        "brandStoreUrl": "https://kr.puma.com/men/shoes/running.html",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 89,
+        "daily": 85,
+        "tempo": 92,
+        "race": 81,
+        "stability": 75,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "narrow",
+        "toeBoxHeight": "standard",
+        "heelSupport": "medium",
+        "notes": [
+          "카본 플레이트",
+          "에너지 리턴·접지·쿠션 우수",
+          "가장 넓은 내부 폭 91.5mm로 좁은 핏"
+        ]
       }
     },
     {
@@ -5110,30 +6754,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/puma-deviate-nitro-elite-3",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 91,
-        "daily": 48,
-        "tempo": 94,
-        "race": 94,
-        "stability": 52,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "narrow",
-        "toeBoxHeight": "standard",
-        "heelSupport": "medium",
-        "notes": [
-          "빠르고 가벼우며 반응성이 높음",
-          "강한 바운스와 접지",
-          "힐 스트라이커에게 안정성 부족"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -5198,6 +6821,60 @@
         "type": "ai-generated",
         "width": 270,
         "height": 230
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "강한 바운스와 접지"
+        ],
+        "cons": [
+          "빠르고 가벼우며 반응성이 높음",
+          "힐 스트라이커에게 안정성 부족"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "medium"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kr.puma.com/catalogsearch/result/?q=Deviate%20Nitro%20Elite%203",
+        "brandStoreUrl": "https://kr.puma.com/men/shoes/running.html",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 91,
+        "daily": 48,
+        "tempo": 94,
+        "race": 94,
+        "stability": 52,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "narrow",
+        "toeBoxHeight": "standard",
+        "heelSupport": "medium",
+        "notes": [
+          "빠르고 가벼우며 반응성이 높음",
+          "강한 바운스와 접지",
+          "힐 스트라이커에게 안정성 부족"
+        ]
       }
     },
     {
@@ -5220,31 +6897,9 @@
       "carbonPlate": true,
       "plateType": "carbon",
       "source": {
-        "primary": "RunRepeat",
-        "url": "https://runrepeat.com/puma-fast-r-nitro-elite-3",
-        "checkedAt": "2026-07-11",
-        "verificationStatus": "verified_page"
-      },
-      "runRepeatRaw": {
-        "ourScore": 92,
-        "daily": 28,
-        "tempo": 95,
-        "race": 96,
-        "stability": 38,
-        "priceUsd": null,
-        "weightG": null,
-        "heelStackMm": null,
-        "forefootStackMm": null,
-        "dropMm": null,
-        "widthFit": "narrow",
-        "toeBoxHeight": "standard",
-        "heelSupport": "low",
-        "notes": [
-          "순수 레이스용",
-          "매우 높은 강성 23.1N",
-          "PUMAGRIP 접지 우수",
-          "힐 스트라이커와 데일리 활용에는 부적합"
-        ]
+        "primary": "RunningFit 리서치",
+        "url": "",
+        "checkedAt": "2026-07-11"
       },
       "runningFitDerived": {
         "scores": {
@@ -5309,6 +6964,63 @@
         "type": "ai-generated",
         "width": 272,
         "height": 230
+      },
+      "detail": {
+        "summary": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화",
+        "description": "대회용에서 빠른 페이스와 추진력을 중시하는 러너를 위한 플레이트 러닝화. 목적별 점수와 핵심 스펙을 함께 확인해 자신의 러닝 목적, 발볼, 착지 습관에 맞는지 판단하는 것이 좋습니다.",
+        "pros": [
+          "순수 레이스용",
+          "매우 높은 강성 23.1N",
+          "PUMAGRIP 접지 우수",
+          "힐 스트라이커와 데일리 활용에는 부적합"
+        ],
+        "cons": [
+          "느린 조깅이나 일상적인 사용에는 강성이 부담될 수 있음"
+        ],
+        "recommendedFor": "대회용을 중심으로 신발을 찾는 러너",
+        "recommendedDistances": [
+          "5K",
+          "10K"
+        ],
+        "recommendedTraining": "대회용",
+        "sizeAdvice": "정사이즈 우선 착용 권장",
+        "specs": {
+          "weightG": null,
+          "dropMm": null,
+          "heelStackMm": null,
+          "forefootStackMm": null,
+          "widthFit": "narrow",
+          "toeBoxHeight": "standard",
+          "heelSupport": "low"
+        }
+      },
+      "purchase": {
+        "officialStoreUrl": "https://kr.puma.com/catalogsearch/result/?q=Fast-R%20Nitro%20Elite%203",
+        "brandStoreUrl": "https://kr.puma.com/men/shoes/running.html",
+        "status": "available",
+        "checkedAt": "2026-07-12",
+        "label": "공식 스토어에서 제품 보기"
+      },
+      "researchRaw": {
+        "ourScore": 92,
+        "daily": 28,
+        "tempo": 95,
+        "race": 96,
+        "stability": 38,
+        "priceUsd": null,
+        "weightG": null,
+        "heelStackMm": null,
+        "forefootStackMm": null,
+        "dropMm": null,
+        "widthFit": "narrow",
+        "toeBoxHeight": "standard",
+        "heelSupport": "low",
+        "notes": [
+          "순수 레이스용",
+          "매우 높은 강성 23.1N",
+          "PUMAGRIP 접지 우수",
+          "힐 스트라이커와 데일리 활용에는 부적합"
+        ]
       }
     }
   ]

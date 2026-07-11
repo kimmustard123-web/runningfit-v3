@@ -99,6 +99,13 @@ function toLegacyShoe(row) {
       scores
     },
     runningFitDerived: raw.runningFitDerived || undefined,
+    detail: {
+      ...(raw.detail || {}),
+      description: row.description || raw.detail?.description || "",
+      pros: Array.isArray(row.pros) && row.pros.length ? row.pros : (raw.detail?.pros || []),
+      cons: Array.isArray(row.cons) && row.cons.length ? row.cons : (raw.detail?.cons || [])
+    },
+    purchase: raw.purchase || {},
     image: raw.image || {
       src: row.image_url || "",
       alt: row.image_alt || `${row.brand || ""} ${row.model_name_ko || row.model_name || "러닝화"}`,

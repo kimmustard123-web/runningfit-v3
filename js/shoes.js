@@ -38,7 +38,7 @@ function normalizeShoe(raw) {
   const derived = raw.runningFitDerived || raw.runningFit || {};
   const scores = derived.scores || {};
   const rec = derived.recommendation13 || {};
-  const rr = raw.runRepeatRaw || raw.runRepeat || {};
+  const rr = raw.researchRaw || {};
   const specs = raw.specs || {};
   const search = raw.search || {};
 
@@ -83,10 +83,53 @@ function normalizeShoe(raw) {
     dropMm: safeNumber(rr.dropMm),
     heelStackMm: safeNumber(rr.heelStackMm),
     forefootStackMm: safeNumber(rr.forefootStackMm),
-    sourceUrl: raw.source?.url || rr.url || "",
-    notes: Array.isArray(rr.notes) ? rr.notes : [],
+    sourceUrl: "",
+    notes: sanitizePublicNotes(Array.isArray(rr.notes) ? rr.notes : []),
     primaryUse: derived.primaryUse || derived.primary || raw.runningFit?.primary || "daily",
+    detail: normalizeDetail(raw.detail, raw, rr, specs, rec),
+    purchase: normalizePurchase(raw.purchase),
     image: normalizeImage(raw.image, raw)
+  };
+}
+
+function sanitizePublicNotes(notes) {
+  return notes.map((note) => String(note || "")
+    .replace(/^\s*[,·:：-]+\s*/, "")
+    .trim()).filter(Boolean);
+}
+
+function normalizeDetail(detail, raw, rr, specs, rec) {
+  const value = detail && typeof detail === "object" ? detail : {};
+  const detailSpecs = value.specs || {};
+  return {
+    summary: value.summary || `${raw.brand || ""} ${raw.modelKo || raw.modelEn || "러닝화"}의 목적별 적합도와 핵심 스펙을 정리했습니다.`,
+    description: value.description || value.summary || "목적별 점수와 핵심 스펙을 비교해 자신의 러닝 목적에 맞는지 확인하세요.",
+    pros: Array.isArray(value.pros) ? value.pros : [],
+    cons: Array.isArray(value.cons) ? value.cons : [],
+    recommendedFor: value.recommendedFor || "이 신발의 주 용도에 맞는 러너",
+    recommendedDistances: Array.isArray(value.recommendedDistances) ? value.recommendedDistances : [],
+    recommendedTraining: value.recommendedTraining || "러닝",
+    sizeAdvice: value.sizeAdvice || (rec.sizeFit === "true_to_size" ? "정사이즈 우선 착용 권장" : "구매 전 착용 권장"),
+    specs: {
+      weightG: safeNumber(detailSpecs.weightG ?? rr.weightG ?? specs.weightG),
+      dropMm: safeNumber(detailSpecs.dropMm ?? rr.dropMm ?? specs.dropMm),
+      heelStackMm: safeNumber(detailSpecs.heelStackMm ?? rr.heelStackMm ?? specs.heelStackMm),
+      forefootStackMm: safeNumber(detailSpecs.forefootStackMm ?? rr.forefootStackMm ?? specs.forefootStackMm),
+      widthFit: detailSpecs.widthFit ?? rec.widthFit ?? rr.widthFit ?? specs.width ?? "standard",
+      toeBoxHeight: detailSpecs.toeBoxHeight ?? rec.toeBoxHeight ?? rr.toeBoxHeight ?? rr.toeBoxHeightClass ?? specs.toeBoxHeight ?? "standard",
+      heelSupport: detailSpecs.heelSupport ?? rec.heelSupport ?? rr.heelSupport ?? rr.heelSupportClass ?? specs.heelSupport ?? "medium"
+    }
+  };
+}
+
+function normalizePurchase(purchase) {
+  const value = purchase && typeof purchase === "object" ? purchase : {};
+  return {
+    officialStoreUrl: value.officialStoreUrl || "",
+    brandStoreUrl: value.brandStoreUrl || "",
+    status: value.status || "available",
+    checkedAt: value.checkedAt || "",
+    label: value.label || "공식 스토어에서 제품 보기"
   };
 }
 
@@ -702,35 +745,101 @@ function openModal(shoe) {
   const content = document.querySelector("[data-modal-content]");
   if (!dialog || !content) return;
 
+  const detail = shoe.detail || {};
+  const specs = detail.specs || {};
+  const storeUrl = detailSafeUrl(shoe.purchase?.officialStoreUrl || shoe.purchase?.brandStoreUrl);
+  const distances = detail.recommendedDistances?.length ? detail.recommendedDistances.join(" · ") : "5K · 10K";
+
   content.innerHTML = `
-    <div class="modal-heading">
-      <p>${escapeHtml(shoe.brand)}</p>
-      <h2>${escapeHtml(shoe.modelKo)}</h2>
-      <span>${escapeHtml(shoe.modelEn)}</span>
-    </div>
+    <section class="detail-hero">
+      <div class="modal-heading">
+        <p>${escapeHtml(shoe.brand)}</p>
+        <h2>${escapeHtml(shoe.modelKo)}</h2>
+        <span>${escapeHtml(shoe.modelEn)}</span>
+        <div class="detail-badges">
+          <b>${escapeHtml(primaryUseLabel(shoe.primaryUse))}</b>
+          <b>${shoe.carbonPlate ? "플레이트 적용" : "논카본"}</b>
+        </div>
+      </div>
+      ${shoe.image?.src ? `<div class="modal-shoe-image"><img src="${escapeHtml(shoe.image.src)}" alt="${escapeHtml(shoe.image.alt || shoe.modelKo)}" loading="lazy" decoding="async"></div>` : ""}
+    </section>
 
-    ${shoe.image?.src ? `<div class="modal-shoe-image"><img src="${escapeHtml(shoe.image.src)}" alt="${escapeHtml(shoe.image.alt || shoe.modelKo)}" loading="lazy" decoding="async"></div>` : ""}
+    <section class="detail-summary"><h3>한눈에 보기</h3><p>${escapeHtml(detail.summary)}</p></section>
 
-    <div class="modal-score-grid">
-      ${miniScore("첫 러닝화", shoe.scores.firstRunning)}
-      ${miniScore("매일 러닝", shoe.scores.dailyRunning)}
-      ${miniScore("훈련용", shoe.scores.training)}
-      ${miniScore("대회용", shoe.scores.race)}
-    </div>
+    <section class="detail-section">
+      <h3>RunningFit 목적별 점수</h3>
+      <div class="modal-score-grid">
+        ${miniScore("첫 러닝화", shoe.scores.firstRunning)}
+        ${miniScore("매일 러닝", shoe.scores.dailyRunning)}
+        ${miniScore("훈련용", shoe.scores.training)}
+        ${miniScore("대회용", shoe.scores.race)}
+      </div>
+    </section>
 
-    <dl class="spec-list">
-      <div><dt>카본</dt><dd>${shoe.carbonPlate ? "포함" : "없음"}</dd></div>
-      <div><dt>발볼</dt><dd>${widthLabel(shoe.rec.widthFit)}</dd></div>
-      <div><dt>토박스 높이</dt><dd>${escapeHtml(shoe.rec.toeBoxHeight || "정보 없음")}</dd></div>
-      <div><dt>뒤꿈치 지지</dt><dd>${escapeHtml(shoe.rec.heelSupport || "정보 없음")}</dd></div>
-      <div><dt>무게</dt><dd>${shoe.weightG ? `${shoe.weightG}g` : "정보 없음"}</dd></div>
-      <div><dt>드롭</dt><dd>${shoe.dropMm ? `${shoe.dropMm}mm` : "정보 없음"}</dd></div>
-    </dl>
+    <section class="detail-section"><h3>핵심 스펙</h3>
+      <dl class="spec-list">
+        <div><dt>무게</dt><dd>${formatSpec(specs.weightG, "g")}</dd></div>
+        <div><dt>드롭</dt><dd>${formatSpec(specs.dropMm, "mm")}</dd></div>
+        <div><dt>뒤꿈치 스택</dt><dd>${formatSpec(specs.heelStackMm, "mm")}</dd></div>
+        <div><dt>앞꿈치 스택</dt><dd>${formatSpec(specs.forefootStackMm, "mm")}</dd></div>
+        <div><dt>발볼</dt><dd>${widthLabel(specs.widthFit)}</dd></div>
+        <div><dt>토박스 높이</dt><dd>${featureLabel(specs.toeBoxHeight)}</dd></div>
+        <div><dt>뒤꿈치 지지</dt><dd>${featureLabel(specs.heelSupport)}</dd></div>
+        <div><dt>플레이트</dt><dd>${shoe.carbonPlate ? escapeHtml(plateLabel(shoe.plateType)) : "없음"}</dd></div>
+      </dl>
+    </section>
 
-    ${shoe.notes.length ? `<div class="modal-notes"><h3>데이터 요약</h3><ul>${shoe.notes.map((note) => `<li>${escapeHtml(note)}</li>`).join("")}</ul></div>` : ""}
+    <section class="detail-section"><h3>추천 러너와 활용</h3>
+      <dl class="runner-fit-list">
+        <div><dt>추천 러너</dt><dd>${escapeHtml(detail.recommendedFor)}</dd></div>
+        <div><dt>추천 거리</dt><dd>${escapeHtml(distances)}</dd></div>
+        <div><dt>추천 활용</dt><dd>${escapeHtml(detail.recommendedTraining)}</dd></div>
+        <div><dt>사이즈 조언</dt><dd>${escapeHtml(detail.sizeAdvice)}</dd></div>
+      </dl>
+    </section>
+
+    <section class="pros-cons-grid">
+      <div><h3>장점</h3><ul>${detailList(detail.pros)}</ul></div>
+      <div><h3>확인할 점</h3><ul>${detailList(detail.cons)}</ul></div>
+    </section>
+
+    <section class="detail-section detail-description"><h3>상세 설명</h3><p>${escapeHtml(detail.description)}</p></section>
+
+    ${storeUrl ? `<section class="purchase-box"><div><span>공식 구매처</span><h3>${escapeHtml(shoe.brand)} 공식 스토어</h3><p>가격·사이즈·재고는 공식 판매 페이지에서 확인하세요.</p></div><a class="purchase-button" href="${escapeHtml(storeUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(shoe.purchase?.label || "공식 스토어에서 제품 보기")} ↗</a><small>RunningFit은 상품 판매·결제·배송을 담당하지 않습니다.</small></section>` : ""}
   `;
 
   dialog.showModal();
+}
+
+function detailList(items) {
+  const list = Array.isArray(items) && items.length ? items : ["목적과 착화감에 맞는지 확인이 필요합니다."];
+  return list.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+}
+
+function formatSpec(value, unit) {
+  return value !== null && value !== undefined && value !== "" ? `${escapeHtml(value)}${unit}` : "상세 데이터 확인";
+}
+
+function featureLabel(value) {
+  const labels = { low: "낮음", medium: "보통", standard: "보통", high: "높음" };
+  return labels[value] || escapeHtml(value || "보통");
+}
+
+function plateLabel(value) {
+  const labels = { carbon: "카본 플레이트", carbon_rods: "카본 로드", speedboard: "스피드보드", nylon: "나일론 플레이트", none: "없음" };
+  return labels[value] || "플레이트 적용";
+}
+
+function primaryUseLabel(value) {
+  const labels = { daily: "매일 러닝", training: "훈련용", race: "대회용", stability: "안정화", easy: "편안한 러닝" };
+  return labels[value] || "러닝";
+}
+
+function detailSafeUrl(value) {
+  try {
+    const url = new URL(String(value || ""), location.href);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+  } catch { return ""; }
 }
 
 function getChosung(text) {
