@@ -133,12 +133,17 @@ function bindHeader() {
   }
 
   const setMenu = (isOpen) => {
-    nav?.classList.toggle("open", isOpen);
-    backdrop?.classList.toggle("open", isOpen);
-    document.body.classList.toggle("nav-open", isOpen);
-    navToggle?.setAttribute("aria-expanded", String(isOpen));
-    navToggle?.setAttribute("aria-label", isOpen ? "메뉴 닫기" : "메뉴 열기");
+    const open = Boolean(isOpen && nav && navToggle);
+    nav?.classList.toggle("open", open);
+    backdrop?.classList.toggle("open", open);
+    backdrop?.setAttribute("aria-hidden", String(!open));
+    document.body.classList.toggle("nav-open", open);
+    navToggle?.setAttribute("aria-expanded", String(open));
+    navToggle?.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
   };
+
+  // 이전 페이지 상태나 모바일 브라우저 bfcache 때문에 남은 오버레이를 초기화한다.
+  setMenu(false);
 
   navToggle?.setAttribute("aria-expanded", "false");
   navToggle?.setAttribute("aria-haspopup", "true");
@@ -159,6 +164,10 @@ function bindHeader() {
   window.addEventListener("resize", () => {
     if (window.innerWidth > 860) setMenu(false);
   });
+
+  window.addEventListener("pageshow", () => setMenu(false));
+  window.addEventListener("pagehide", () => setMenu(false));
+  window.addEventListener("orientationchange", () => setMenu(false));
 
   const savedTheme = localStorage.getItem("rf-theme");
   if (savedTheme === "dark") {

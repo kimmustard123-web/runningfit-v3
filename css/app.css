@@ -1,7 +1,7 @@
 :root {
-  --bg: #f5f5f7;
+  --bg: #fafafa;
   --surface: #ffffff;
-  --surface-soft: #f9fafb;
+  --surface-soft: #fcfcfd;
   --text: #111111;
   --muted: #6b7280;
   --line: #e5e7eb;
@@ -1445,5 +1445,65 @@ body.nav-open {
     padding-inline: 3px;
     font-size: clamp(12px, 3.45vw, 15px);
     letter-spacing: -0.04em;
+  }
+}
+
+
+/* =========================================================
+   RunningFit mobile navigation interaction fix — 2026-07-12
+   ========================================================= */
+.site-header.rf-header {
+  z-index: 300;
+}
+
+.rf-header .nav-toggle {
+  position: relative;
+  z-index: 330;
+}
+
+.mobile-nav-backdrop {
+  z-index: 250;
+  background: rgba(17, 24, 39, .07);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .16s ease, visibility .16s ease;
+}
+
+.mobile-nav-backdrop.open {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+@media (max-width: 860px) {
+  .rf-header .top-nav {
+    z-index: 320;
+    isolation: isolate;
+    background: var(--surface);
+    box-shadow: 0 20px 55px rgba(15, 23, 42, .14);
+  }
+
+  .rf-header .top-nav.open {
+    pointer-events: auto;
+  }
+
+  .rf-header .top-nav.open .nav-link,
+  .rf-header .top-nav.open .theme-toggle {
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+  }
+
+  body.nav-open .mobile-bottom-nav {
+    z-index: 200;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-nav-backdrop,
+  .rf-header .top-nav {
+    transition: none !important;
   }
 }
