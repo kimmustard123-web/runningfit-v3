@@ -747,7 +747,7 @@ function openModal(shoe) {
 
   const detail = shoe.detail || {};
   const specs = detail.specs || {};
-  const storeUrl = detailSafeUrl(shoe.purchase?.officialStoreUrl || shoe.purchase?.brandStoreUrl);
+  const storeUrl = resolveStoreUrl(shoe.purchase);
   const distances = detail.recommendedDistances?.length ? detail.recommendedDistances.join(" · ") : "5K · 10K";
 
   content.innerHTML = `
@@ -835,9 +835,30 @@ function primaryUseLabel(value) {
   return labels[value] || "러닝";
 }
 
+function resolveStoreUrl(purchase) {
+  const official = String(purchase?.officialStoreUrl || "").trim();
+  const brand = detailSafeUrl(purchase?.brandStoreUrl);
+  const direct = detailSafeUrl(official);
+  if (direct) return direct;
+
+  if (official.startsWith("/") && brand) {
+    try {
+      return new URL(official, new URL(brand).origin).href;
+    } catch {
+      return brand;
+    }
+  }
+  return brand;
+}
+
 function detailSafeUrl(value) {
+  let text = String(value || "").trim();
+  if (!text) return "";
+  if (/^www\./i.test(text) || /^[a-z0-9.-]+\.[a-z]{2,}(?:\/|$)/i.test(text)) {
+    text = `https://${text}`;
+  }
   try {
-    const url = new URL(String(value || ""), location.href);
+    const url = new URL(text);
     return ["http:", "https:"].includes(url.protocol) ? url.href : "";
   } catch { return ""; }
 }

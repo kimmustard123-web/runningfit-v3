@@ -87,7 +87,7 @@ function sanitizeShoe(input) {
     description: String(input.description || "").trim() || null,
     pros: arrayValue(input.pros),
     cons: arrayValue(input.cons),
-    official_url: String(input.official_url || "").trim() || null,
+    official_url: normalizeExternalUrl(input.official_url) || null,
     status,
     plate_type: String(input.plate_type || (input.carbon_plate ? "carbon" : "none")).trim(),
     heel_stack_mm: nullableNumber(input.heel_stack_mm),
@@ -133,14 +133,26 @@ function buildRawData(row, input) {
     },
     purchase: {
       ...previousPurchase,
-      officialStoreUrl: String(input.purchase_url || previousPurchase.officialStoreUrl || "").trim(),
-      brandStoreUrl: String(input.brand_store_url || previousPurchase.brandStoreUrl || "").trim(),
+      officialStoreUrl: normalizeExternalUrl(input.purchase_url || previousPurchase.officialStoreUrl),
+      brandStoreUrl: normalizeExternalUrl(input.brand_store_url || previousPurchase.brandStoreUrl),
       status: ["available", "sold_out", "discontinued", "hidden"].includes(input.purchase_status) ? input.purchase_status : (previousPurchase.status || "available"),
       checkedAt: new Date().toISOString().slice(0, 10),
       label: "공식 스토어에서 제품 보기"
     },
     image: { src: row.image_url || "", alt: row.image_alt || `${row.brand} ${row.model_name_ko || row.model_name}`, type: "ai-generated" }
   };
+}
+
+function normalizeExternalUrl(value) {
+  let text = String(value || "").trim();
+  if (!text) return "";
+  if (/^www\./i.test(text) || /^[a-z0-9.-]+\.[a-z]{2,}(?:\/|$)/i.test(text)) text = `https://${text}`;
+  try {
+    const url = new URL(text);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+  } catch {
+    return "";
+  }
 }
 
 function arrayValue(value) {
