@@ -13,7 +13,7 @@ async function init() {
   bindTabs();
 
   try {
-    const payload = await RF.loadJSON(SHOES_DATA_PATH);
+    const payload = await loadShoesData();
     allShoes = Array.isArray(payload) ? payload : Array.isArray(payload.shoes) ? payload.shoes : [];
 
     if (!allShoes.length) throw new Error("신발 데이터가 비어 있습니다.");
@@ -788,3 +788,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, 180);
 });
+
+async function loadShoesData() {
+  try {
+    const response = await fetch("/api/shoes", {
+      headers: { Accept: "application/json" },
+      cache: "no-store"
+    });
+    if (!response.ok) throw new Error(`Supabase API HTTP ${response.status}`);
+    const payload = await response.json();
+    if (!Array.isArray(payload?.shoes) || !payload.shoes.length) {
+      throw new Error("Supabase 러닝화 데이터가 비어 있습니다.");
+    }
+    console.info(`[RunningFit] Supabase 러닝화 ${payload.shoes.length}개 로드`);
+    return payload;
+  } catch (error) {
+    console.warn("[RunningFit] Supabase 조회 실패, shoes.json으로 복구합니다.", error);
+    return RF.loadJSON(SHOES_DATA_PATH);
+  }
+}

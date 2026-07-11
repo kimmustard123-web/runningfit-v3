@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   renderHomeWeather();
 
   try {
-    const payload = await RF.loadJSON("./data/shoes.json");
+    const payload = await loadShoesData();
     const raw = Array.isArray(payload) ? payload : payload.shoes || [];
     const shoes = raw.map(normalizeHomeShoe);
 
@@ -148,4 +148,23 @@ function isUpcomingRaceDate(value) {
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   const target = new Date(`${date}T00:00:00`);
   return !Number.isNaN(target.getTime()) && target >= today;
+}
+
+async function loadShoesData() {
+  try {
+    const response = await fetch("/api/shoes", {
+      headers: { Accept: "application/json" },
+      cache: "no-store"
+    });
+    if (!response.ok) throw new Error(`Supabase API HTTP ${response.status}`);
+    const payload = await response.json();
+    if (!Array.isArray(payload?.shoes) || !payload.shoes.length) {
+      throw new Error("Supabase 러닝화 데이터가 비어 있습니다.");
+    }
+    console.info(`[RunningFit] 홈 Supabase 러닝화 ${payload.shoes.length}개 로드`);
+    return payload;
+  } catch (error) {
+    console.warn("[RunningFit] 홈 Supabase 조회 실패, shoes.json으로 복구합니다.", error);
+    return RF.loadJSON("./data/shoes.json");
+  }
 }
