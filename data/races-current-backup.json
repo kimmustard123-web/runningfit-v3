@@ -1,0 +1,2516 @@
+{
+  "metadata": {
+    "updatedAt": "2026-07-11",
+    "fromDate": "2026-07-12",
+    "scope": "국내 로드 러닝·마라톤",
+    "count": 94,
+    "statusNotice": "접수 상태는 2026-07-11 확인 기준이며 이후 변경될 수 있습니다.",
+    "source": "https://marathon.pe.kr/index_calendar.html",
+    "display": "2026년 전체 대회 날짜순 목록",
+    "detailNotice": "전화번호, 접수기간, 홈페이지가 확인되지 않은 항목은 확인 필요로 표시합니다."
+  },
+  "races": [
+    {
+      "id": "2026-07-19-16th-taejongdae-national-marathon",
+      "name": "제16회 태종대 전국마라톤대회",
+      "nameEn": "16th Taejongdae National Marathon",
+      "date": "2026-07-19",
+      "region": "부산",
+      "venue": "태종대",
+      "distances": [
+        "7K",
+        "14K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-08-01-2026-night-race-in-busan",
+      "name": "2026 나이트레이스 인 부산",
+      "nameEn": "2026 Night Race in Busan",
+      "date": "2026-08-01",
+      "region": "부산",
+      "venue": "광안리해수욕장 출발·벡스코 도착",
+      "distances": [
+        "7.21K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-08-01-2026-insiderun-s",
+      "name": "2026 인사이더런 S",
+      "nameEn": "2026 Insiderun S",
+      "date": "2026-08-01",
+      "region": "경기",
+      "venue": "킨텍스 제1전시장",
+      "distances": [
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-08-15-2026-anyangcheon-moonlight-night-run",
+      "name": "2026 안양천 달빛 야간마라톤",
+      "nameEn": "2026 Anyangcheon Moonlight Night Run",
+      "date": "2026-08-15",
+      "region": "서울",
+      "venue": "신정교 하부 영롱이 억새구장",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-08-15-815-run-2026",
+      "name": "815런 2026",
+      "nameEn": "815 Run 2026",
+      "date": "2026-08-15",
+      "region": "서울",
+      "venue": "상암 월드컵공원",
+      "distances": [
+        "8.15K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-08-16-happy700-pyeongchang-half-marathon",
+      "name": "2026 HAPPY700 평창 대관령 전국 하프마라톤대회",
+      "nameEn": "HAPPY700 Pyeongchang Half Marathon",
+      "date": "2026-08-16",
+      "region": "강원",
+      "venue": "평창동계올림픽 기념관 운동장",
+      "distances": [
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-08-22-world-masters-athletics-championships-daegu-road-race",
+      "name": "2026 대구 세계마스터즈 육상경기대회 로드레이스",
+      "nameEn": "World Masters Athletics Championships Daegu Road Race",
+      "date": "2026-08-22",
+      "region": "대구",
+      "venue": "대구스타디움",
+      "distances": [
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-08-29-danyang-moonlight-race",
+      "name": "단양 달빛레이스",
+      "nameEn": "Danyang Moonlight Race",
+      "date": "2026-08-29",
+      "region": "충북",
+      "venue": "단양군 고수리 일원",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-08-30-3rd-hangang-seoul-half-marathon",
+      "name": "제3회 한강 서울 하프마라톤",
+      "nameEn": "3rd Hangang Seoul Half Marathon",
+      "date": "2026-08-30",
+      "region": "서울",
+      "venue": "여의도 한강공원 물빛광장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-05-2026-seolleim-run",
+      "name": "2026 설레임런",
+      "nameEn": "2026 Seolleim Run",
+      "date": "2026-09-05",
+      "region": "경기",
+      "venue": "하남 미사경정공원",
+      "distances": [
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-05-v-run-2026",
+      "name": "V런 2026",
+      "nameEn": "V Run 2026",
+      "date": "2026-09-05",
+      "region": "서울",
+      "venue": "신정교 하부 육상트랙",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-05-23rd-cheorwon-dmz-international-peace-marathon",
+      "name": "제23회 철원 DMZ 국제평화마라톤",
+      "nameEn": "23rd Cheorwon DMZ International Peace Marathon",
+      "date": "2026-09-05",
+      "region": "강원",
+      "venue": "고석정",
+      "distances": [
+        "4K",
+        "10K",
+        "하프",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-06-2026-cheongju-marathon",
+      "name": "2026 전마협회장배 청주마라톤",
+      "nameEn": "2026 Cheongju Marathon",
+      "date": "2026-09-06",
+      "region": "충북",
+      "venue": "청주 무심천체육공원",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-06-ytn-seoul-tour-marathon-2026",
+      "name": "YTN 서울투어마라톤 2026",
+      "nameEn": "YTN Seoul Tour Marathon 2026",
+      "date": "2026-09-06",
+      "region": "서울",
+      "venue": "서울광장",
+      "distances": [
+        "11K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-06-bonghwa-songi-national-marathon",
+      "name": "봉화송이 전국마라톤대회",
+      "nameEn": "Bonghwa Songi National Marathon",
+      "date": "2026-09-06",
+      "region": "경북",
+      "venue": "봉화공설운동장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-06-11th-kim-dae-jung-peace-marathon",
+      "name": "제11회 김대중 평화마라톤",
+      "nameEn": "11th Kim Dae-jung Peace Marathon",
+      "date": "2026-09-06",
+      "region": "서울",
+      "venue": "평화의공원",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-06-23rd-hope-dream-dawn-riverside-marathon",
+      "name": "제23회 희망드림 새벽강변 국제마라톤",
+      "nameEn": "23rd Hope Dream Dawn Riverside Marathon",
+      "date": "2026-09-06",
+      "region": "서울",
+      "venue": "목동운동장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-06-2nd-sandrun-in-yeongdeok",
+      "name": "제2회 샌드런 인 영덕",
+      "nameEn": "2nd SANDRUN in Yeongdeok",
+      "date": "2026-09-06",
+      "region": "경북",
+      "venue": "대진해수욕장~고래불해수욕장",
+      "distances": [
+        "4K",
+        "8K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-12-2026-yangyang-riverside-marathon",
+      "name": "2026 양양 강변 전국마라톤",
+      "nameEn": "2026 Yangyang Riverside Marathon",
+      "date": "2026-09-12",
+      "region": "강원",
+      "venue": "양양 웰컴센터·남대천 일원",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-12-2026-forest-run",
+      "name": "2026 포레스트런",
+      "nameEn": "2026 Forest Run",
+      "date": "2026-09-12",
+      "region": "서울",
+      "venue": "여의도공원 문화의마당",
+      "distances": [
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-12-2nd-green-umbrella-runway-marathon",
+      "name": "제2회 초록우산 런웨이 마라톤",
+      "nameEn": "2nd Green Umbrella Runway Marathon",
+      "date": "2026-09-12",
+      "region": "대전",
+      "venue": "대전엑스포시민광장",
+      "distances": [
+        "3K",
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-12-2nd-white-run-2026",
+      "name": "제2회 화이트런 2026",
+      "nameEn": "2nd White Run 2026",
+      "date": "2026-09-12",
+      "region": "서울",
+      "venue": "신정교·인라인스케이트장",
+      "distances": [
+        "4.2K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-13-2026-run-seoul-run",
+      "name": "2026 런서울런",
+      "nameEn": "2026 Run Seoul Run",
+      "date": "2026-09-13",
+      "region": "서울",
+      "venue": "서울광장",
+      "distances": [
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-13-2026-uljin-geumgang-pine-healing-marathon",
+      "name": "2026 울진 금강송 힐링마라톤",
+      "nameEn": "2026 Uljin Geumgang Pine Healing Marathon",
+      "date": "2026-09-13",
+      "region": "경북",
+      "venue": "울진종합운동장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-13-16th-smile-run-festival",
+      "name": "제16회 스마일런 페스티벌",
+      "nameEn": "16th Smile Run Festival",
+      "date": "2026-09-13",
+      "region": "서울",
+      "venue": "상암 평화의공원 평화광장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-13-26th-ganghwa-beach-marathon",
+      "name": "제26회 강화해변마라톤",
+      "nameEn": "26th Ganghwa Beach Marathon",
+      "date": "2026-09-13",
+      "region": "인천",
+      "venue": "강화함상공원 주차장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-20-2026-gongju-baekje-marathon",
+      "name": "2026 공주백제마라톤",
+      "nameEn": "2026 Gongju Baekje Marathon",
+      "date": "2026-09-20",
+      "region": "충남",
+      "venue": "공주종합운동장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프",
+        "32K",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-20-2026-seonsa-marathon-festival",
+      "name": "2026 선사마라톤축제",
+      "nameEn": "2026 Seonsa Marathon Festival",
+      "date": "2026-09-20",
+      "region": "서울",
+      "venue": "암사동 유적 앞 특설무대",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-20-2026-ansan-marathon",
+      "name": "2026 안산마라톤",
+      "nameEn": "2026 Ansan Marathon",
+      "date": "2026-09-20",
+      "region": "경기",
+      "venue": "대부바다향기테마파크",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-20-2026-handon-run",
+      "name": "2026 한돈런",
+      "nameEn": "2026 Handon Run",
+      "date": "2026-09-20",
+      "region": "경기",
+      "venue": "하남 미사리조정경기장",
+      "distances": [
+        "6K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-20-dongdaemun-marathon-2026",
+      "name": "동대문마라톤 2026",
+      "nameEn": "Dongdaemun Marathon 2026",
+      "date": "2026-09-20",
+      "region": "서울",
+      "venue": "중랑천 제1체육공원",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-20-19th-gapyeong-jaraseom-marathon",
+      "name": "제19회 가평 자라섬 전국마라톤",
+      "nameEn": "19th Gapyeong Jaraseom Marathon",
+      "date": "2026-09-20",
+      "region": "경기",
+      "venue": "가평종합운동장",
+      "distances": [
+        "4.2K",
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-20-26th-incheon-songdo-international-marathon",
+      "name": "제26회 인천송도 국제마라톤",
+      "nameEn": "26th Incheon Songdo International Marathon",
+      "date": "2026-09-20",
+      "region": "인천",
+      "venue": "인천대학교 송도캠퍼스",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-09-20-2nd-mapo-mayor-s-cup-marathon",
+      "name": "제2회 마포구청장배 마라톤",
+      "nameEn": "2nd Mapo Mayor's Cup Marathon",
+      "date": "2026-09-20",
+      "region": "서울",
+      "venue": "평화의공원 평화광장",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-03-2026-seosan-cosmos-marathon",
+      "name": "2026 서산 코스모스 황금들녘 마라톤",
+      "nameEn": "2026 Seosan Cosmos Marathon",
+      "date": "2026-10-03",
+      "region": "충남",
+      "venue": "서산 스포츠테마파크",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-03-world-vision-global-6k-busan",
+      "name": "2026 월드비전 글로벌 6K 마라톤 부산",
+      "nameEn": "World Vision Global 6K Busan",
+      "date": "2026-10-03",
+      "region": "부산",
+      "venue": "다대포해수욕장",
+      "distances": [
+        "6K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-04-2026-andong-marathon",
+      "name": "2026 안동마라톤",
+      "nameEn": "2026 Andong Marathon",
+      "date": "2026-10-04",
+      "region": "경북",
+      "venue": "안동시민운동장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-04-2026-paju-book-city-art-marathon",
+      "name": "2026 파주북시티 아트마라톤",
+      "nameEn": "2026 Paju Book City Art Marathon",
+      "date": "2026-10-04",
+      "region": "경기",
+      "venue": "파주출판도시 일원",
+      "distances": [
+        "3K",
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-04-2026-hongcheon-love-marathon",
+      "name": "2026 홍천사랑마라톤",
+      "nameEn": "2026 Hongcheon Love Marathon",
+      "date": "2026-10-04",
+      "region": "강원",
+      "venue": "홍천종합운동장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-04-20th-dalseo-half-marathon",
+      "name": "제20회 달서하프마라톤",
+      "nameEn": "20th Dalseo Half Marathon",
+      "date": "2026-10-04",
+      "region": "대구",
+      "venue": "호림강나루공원",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-05-2026-hankyung-seoul-marathon",
+      "name": "2026 한경 서울마라톤",
+      "nameEn": "2026 Hankyung Seoul Marathon",
+      "date": "2026-10-05",
+      "region": "서울",
+      "venue": "여의도공원 문화의마당",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-05-seoul-open-marathon-2026",
+      "name": "서울오픈마라톤 2026",
+      "nameEn": "Seoul Open Marathon 2026",
+      "date": "2026-10-05",
+      "region": "서울",
+      "venue": "광화문광장",
+      "distances": [
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-05-23rd-gangnam-international-peace-marathon",
+      "name": "제23회 강남 국제평화마라톤",
+      "nameEn": "23rd Gangnam International Peace Marathon",
+      "date": "2026-10-05",
+      "region": "서울",
+      "venue": "삼성1동 주민센터",
+      "distances": [
+        "5K",
+        "10K",
+        "하프",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-09-2026-hangeul-run",
+      "name": "2026 한글런",
+      "nameEn": "2026 Hangeul Run",
+      "date": "2026-10-09",
+      "region": "세종",
+      "venue": "세종중앙공원 도시축제마당",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-09-bbangbbang-run-2026",
+      "name": "빵빵런 2026 대전",
+      "nameEn": "Bbangbbang Run 2026",
+      "date": "2026-10-09",
+      "region": "대전",
+      "venue": "대전엑스포시민광장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-09-26th-hongseong-marathon",
+      "name": "제26회 홍성마라톤",
+      "nameEn": "26th Hongseong Marathon",
+      "date": "2026-10-09",
+      "region": "충남",
+      "venue": "홍주종합경기장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-10-2026-gyeongpo-marathon",
+      "name": "2026 경포마라톤",
+      "nameEn": "2026 Gyeongpo Marathon",
+      "date": "2026-10-10",
+      "region": "강원",
+      "venue": "경포대",
+      "distances": [
+        "4.7K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-10-marvel-run-seoul-2026",
+      "name": "마블런 서울 2026",
+      "nameEn": "MARVEL RUN SEOUL 2026",
+      "date": "2026-10-10",
+      "region": "서울",
+      "venue": "미정",
+      "distances": [
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-10-4th-gangseo-heojun-run",
+      "name": "제4회 강서 허준런",
+      "nameEn": "4th Gangseo Heojun Run",
+      "date": "2026-10-10",
+      "region": "서울",
+      "venue": "서울식물원 초지원",
+      "distances": [
+        "3K",
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-10-5th-mudeungsan-geo-marathon",
+      "name": "제5회 무등산권 지오마라톤",
+      "nameEn": "5th Mudeungsan Geo Marathon",
+      "date": "2026-10-10",
+      "region": "광주",
+      "venue": "화순 금호리조트",
+      "distances": [
+        "2K",
+        "5.18K",
+        "10K",
+        "하프",
+        "30K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-10-9th-geoje-mayor-s-marathon",
+      "name": "제9회 거제시장배 섬꽃 전국마라톤",
+      "nameEn": "9th Geoje Mayor's Marathon",
+      "date": "2026-10-10",
+      "region": "경남",
+      "venue": "거제스포츠파크",
+      "distances": [
+        "4K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-11-2026-mbn-naju-marathon",
+      "name": "2026 MBN 나주마라톤",
+      "nameEn": "2026 MBN Naju Marathon",
+      "date": "2026-10-11",
+      "region": "전남",
+      "venue": "나주종합스포츠파크",
+      "distances": [
+        "5K",
+        "10K",
+        "하프",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-11-2026-seoul-race",
+      "name": "2026 서울레이스",
+      "nameEn": "2026 Seoul Race",
+      "date": "2026-10-11",
+      "region": "서울",
+      "venue": "청계광장",
+      "distances": [
+        "11K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-11-2026-pyeongtaek-port-marathon",
+      "name": "2026 평택항마라톤",
+      "nameEn": "2026 Pyeongtaek Port Marathon",
+      "date": "2026-10-11",
+      "region": "경기",
+      "venue": "평택항 일원",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-11-10th-korea-seoul-marathon",
+      "name": "제10회 산불예방 한국서울마라톤",
+      "nameEn": "10th Korea Seoul Marathon",
+      "date": "2026-10-11",
+      "region": "서울",
+      "venue": "광평교",
+      "distances": [
+        "5K",
+        "10K",
+        "하프",
+        "31K",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-17-2026-memorial-run",
+      "name": "2026 메모리얼런",
+      "nameEn": "2026 Memorial Run",
+      "date": "2026-10-17",
+      "region": "세종",
+      "venue": "세종중앙공원 도시축제마당",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-17-gyeongju-marathon",
+      "name": "경주마라톤",
+      "nameEn": "Gyeongju Marathon",
+      "date": "2026-10-17",
+      "region": "경북",
+      "venue": "경주시민운동장",
+      "distances": [
+        "10K",
+        "하프",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-17-24th-cheongwon-daecheong-lake-marathon",
+      "name": "제24회 청원생명쌀 대청호마라톤",
+      "nameEn": "24th Cheongwon Daecheong Lake Marathon",
+      "date": "2026-10-17",
+      "region": "충북",
+      "venue": "문의면 체육공원",
+      "distances": [
+        "5K",
+        "10K",
+        "하프",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-18-2026-style-run",
+      "name": "2026 스타일런",
+      "nameEn": "2026 Style Run",
+      "date": "2026-10-18",
+      "region": "서울",
+      "venue": "롯데월드타워 월드파크",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-18-2026-asia-open-marathon",
+      "name": "2026 아시아 오픈마라톤",
+      "nameEn": "2026 Asia Open Marathon",
+      "date": "2026-10-18",
+      "region": "서울",
+      "venue": "광화문광장",
+      "distances": [
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-18-green-step-2026",
+      "name": "그린스텝 2026",
+      "nameEn": "Green Step 2026",
+      "date": "2026-10-18",
+      "region": "전남",
+      "venue": "해남 솔라시도",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-18-22nd-bukgu-love-marathon",
+      "name": "제22회 북구사랑마라톤",
+      "nameEn": "22nd Bukgu Love Marathon",
+      "date": "2026-10-18",
+      "region": "대구",
+      "venue": "금호강 산격야영장",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-18-25th-daecheong-lake-marathon",
+      "name": "제25회 대청호마라톤",
+      "nameEn": "25th Daecheong Lake Marathon",
+      "date": "2026-10-18",
+      "region": "대전",
+      "venue": "대청호",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-19-22nd-yeoju-sejong-marathon",
+      "name": "제22회 여주 세종대왕 마라톤",
+      "nameEn": "22nd Yeoju Sejong Marathon",
+      "date": "2026-10-19",
+      "region": "경기",
+      "venue": "여주 현암지구공원",
+      "distances": [
+        "1K",
+        "4K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-24-gamseong-run-2026",
+      "name": "감성런 2026",
+      "nameEn": "Gamseong Run 2026",
+      "date": "2026-10-24",
+      "region": "서울",
+      "venue": "신정교 하부 육상트랙",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-24-newsis-sea-marathon-2026",
+      "name": "뉴시스 바다마라톤 2026",
+      "nameEn": "Newsis Sea Marathon 2026",
+      "date": "2026-10-24",
+      "region": "인천",
+      "venue": "씨사이드파크",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-24-disney-run-2026-incheon",
+      "name": "디즈니런 2026 인천",
+      "nameEn": "Disney Run 2026 Incheon",
+      "date": "2026-10-24",
+      "region": "인천",
+      "venue": "상상플랫폼",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-25-2026-gwangmyeong-peace-marathon",
+      "name": "2026 광명평화마라톤",
+      "nameEn": "2026 Gwangmyeong Peace Marathon",
+      "date": "2026-10-25",
+      "region": "경기",
+      "venue": "KTX 광명역",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-25-2026-chuncheon-marathon",
+      "name": "2026 춘천마라톤",
+      "nameEn": "2026 Chuncheon Marathon",
+      "date": "2026-10-25",
+      "region": "강원",
+      "venue": "춘천 공지천 인조잔디구장",
+      "distances": [
+        "10K",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-25-k-run-challenge",
+      "name": "K-RUN 챌린지",
+      "nameEn": "K-RUN Challenge",
+      "date": "2026-10-25",
+      "region": "서울",
+      "venue": "뚝섬한강공원 수변광장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-25-19th-cheongdo-bansi-marathon",
+      "name": "제19회 청도반시 전국마라톤",
+      "nameEn": "19th Cheongdo Bansi Marathon",
+      "date": "2026-10-25",
+      "region": "경북",
+      "venue": "청도공설운동장",
+      "distances": [
+        "5.9K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-10-25-cookie-run-seoul",
+      "name": "쿠키런",
+      "nameEn": "Cookie Run Seoul",
+      "date": "2026-10-25",
+      "region": "서울",
+      "venue": "미정",
+      "distances": [
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-01-2026-jtbc-seoul-marathon",
+      "name": "2026 JTBC 서울마라톤",
+      "nameEn": "2026 JTBC Seoul Marathon",
+      "date": "2026-11-01",
+      "region": "서울",
+      "venue": "월드컵공원",
+      "distances": [
+        "10K",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-01-2026-muan-coastal-sunset-marathon",
+      "name": "2026 무안 전국 노을길 마라톤",
+      "nameEn": "2026 Muan Coastal Sunset Marathon",
+      "date": "2026-11-01",
+      "region": "전남",
+      "venue": "무안낙지공원",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-01-21st-ulsan-human-rights-marathon",
+      "name": "제21회 울산 인권마라톤",
+      "nameEn": "21st Ulsan Human Rights Marathon",
+      "date": "2026-11-01",
+      "region": "울산",
+      "venue": "태화강 둔치",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-01-2nd-daejeon-shin-chaeho-marathon",
+      "name": "제2회 대전 신채호마라톤",
+      "nameEn": "2nd Daejeon Shin Chaeho Marathon",
+      "date": "2026-11-01",
+      "region": "대전",
+      "venue": "대전 뿌리공원 잔디광장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-07-2026-yeongcheon-dam-marathon",
+      "name": "2026 영천댐마라톤",
+      "nameEn": "2026 Yeongcheon Dam Marathon",
+      "date": "2026-11-07",
+      "region": "경북",
+      "venue": "영천댐공원 일원",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-08-yangsan-baenaegol-apple-run",
+      "name": "2026 양산 배내골 사과런",
+      "nameEn": "Yangsan Baenaegol Apple Run",
+      "date": "2026-11-08",
+      "region": "경남",
+      "venue": "장선마을회관 앞",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-08-save-race-2026",
+      "name": "세이브레이스 2026",
+      "nameEn": "Save Race 2026",
+      "date": "2026-11-08",
+      "region": "서울",
+      "venue": "여의도공원 문화의마당",
+      "distances": [
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-08-11th-songpa-mayor-s-marathon",
+      "name": "제11회 송파구청장배 마라톤",
+      "nameEn": "11th Songpa Mayor's Marathon",
+      "date": "2026-11-08",
+      "region": "서울",
+      "venue": "올림픽공원 송파구여성축구장",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-14-2026-pohang-marathon",
+      "name": "2026 포항마라톤대회",
+      "nameEn": "2026 Pohang Marathon",
+      "date": "2026-11-14",
+      "region": "경북",
+      "venue": "영일대해수욕장",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-15-2026-mbn-seoul-marathon",
+      "name": "2026 MBN 서울마라톤",
+      "nameEn": "2026 MBN Seoul Marathon",
+      "date": "2026-11-15",
+      "region": "서울",
+      "venue": "미정",
+      "distances": [
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-15-2026-garmin-run-korea",
+      "name": "2026 가민런 코리아",
+      "nameEn": "2026 Garmin Run Korea",
+      "date": "2026-11-15",
+      "region": "경기",
+      "venue": "고양종합운동장",
+      "distances": [
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-15-2026-son-kee-chung-peace-marathon",
+      "name": "2026 손기정 평화마라톤",
+      "nameEn": "2026 Son Kee Chung Peace Marathon",
+      "date": "2026-11-15",
+      "region": "경기",
+      "venue": "임진각",
+      "distances": [
+        "6K",
+        "10K",
+        "하프",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-15-9th-seoul-peace-marathon",
+      "name": "2026 제9회 서울평화마라톤",
+      "nameEn": "9th Seoul Peace Marathon",
+      "date": "2026-11-15",
+      "time": "09:30",
+      "phone": "010-3408-8150",
+      "region": "서울",
+      "venue": "신정교하부육상트랙구장",
+      "distances": [
+        "10K",
+        "5K"
+      ],
+      "registrationStart": "2026-07-08",
+      "registrationEnd": "2026-10-16",
+      "registrationPeriod": null,
+      "officialUrl": "http://seoultongilrun.org",
+      "entryUrl": null,
+      "roadRace": true,
+      "sourceUrl": "http://roadrun.co.kr/schedule/view.php?no=41686",
+      "source": {
+        "name": "마라톤온라인 상세 페이지",
+        "url": "http://roadrun.co.kr/schedule/view.php?no=41686",
+        "checkedAt": "2026-07-11"
+      }
+    },
+    {
+      "id": "2026-11-15-24th-gochang-dolmen-marathon",
+      "name": "제24회 고창 고인돌마라톤",
+      "nameEn": "24th Gochang Dolmen Marathon",
+      "date": "2026-11-15",
+      "region": "전북",
+      "venue": "고창공설운동장",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-15-24th-sangju-dried-persimmon-marathon",
+      "name": "제24회 상주곶감마라톤",
+      "nameEn": "24th Sangju Dried Persimmon Marathon",
+      "date": "2026-11-15",
+      "region": "경북",
+      "venue": "상주시민운동장",
+      "distances": [
+        "4.4K",
+        "10K",
+        "하프",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-15-2nd-sejong-city-marathon",
+      "name": "제2회 세종시 전국마라톤",
+      "nameEn": "2nd Sejong City Marathon",
+      "date": "2026-11-15",
+      "region": "세종",
+      "venue": "세종시민운동장",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-15-4th-yeongnam-alps-half-marathon",
+      "name": "제4회 영남알프스 전국하프마라톤",
+      "nameEn": "4th Yeongnam Alps Half Marathon",
+      "date": "2026-11-15",
+      "region": "울산",
+      "venue": "울주군 영남알프스 일원",
+      "distances": [
+        "5K",
+        "10K",
+        "하프"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-21-2026-autumn-breeze-u-running-festa",
+      "name": "2026 가을바람 U-러닝 페스타",
+      "nameEn": "2026 Autumn Breeze U-Running Festa",
+      "date": "2026-11-21",
+      "region": "경기",
+      "venue": "하남 미사경정공원",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-22-smile-run-together",
+      "name": "스마일런 함께 밝은 세상",
+      "nameEn": "Smile Run Together",
+      "date": "2026-11-22",
+      "region": "서울",
+      "venue": "여의도공원 문화의마당",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-22-incheon-marathon-2026",
+      "name": "인천마라톤 2026",
+      "nameEn": "Incheon Marathon 2026",
+      "date": "2026-11-22",
+      "region": "인천",
+      "venue": "인천아시아드주경기장",
+      "distances": [
+        "5K",
+        "10K",
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-28-peace-run",
+      "name": "피스런",
+      "nameEn": "Peace Run",
+      "date": "2026-11-28",
+      "region": "서울",
+      "venue": "여의도공원 문화의마당",
+      "distances": [
+        "5K",
+        "10K"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-12-06-2026-busan-international-marathon",
+      "name": "2026 부산국제마라톤",
+      "nameEn": "2026 Busan International Marathon",
+      "date": "2026-12-06",
+      "region": "부산",
+      "venue": "미정",
+      "distances": [
+        "풀"
+      ],
+      "roadRace": true,
+      "officialUrl": null,
+      "entryUrl": null,
+      "source": {
+        "name": "마라톤온라인 대회일정",
+        "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    }
+  ]
+}
