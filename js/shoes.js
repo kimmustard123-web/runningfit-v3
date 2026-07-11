@@ -736,9 +736,22 @@ document.addEventListener("click", (event) => {
   if (shoe) openModal(shoe);
 });
 
-document.querySelector("[data-modal-close]")?.addEventListener("click", () => {
-  document.querySelector("[data-shoe-modal]")?.close();
+document.querySelector("[data-modal-close]")?.addEventListener("click", closeShoeModal);
+
+const shoeDialog = document.querySelector("[data-shoe-modal]");
+shoeDialog?.addEventListener("click", (event) => {
+  if (event.target === shoeDialog) closeShoeModal();
 });
+shoeDialog?.addEventListener("cancel", (event) => {
+  event.preventDefault();
+  closeShoeModal();
+});
+
+function closeShoeModal() {
+  const dialog = document.querySelector("[data-shoe-modal]");
+  if (dialog?.open) dialog.close();
+  document.documentElement.classList.remove("modal-open");
+}
 
 function openModal(shoe) {
   const dialog = document.querySelector("[data-shoe-modal]");
@@ -748,80 +761,154 @@ function openModal(shoe) {
   const detail = shoe.detail || {};
   const specs = detail.specs || {};
   const storeUrl = resolveStoreUrl(shoe.purchase);
-  const distances = detail.recommendedDistances?.length ? detail.recommendedDistances.join(" · ") : "5K · 10K";
+  const price = getOfficialPrice(shoe);
+  const distances = normalizeDistances(detail.recommendedDistances, shoe.distanceFit);
 
   content.innerHTML = `
-    <section class="detail-hero">
-      <div class="modal-heading">
-        <p>${escapeHtml(shoe.brand)}</p>
-        <h2>${escapeHtml(shoe.modelKo)}</h2>
-        <span>${escapeHtml(shoe.modelEn)}</span>
-        <div class="detail-badges">
-          <b>${escapeHtml(primaryUseLabel(shoe.primaryUse))}</b>
-          <b>${shoe.carbonPlate ? "플레이트 적용" : "논카본"}</b>
+    <div class="compact-detail">
+      <header class="compact-detail-top">
+        <div class="compact-image-wrap">
+          ${shoe.image?.src ? `<img src="${escapeHtml(shoe.image.src)}" alt="${escapeHtml(shoe.image.alt || shoe.modelKo)}" loading="eager" decoding="async">` : `<div class="compact-image-empty">이미지 준비 중</div>`}
         </div>
-      </div>
-      ${shoe.image?.src ? `<div class="modal-shoe-image"><img src="${escapeHtml(shoe.image.src)}" alt="${escapeHtml(shoe.image.alt || shoe.modelKo)}" loading="lazy" decoding="async"></div>` : ""}
-    </section>
+        <div class="compact-product-info">
+          <p class="compact-brand">${escapeHtml(shoe.brand)}</p>
+          <h2>${escapeHtml(shoe.modelKo)}</h2>
+          <span class="compact-model-en">${escapeHtml(shoe.modelEn)}</span>
+          <div class="compact-price-row">
+            <div><small>공식 판매처 가격</small><strong>${escapeHtml(price)}</strong></div>
+            ${storeUrl ? `<a class="compact-store-button" href="${escapeHtml(storeUrl)}" target="_blank" rel="noopener noreferrer">공식 스토어 ↗</a>` : `<span class="compact-store-button disabled">공식 링크 준비 중</span>`}
+          </div>
+        </div>
+      </header>
 
-    <section class="detail-summary"><h3>한눈에 보기</h3><p>${escapeHtml(detail.summary)}</p></section>
+      <section class="compact-section compact-score-section">
+        <h3>RunningFit 목적별 점수</h3>
+        <div class="compact-score-grid">
+          ${miniScore("첫 러닝화", shoe.scores.firstRunning)}
+          ${miniScore("매일 러닝", shoe.scores.dailyRunning)}
+          ${miniScore("훈련용", shoe.scores.training)}
+          ${miniScore("대회용", shoe.scores.race)}
+        </div>
+      </section>
 
-    <section class="detail-section">
-      <h3>RunningFit 목적별 점수</h3>
-      <div class="modal-score-grid">
-        ${miniScore("첫 러닝화", shoe.scores.firstRunning)}
-        ${miniScore("매일 러닝", shoe.scores.dailyRunning)}
-        ${miniScore("훈련용", shoe.scores.training)}
-        ${miniScore("대회용", shoe.scores.race)}
-      </div>
-    </section>
+      <section class="compact-section compact-spec-section">
+        <h3>핵심 스펙</h3>
+        <div class="compact-spec-grid">
+          ${metricSpec("무게", validPositive(specs.weightG) ? `${specs.weightG}g` : "—", metricLevel("weight", specs.weightG), "매우 가벼움", "평균", "매우 무거움")}
+          ${metricSpec("발볼", widthLabel(specs.widthFit), categoryLevel(specs.widthFit, "width"), "매우 좁음", "보통", "매우 넓음")}
+          ${metricSpec("토박스 높이", featureLabel(specs.toeBoxHeight), categoryLevel(specs.toeBoxHeight, "height"), "매우 낮음", "보통", "매우 높음")}
+          ${metricSpec("뒤꿈치 지지", featureLabel(specs.heelSupport), categoryLevel(specs.heelSupport, "support"), "매우 약함", "보통", "매우 강함")}
+          ${metricSpec("쿠션감", cushionDisplay(shoe), cushionLevel(shoe), "매우 단단함", "보통", "매우 푹신함")}
+          ${metricSpec("밑창 두께", validPositive(specs.heelStackMm) ? `${specs.heelStackMm}mm` : "—", metricLevel("stack", specs.heelStackMm), "매우 얇음", "평균", "매우 두꺼움")}
+          ${binarySpec("깔창 탈착", removableInsoleValue(shoe))}
+          ${binarySpec("카본 플레이트", Boolean(shoe.carbonPlate))}
+        </div>
+      </section>
 
-    <section class="detail-section"><h3>핵심 스펙</h3>
-      <dl class="spec-list">
-        <div><dt>무게</dt><dd>${formatSpec(specs.weightG, "g")}</dd></div>
-        <div><dt>드롭</dt><dd>${formatSpec(specs.dropMm, "mm")}</dd></div>
-        <div><dt>뒤꿈치 스택</dt><dd>${formatSpec(specs.heelStackMm, "mm")}</dd></div>
-        <div><dt>앞꿈치 스택</dt><dd>${formatSpec(specs.forefootStackMm, "mm")}</dd></div>
-        <div><dt>발볼</dt><dd>${widthLabel(specs.widthFit)}</dd></div>
-        <div><dt>토박스 높이</dt><dd>${featureLabel(specs.toeBoxHeight)}</dd></div>
-        <div><dt>뒤꿈치 지지</dt><dd>${featureLabel(specs.heelSupport)}</dd></div>
-        <div><dt>플레이트</dt><dd>${shoe.carbonPlate ? escapeHtml(plateLabel(shoe.plateType)) : "없음"}</dd></div>
-      </dl>
-    </section>
-
-    <section class="detail-section"><h3>추천 러너와 활용</h3>
-      <dl class="runner-fit-list">
-        <div><dt>추천 러너</dt><dd>${escapeHtml(detail.recommendedFor)}</dd></div>
-        <div><dt>추천 거리</dt><dd>${escapeHtml(distances)}</dd></div>
-        <div><dt>추천 활용</dt><dd>${escapeHtml(detail.recommendedTraining)}</dd></div>
-        <div><dt>사이즈 조언</dt><dd>${escapeHtml(detail.sizeAdvice)}</dd></div>
-      </dl>
-    </section>
-
-    <section class="pros-cons-grid">
-      <div><h3>장점</h3><ul>${detailList(detail.pros)}</ul></div>
-      <div><h3>확인할 점</h3><ul>${detailList(detail.cons)}</ul></div>
-    </section>
-
-    <section class="detail-section detail-description"><h3>상세 설명</h3><p>${escapeHtml(detail.description)}</p></section>
-
-    ${storeUrl ? `<section class="purchase-box"><div><span>공식 구매처</span><h3>${escapeHtml(shoe.brand)} 공식 스토어</h3><p>가격·사이즈·재고는 공식 판매 페이지에서 확인하세요.</p></div><a class="purchase-button" href="${escapeHtml(storeUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(shoe.purchase?.label || "공식 스토어에서 제품 보기")} ↗</a><small>RunningFit은 상품 판매·결제·배송을 담당하지 않습니다.</small></section>` : ""}
+      <section class="compact-section compact-guide-section">
+        <h3>착용 가이드</h3>
+        <div class="compact-guide-grid">
+          <div class="distance-guide"><span>추천 거리</span><div>${["5K","10K","하프","풀코스"].map((label, index) => `<b class="${distances[index] ? "active" : ""}">${label}</b>`).join("")}</div></div>
+          <div class="size-guide"><span>사이즈 조언</span><strong>${escapeHtml(detail.sizeAdvice || "구매 전 착용 권장")}</strong></div>
+        </div>
+      </section>
+    </div>
   `;
 
+  document.documentElement.classList.add("modal-open");
   dialog.showModal();
 }
 
-function detailList(items) {
-  const list = Array.isArray(items) && items.length ? items : ["목적과 착화감에 맞는지 확인이 필요합니다."];
-  return list.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+function validPositive(value) {
+  const number = Number(value);
+  return Number.isFinite(number) && number > 0;
+}
+
+function getOfficialPrice(shoe) {
+  const candidates = [
+    shoe.purchase?.officialPrice,
+    shoe.purchase?.priceKrw,
+    shoe.officialPrice,
+    shoe.priceKrw
+  ];
+  const value = candidates.find((item) => Number(item) > 0);
+  return value ? `${Number(value).toLocaleString("ko-KR")}원` : "공식 스토어에서 확인";
+}
+
+function metricSpec(title, value, level, left, middle, right) {
+  const safeLevel = Number.isFinite(level) ? clamp(Math.round(level), 1, 5) : 3;
+  return `<article class="metric-spec"><div class="metric-head"><span>${escapeHtml(title)}</span><strong>${escapeHtml(value)}</strong></div><div class="metric-track" aria-label="${escapeHtml(title)} 5단계 중 ${safeLevel}단계"><i style="--metric-level:${safeLevel}"></i></div><div class="metric-labels"><small>${escapeHtml(left)}</small><small>${escapeHtml(middle)}</small><small>${escapeHtml(right)}</small></div></article>`;
+}
+
+function binarySpec(title, value) {
+  const known = value === true || value === false;
+  return `<article class="binary-spec"><span>${escapeHtml(title)}</span><strong class="${known && value ? "yes" : known ? "no" : "unknown"}">${known ? (value ? "O" : "X") : "—"}</strong></article>`;
+}
+
+function metricLevel(type, value) {
+  if (!validPositive(value)) return 3;
+  const values = allShoes.map((shoe) => {
+    const specs = shoe.detail?.specs || {};
+    return type === "weight" ? specs.weightG : specs.heelStackMm;
+  }).filter(validPositive).sort((a,b) => a-b);
+  if (!values.length) return 3;
+  const rank = values.filter((item) => item <= Number(value)).length;
+  return Math.min(5, Math.max(1, Math.ceil((rank / values.length) * 5)));
+}
+
+function categoryLevel(value, type) {
+  const text = String(value || "").toLowerCase();
+  const maps = {
+    width: { very_narrow:1, narrow:2, standard:3, medium:3, wide:4, very_wide:5 },
+    height: { very_low:1, low:2, standard:3, medium:3, high:4, very_high:5 },
+    support: { very_low:1, low:2, weak:2, standard:3, medium:3, high:4, very_high:5, strong:4 }
+  };
+  return maps[type]?.[text] || 3;
+}
+
+function cushionValue(shoe) {
+  const raw = shoe.researchRaw || {};
+  const detail = shoe.detail || {};
+  const candidates = [detail.specs?.cushionScore, raw.cushionScore, raw.shockAbsorptionHeelSA, shoe.cushionScore];
+  return candidates.find((value) => validPositive(value)) ?? null;
+}
+
+function cushionLevel(shoe) {
+  const value = cushionValue(shoe);
+  if (!validPositive(value)) return 3;
+  const values = allShoes.map(cushionValue).filter(validPositive).sort((a,b)=>a-b);
+  if (!values.length) return 3;
+  const rank = values.filter((item)=>item <= Number(value)).length;
+  return Math.min(5, Math.max(1, Math.ceil((rank / values.length) * 5)));
+}
+
+function cushionDisplay(shoe) {
+  const level = cushionLevel(shoe);
+  return ["매우 단단함","단단한 편","보통","푹신한 편","매우 푹신함"][level - 1];
+}
+
+function removableInsoleValue(shoe) {
+  const values = [shoe.detail?.specs?.removableInsole, shoe.specs?.removableInsole, shoe.researchRaw?.removableInsole, shoe.removableInsole];
+  return values.find((value) => value === true || value === false);
+}
+
+function normalizeDistances(list, distanceFit) {
+  const texts = Array.isArray(list) ? list.map((item) => String(item).toLowerCase()) : [];
+  const match = (keys, fallback) => texts.some((text) => keys.some((key) => text.includes(key))) || Number(fallback) >= 70;
+  return [
+    match(["5k", "5km"], distanceFit?.["5K"]),
+    match(["10k", "10km"], distanceFit?.["10K"]),
+    match(["half", "하프"], distanceFit?.half),
+    match(["full", "풀", "marathon"], distanceFit?.full)
+  ];
 }
 
 function formatSpec(value, unit) {
-  return value !== null && value !== undefined && value !== "" ? `${escapeHtml(value)}${unit}` : "상세 데이터 확인";
+  return validPositive(value) ? `${escapeHtml(value)}${unit}` : "—";
 }
 
 function featureLabel(value) {
-  const labels = { low: "낮음", medium: "보통", standard: "보통", high: "높음" };
+  const labels = { very_low:"매우 낮음", low: "낮음", weak:"약함", medium: "보통", standard: "보통", high: "높음", strong:"강함", very_high:"매우 높음" };
   return labels[value] || escapeHtml(value || "보통");
 }
 
@@ -831,7 +918,7 @@ function plateLabel(value) {
 }
 
 function primaryUseLabel(value) {
-  const labels = { daily: "매일 러닝", training: "훈련용", race: "대회용", stability: "안정화", easy: "편안한 러닝" };
+  const labels = { daily: "매일 러닝", training: "훈련용", race: "대회용", easy: "편안한 러닝" };
   return labels[value] || "러닝";
 }
 
@@ -854,9 +941,7 @@ function resolveStoreUrl(purchase) {
 function detailSafeUrl(value) {
   let text = String(value || "").trim();
   if (!text) return "";
-  if (/^www\./i.test(text) || /^[a-z0-9.-]+\.[a-z]{2,}(?:\/|$)/i.test(text)) {
-    text = `https://${text}`;
-  }
+  if (/^www\./i.test(text) || /^[a-z0-9.-]+\.[a-z]{2,}(?:\/|$)/i.test(text)) text = `https://${text}`;
   try {
     const url = new URL(text);
     return ["http:", "https:"].includes(url.protocol) ? url.href : "";

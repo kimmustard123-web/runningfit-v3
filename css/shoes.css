@@ -1,23 +1,69 @@
 /* Shoes-specific styles are layered on app.css. */
-
-
-/* Phase 3 performance: skip off-screen card layout/paint work. */
-.shoe-card { content-visibility: auto; contain-intrinsic-size: 520px; }
-
-
-/* RunningFit optimized shoe media */
+.shoe-card{content-visibility:auto;contain-intrinsic-size:520px}
 .shoe-visual{position:relative;min-height:210px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#fff;padding:18px}
 .shoe-visual img{display:block;width:100%;height:190px;object-fit:contain;object-position:center}
 .shoe-visual small{position:absolute;right:10px;bottom:8px;padding:4px 7px;border-radius:999px;background:rgba(255,255,255,.88);color:#707070;font-size:10px}
-.modal-shoe-image{display:flex;justify-content:center;background:#fff;border-radius:20px;padding:18px;margin:14px 0}
-.modal-shoe-image img{width:min(100%,520px);max-height:330px;object-fit:contain}
 
-/* Unified RunningFit shoe detail */
-.detail-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,1fr);gap:22px;align-items:center}
-.detail-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.detail-badges b{padding:7px 10px;border-radius:999px;background:#f1f3f5;font-size:12px}
-.detail-summary,.detail-section,.pros-cons-grid>div,.purchase-box{margin-top:18px;border:1px solid #e9ecef;border-radius:20px;padding:20px;background:#fff}
-.detail-summary h3,.detail-section h3,.pros-cons-grid h3,.purchase-box h3{margin:0 0 10px}.detail-summary p,.detail-description p,.purchase-box p{margin:0;line-height:1.75;color:#555}
-.runner-fit-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0}.runner-fit-list>div{padding:14px;border-radius:14px;background:#f7f8fa}.runner-fit-list dt{font-size:12px;color:#777}.runner-fit-list dd{margin:5px 0 0;font-weight:750;line-height:1.5}
-.pros-cons-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.pros-cons-grid ul{margin:0;padding-left:20px}.pros-cons-grid li{margin:8px 0;line-height:1.55;color:#555}
-.purchase-box{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;background:#111;color:#fff;border-color:#111}.purchase-box span{font-size:12px;color:#b9b9b9}.purchase-box h3{margin-top:4px}.purchase-box p{color:#cfcfcf}.purchase-box small{grid-column:1/-1;color:#929292}.purchase-button{display:inline-flex;align-items:center;justify-content:center;padding:13px 17px;border-radius:999px;background:#fff;color:#111;text-decoration:none;font-weight:800;white-space:nowrap}
-@media(max-width:720px){.detail-hero,.pros-cons-grid{grid-template-columns:1fr}.runner-fit-list{grid-template-columns:1fr}.purchase-box{grid-template-columns:1fr}.purchase-button{width:100%}}
+/* One-screen RunningFit shoe detail */
+html.modal-open,html.modal-open body{overflow:hidden}
+.shoe-modal{width:min(980px,calc(100vw - 28px));height:auto;max-height:calc(100dvh - 24px);padding:14px;border:1px solid var(--line);border-radius:24px;overflow:hidden;color:var(--text);background:var(--surface);box-shadow:0 25px 80px rgba(0,0,0,.28)}
+.shoe-modal::backdrop{background:rgba(0,0,0,.58);backdrop-filter:blur(5px)}
+.shoe-modal [data-modal-content]{height:100%}
+.compact-detail{display:grid;gap:10px;height:100%;max-height:calc(100dvh - 52px)}
+.compact-detail-top{display:grid;grid-template-columns:minmax(210px,.85fr) minmax(0,1.15fr);gap:18px;align-items:center;min-height:0}
+.compact-image-wrap{display:flex;align-items:center;justify-content:center;height:190px;border-radius:18px;background:#fff;overflow:hidden}
+.compact-image-wrap img{width:100%;height:100%;object-fit:contain}
+.compact-image-empty{color:var(--muted);font-size:12px}
+.compact-product-info{min-width:0;padding-right:44px}
+.compact-brand{margin:0;color:var(--muted);font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.compact-product-info h2{margin:4px 0 2px;font-size:clamp(22px,3vw,34px);line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.compact-model-en{display:block;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.compact-price-row{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-top:14px;padding:12px 14px;border-radius:15px;background:var(--surface-soft)}
+.compact-price-row small{display:block;color:var(--muted);font-size:10px;font-weight:800}
+.compact-price-row strong{display:block;margin-top:2px;font-size:18px}
+.compact-store-button{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:0 14px;border-radius:999px;background:#111;color:#fff;text-decoration:none;font-size:12px;font-weight:900;white-space:nowrap}
+.compact-store-button.disabled{background:#d9d9d9;color:#777}
+.compact-section{margin:0;padding:10px 12px;border:1px solid var(--line);border-radius:16px;background:#fff}
+.compact-section h3{margin:0 0 8px;font-size:13px}
+.compact-score-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+.compact-score-grid>div{display:flex;align-items:center;justify-content:space-between;gap:5px;padding:8px 9px;border-radius:11px;background:var(--surface-soft)}
+.compact-score-grid span{font-size:9px;font-weight:800;color:var(--muted)}
+.compact-score-grid strong{font-size:17px}
+.compact-spec-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+.metric-spec,.binary-spec{min-width:0;padding:8px 9px;border-radius:12px;background:var(--surface-soft)}
+.metric-head{display:flex;align-items:center;justify-content:space-between;gap:6px}
+.metric-head span,.binary-spec span{color:var(--muted);font-size:9px;font-weight:800}
+.metric-head strong{font-size:12px;white-space:nowrap}
+.metric-track{position:relative;height:4px;margin:7px 0 4px;border-radius:999px;background:#dfe3e7}
+.metric-track i{position:absolute;top:50%;left:calc((var(--metric-level) - 1) * 25%);width:10px;height:10px;border:2px solid #fff;border-radius:50%;background:#111;box-shadow:0 1px 4px rgba(0,0,0,.25);transform:translate(-50%,-50%)}
+.metric-labels{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px;color:#8a8a8a}
+.metric-labels small{font-size:6.5px;line-height:1.15;white-space:nowrap}
+.metric-labels small:nth-child(2){text-align:center}.metric-labels small:last-child{text-align:right}
+.binary-spec{display:flex;align-items:center;justify-content:space-between;min-height:48px}
+.binary-spec strong{display:grid;width:28px;height:28px;place-items:center;border-radius:50%;font-size:15px;background:#111;color:#fff}
+.binary-spec strong.no{background:#e2e4e7;color:#555}.binary-spec strong.unknown{background:#eee;color:#999}
+.compact-guide-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:8px}
+.distance-guide,.size-guide{display:flex;align-items:center;justify-content:space-between;gap:10px;min-width:0;padding:8px 10px;border-radius:12px;background:var(--surface-soft)}
+.distance-guide>span,.size-guide>span{flex:0 0 auto;color:var(--muted);font-size:9px;font-weight:800}
+.distance-guide>div{display:flex;gap:4px}.distance-guide b{padding:5px 7px;border-radius:999px;background:#e4e6e9;color:#888;font-size:8px}.distance-guide b.active{background:#111;color:#fff}
+.size-guide strong{overflow:hidden;font-size:11px;white-space:nowrap;text-overflow:ellipsis}
+
+@media(max-width:720px){
+ .shoe-modal{width:calc(100vw - 16px);max-height:calc(100dvh - 12px);padding:10px;border-radius:20px}
+ .compact-detail{gap:7px;max-height:calc(100dvh - 32px)}
+ .compact-detail-top{grid-template-columns:110px minmax(0,1fr);gap:10px}
+ .compact-image-wrap{height:112px;border-radius:13px}
+ .compact-product-info{padding-right:34px}
+ .compact-product-info h2{font-size:19px}
+ .compact-model-en{font-size:9px}
+ .compact-price-row{margin-top:7px;padding:8px 9px;gap:6px}
+ .compact-price-row strong{font-size:13px}.compact-store-button{min-height:30px;padding:0 9px;font-size:9px}
+ .compact-section{padding:8px;border-radius:13px}.compact-section h3{margin-bottom:6px;font-size:11px}
+ .compact-score-grid{gap:4px}.compact-score-grid>div{padding:6px;display:grid;text-align:center}.compact-score-grid span{font-size:7px}.compact-score-grid strong{font-size:14px}
+ .compact-spec-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
+ .metric-spec,.binary-spec{padding:6px 7px}.metric-head span,.binary-spec span{font-size:8px}.metric-head strong{font-size:10px}.metric-track{margin:5px 0 3px}.metric-labels small{font-size:5.5px}.binary-spec{min-height:39px}.binary-spec strong{width:23px;height:23px;font-size:12px}
+ .compact-guide-grid{grid-template-columns:1fr;gap:4px}.distance-guide,.size-guide{padding:6px 8px}.distance-guide b{padding:4px 6px;font-size:7px}.size-guide strong{font-size:9px}
+}
+@media(max-height:700px){
+ .compact-image-wrap{height:90px}.compact-detail{gap:5px}.compact-section{padding-top:6px;padding-bottom:6px}.compact-price-row{margin-top:5px}.metric-spec,.binary-spec{padding-top:5px;padding-bottom:5px}.binary-spec{min-height:34px}
+}
