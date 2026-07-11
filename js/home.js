@@ -83,7 +83,7 @@ async function renderUpcomingRaces() {
   try {
     const payload = await RF.loadJSON("./data/races.json");
     const races = (Array.isArray(payload) ? payload : payload.races || [])
-      .filter((race) => race.date >= "2026-07-12")
+      .filter((race) => isUpcomingRaceDate(race.date))
       .sort((a, b) => a.date.localeCompare(b.date))
       .slice(0, 3);
 
@@ -139,4 +139,13 @@ async function renderFeaturedCourse(){
     text.textContent=`${course.region||"지역 미확인"} · ${course.distanceText||"거리 미확인"}`;
     link.href=`./courses.html?q=${encodeURIComponent(course.name||"")}`;
   }catch(error){title.textContent="추천 코스를 확인하세요";text.textContent="전국 대표 러닝 장소 100개를 준비했습니다.";console.error(error)}
+}
+
+function isUpcomingRaceDate(value) {
+  const date = String(value || "");
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return false;
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const target = new Date(`${date}T00:00:00`);
+  return !Number.isNaN(target.getTime()) && target >= today;
 }

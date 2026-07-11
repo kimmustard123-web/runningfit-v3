@@ -14,7 +14,7 @@ window.RFWeather = (() => {
   ];
 
   async function fetchWeather(location) {
-    const url = new URL("/.netlify/functions/weather", window.location.origin);
+    const url = new URL("/api/weather", window.location.origin);
     url.searchParams.set("lat", location.lat);
     url.searchParams.set("lon", location.lon);
     const res = await fetch(url, { headers: { Accept: "application/json" } });
