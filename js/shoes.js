@@ -85,8 +85,15 @@ function normalizeShoe(raw) {
     forefootStackMm: safeNumber(rr.forefootStackMm),
     sourceUrl: raw.source?.url || rr.url || "",
     notes: Array.isArray(rr.notes) ? rr.notes : [],
-    primaryUse: derived.primaryUse || derived.primary || raw.runningFit?.primary || "daily"
+    primaryUse: derived.primaryUse || derived.primary || raw.runningFit?.primary || "daily",
+    image: normalizeImage(raw.image, raw)
   };
+}
+
+function normalizeImage(image, raw) {
+  if (typeof image === "string") return { src: image, alt: `${raw.brand || ""} ${raw.modelKo || raw.modelEn || "러닝화"}` };
+  if (image && image.src) return image;
+  return { src: "", alt: `${raw.brand || ""} ${raw.modelKo || raw.modelEn || "러닝화"}` };
 }
 
 function buildSearchText(raw, search) {
@@ -556,8 +563,11 @@ function cardHtml(shoe, index, showMatch) {
         </div>
       </div>
 
-      <div class="shoe-visual" aria-hidden="true">
-        <span>${escapeHtml(shoe.modelKo.slice(0, 1))}</span>
+      <div class="shoe-visual">
+        ${shoe.image?.src
+          ? `<img src="${escapeHtml(shoe.image.src)}" alt="${escapeHtml(shoe.image.alt || shoe.modelKo)}" width="${shoe.image.width || 320}" height="${shoe.image.height || 240}" loading="lazy" decoding="async">`
+          : `<span aria-hidden="true">${escapeHtml(shoe.modelKo.slice(0, 1))}</span>`}
+        ${shoe.image?.type === "ai-generated" ? `<small>AI 생성 대표 이미지</small>` : ""}
       </div>
 
       <div class="shoe-card-body">
@@ -698,6 +708,8 @@ function openModal(shoe) {
       <h2>${escapeHtml(shoe.modelKo)}</h2>
       <span>${escapeHtml(shoe.modelEn)}</span>
     </div>
+
+    ${shoe.image?.src ? `<div class="modal-shoe-image"><img src="${escapeHtml(shoe.image.src)}" alt="${escapeHtml(shoe.image.alt || shoe.modelKo)}" loading="lazy" decoding="async"></div>` : ""}
 
     <div class="modal-score-grid">
       ${miniScore("첫 러닝화", shoe.scores.firstRunning)}

@@ -12,7 +12,8 @@ window.RF = {
       signal: options.signal
     }).then(async (response) => {
       if (!response.ok) throw new Error(`${path} 로드 실패 (${response.status})`);
-      return response.json();
+      const base = await response.json();
+      return window.RFContentStore ? window.RFContentStore.merge(path, base) : base;
     }).catch((error) => {
       rfJsonCache.delete(path);
       throw error;

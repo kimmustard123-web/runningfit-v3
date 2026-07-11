@@ -17,7 +17,8 @@
       "half",
       "full"
     ],
-    "note": "배치별 데이터 구조 차이가 일부 남아 있으므로 script.js 연결 전 정규화 단계가 필요할 수 있음."
+    "note": "배치별 데이터 구조 차이가 일부 남아 있으므로 script.js 연결 전 정규화 단계가 필요할 수 있음.",
+    "imageVersion": "core50-webp-v1"
   },
   "shoes": [
     {
@@ -111,6 +112,13 @@
           "training": 74,
           "race": 51
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-pegasus-41.webp",
+        "alt": "Nike 페가수스 41 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 229
       }
     },
     {
@@ -204,6 +212,13 @@
           "training": 81,
           "race": 70
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-pegasus-plus.webp",
+        "alt": "Nike 페가수스 플러스 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 280,
+        "height": 229
       }
     },
     {
@@ -297,6 +312,13 @@
           "training": 76,
           "race": 62
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-pegasus-premium.webp",
+        "alt": "Nike 페가수스 프리미엄 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 266,
+        "height": 229
       }
     },
     {
@@ -390,6 +412,13 @@
           "training": 63,
           "race": 38
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-vomero-18.webp",
+        "alt": "Nike 보메로 18 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 270,
+        "height": 229
       }
     },
     {
@@ -483,6 +512,13 @@
           "training": 74,
           "race": 52
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-vomero-plus.webp",
+        "alt": "Nike 보메로 플러스 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 272,
+        "height": 229
       }
     },
     {
@@ -576,6 +612,13 @@
           "training": 63,
           "race": 36
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-structure-26.webp",
+        "alt": "Nike 스트럭처 26 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 230
       }
     },
     {
@@ -669,6 +712,13 @@
           "training": 82,
           "race": 79
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-zoom-fly-6.webp",
+        "alt": "Nike 줌 플라이 6 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 280,
+        "height": 230
       }
     },
     {
@@ -762,6 +812,13 @@
           "training": 81,
           "race": 94
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-vaporfly-4.webp",
+        "alt": "Nike 베이퍼플라이 4 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 266,
+        "height": 230
       }
     },
     {
@@ -855,6 +912,13 @@
           "training": 85,
           "race": 95
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-alphafly-3.webp",
+        "alt": "Nike 알파플라이 3 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 270,
+        "height": 230
       }
     },
     {
@@ -948,6 +1012,13 @@
           "training": 77,
           "race": 92
         }
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/nike-streakfly-2.webp",
+        "alt": "Nike 스트릭플라이 2 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 272,
+        "height": 230
       }
     },
     {
@@ -1050,6 +1121,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-novablast-5.webp",
+        "alt": "ASICS 노바블라스트 5 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -1152,6 +1230,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "super_trainer"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-superblast-2.webp",
+        "alt": "ASICS 슈퍼블라스트 2 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 280,
+        "height": 211
       }
     },
     {
@@ -1254,6 +1339,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "easy"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-gel-nimbus-27.webp",
+        "alt": "ASICS 젤 님버스 27 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 266,
+        "height": 211
       }
     },
     {
@@ -1358,6 +1450,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "stability"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-gel-kayano-32.webp",
+        "alt": "ASICS 젤 카야노 32 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 270,
+        "height": 211
       }
     },
     {
@@ -1463,6 +1562,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-magic-speed-4.webp",
+        "alt": "ASICS 매직 스피드 4 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 272,
+        "height": 211
       }
     },
     {
@@ -1566,6 +1672,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-metaspeed-sky-paris.webp",
+        "alt": "ASICS 메타스피드 스카이 파리 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 215
       }
     },
     {
@@ -1668,6 +1781,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-metaspeed-edge-paris.webp",
+        "alt": "ASICS 메타스피드 엣지 파리 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 280,
+        "height": 215
       }
     },
     {
@@ -1769,6 +1889,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-gel-cumulus-27.webp",
+        "alt": "ASICS 젤 큐뮬러스 27 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 266,
+        "height": 215
       }
     },
     {
@@ -1875,6 +2002,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "stability"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-gt-2000-14.webp",
+        "alt": "ASICS GT-2000 14 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 270,
+        "height": 215
       }
     },
     {
@@ -1977,6 +2111,13 @@
           "brand": "ASICS"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/asics-noosa-tri-17.webp",
+        "alt": "ASICS 노사 트라이 17 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 272,
+        "height": 215
       }
     },
     {
@@ -2074,6 +2215,13 @@
           "brand": "New Balance"
         },
         "primaryUse": "easy"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/new-balance-fresh-foam-x-1080-v14.webp",
+        "alt": "New Balance 프레시폼 X 1080 v14 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 229
       }
     },
     {
@@ -2171,6 +2319,13 @@
           "brand": "New Balance"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/new-balance-fresh-foam-x-880-v15.webp",
+        "alt": "New Balance 프레시폼 X 880 v15 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 280,
+        "height": 229
       }
     },
     {
@@ -2268,6 +2423,13 @@
           "brand": "New Balance"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/new-balance-fuel-cell-rebel-v5.webp",
+        "alt": "New Balance 퓨얼셀 레벨 v5 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 266,
+        "height": 229
       }
     },
     {
@@ -2365,6 +2527,13 @@
           "brand": "New Balance"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/new-balance-fuel-cell-super-comp-elite-v5.webp",
+        "alt": "New Balance 퓨얼셀 슈퍼컴프 엘리트 v5 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 270,
+        "height": 229
       }
     },
     {
@@ -2463,6 +2632,13 @@
           "brand": "New Balance"
         },
         "primaryUse": "stability"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/new-balance-fresh-foam-x-860-v15.webp",
+        "alt": "New Balance 프레시폼 X 860 v15 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 272,
+        "height": 229
       }
     },
     {
@@ -2561,6 +2737,13 @@
           "brand": "HOKA"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/hoka-clifton-10.webp",
+        "alt": "HOKA 클리프톤 10 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 230
       }
     },
     {
@@ -2658,6 +2841,13 @@
           "brand": "HOKA"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/hoka-mach-7.webp",
+        "alt": "HOKA 마하 7 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 280,
+        "height": 230
       }
     },
     {
@@ -2755,6 +2945,13 @@
           "brand": "HOKA"
         },
         "primaryUse": "easy"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/hoka-bondi-9.webp",
+        "alt": "HOKA 본디 9 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 266,
+        "height": 230
       }
     },
     {
@@ -2852,6 +3049,13 @@
           "brand": "HOKA"
         },
         "primaryUse": "stability"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/hoka-arahi-8.webp",
+        "alt": "HOKA 아라히 8 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 270,
+        "height": 230
       }
     },
     {
@@ -2949,6 +3153,13 @@
           "brand": "HOKA"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/hoka-cielo-x-1-3-0.webp",
+        "alt": "HOKA 시엘로 X1 3.0 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 272,
+        "height": 230
       }
     },
     {
@@ -3047,6 +3258,13 @@
           "brand": "adidas"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/adidas-adizero-adios-pro-4.webp",
+        "alt": "adidas 아디제로 아디오스 프로 4 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3144,6 +3362,13 @@
           "brand": "adidas"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/adidas-adizero-boston-13.webp",
+        "alt": "adidas 아디제로 보스턴 13 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3242,6 +3467,13 @@
           "brand": "adidas"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/adidas-adizero-evo-sl.webp",
+        "alt": "adidas 아디제로 EVO SL AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3339,6 +3571,13 @@
           "brand": "adidas"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/adidas-supernova-rise-2.webp",
+        "alt": "adidas 슈퍼노바 라이즈 2 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3436,6 +3675,13 @@
           "brand": "Saucony"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/saucony-endorphin-pro-4.webp",
+        "alt": "Saucony 엔돌핀 프로 4 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3534,6 +3780,13 @@
           "brand": "Saucony"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/saucony-endorphin-speed-5.webp",
+        "alt": "Saucony 엔돌핀 스피드 5 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3633,6 +3886,13 @@
           "brand": "Saucony"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/saucony-triumph-23.webp",
+        "alt": "Saucony 트라이엄프 23 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3731,6 +3991,13 @@
           "brand": "Brooks"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/brooks-glycerin-max.webp",
+        "alt": "Brooks 글리세린 맥스 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3828,6 +4095,13 @@
           "brand": "Brooks"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/brooks-glycerin-22.webp",
+        "alt": "Brooks 글리세린 22 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -3927,6 +4201,13 @@
           "brand": "Brooks"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/brooks-hyperion-max-3.webp",
+        "alt": "Brooks 하이페리온 맥스 3 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 211
       }
     },
     {
@@ -4031,6 +4312,13 @@
           "brand": "On"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/on-cloudmonster-2.webp",
+        "alt": "On 클라우드몬스터 2 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 229
       }
     },
     {
@@ -4133,6 +4421,13 @@
           "brand": "On"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/on-cloudsurfer-2.webp",
+        "alt": "On 클라우드서퍼 2 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 280,
+        "height": 229
       }
     },
     {
@@ -4235,6 +4530,13 @@
           "brand": "On"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/on-cloudsurfer-next.webp",
+        "alt": "On 클라우드서퍼 넥스트 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 266,
+        "height": 229
       }
     },
     {
@@ -4338,6 +4640,13 @@
           "brand": "On"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/on-cloudboom-strike.webp",
+        "alt": "On 클라우드붐 스트라이크 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 270,
+        "height": 229
       }
     },
     {
@@ -4441,6 +4750,13 @@
           "brand": "Mizuno"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/mizuno-neo-vista-2.webp",
+        "alt": "Mizuno 네오 비스타 2 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 272,
+        "height": 229
       }
     },
     {
@@ -4544,6 +4860,13 @@
           "brand": "Mizuno"
         },
         "primaryUse": "daily"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/mizuno-wave-rider-29.webp",
+        "alt": "Mizuno 웨이브 라이더 29 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 282,
+        "height": 230
       }
     },
     {
@@ -4648,6 +4971,13 @@
           "brand": "Mizuno"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/mizuno-wave-rebellion-pro-3.webp",
+        "alt": "Mizuno 웨이브 리벨리온 프로 3 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 280,
+        "height": 230
       }
     },
     {
@@ -4751,6 +5081,13 @@
           "brand": "PUMA"
         },
         "primaryUse": "training"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/puma-deviate-nitro-3.webp",
+        "alt": "PUMA 디비에이트 나이트로 3 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 266,
+        "height": 230
       }
     },
     {
@@ -4854,6 +5191,13 @@
           "brand": "PUMA"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/puma-deviate-nitro-elite-3.webp",
+        "alt": "PUMA 디비에이트 나이트로 엘리트 3 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 270,
+        "height": 230
       }
     },
     {
@@ -4958,6 +5302,13 @@
           "brand": "PUMA"
         },
         "primaryUse": "race"
+      },
+      "image": {
+        "src": "./assets/images/shoes/core50/puma-fast-r-nitro-elite-3.webp",
+        "alt": "PUMA 패스트-R 나이트로 엘리트 3 AI 생성 대표 이미지",
+        "type": "ai-generated",
+        "width": 272,
+        "height": 230
       }
     }
   ]

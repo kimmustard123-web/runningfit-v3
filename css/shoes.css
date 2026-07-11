@@ -3,3 +3,11 @@
 
 /* Phase 3 performance: skip off-screen card layout/paint work. */
 .shoe-card { content-visibility: auto; contain-intrinsic-size: 520px; }
+
+
+/* RunningFit optimized shoe media */
+.shoe-visual{position:relative;min-height:210px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#fff;padding:18px}
+.shoe-visual img{display:block;width:100%;height:190px;object-fit:contain;object-position:center}
+.shoe-visual small{position:absolute;right:10px;bottom:8px;padding:4px 7px;border-radius:999px;background:rgba(255,255,255,.88);color:#707070;font-size:10px}
+.modal-shoe-image{display:flex;justify-content:center;background:#fff;border-radius:20px;padding:18px;margin:14px 0}
+.modal-shoe-image img{width:min(100%,520px);max-height:330px;object-fit:contain}
