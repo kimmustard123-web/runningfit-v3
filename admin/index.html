@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <title>RunningFit Admin</title>
-  <link rel="stylesheet" href="./admin.css">
+  <link rel="stylesheet" href="/admin/admin.css?v=20260712-loginfix">
 </head>
 <body>
   <section id="loginView" class="login-view">
     <div class="login-card">
-      <a class="brand" href="../index.html"><span>RF</span> RunningFit</a>
+      <a class="brand" href="/index.html"><span>RF</span> RunningFit</a>
       <p class="eyebrow">ADMIN CONSOLE</p>
       <h1>운영 관리자</h1>
       <p class="muted">Supabase의 러닝화 데이터를 직접 관리합니다. Vercel에 등록한 관리자 비밀번호로 로그인하세요.</p>
@@ -27,7 +27,7 @@
 
   <div id="appView" class="app" hidden>
     <aside class="sidebar">
-      <a class="brand" href="../index.html"><span>RF</span> RunningFit</a>
+      <a class="brand" href="/index.html"><span>RF</span> RunningFit</a>
       <nav>
         <button data-view="dashboard" class="active">대시보드</button>
         <button data-view="shoes">러닝화 관리</button>
@@ -38,7 +38,7 @@
       </nav>
       <div class="sidebar-bottom">
         <span id="modeBadge" class="badge"></span>
-        <a href="../index.html">사이트 보기</a>
+        <a href="/index.html">사이트 보기</a>
         <button id="logout" class="text-button">로그아웃</button>
       </div>
     </aside>
@@ -87,8 +87,8 @@
     </form>
   </dialog>
 
-  <script src="../js/backend-config.js"></script>
-  <script src="../js/content-store.js"></script>
-  <script src="./admin.js"></script>
+  <script src="/js/backend-config.js"></script>
+  <script src="/js/content-store.js"></script>
+  <script src="/admin/admin.js?v=20260712-loginfix"></script>
 </body>
 </html>
