@@ -3,9 +3,11 @@
     "updatedAt": "2026-07-11",
     "fromDate": "2026-07-12",
     "scope": "국내 로드 러닝·마라톤",
-    "count": 93,
+    "count": 94,
     "statusNotice": "접수 상태는 2026-07-11 확인 기준이며 이후 변경될 수 있습니다.",
-    "source": "https://marathon.pe.kr/index_calendar.html"
+    "source": "https://marathon.pe.kr/index_calendar.html",
+    "display": "2026년 전체 대회 날짜순 목록",
+    "detailNotice": "전화번호, 접수기간, 홈페이지가 확인되지 않은 항목은 확인 필요로 표시합니다."
   },
   "races": [
     {
@@ -20,7 +22,6 @@
         "14K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -28,7 +29,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-08-01-2026-night-race-in-busan",
@@ -40,7 +47,6 @@
       "distances": [
         "7.21K"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -48,7 +54,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-08-01-2026-insiderun-s",
@@ -60,7 +72,6 @@
       "distances": [
         "10K"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -68,7 +79,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-08-15-2026-anyangcheon-moonlight-night-run",
@@ -81,7 +98,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -89,7 +105,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-08-15-815-run-2026",
@@ -101,7 +123,6 @@
       "distances": [
         "8.15K"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -109,7 +130,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-08-16-happy700-pyeongchang-half-marathon",
@@ -122,7 +149,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -130,7 +156,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-08-22-world-masters-athletics-championships-daegu-road-race",
@@ -143,7 +175,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -151,7 +182,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-08-29-danyang-moonlight-race",
@@ -164,7 +201,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -172,7 +208,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-08-30-3rd-hangang-seoul-half-marathon",
@@ -186,7 +228,6 @@
         "10K",
         "하프"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -194,7 +235,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-05-2026-seolleim-run",
@@ -206,7 +253,6 @@
       "distances": [
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -214,7 +260,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-05-v-run-2026",
@@ -227,7 +279,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -235,7 +286,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-05-23rd-cheorwon-dmz-international-peace-marathon",
@@ -250,7 +307,6 @@
         "하프",
         "풀"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -258,7 +314,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-06-2026-cheongju-marathon",
@@ -271,7 +333,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -279,7 +340,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-06-ytn-seoul-tour-marathon-2026",
@@ -292,7 +359,6 @@
         "11K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -300,7 +366,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-06-bonghwa-songi-national-marathon",
@@ -314,7 +386,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -322,7 +393,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-06-11th-kim-dae-jung-peace-marathon",
@@ -336,7 +413,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -344,7 +420,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-06-23rd-hope-dream-dawn-riverside-marathon",
@@ -358,7 +440,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -366,7 +447,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-06-2nd-sandrun-in-yeongdeok",
@@ -379,7 +466,6 @@
         "4K",
         "8K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -387,7 +473,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-12-2026-yangyang-riverside-marathon",
@@ -401,7 +493,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -409,7 +500,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-12-2026-forest-run",
@@ -421,7 +518,6 @@
       "distances": [
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -429,7 +525,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-12-2nd-green-umbrella-runway-marathon",
@@ -444,7 +546,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -452,7 +553,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-12-2nd-white-run-2026",
@@ -465,7 +572,6 @@
         "4.2K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -473,7 +579,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-13-2026-run-seoul-run",
@@ -486,7 +598,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -494,7 +605,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-13-2026-uljin-geumgang-pine-healing-marathon",
@@ -508,7 +625,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -516,7 +632,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-13-16th-smile-run-festival",
@@ -530,7 +652,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -538,7 +659,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-13-26th-ganghwa-beach-marathon",
@@ -552,7 +679,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -560,7 +686,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-20-2026-gongju-baekje-marathon",
@@ -576,7 +708,6 @@
         "32K",
         "풀"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -584,7 +715,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-20-2026-seonsa-marathon-festival",
@@ -598,7 +735,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -606,7 +742,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-20-2026-ansan-marathon",
@@ -620,7 +762,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -628,7 +769,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-20-2026-handon-run",
@@ -641,7 +788,6 @@
         "6K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -649,7 +795,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-20-dongdaemun-marathon-2026",
@@ -663,7 +815,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -671,7 +822,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-20-19th-gapyeong-jaraseom-marathon",
@@ -686,7 +843,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -694,7 +850,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-20-26th-incheon-songdo-international-marathon",
@@ -708,7 +870,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -716,7 +877,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-09-20-2nd-mapo-mayor-s-cup-marathon",
@@ -729,7 +896,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -737,7 +903,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-03-2026-seosan-cosmos-marathon",
@@ -751,7 +923,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -759,7 +930,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-03-world-vision-global-6k-busan",
@@ -772,7 +949,6 @@
         "6K",
         "10K"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -780,7 +956,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-04-2026-andong-marathon",
@@ -795,7 +977,6 @@
         "하프",
         "풀"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -803,7 +984,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-04-2026-paju-book-city-art-marathon",
@@ -817,7 +1004,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -825,7 +1011,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-04-2026-hongcheon-love-marathon",
@@ -839,7 +1031,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -847,7 +1038,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-04-20th-dalseo-half-marathon",
@@ -861,7 +1058,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -869,7 +1065,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-05-2026-hankyung-seoul-marathon",
@@ -883,7 +1085,6 @@
         "10K",
         "하프"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -891,7 +1092,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-05-seoul-open-marathon-2026",
@@ -904,7 +1111,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -912,7 +1118,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-05-23rd-gangnam-international-peace-marathon",
@@ -927,7 +1139,6 @@
         "하프",
         "풀"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -935,7 +1146,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-09-2026-hangeul-run",
@@ -948,7 +1165,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -956,7 +1172,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-09-bbangbbang-run-2026",
@@ -970,7 +1192,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -978,7 +1199,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-09-26th-hongseong-marathon",
@@ -992,7 +1219,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1000,7 +1226,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-10-2026-gyeongpo-marathon",
@@ -1014,7 +1246,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1022,7 +1253,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-10-marvel-run-seoul-2026",
@@ -1035,7 +1272,6 @@
         "10K",
         "하프"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1043,7 +1279,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-10-4th-gangseo-heojun-run",
@@ -1057,7 +1299,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1065,7 +1306,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-10-5th-mudeungsan-geo-marathon",
@@ -1081,7 +1328,6 @@
         "하프",
         "30K"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1089,7 +1335,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-10-9th-geoje-mayor-s-marathon",
@@ -1103,7 +1355,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1111,7 +1362,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-11-2026-mbn-naju-marathon",
@@ -1126,7 +1383,6 @@
         "하프",
         "풀"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1134,7 +1390,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-11-2026-seoul-race",
@@ -1147,7 +1409,6 @@
         "11K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1155,7 +1416,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-11-2026-pyeongtaek-port-marathon",
@@ -1169,7 +1436,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1177,7 +1443,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-11-10th-korea-seoul-marathon",
@@ -1193,7 +1465,6 @@
         "31K",
         "풀"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1201,7 +1472,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-17-2026-memorial-run",
@@ -1214,7 +1491,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1222,7 +1498,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-17-gyeongju-marathon",
@@ -1236,7 +1518,6 @@
         "하프",
         "풀"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1244,7 +1525,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-17-24th-cheongwon-daecheong-lake-marathon",
@@ -1259,7 +1546,6 @@
         "하프",
         "풀"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1267,7 +1553,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-18-2026-style-run",
@@ -1280,7 +1572,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1288,7 +1579,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-18-2026-asia-open-marathon",
@@ -1301,7 +1598,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1309,7 +1605,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-18-green-step-2026",
@@ -1323,7 +1625,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1331,7 +1632,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-18-22nd-bukgu-love-marathon",
@@ -1344,7 +1651,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1352,7 +1658,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-18-25th-daecheong-lake-marathon",
@@ -1366,7 +1678,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1374,7 +1685,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-19-22nd-yeoju-sejong-marathon",
@@ -1389,7 +1706,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1397,7 +1713,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-24-gamseong-run-2026",
@@ -1410,7 +1732,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1418,7 +1739,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-24-newsis-sea-marathon-2026",
@@ -1432,7 +1759,6 @@
         "10K",
         "하프"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1440,7 +1766,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-24-disney-run-2026-incheon",
@@ -1453,7 +1785,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1461,7 +1792,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-25-2026-gwangmyeong-peace-marathon",
@@ -1475,7 +1812,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1483,7 +1819,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-25-2026-chuncheon-marathon",
@@ -1496,7 +1838,6 @@
         "10K",
         "풀"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1504,7 +1845,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-25-k-run-challenge",
@@ -1518,7 +1865,6 @@
         "10K",
         "하프"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1526,7 +1872,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-25-19th-cheongdo-bansi-marathon",
@@ -1540,7 +1892,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1548,7 +1899,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-10-25-cookie-run-seoul",
@@ -1560,7 +1917,6 @@
       "distances": [
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1568,7 +1924,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-01-2026-jtbc-seoul-marathon",
@@ -1581,7 +1943,6 @@
         "10K",
         "풀"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1589,7 +1950,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-01-2026-muan-coastal-sunset-marathon",
@@ -1602,7 +1969,6 @@
         "5K",
         "10K"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1610,7 +1976,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-01-21st-ulsan-human-rights-marathon",
@@ -1624,7 +1996,6 @@
         "10K",
         "하프"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1632,7 +2003,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-01-2nd-daejeon-shin-chaeho-marathon",
@@ -1646,7 +2023,6 @@
         "10K",
         "하프"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1654,7 +2030,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-07-2026-yeongcheon-dam-marathon",
@@ -1668,7 +2050,6 @@
         "10K",
         "하프"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1676,7 +2057,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-08-yangsan-baenaegol-apple-run",
@@ -1689,7 +2076,6 @@
         "5K",
         "10K"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1697,7 +2083,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-08-save-race-2026",
@@ -1709,7 +2101,6 @@
       "distances": [
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1717,7 +2108,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-08-11th-songpa-mayor-s-marathon",
@@ -1730,7 +2127,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1738,7 +2134,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-14-2026-pohang-marathon",
@@ -1751,7 +2153,6 @@
         "5K",
         "10K"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1759,7 +2160,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-15-2026-mbn-seoul-marathon",
@@ -1772,7 +2179,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1780,7 +2186,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-15-2026-garmin-run-korea",
@@ -1793,7 +2205,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1801,7 +2212,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-15-2026-son-kee-chung-peace-marathon",
@@ -1816,13 +2233,44 @@
         "하프",
         "풀"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
       "source": {
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
+        "checkedAt": "2026-07-11"
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
+    },
+    {
+      "id": "2026-11-15-9th-seoul-peace-marathon",
+      "name": "2026 제9회 서울평화마라톤",
+      "nameEn": "9th Seoul Peace Marathon",
+      "date": "2026-11-15",
+      "time": "09:30",
+      "phone": "010-3408-8150",
+      "region": "서울",
+      "venue": "신정교하부육상트랙구장",
+      "distances": [
+        "10K",
+        "5K"
+      ],
+      "registrationStart": "2026-07-08",
+      "registrationEnd": "2026-10-16",
+      "registrationPeriod": null,
+      "officialUrl": "http://seoultongilrun.org",
+      "entryUrl": null,
+      "roadRace": true,
+      "sourceUrl": "http://roadrun.co.kr/schedule/view.php?no=41686",
+      "source": {
+        "name": "마라톤온라인 상세 페이지",
+        "url": "http://roadrun.co.kr/schedule/view.php?no=41686",
         "checkedAt": "2026-07-11"
       }
     },
@@ -1838,7 +2286,6 @@
         "10K",
         "하프"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1846,7 +2293,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-15-24th-sangju-dried-persimmon-marathon",
@@ -1861,7 +2314,6 @@
         "하프",
         "풀"
       ],
-      "status": "closed",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1869,7 +2321,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-15-2nd-sejong-city-marathon",
@@ -1882,7 +2340,6 @@
         "5K",
         "10K"
       ],
-      "status": "open",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1890,7 +2347,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-15-4th-yeongnam-alps-half-marathon",
@@ -1904,7 +2367,6 @@
         "10K",
         "하프"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1912,7 +2374,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-21-2026-autumn-breeze-u-running-festa",
@@ -1925,7 +2393,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1933,7 +2400,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-22-smile-run-together",
@@ -1946,7 +2419,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1954,7 +2426,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-22-incheon-marathon-2026",
@@ -1968,7 +2446,6 @@
         "10K",
         "풀"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1976,7 +2453,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-11-28-peace-run",
@@ -1989,7 +2472,6 @@
         "5K",
         "10K"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -1997,7 +2479,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     },
     {
       "id": "2026-12-06-2026-busan-international-marathon",
@@ -2009,7 +2497,6 @@
       "distances": [
         "풀"
       ],
-      "status": "pending",
       "roadRace": true,
       "officialUrl": null,
       "entryUrl": null,
@@ -2017,7 +2504,13 @@
         "name": "마라톤온라인 대회일정",
         "url": "https://marathon.pe.kr/index_calendar.html",
         "checkedAt": "2026-07-11"
-      }
+      },
+      "time": null,
+      "phone": null,
+      "registrationStart": null,
+      "registrationEnd": null,
+      "registrationPeriod": null,
+      "sourceUrl": "https://marathon.pe.kr/index_calendar.html"
     }
   ]
 }

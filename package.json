@@ -1,0 +1,29 @@
+{
+  "name": "runningfit-v3",
+  "version": "1.0.0",
+  "description": "- 공용 JSON 메모리 캐시 추가: 같은 페이지에서 같은 JSON 중복 요청 방지 - 검색 입력 디바운스 적용: 타이핑마다 전체 필터링하는 부담 감소 - 러닝화 카드 24개 단위 점진 렌더링 - 화면 밖 카드에 `content-visibility` 적용 - shoes.js의 중복 햄버거/테마 이벤트 제거 - 기존 `defer` 스크립트 로딩 유지 - Netlify 정적 자산 캐시 보완",
+  "main": "script.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimmustard123-web/RunningFit-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kimmustard123-web/RunningFit-v3/issues"
+  },
+  "homepage": "https://github.com/kimmustard123-web/RunningFit-v3#readme",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "cheerio": "^1.2.0",
+    "fs-extra": "^11.3.6"
+  }
+}

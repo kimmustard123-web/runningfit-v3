@@ -7,109 +7,118 @@ async function races(){
 
   try{
     const payload=await RF.loadJSON("./data/races.json");
-    const data=Array.isArray(payload)?payload:(payload.races||[]);
-    const meta=payload.metadata||{};
-
-    const q=document.querySelector("[data-race-search]");
-    const region=document.querySelector("[data-race-region]");
-    const distance=document.querySelector("[data-race-distance]");
-    const month=document.querySelector("[data-race-month]");
-    const status=document.querySelector("[data-race-status]");
+    const data=(Array.isArray(payload)?payload:(payload.races||[]))
+      .filter(x=>String(x.date||"").startsWith("2026-"))
+      .sort((a,b)=>String(a.date).localeCompare(String(b.date))||String(a.name).localeCompare(String(b.name),"ko"));
     const count=document.querySelector("[data-race-count]");
     const summary=document.querySelector("[data-race-summary]");
-    const reset=document.querySelector("[data-race-reset]");
-
-    const regions=[...new Set(data.map(x=>x.region).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"ko"));
-    if(region){
-      region.innerHTML='<option value="">전국</option>'+regions.map(x=>`<option value="${RF.esc(x)}">${RF.esc(x)}</option>`).join("");
-    }
-
-    const statusLabel=value=>({
-      open:"접수중",
-      pending:"접수예정·확인중",
-      closed:"접수마감"
-    }[value]||"확인 필요");
-
-    const statusClass=value=>({
-      open:"is-open",
-      pending:"is-pending",
-      closed:"is-closed"
-    }[value]||"");
+    const modal=document.querySelector("[data-race-modal]");
+    const modalTitle=document.querySelector("[data-race-modal-title]");
+    const modalBody=document.querySelector("[data-race-modal-body]");
+    const modalActions=document.querySelector("[data-race-modal-actions]");
 
     const formatDate=value=>{
+      if(!value)return "확인 필요";
       const date=new Date(`${value}T00:00:00`);
-      return new Intl.DateTimeFormat("ko-KR",{month:"long",day:"numeric",weekday:"short"}).format(date);
+      return new Intl.DateTimeFormat("ko-KR",{year:"numeric",month:"long",day:"numeric",weekday:"short"}).format(date);
+    };
+    const display=value=>value?RF.esc(String(value)):"확인 필요";
+    const formatPeriod=x=>{
+      if(x.registrationPeriod)return display(x.registrationPeriod);
+      if(x.registrationStart&&x.registrationEnd)return `${display(x.registrationStart)} ~ ${display(x.registrationEnd)}`;
+      if(x.registrationStart)return `${display(x.registrationStart)}부터`;
+      if(x.registrationEnd)return `${display(x.registrationEnd)}까지`;
+      return "확인 필요";
+    };
+    const details=x=>[
+      ["대회명",display(x.name)],
+      ["대회 일시",`${display(formatDate(x.date))}${x.time?` ${display(x.time)}`:""}`],
+      ["전화번호",display(x.phone)],
+      ["대회 종목",(x.distances||[]).length?(x.distances||[]).map(display).join(", "):"확인 필요"],
+      ["대회 지역",display(x.region)],
+      ["대회 장소",display(x.venue)],
+      ["접수 기간",formatPeriod(x)],
+      ["홈페이지",x.officialUrl?`<a href="${RF.esc(x.officialUrl)}" target="_blank" rel="noopener noreferrer">공식 홈페이지 열기</a>`:"확인 필요"]
+    ];
+    const closeModal=()=>{
+      if(!modal)return;
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden","true");
+      document.body.classList.remove("race-modal-open");
+    };
+    const openModal=x=>{
+      if(!modal||!modalTitle||!modalBody||!modalActions)return;
+      modalTitle.textContent=x.name||"대회 상세";
+      modalBody.innerHTML=details(x).map(([label,value])=>`<div><dt>${RF.esc(label)}</dt><dd>${value}</dd></div>`).join("");
+      const sourceUrl=x.sourceUrl||x.source?.url||"";
+      modalActions.innerHTML=`
+        ${x.officialUrl?`<a class="btn primary" href="${RF.esc(x.officialUrl)}" target="_blank" rel="noopener noreferrer">공식 홈페이지</a>`:""}
+        ${sourceUrl?`<a class="btn ghost" href="${RF.esc(sourceUrl)}" target="_blank" rel="noopener noreferrer">출처에서 확인</a>`:""}
+      `;
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden","false");
+      document.body.classList.add("race-modal-open");
+      modal.querySelector(".race-modal-close")?.focus();
     };
 
-    const render=()=>{
-      const keyword=(q?.value||"").trim().toLowerCase();
-      const regionValue=region?.value||"";
-      const distanceValue=distance?.value||"";
-      const monthValue=month?.value||"";
-      const statusValue=status?.value||"";
-
-      const filtered=data.filter(x=>{
-        const haystack=`${x.name} ${x.nameEn||""} ${x.region} ${x.venue}`.toLowerCase();
-        const matchKeyword=!keyword||haystack.includes(keyword);
-        const matchRegion=!regionValue||x.region===regionValue;
-        const matchDistance=!distanceValue||(x.distances||[]).some(d=>String(d).includes(distanceValue));
-        const matchMonth=!monthValue||String(x.date).slice(5,7)===monthValue;
-        const matchStatus=!statusValue||x.status===statusValue;
-        return matchKeyword&&matchRegion&&matchDistance&&matchMonth&&matchStatus;
-      });
-
-      if(count)count.textContent=`${filtered.length}개`;
-
-      list.innerHTML=filtered.map(x=>`
-        <article class="race-item">
-          <div class="race-date-box">
-            <strong>${RF.esc(String(x.date).slice(8,10))}</strong>
-            <span>${RF.esc(String(x.date).slice(5,7))}월</span>
-          </div>
-          <div class="race-content">
-            <div class="race-card-head">
-              <span class="race-region">${RF.esc(x.region)}</span>
-              <span class="race-status ${statusClass(x.status)}">${statusLabel(x.status)}</span>
-            </div>
-            <h2>${RF.esc(x.name)}</h2>
-            <p class="race-date-text">${RF.esc(formatDate(x.date))}</p>
-            <p class="race-venue">${RF.esc(x.venue||"장소 확인 필요")}</p>
-            <div class="race-distances">${(x.distances||[]).map(d=>`<span>${RF.esc(d)}</span>`).join("")}</div>
-          </div>
-        </article>
-      `).join("")||'<div class="empty-state"><h3>조건에 맞는 대회가 없습니다.</h3><p>필터를 초기화하거나 다른 조건으로 검색해보세요.</p></div>';
-    };
-
-    [q,region,distance,month,status].forEach(el=>{
-      el?.addEventListener(el===q?"input":"change",render);
-    });
-
-    reset?.addEventListener("click",()=>{
-      if(q)q.value="";
-      if(region)region.value="";
-      if(distance)distance.value="";
-      if(month)month.value="";
-      if(status)status.value="";
-      render();
-    });
-
+    if(count)count.textContent=`${data.length}개`;
     if(summary){
-      const openCount=data.filter(x=>x.status==="open").length;
-      const fullCount=data.filter(x=>(x.distances||[]).includes("풀")).length;
+      const months=new Set(data.map(x=>String(x.date).slice(5,7))).size;
+      const regions=new Set(data.map(x=>x.region).filter(Boolean)).size;
       summary.innerHTML=`
-        <div><strong>${data.length}</strong><span>전체 대회</span></div>
-        <div><strong>${openCount}</strong><span>접수중</span></div>
-        <div><strong>${fullCount}</strong><span>풀코스 포함</span></div>
-        <div><strong>${RF.esc(meta.updatedAt||"")}</strong><span>정보 확인일</span></div>
+        <div><strong>${data.length}</strong><span>2026 대회</span></div>
+        <div><strong>${months}</strong><span>개최 월</span></div>
+        <div><strong>${regions}</strong><span>지역</span></div>
+        <div><strong>${RF.esc(payload.metadata?.updatedAt||"")}</strong><span>정보 확인일</span></div>
       `;
     }
 
-    render();
+    const grouped=new Map();
+    data.forEach(x=>{
+      const month=String(x.date||"").slice(5,7)||"00";
+      if(!grouped.has(month))grouped.set(month,[]);
+      grouped.get(month).push(x);
+    });
+
+    list.innerHTML=[...grouped.entries()].map(([month,items])=>`
+      <section class="race-month-group">
+        <header class="race-month-heading"><h2>${Number(month)}월</h2><span>${items.length}개 대회</span></header>
+        <div class="race-month-list">
+          ${items.map(x=>`
+            <button class="race-item race-item-button" data-race-id="${RF.esc(String(x.id))}" type="button">
+              <span class="race-date-box">
+                <strong>${RF.esc(String(x.date||"").slice(8,10))}</strong>
+                <span>${RF.esc(String(x.date||"").slice(5,7))}월</span>
+              </span>
+              <span class="race-content">
+                <span class="race-card-head"><span class="race-region">${display(x.region)}</span></span>
+                <strong class="race-title">${display(x.name)}</strong>
+                <span class="race-date-text">${display(formatDate(x.date))}</span>
+                <span class="race-venue">${display(x.venue)}</span>
+                <span class="race-distances">${(x.distances||[]).map(d=>`<span>${display(d)}</span>`).join("")}</span>
+              </span>
+              <span class="race-detail-arrow" aria-hidden="true">상세보기 →</span>
+            </button>
+          `).join("")}
+        </div>
+      </section>
+    `).join("")||'<div class="empty-state"><h3>등록된 2026년 대회가 없습니다.</h3></div>';
+
+    const byId=new Map(data.map(x=>[String(x.id),x]));
+    list.addEventListener("click",event=>{
+      const item=event.target.closest("[data-race-id]");
+      if(!item)return;
+      const race=byId.get(item.dataset.raceId);
+      if(race)openModal(race);
+    });
+    document.querySelectorAll("[data-race-close]").forEach(el=>el.addEventListener("click",closeModal));
+    document.addEventListener("keydown",event=>{if(event.key==="Escape")closeModal()});
   }catch(error){
     console.error(error);
     list.innerHTML=`<div class="empty-state"><h3>대회 데이터를 불러오지 못했습니다.</h3><p>${RF.esc(error.message)}</p></div>`;
   }
 }
+
 async function courses(){const grid=document.querySelector("[data-course-grid]");if(!grid)return;const d=await RF.loadJSON("./data/courses.json");const q=document.querySelector("[data-course-search]"),lv=document.querySelector("[data-course-level]");const render=()=>{const s=(q?.value||"").toLowerCase(),v=lv?.value||"";const f=d.filter(x=>(!s||JSON.stringify(x).toLowerCase().includes(s))&&(!v||x.level===v||x.difficulty===v));grid.innerHTML=f.map(x=>`<article class="course-card-item"><p class="eyebrow">${RF.esc(x.region||x.location||"코스")}</p><h2>${RF.esc(x.name||x.title)}</h2><p>${RF.esc(x.distance||"")} ${RF.esc(x.level||x.difficulty||"")}</p><p>${RF.esc(x.description||"")}</p></article>`).join("")||"검색 결과 없음"};q?.addEventListener("input",RF.debounce(render,140));lv?.addEventListener("change",render);render()}
 async function profile(){
   const form=document.querySelector("[data-auth-form]");

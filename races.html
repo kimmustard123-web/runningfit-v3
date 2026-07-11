@@ -4,17 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>러닝대회 정보 | RunningFit V3.2</title>
-<meta content="공식 주최 페이지로 검증된 러닝대회 정보를 모아보는 RunningFit 대회 페이지입니다." name="description"/>
+<title>2026 전국 마라톤 대회 | RunningFit</title>
+<meta content="2026년 전국 마라톤 대회를 날짜순으로 확인하고 상세정보를 볼 수 있는 RunningFit 대회 페이지입니다." name="description"/>
 <link href="https://voluble-tiramisu-f5d2d2.netlify.app/races.html" rel="canonical"/>
 <meta content="#ffffff" name="theme-color"/>
 <meta content="website" property="og:type"/>
 <meta content="RunningFit" property="og:site_name"/>
 <meta content="러닝대회 정보 | RunningFit V3.2" property="og:title"/>
-<meta content="공식 주최 페이지로 검증된 러닝대회 정보를 모아보는 RunningFit 대회 페이지입니다." property="og:description"/>
+<meta content="2026년 전국 마라톤 대회를 날짜순으로 확인하고 상세정보를 볼 수 있는 RunningFit 대회 페이지입니다." property="og:description"/>
 <meta content="https://voluble-tiramisu-f5d2d2.netlify.app/races.html" property="og:url"/>
-<link href="./css/app.css?v=20260711-weather1" rel="stylesheet"/>
-<link href="./css/pages.css?v=20260711-weather1" rel="stylesheet"/>
+<link href="./css/app.css?v=20260711-races1" rel="stylesheet"/>
+<link href="./css/pages.css?v=20260711-races1" rel="stylesheet"/>
 </head>
 <body>
 <header class="site-header rf-header">
@@ -51,54 +51,28 @@
 <section class="page-hero race-hero">
 <p class="eyebrow">2026 ROAD RACE CALENDAR</p>
 <h1>전국 마라톤 대회</h1>
-<p>2026년 7월 12일 이후 국내 로드 러닝·마라톤 일정을 날짜, 지역, 거리, 접수 상태별로 확인하세요.</p>
+<p>2026년 국내 로드 러닝·마라톤 일정을 날짜순으로 확인하세요. 대회를 누르면 일시, 종목, 장소, 연락처, 접수기간과 홈페이지를 볼 수 있습니다.</p>
 <div class="race-summary" data-race-summary=""></div>
 </section>
-<section class="race-filter-panel">
-<label>대회 검색
-        <input data-race-search="" placeholder="대회명, 지역, 장소 검색" type="search"/>
-</label>
-<label>지역
-        <select data-race-region=""><option value="">전국</option></select>
-</label>
-<label>거리
-        <select data-race-distance="">
-<option value="">전체 거리</option>
-<option value="5K">5K</option>
-<option value="10K">10K</option>
-<option value="하프">하프</option>
-<option value="풀">풀</option>
-</select>
-</label>
-<label>월
-        <select data-race-month="">
-<option value="">전체 월</option>
-<option value="07">7월</option>
-<option value="08">8월</option>
-<option value="09">9월</option>
-<option value="10">10월</option>
-<option value="11">11월</option>
-<option value="12">12월</option>
-</select>
-</label>
-<label>접수 상태
-        <select data-race-status="">
-<option value="">전체 상태</option>
-<option value="open">접수중</option>
-<option value="pending">접수예정·확인중</option>
-<option value="closed">접수마감</option>
-</select>
-</label>
-<button class="btn ghost" data-race-reset="" type="button">초기화</button>
-</section>
-<section class="race-result-head">
+<section class="race-result-head race-result-head-simple">
 <strong data-race-count="">0개</strong>
-<span>대회 일정</span>
+<span>2026년 대회 일정 · 날짜순</span>
 </section>
-<section aria-live="polite" class="race-list" data-race-list=""></section>
+<section aria-live="polite" class="race-list race-list-grouped" data-race-list=""></section>
+
+<div aria-hidden="true" class="race-modal" data-race-modal="">
+  <button aria-label="대회 상세 닫기" class="race-modal-backdrop" data-race-close="" type="button"></button>
+  <section aria-labelledby="raceModalTitle" aria-modal="true" class="race-modal-panel" role="dialog">
+    <button aria-label="닫기" class="race-modal-close" data-race-close="" type="button">×</button>
+    <p class="eyebrow">RACE DETAILS</p>
+    <h2 id="raceModalTitle" data-race-modal-title="">대회 상세</h2>
+    <dl class="race-detail-list" data-race-modal-body=""></dl>
+    <div class="race-modal-actions" data-race-modal-actions=""></div>
+  </section>
+</div>
 </main>
-<footer class="site-footer"><p>일정과 접수 상태는 변경될 수 있으므로 참가 전 주최 측 공지를 반드시 확인하세요.</p></footer>
-<script defer="" src="./js/app.js?v=20260711-weather1"></script>
-<script defer="" src="./js/pages.js?v=20260711-weather1"></script>
+<footer class="site-footer"><p>대회 정보는 변경될 수 있습니다. 참가 전 공식 홈페이지 또는 주최 측에 반드시 확인하세요.</p></footer>
+<script defer="" src="./js/app.js?v=20260711-races1"></script>
+<script defer="" src="./js/pages.js?v=20260711-races1"></script>
 </body>
 </html>

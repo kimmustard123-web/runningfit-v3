@@ -163,3 +163,39 @@
 /* Live weather */
 .weather-hero{margin-bottom:20px}.weather-control-card,.weather-current-card,.weather-hourly-card{max-width:1100px;margin:0 auto 20px}.weather-control-head{display:flex;align-items:end;justify-content:space-between;gap:20px}.weather-location-actions{display:flex;gap:10px;align-items:center}.weather-location-actions select{min-width:150px;height:48px;border:1px solid var(--line,#dfe3e8);border-radius:14px;background:var(--card,#fff);padding:0 14px;font:inherit}.weather-now-main{display:flex;align-items:center;gap:22px}.weather-now-icon{font-size:64px;line-height:1}.weather-now-temp{font-size:clamp(42px,8vw,76px);line-height:1;letter-spacing:-.05em}.weather-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:24px}.weather-metrics>div{padding:16px;border-radius:16px;background:var(--soft,#f5f6f8);display:flex;flex-direction:column;gap:6px}.weather-metrics span,.running-weather-result span{font-size:13px;color:var(--muted,#737983)}.running-weather-result{margin-top:20px;padding:20px;border-radius:18px;border:1px solid var(--line,#dfe3e8)}.running-weather-result>div{display:flex;justify-content:space-between;gap:16px}.running-weather-result.is-good{background:#eef9f1}.running-weather-result.is-normal{background:#f4f7fb}.running-weather-result.is-caution{background:#fff8e8}.running-weather-result.is-bad{background:#fff0f0}.running-weather-result ul{margin:10px 0 0;padding-left:20px}.weather-hourly-list{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(105px,1fr);gap:10px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x proximity}.hourly-weather-item{scroll-snap-align:start;display:flex;min-height:150px;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:14px;border:1px solid var(--line,#dfe3e8);border-radius:16px;background:var(--card,#fff)}.hourly-weather-item b{font-size:28px}.hourly-weather-item small{color:var(--muted,#737983)}.weather-source-note{max-width:1100px;margin:0 auto 100px;color:var(--muted,#737983);font-size:13px}.weather-error{padding:20px}.weather-current-card[aria-busy=true]{min-height:280px;opacity:.65}
 @media(max-width:700px){.weather-control-head{align-items:stretch;flex-direction:column}.weather-location-actions{display:grid;grid-template-columns:1fr auto}.weather-location-actions select{width:100%;min-width:0}.weather-metrics{grid-template-columns:1fr 1fr}.weather-metrics>div:last-child{grid-column:1/-1}.weather-now-main{gap:14px}.weather-now-icon{font-size:48px}.running-weather-result>div{flex-direction:column;gap:4px}.weather-current-card,.weather-control-card,.weather-hourly-card{margin-left:16px;margin-right:16px}.weather-source-note{margin-left:20px;margin-right:20px}}
+
+
+/* 2026 대회 목록 단순화 */
+.race-result-head-simple { margin-top: 22px; }
+.race-list-grouped { display: grid; gap: 30px; }
+.race-month-group { display: grid; gap: 12px; }
+.race-month-heading { display:flex; align-items:end; justify-content:space-between; gap:12px; padding:0 4px; }
+.race-month-heading h2 { margin:0; font-size:28px; letter-spacing:-.04em; }
+.race-month-heading span { color:var(--muted); font-size:13px; font-weight:800; }
+.race-month-list { display:grid; gap:10px; }
+.race-item-button { width:100%; appearance:none; text-align:left; color:inherit; cursor:pointer; font:inherit; }
+.race-item-button:hover { transform:translateY(-1px); border-color:#bfc3c9; box-shadow:0 12px 30px rgba(0,0,0,.07); }
+.race-title { display:block; margin:3px 0 8px; font-size:19px; line-height:1.35; letter-spacing:-.025em; }
+.race-detail-arrow { align-self:center; white-space:nowrap; font-size:13px; font-weight:900; color:var(--muted); }
+.race-item-button { grid-template-columns:72px minmax(0,1fr) auto; }
+.race-modal { position:fixed; inset:0; z-index:1000; display:none; align-items:center; justify-content:center; padding:20px; }
+.race-modal.is-open { display:flex; }
+.race-modal-backdrop { position:absolute; inset:0; border:0; background:rgba(0,0,0,.42); backdrop-filter:none; -webkit-backdrop-filter:none; }
+.race-modal-panel { position:relative; z-index:1; width:min(620px,100%); max-height:min(760px,90vh); overflow:auto; padding:28px; border:1px solid var(--line); border-radius:28px; background:var(--card); box-shadow:0 28px 90px rgba(0,0,0,.25); }
+.race-modal-close { position:absolute; top:14px; right:16px; width:42px; height:42px; border:0; border-radius:50%; background:var(--soft); color:inherit; font-size:28px; cursor:pointer; }
+.race-modal-panel h2 { margin:8px 48px 22px 0; font-size:27px; line-height:1.25; letter-spacing:-.04em; }
+.race-detail-list { margin:0; display:grid; border-top:1px solid var(--line); }
+.race-detail-list > div { display:grid; grid-template-columns:120px minmax(0,1fr); gap:16px; padding:15px 0; border-bottom:1px solid var(--line); }
+.race-detail-list dt { color:var(--muted); font-size:13px; font-weight:900; }
+.race-detail-list dd { margin:0; overflow-wrap:anywhere; font-weight:750; line-height:1.55; }
+.race-detail-list a { text-decoration:underline; text-underline-offset:3px; }
+.race-modal-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
+body.race-modal-open { overflow:hidden; }
+@media (max-width:640px){
+  .race-item-button { grid-template-columns:58px minmax(0,1fr); }
+  .race-detail-arrow { grid-column:2; justify-self:end; margin-top:5px; }
+  .race-title { font-size:17px; }
+  .race-modal { padding:10px; align-items:flex-end; }
+  .race-modal-panel { width:100%; max-height:88vh; padding:23px 18px calc(23px + env(safe-area-inset-bottom)); border-radius:24px 24px 0 0; }
+  .race-detail-list > div { grid-template-columns:92px minmax(0,1fr); gap:10px; }
+}
